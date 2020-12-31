@@ -1,4 +1,8 @@
 .products__base {
-  background: red;
-  height: 100vh;
+  background: rgb(194, 185, 185);
+  // height: 100vh;
+  min-height: 100%;
+  padding: 0 20px;
+  overflow: hidden;
+
 }
