@@ -1,0 +1,90 @@
+.handmade__container {
+  // background-color: green;
+}
+.handmade__container-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.pexels.com/photos/994524/pexels-photo-994524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: center;
+  background-size: 100% 100%;
+  object-fit: cover;
+  padding: 0;
+  // background-repeat: no-repeat;
+  width: 100%;
+  // mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  z-index: -1;
+  margin-bottom: -100px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.handmade__container-flex-1::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.handmade__container-flex-1 {
+  -ms-overlfow-style: none; 
+  scrollbar-width: none;
+}
+.handmade__container-heading h1 {
+  font-size: 5em;
+  color: rgb(0, 51, 255);
+  font-family: 'Poppins', sans-serif;
+}
+.handmade__container-flex-grid {
+  .handmade__container-flex-1 {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+    // padding-left: 40px;
+    // background-color: rgb(128, 83, 0);
+    // width: 300px;
+  }
+  .handmade__container-3-grid {
+    display: flex;
+    justify-content: center;
+    .handmade__container-3-grid-grid-1 {
+      display: flex;
+      flex-wrap: wrap;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      // border: 5px solid rgb(199, 164, 48);
+      // background-color: pink;
+      padding: 30px !important;
+      overflow: hidden;
+    }
+    .handmade__container-3-grid-grid-2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 1fr;
+      // border: 5px solid rgb(196, 23, 202);
+      // background-color: red;
+      overflow: hidden;
+      padding: 30px !important;
+    }
+    .handmade__container-3-grid-grid-3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 1fr;
+      // border: 5px solid rgb(138, 81, 245);
+      // background-color: blue;
+      padding: 30px !important;
+      overflow: hidden;
+
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .handmade__container-3-grid {
+    display: flex;
+    flex-direction: column;
+  }
+} 
