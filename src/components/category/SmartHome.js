@@ -1,16 +1,16 @@
 import React from 'react';
 import Product from '../Product';
-import '../../styles/Automotive.scss';
+import '../../styles/SmartHome.scss';
 
 function SmartHome() {
   return (
     <div className="products__base">
-      <div className=".electronics__container">
-        <div className="electronics__container-heading">
+      <div className="smart-home__container">
+        <div className="smart-home__container-heading">
           <h1>Smart Home</h1>
         </div>
-        <div className="electronics__container-flex-grid">
-          <div className="electronics__container-flex-1">
+        <div className="smart-home__container-flex-grid">
+          <div className="smart-home__container-flex-1">
               <Product 
                 id = "123123"
                 title = "Intel Core i7-9700K Desktop Processor 8 Cores up to 4.9 GHz Turbo unlocked LGA1151 300 Series 95W"
@@ -54,8 +54,8 @@ function SmartHome() {
                   image = "https://m.media-amazon.com/images/I/71Q5sdPHD-L._AC_UY218_.jpg"
               />   
           </div>
-          <div className="electronics__container-3-grid">
-            <div className="electronics__container-3-grid-grid-1">
+          <div className="smart-home__container-3-grid">
+            <div className="smart-home__container-3-grid-grid-1">
               <Product 
                   id = "123123"
                   title = "Intel Core i7-9700K Desktop Processor 8 Cores up to 4.9 GHz Turbo unlocked LGA1151 300 Series 95W"
@@ -85,7 +85,7 @@ function SmartHome() {
                     image = "https://m.media-amazon.com/images/I/71Q5sdPHD-L._AC_UY218_.jpg"
                 />  
             </div>
-            <div className="electronics__container-3-grid-grid-2">
+            <div className="smart-home__container-3-grid-grid-2">
               <Product 
                   id = "123123"
                   title = "Intel Core i7-9700K Desktop Processor 8 Cores up to 4.9 GHz Turbo unlocked LGA1151 300 Series 95W"
@@ -115,7 +115,7 @@ function SmartHome() {
                     image = "https://m.media-amazon.com/images/I/71Q5sdPHD-L._AC_UY218_.jpg"
                 />  
             </div>
-            <div className="electronics__container-3-grid-grid-3">
+            <div className="smart-home__container-3-grid-grid-3">
               <Product 
                   id = "123123"
                   title = "Intel Core i7-9700K Desktop Processor 8 Cores up to 4.9 GHz Turbo unlocked LGA1151 300 Series 95W"
@@ -145,7 +145,7 @@ function SmartHome() {
                     image = "https://m.media-amazon.com/images/I/71Q5sdPHD-L._AC_UY218_.jpg"
                 />  
             </div>
-            <div className="electronics__container-3-grid-grid-3">
+            <div className="smart-home__container-3-grid-grid-3">
               <Product 
                   id = "123123"
                   title = "Intel Core i7-9700K Desktop Processor 8 Cores up to 4.9 GHz Turbo unlocked LGA1151 300 Series 95W"

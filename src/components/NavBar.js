@@ -60,6 +60,12 @@ function NavBar() {
                             </Link>
                         </div>
                         <div className="sub-nav-col right">
+                            <Link to="/smarthome" className="sub-nav-box" id="box-5">
+                                {/* <div className="icon-background" id="icon-5">
+                                    <i className="fas fa-trophy icon"></i>
+                                </div> */}
+                                <h4>Smart Home</h4>
+                            </Link>
                             <Link to="/foodgrocery" className="sub-nav-box" id="box-5">
                                 {/* <div className="icon-background" id="icon-5">
                                     <i className="fas fa-trophy icon"></i>

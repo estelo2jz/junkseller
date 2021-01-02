@@ -7,10 +7,6 @@ function Footer() {
     <footer class="footer">
       <div class="footer-left">
         <h1>JUNK-SELLER</h1>
-        <p>
-          "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-          "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
-        </p>
         <div class="socials">
           <a href="#"><i class="fab fa-facebook-square"></i></a>
           <a href="#"><i class="fab fa-youtube-square"></i></a>
@@ -21,7 +17,7 @@ function Footer() {
       </div>
       <ul class="footer-right">
         <li>
-          <h2>Product</h2>
+          <h2>Categories</h2>
           <ul class="box">
             <Link to="/electronics"><p>Electronics</p></Link>
             <Link to="/computers"><p>Computers</p></Link>
@@ -38,7 +34,7 @@ function Footer() {
 
           </ul>
         </li>
-        <li class="features">
+        {/* <li class="features">
           <h2>Useful Links</h2>
           <ul class="box">
             <li><a href="#">Blog</a></li>
@@ -47,8 +43,8 @@ function Footer() {
             <li><a href="#">Certificates</a></li>
             <li><a href="#">Customer</a></li>
           </ul>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <h2>Address</h2>
           <ul class="box">
             <li><a href="#">123, Westwood Ave</a></li>
@@ -56,7 +52,7 @@ function Footer() {
             <li><a href="#">London</a></li>
             <li><a href="#">United Kingdom</a></li>
           </ul>
-        </li>
+        </li> */}
       </ul>
       <div class="footer-bottom">
         <p>All right reserved by &copy;JUNK-SELLER 2020 </p>
