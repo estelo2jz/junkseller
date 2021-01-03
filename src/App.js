@@ -22,6 +22,19 @@ import Sports from './components/category/Sports';
 import Outdoors from './components/category/Outdoors';
 import AutomotiveIndustrial from './components/category/AutomotiveIndustrial';
 
+import ElectronicsMenu from './components/ElectricCategory/ElectronicsMenu';
+import SmartHomeMenu from './components/SmartHomeCategory/SmartHomeMenu';
+import ComputerMenu from './components/ComputerCategory/ComputerMenu';
+import HomeGardenToolsMenu from './components/HomeGardenToolsCategory/HomeGardenToolsMenu';
+import PetSuppliesMenu from './components/PetSuppliesCategory/PetSuppliesMenu';
+import FoodGroceryMenu from './components/FoodGroceryCategory/FoodGroceryMenu';
+import BeautyHealthMenu from './components/BeautyHealthCategory/BeautyHealthMenu';
+import ToysKidsBabyMenu from './components/ToysKidsBabyCategory/ToysKidsBabyMenu';
+import HandmadeMenu from './components/HandmadeCategory/HandmadeMenu';
+import SportsMenu from './components/SportsCategory/SportsMenu';
+import OutdoorsMenu from './components/OutdoorsCategory/OutdoorsMenu';
+import AutomotiveMenu from './components/AutomotiveCategory/AutomotiveMenu';
+
 import TVVideo from './components/ElectricCategory/TVVideo';
 
 function App() {
@@ -52,7 +65,7 @@ function App() {
             component={Electronics}
           >
             <NavBar />
-            <SideCategory 
+            <ElectronicsMenu 
               category0="TV & Video"
               // url="/ttvideo"
               category1="Home Audio & Theater"
@@ -73,7 +86,7 @@ function App() {
           </Route>
           <Route path="/computers" component={Computers}>
             <NavBar />
-            <SideCategory 
+            <ComputerMenu 
               category0="Computers, Tablets & PC Products" 
               category1="Monitors"
               category2="Accessories"
@@ -89,7 +102,7 @@ function App() {
           </Route>
           <Route path="/smarthome" component={SmartHome}>
             <NavBar />
-            <SideCategory 
+            <SmartHomeMenu 
               category0="Amazon Smart Home" 
               category1="Smart Home Lighting"
               category2="Smart Locks and Entry"
@@ -112,7 +125,7 @@ function App() {
           </Route>
           <Route path="/homegardentools" component={HomeGardenTools}>
             <NavBar />
-            <SideCategory 
+            <HomeGardenToolsMenu 
               category0="Amazon Home" 
               category1="Shop by Room"
               category2="Discover"
@@ -137,7 +150,7 @@ function App() {
           </Route>
           <Route path="/petsupplies" component={PetSupplies}>
             <NavBar />
-            <SideCategory 
+            <PetSuppliesMenu 
               category0="Pet Profiles" 
               category1="Dog Supplies"
               category2="Dog Food"
@@ -151,7 +164,7 @@ function App() {
           </Route>
           <Route path="/foodgrocery" component={FoodGrocery}>
             <NavBar />
-            <SideCategory 
+            <FoodGroceryMenu 
               category0="Grocery & Gourmet Food" 
               category1="Amazon Fresh"
               category2="Whole Foods"
@@ -165,7 +178,7 @@ function App() {
           </Route>
           <Route path="/beautyhealth" component={BeautyHealth}>
             <NavBar />
-            <SideCategory 
+            <BeautyHealthMenu 
               category0="All Beauty" 
               category1="Premium Beauty"
               category2="Professional Skin Care"
@@ -178,7 +191,7 @@ function App() {
           </Route>
           <Route path="/toyskidsbaby" component={ToysKidsBaby}>
             <NavBar />
-            <SideCategory 
+            <ToysKidsBabyMenu 
               category0="Toys & Games" 
               category1="Baby"
               category2="Diapering"
@@ -194,7 +207,7 @@ function App() {
           </Route>
           <Route path="/handmade" component={Handmade}>
             <NavBar />
-            <SideCategory 
+            <HandmadeMenu 
               category0="All Handmade" 
               category1="Gifts"
               category2="Jewerly"
@@ -217,7 +230,7 @@ function App() {
           </Route>
           <Route path="/sports" component={Sports}>
             <NavBar />
-            <SideCategory 
+            <SportsMenu 
               category0="Athletic Clothing" 
               category1="Exercise & Fitness"
               category2="Hunting & Fishing"
@@ -232,7 +245,7 @@ function App() {
           </Route>
           <Route path="/outdoors" component={Outdoors}>
             <NavBar />
-            <SideCategory 
+            <OutdoorsMenu 
               category0="Outdoor Clothing" 
               category1="Camping & Hiking"
               category2="Climbing"
@@ -247,7 +260,7 @@ function App() {
           </Route>
           <Route path="/automotiveindustrial" component={AutomotiveIndustrial}>
             <NavBar />
-            <SideCategory 
+            <AutomotiveMenu 
               category0="Automotive Parts & Accessories" 
               category1="Automotive Tools & Equipment"
               category2="Car/Vehicle Electronics & GPS"
