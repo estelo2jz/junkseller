@@ -7,52 +7,116 @@ function SmartHomeMenu(props) {
   return (
     <div className="smart-home-menu">
       <div className="smart-home-menu-items">
-        <Link to={props.url}>{props.category0}</Link>
+        <Link to="/tvvideo">
+          <span>
+            {props.category0}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category1}</h2>
+        <Link to="/homeaudiotheater">
+          <span>
+            {props.category1}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category2}</h2>
+        <Link to="/cameraphotovideo">
+          <span>
+            {props.category2}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category3}</h2>
+        <Link to="/cellphones">
+          <span>
+            {props.category3}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category4}</h2>
+        <Link to="/headphones">
+          <span>
+            {props.category4}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category5}</h2>
+        <Link to="/videogames">
+          <span>
+            {props.category5}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category6}</h2>
+        <Link to="/bluetoothwireless">
+          <span>
+            {props.category6}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category7}</h2>
+        <Link to="/carelectronics">
+          <span>
+            {props.category7}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category8}</h2>
+        <Link to="/musicalinstruments">
+          <span>
+            {props.category8}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category9}</h2>
+        <Link to="/wearabletechnology">
+          <span>
+            {props.category9}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category10}</h2>
+        <Link to="/electronicsbase">
+          <span>
+            {props.category10}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category11}</h2>
+        <Link to="/amazonrenewed">
+          <span>
+            {props.category11}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category12}</h2>
+        <Link to="/musicalinstruments">
+          <span>
+            {props.category12}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category13}</h2>
+        <Link to="/wearabletechnology">
+          <span>
+            {props.category13}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category14}</h2>
+        <Link to="/electronicsbase">
+          <span>
+            {props.category14}
+          </span>
+        </Link>
       </div>
       <div className="smart-home-menu-items">
-        <h2>{props.category15}</h2>
+        <Link to="/amazonrenewed">
+          <span>
+            {props.category15}
+          </span>
+        </Link>
       </div>
     </div>
   )

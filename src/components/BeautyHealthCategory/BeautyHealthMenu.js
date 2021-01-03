@@ -7,25 +7,53 @@ function BeautyHealth(props) {
   return (
     <div className="beauty-health-menu">
       <div className="beauty-health-menu-items">
-        <Link to={props.url}>{props.category0}</Link>
+        <Link to="/homeaudiotheater">
+          <span>
+            {props.category0}
+          </span>
+        </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <h2>{props.category1}</h2>
+        <Link to="/homeaudiotheater">
+          <span>
+            {props.category1}
+          </span>
+        </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <h2>{props.category2}</h2>
+        <Link to="/cameraphotovideo">
+          <span>
+            {props.category2}
+          </span>
+        </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <h2>{props.category3}</h2>
+        <Link to="/cellphones">
+          <span>
+            {props.category3}
+          </span>
+        </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <h2>{props.category4}</h2>
+        <Link to="/headphones">
+          <span>
+            {props.category4}
+          </span>
+        </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <h2>{props.category5}</h2>
+        <Link to="/videogames">
+          <span>
+            {props.category5}
+          </span>
+        </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <h2>{props.category6}</h2>
+        <Link to="/bluetoothwireless">
+          <span>
+            {props.category6}
+          </span>
+        </Link>
       </div>
     </div>
   )

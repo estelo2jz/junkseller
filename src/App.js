@@ -323,11 +323,13 @@ function App() {
           </Route>
           
 
+
+
           {/* COMPUTER COMPONENTS */}
           <Route path="/computers" component={Computers}>
             <NavBar />
             <ComputerMenu 
-              category0="Computers, Tablets & PC Products" 
+              category0="Computers, Tablets & PC" 
               category1="Monitors"
               category2="Accessories"
               category3="Networking"
@@ -424,7 +426,7 @@ function App() {
               category2="Professional Skin Care"
               category3="Slaon & Spa"
               category4="Men's Grooming"
-              category5="Health, Household & Baby Care"
+              category5="Health, Household & Baby"
               category6="Vitamins & Dietary Supplements"
             />
             <BeautyHealth />
