@@ -7,7 +7,6 @@ import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Checkout from './components/Checkout';
-import SideCategory from './components/SideCategory';
 
 import Electronics from './components/category/Electronics';
 import Computers from './components/category/Computers';
@@ -35,20 +34,27 @@ import SportsMenu from './components/SportsCategory/SportsMenu';
 import OutdoorsMenu from './components/OutdoorsCategory/OutdoorsMenu';
 import AutomotiveMenu from './components/AutomotiveCategory/AutomotiveMenu';
 
-import TVVideo from './components/ElectricCategory/TVVideo';
+import TVVideo from './components/ElectricCategory/Category/TVVideo';
+import HomeAudioTheater from './components/ElectricCategory/Category/HomeAudioTheater';
+import CameraPhotoVideo from './components/ElectricCategory/Category/CameraPhotoVideo';
+import CellPhone from './components/ElectricCategory/Category/CellPhone';
+import Headphones from './components/ElectricCategory/Category/Headphones';
+import VideoGames from './components/ElectricCategory/Category/VideoGames';
+import BluetoothWireless from './components/ElectricCategory/Category/BluetoothWireless';
+import CarElectronics from './components/ElectricCategory/Category/CarElectronics';
+import MusicalInstruments from './components/ElectricCategory/Category/MusicalInstruments';
+import WearableTechnology from './components/ElectricCategory/Category/WearableTechnology';
+import ElectronicsBase from './components/ElectricCategory/Category/ElectronicsBase';
+import AmazonRenewed from './components/ElectricCategory/Category/AmazonRenewed';
 
 function App() {
   return (
     <Router>
       <div className="app">
         <Switch>
-          <Route path="/ttvideo" component={TVVideo}>
-            <TVVideo />
-          </Route>
-
           <Route path="/checkout">
-            {/* <Header /> */}
             <NavBar />
+            {/* <Header /> */}
             <Checkout />
           </Route>
           <Route path="/login">
@@ -67,23 +73,257 @@ function App() {
             <NavBar />
             <ElectronicsMenu 
               category0="TV & Video"
-              // url="/ttvideo"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
               category3="Cell Phones & Accessories"
               category4="Headphones"
               category5="Video Games"
-              category6="Bluetooth & Wireless Speakers"
+              category6="Bluetooth & Wireless "
               category7="Car Electronics"
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
               category11="Amazon Renewed"
             />
-            {/* <TVVideo /> */}
-            <Electronics />
-            <Route path="/ttvideo" component={TVVideo} />
+            <Electronics></Electronics>
           </Route>
+          <Route path="/tvvideo" component={TVVideo}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <TVVideo />
+          </Route>
+          <Route path="/homeaudiotheater" component={HomeAudioTheater}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <HomeAudioTheater />
+          </Route>
+          <Route path="/cameraphotovideo" component={CameraPhotoVideo}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <CameraPhotoVideo />
+          </Route>
+          <Route path="/cellphones" component={CellPhone}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <CellPhone />
+          </Route>
+          <Route path="/headphones" component={Headphones}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <Headphones />
+          </Route>
+          <Route path="/VideoGames" component={VideoGames}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <VideoGames />
+          </Route>
+          <Route path="/bluetoothwireless" component={BluetoothWireless}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <BluetoothWireless />
+          </Route>
+          <Route path="/carelectronics" component={CarElectronics}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <CarElectronics />
+          </Route>
+          <Route path="/musicalinstruments" component={MusicalInstruments}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <MusicalInstruments />
+          </Route>
+          <Route path="/cameraphotovideo" component={CameraPhotoVideo}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <CameraPhotoVideo />
+          </Route>
+          <Route path="/wearabletechnology" component={WearableTechnology}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <WearableTechnology />
+          </Route>
+          <Route path="/electronicsbase" component={ElectronicsBase}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless "
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <ElectronicsBase />
+          </Route>
+          <Route path="/amazonrenewed" component={AmazonRenewed}>
+            <NavBar />
+            <ElectronicsMenu
+              category0="TV & Video"
+              category1="Home Audio & Theater"
+              category2="Camera, Photo & Video"
+              category3="Cell Phones & Accessories"
+              category4="Headphones"
+              category5="Video Games"
+              category6="Bluetooth & Wireless"
+              category7="Car Electronics"
+              category8="Musical Instruments"
+              category9="Wearable Technology"
+              category10="Electronics"
+              category11="Amazon Renewed"
+            />
+            <AmazonRenewed />
+          </Route>
+          
+
+          {/* COMPUTER COMPONENTS */}
           <Route path="/computers" component={Computers}>
             <NavBar />
             <ComputerMenu 

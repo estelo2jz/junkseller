@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import { useStateValue } from './StateProvider';
+import '../styles/Navbar.css';
 
 function NavBar() {
   const [{basket}] = useStateValue();
@@ -21,6 +22,9 @@ function NavBar() {
                         Categories
                       </h3>
                     <div className="sub-nav">
+                        {/* <div className="sun-nav-container">
+
+                        </div> */}
                         <div className="sub-nav-col left">
                             <Link to="/electronics" className="sub-nav-box" id="box-1">
                                 {/* <div className="icon-background" id="icon-1">
