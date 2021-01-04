@@ -1,6 +1,7 @@
 import './App.css';
 import './styles/main.scss';
 
+import $ from "jquery";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
