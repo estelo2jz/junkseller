@@ -16,6 +16,13 @@
   height: 100%;
   margin-bottom: 15px;
 }
+.product__title p {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
 .product__price {
   margin-top: 5px;
 }

@@ -9,8 +9,10 @@
   // top: 0;
   width: 100%;
   z-index: 10000;
-  background-color: rgb(255, 255, 255);
+  background: #ffcf11;
+
   margin-top: 80px;
+  border-top: 2px solid black;
   border-bottom: 2px solid black;
   h2 {
     cursor: pointer;
@@ -33,7 +35,7 @@
     // }
   }
   .smart-home-menu-items {
-    background-color: rgb(255, 255, 255);
+    // background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;

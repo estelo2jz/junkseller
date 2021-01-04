@@ -56,50 +56,50 @@ function NavBar() {
                                 </div> */}
                                 <h4>Outdoors</h4>
                             </Link>
-                            <Link to="/automotiveindustrial" className="sub-nav-box" id="box-8">
-                                {/* <div className="icon-background" id="icon-8">
-                                    <i className="fas fa-phone-alt icon"></i>
-                                </div> */}
-                                <h4>Automotive & Industrial</h4>
-                            </Link>
-                        </div>
-                        <div className="sub-nav-col right">
                             <Link to="/smarthome" className="sub-nav-box" id="box-5">
                                 {/* <div className="icon-background" id="icon-5">
-                                    <i className="fas fa-trophy icon"></i>
-                                </div> */}
+                            <i className="fas fa-trophy icon"></i>
+                        </div> */}
                                 <h4>Smart Home</h4>
                             </Link>
                             <Link to="/foodgrocery" className="sub-nav-box" id="box-5">
                                 {/* <div className="icon-background" id="icon-5">
-                                    <i className="fas fa-trophy icon"></i>
-                                </div> */}
+                            <i className="fas fa-trophy icon"></i>
+                        </div> */}
                                 <h4>Food & Grocery</h4>
                             </Link>
                             <Link to="/beautyhealth" className="sub-nav-box" id="box-6">
                                 {/* <div className="icon-background" id="icon-6">
-                                    <i className="far fa-calendar-check icon"></i>
-                                </div> */}
+                            <i className="far fa-calendar-check icon"></i>
+                        </div> */}
                                 <h4>Beauty & Health</h4>
                             </Link>
                             <Link to="/toyskidsbaby" className="sub-nav-box" id="box-7">
                                 {/* <div className="icon-background" id="icon-7">
-                                    <i className="fas fa-briefcase icon"></i>
-                                </div> */}
+                            <i className="fas fa-briefcase icon"></i>
+                        </div> */}
                                 <h4>Toys, Kids & Baby</h4>
                             </Link>
                             <Link to="/handmade" className="sub-nav-box" id="box-8">
                                 {/* <div className="icon-background" id="icon-8">
-                                    <i className="fas fa-phone-alt icon"></i>
-                                </div> */}
+                            <i className="fas fa-phone-alt icon"></i>
+                        </div> */}
                                 <h4>Handmade</h4>
                             </Link>
                             <Link to="/sports" className="sub-nav-box" id="box-6">
                                 {/* <div className="icon-background" id="icon-6">
-                                    <i className="far fa-calendar-check icon"></i>
-                                </div> */}
+                            <i className="far fa-calendar-check icon"></i>
+                        </div> */}
                                 <h4>Sports</h4>
                             </Link>
+                            <Link to="/automotiveindustrial" className="sub-nav-box" id="box-8">
+                                {/* <div className="icon-background" id="icon-8">
+                            <i className="fas fa-phone-alt icon"></i>
+                        </div> */}
+                                <h4>Automotive & Industrial</h4>
+                            </Link>
+                        </div>
+                        <div className="sub-nav-col right">
                         </div>
                     </div>
                 </li>
