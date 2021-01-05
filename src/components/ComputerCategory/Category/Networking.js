@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../ComputerStyles/Networking.scss';
 
 function Networking() {
   return (
-    <div>
+    <div className="networking__container">
       <h1>Networking</h1>
     </div>
   )

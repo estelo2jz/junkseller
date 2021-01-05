@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PetSupplies() {
+function HomePetSupplies() {
   return (
     <div>
       <h1>Pet Supplies</h1>
@@ -8,4 +8,4 @@ function PetSupplies() {
   )
 }
 
-export default PetSupplies
+export default HomePetSupplies

@@ -7,7 +7,7 @@ function ElectronicsMenu(props) {
   return (
     <div className="computer-menu">
       <div className="computer-menu-items">
-        <Link to="/computeraccessories">
+        <Link to="/computertablet">
           <span>
             {props.category0}
           </span>

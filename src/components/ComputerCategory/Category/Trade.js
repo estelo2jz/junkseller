@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../ComputerStyles/ComputerTrade.scss';
 
-function Trade() {
+function ComputerTrade() {
   return (
-    <div>
+    <div className="computer-trade__container">
       <h1>Trade In Your Electronics</h1>
     </div>
   )
 }
 
-export default Trade
+export default ComputerTrade;

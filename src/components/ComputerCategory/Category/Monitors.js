@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../ComputerStyles/Monitors.scss';
 
 function Monitors() {
   return (
-    <div>
+    <div className="monitors__container">
       <h1>Monitors</h1>
     </div>
   )

@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../HomeGardenStyles/ExploreShowroom.scss';
 
 function ExploreShowroom() {
   return (
-    <div>
+    <div className="explore-showroom__container">
       <h1>Explore Showroom</h1>
     </div>
   )

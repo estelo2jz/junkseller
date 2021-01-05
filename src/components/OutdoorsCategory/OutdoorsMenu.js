@@ -7,63 +7,63 @@ function OutdoorsMenu(props) {
   return (
     <div className="outdoors-menu">
       <div className="outdoors-menu-items">
-        <Link to="/tvvideo">
+        <Link to="/outdoorclothing">
           <span>
             {props.category0}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/homeaudiotheater">
+        <Link to="/campinghiking">
           <span>
             {props.category1}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/cameraphotovideo">
+        <Link to="/climbing">
           <span>
             {props.category2}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/cellphones">
+        <Link to="/cycling">
           <span>
             {props.category3}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/headphones">
+        <Link to="/skates">
           <span>
             {props.category4}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/videogames">
+        <Link to="/watersports">
           <span>
             {props.category5}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/bluetoothwireless">
+        <Link to="/wintersports">
           <span>
             {props.category6}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/carelectronics">
+        <Link to="/outdooraccessories">
           <span>
             {props.category7}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/musicalinstruments">
+        <Link to="/alloutdoor">
           <span>
             {props.category8}
           </span>

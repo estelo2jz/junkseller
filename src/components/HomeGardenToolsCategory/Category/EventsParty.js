@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../HomeGardenStyles/EventsParty.scss';
 
 function EventsParty() {
   return (
-    <div>
+    <div className="events-party__container">
       <h1>Events & Party Supplies</h1>
     </div>
   )

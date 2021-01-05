@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../ComputerStyles/OfficeSchool.scss';
 
 function OfficeSchool() {
   return (
-    <div>
+    <div className="office-school__container">
       <h1>Office & School Supplies</h1>
     </div>
   )

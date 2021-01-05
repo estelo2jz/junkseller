@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../HomeGardenStyles/KitchenDining.scss';
 
 function KitchenDining() {
   return (
-    <div>
+    <div className="kitchen-dining__container">
       <h1>Kitchen & Dining</h1>
     </div>
   )

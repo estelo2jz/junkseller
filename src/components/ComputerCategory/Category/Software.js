@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../ComputerStyles/Software.scss';
 
 function Software() {
   return (
-    <div>
+    <div  className="software__container">
       <h1>Software</h1>
     </div>
   )

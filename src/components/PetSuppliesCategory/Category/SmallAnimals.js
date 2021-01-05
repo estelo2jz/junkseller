@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../PetSuppliesStyles/SmallAnimals.scss';
 
 function SmallAnimals() {
   return (
-    <div>
+    <div className="small-animals__container">
       <h1>Small Animals</h1>
     </div>
   )

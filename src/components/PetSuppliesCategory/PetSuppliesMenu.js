@@ -7,56 +7,56 @@ function PetSuppliesMenu(props) {
   return (
     <div className="pet-supplies-menu">
       <div className="pet-supplies-menu-items">
-        <Link to="/tvvideo">
+        <Link to="/petprofiles">
           <span>
             {props.category0}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/homeaudiotheater">
+        <Link to="/dogsupplies">
           <span>
             {props.category1}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/cameraphotovideo">
+        <Link to="/dogfood">
           <span>
             {props.category2}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/cellphones">
+        <Link to="/catsupplies">
           <span>
             {props.category3}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/headphones">
+        <Link to="/catfood">
           <span>
             {props.category4}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/videogames">
+        <Link to="/fishaquatic">
           <span>
             {props.category5}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/bluetoothwireless">
+        <Link to="/smallanimals">
           <span>
             {props.category6}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/carelectronics">
+        <Link to="/birds">
           <span>
             {props.category7}
           </span>

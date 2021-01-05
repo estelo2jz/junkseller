@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../PetSuppliesStyles/DogSupplies.scss';
 
 function DogSupplies() {
   return (
-    <div>
+    <div className="dog-supplies__container">
       <h1>Dog Supplies</h1>
     </div>
   )

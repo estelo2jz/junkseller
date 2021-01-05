@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../HomeGardenStyles/Furniture.scss';
 
 function Furniture() {
   return (
-    <div>
+    <div className="furniture__container">
       <h1>Furniture</h1>
     </div>
   )

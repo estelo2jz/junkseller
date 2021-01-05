@@ -1,13 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import $ from "jquery";
 import './ElectronicsMenu.scss';
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
 function ElectronicsMenu(props) {
-  $(document).on('click', 'ul li', function () {
-    $(this).addClass('active').siblings().removeClass('active')
-  })
   return (
       <div className="electronics-menu">
         <div className="electronics-menu-items">

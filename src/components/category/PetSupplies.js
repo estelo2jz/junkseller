@@ -182,4 +182,4 @@ function PetSupplies() {
   )
 }
 
-export default PetSupplies
+export default PetSupplies;

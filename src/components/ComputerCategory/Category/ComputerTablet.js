@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../ComputerStyles/ComputerTablet.scss';
 
 function ComputerTablet() {
   return (
-    <div>
+    <div className="computer-tablet__container">
       <h1>Computer, Tablets & PC</h1>
     </div>
   )

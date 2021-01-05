@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../HomeGardenStyles/Lighting.scss';
 
 function Lighting() {
   return (
-    <div>
+    <div className="lighting__container">
       <h1>Lighting</h1>
     </div>
   )

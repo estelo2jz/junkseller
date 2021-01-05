@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../HomeGardenStyles/AmazonHome.scss';
 
 function AmazonHome() {
   return (
-    <div>
+    <div className="amazon-home__container">
       <h1>Amazon Home</h1>
     </div>
   )

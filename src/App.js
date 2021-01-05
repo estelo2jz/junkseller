@@ -1,7 +1,6 @@
 import './App.css';
 import './styles/main.scss';
 
-import $ from "jquery";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
@@ -77,13 +76,13 @@ import HomeDecor from './components/HomeGardenToolsCategory/Category/HomeDecor';
 import KitchenDining from './components/HomeGardenToolsCategory/Category/KitchenDining';
 import Lighting from './components/HomeGardenToolsCategory/Category/Lighting';
 import Mattresses from './components/HomeGardenToolsCategory/Category/Mattresses';
-// import PetSupplies from './components/HomeGardenToolsCategory/Category/PetSupplies';
+import HomePetSupplies from './components/HomeGardenToolsCategory/Category/HomePetSupplies';
 import ShopRoom from './components/HomeGardenToolsCategory/Category/ShopRoom';
 import StorageOrganization from './components/HomeGardenToolsCategory/Category/StorageOrganization';
 
 
 // PET SUPPLIES CATEGORY
-import Birds from './components/PetSuppliesCategory/Category/Birds';
+import PetBirds from './components/PetSuppliesCategory/Category/Birds';
 import CatFood from './components/PetSuppliesCategory/Category/CatFood';
 import CatSupplies from './components/PetSuppliesCategory/Category/CatSupplies';
 import DogFood from './components/PetSuppliesCategory/Category/DogFood';
@@ -94,7 +93,7 @@ import SmallAnimals from './components/PetSuppliesCategory/Category/SmallAnimals
 
 
 // OUTDOORS CATEGORY
-import Accessories from './components/OutdoorsCategory/Category/Accessories';
+import OutdoorAccessories from './components/OutdoorsCategory/Category/OutdoorAccessories';
 import AllOutdoor from './components/OutdoorsCategory/Category/AllOutdoor';
 import CampingHiking from './components/OutdoorsCategory/Category/CampingHiking';
 import Climbing from './components/OutdoorsCategory/Category/Climbing';
@@ -420,7 +419,7 @@ function App() {
             />
             <Computers />
           </Route>
-          <Route path="/computeraccessories" component={ComputerAccessories}>
+          <Route path="/computertablet" component={ComputerTablet}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -434,7 +433,7 @@ function App() {
               category8="Office & School Supllies"
               category9="Trade In Your Electronics"
             />
-            <ComputerAccessories />
+            <ComputerTablet />
           </Route>
           <Route path="/monitors" component={Monitors}>
             <NavBar />
@@ -616,46 +615,589 @@ function App() {
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
-              category1="Shop by Room"
-              category2="Discover"
-              category3="Explore Showroom"
-              category4="Home Decor"
-              category5="Furniture"
-              category6="Kitchen & Dining"
-              category7="Bed & Bath"
-              category8="Garden & Outdoor"
-              category9="Mattresses"
-              category10="Lighting"
-              category11="Storage & Organization"
-              category12="Appliances"
-              category13="Fine Art"
-              category14="Collective & Fine Art"
-              category15="Artsm Crafts & Sewing"
-              category16="Events & Party Supplies"
-              category17="Pet Supplies"
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
               
             />
             <HomeGardenTools />
+          </Route>
+          <Route path="/amazonhome" component={AmazonHome}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <AmazonHome />
+          </Route>
+          <Route path="/appliances" component={Appliances}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <Appliances />
+          </Route>
+          <Route path="/artscrafts" component={ArtsCrafts}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <ArtsCrafts />
+          </Route>
+          <Route path="/bedbath" component={BedBath}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <BedBath />
+          </Route>
+          <Route path="/collectivefineart" component={CollectiveFineArt}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <CollectiveFineArt />
+          </Route>
+          <Route path="/discover" component={Discover}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <Discover />
+          </Route>
+          <Route path="/eventsparty" component={EventsParty}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <EventsParty />
+          </Route>
+          <Route path="/exploreshowroom" component={ExploreShowroom}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <ExploreShowroom />
+          </Route>
+          <Route path="/fineart" component={FineArt}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <FineArt />
+          </Route>
+          <Route path="/furniture" component={Furniture}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <Furniture />
+          </Route>
+          <Route path="/gardenoutdoor" component={GardenOutdoor}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <GardenOutdoor />
+          </Route>
+          <Route path="/homedecor" component={HomeDecor}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <HomeDecor />
+          </Route>
+          <Route path="/kitchendining" component={KitchenDining}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <KitchenDining />
+          </Route>
+          <Route path="/lighting" component={Lighting}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <Lighting />
+          </Route>
+          <Route path="/mattresses" component={Mattresses}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <Mattresses />
+          </Route>
+          <Route path="/homepetsupplies" component={HomePetSupplies}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <HomePetSupplies />
+          </Route>
+          <Route path="/ShopRoom" component={ShopRoom}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <ShopRoom />
+          </Route>
+          <Route path="/storageorganization" component={StorageOrganization}>
+            <NavBar />
+            <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+            />
+            <StorageOrganization />
           </Route>
 
 
 
 
           {/* Pet Supplies COMPONENTS */}
-
           <Route path="/petsupplies" component={PetSupplies}>
             <NavBar />
             <PetSuppliesMenu 
               category0="Pet Profiles" 
               category1="Dog Supplies"
               category2="Dog Food"
-              category3="Cat Suuplies"
+              category3="Cat Supplies"
               category4="Cat Food"
               category5="Fish & Aquatic Pets"
               category6="Small Animals"
               category7="Birds"
             />
             <PetSupplies />
+          </Route>
+          <Route path="/petprofiles" component={PetProfiles}>
+            <NavBar />
+            <PetSuppliesMenu 
+              category0="Pet Profiles" 
+              category1="Dog Supplies"
+              category2="Dog Food"
+              category3="Cat Supplies"
+              category4="Cat Food"
+              category5="Fish & Aquatic Pets"
+              category6="Small Animals"
+              category7="Birds"
+            />
+            <PetProfiles />
+          </Route>
+          <Route path="/dogsupplies" component={DogSupplies}>
+            <NavBar />
+            <PetSuppliesMenu 
+              category0="Pet Profiles" 
+              category1="Dog Supplies"
+              category2="Dog Food"
+              category3="Cat Supplies"
+              category4="Cat Food"
+              category5="Fish & Aquatic Pets"
+              category6="Small Animals"
+              category7="Birds"
+            />
+            <DogSupplies />
+          </Route>
+          <Route path="/dogfood" component={DogFood}>
+            <NavBar />
+            <PetSuppliesMenu 
+              category0="Pet Profiles" 
+              category1="Dog Supplies"
+              category2="Dog Food"
+              category3="Cat Supplies"
+              category4="Cat Food"
+              category5="Fish & Aquatic Pets"
+              category6="Small Animals"
+              category7="Birds"
+            />
+            <DogFood />
+          </Route>
+          <Route path="/catsupplies" component={CatSupplies}>
+            <NavBar />
+            <PetSuppliesMenu 
+              category0="Pet Profiles" 
+              category1="Dog Supplies"
+              category2="Dog Food"
+              category3="Cat Supplies"
+              category4="Cat Food"
+              category5="Fish & Aquatic Pets"
+              category6="Small Animals"
+              category7="Birds"
+            />
+            <CatSupplies />
+          </Route>
+          <Route path="/catfood" component={CatFood}>
+            <NavBar />
+            <PetSuppliesMenu 
+              category0="Pet Profiles" 
+              category1="Dog Supplies"
+              category2="Dog Food"
+              category3="Cat Supplies"
+              category4="Cat Food"
+              category5="Fish & Aquatic Pets"
+              category6="Small Animals"
+              category7="Birds"
+            />
+            <CatFood />
+          </Route>
+          <Route path="/fishaquatic" component={FishAquatic}>
+            <NavBar />
+            <PetSuppliesMenu 
+              category0="Pet Profiles" 
+              category1="Dog Supplies"
+              category2="Dog Food"
+              category3="Cat Supplies"
+              category4="Cat Food"
+              category5="Fish & Aquatic Pets"
+              category6="Small Animals"
+              category7="Birds"
+            />
+            <FishAquatic />
+          </Route>
+          <Route path="/smallanimals" component={SmallAnimals}>
+            <NavBar />
+            <PetSuppliesMenu 
+              category0="Pet Profiles" 
+              category1="Dog Supplies"
+              category2="Dog Food"
+              category3="Cat Supplies"
+              category4="Cat Food"
+              category5="Fish & Aquatic Pets"
+              category6="Small Animals"
+              category7="Birds"
+            />
+            <SmallAnimals />
+          </Route>
+          <Route path="/birds" component={PetBirds}>
+            <NavBar />
+            <PetSuppliesMenu 
+              category0="Pet Profiles" 
+              category1="Dog Supplies"
+              category2="Dog Food"
+              category3="Cat Supplies"
+              category4="Cat Food"
+              category5="Fish & Aquatic Pets"
+              category6="Small Animals"
+              category7="Birds"
+            />
+            <PetBirds />
           </Route>
 
 
@@ -782,6 +1324,141 @@ function App() {
               category8="All Outdoor Recreation"
             />
             <Outdoors />
+          </Route>
+          <Route path="/outdoorclothing" component={OutdoorClothing}>
+            <NavBar />
+            <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
+            <OutdoorClothing />
+          </Route>
+          <Route path="/campinghiking" component={CampingHiking}>
+            <NavBar />
+            <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
+            <CampingHiking />
+          </Route>
+          <Route path="/climbing" component={Climbing}>
+            <NavBar />
+            <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
+            <Climbing />
+          </Route>
+          <Route path="/cycling" component={Cycling}>
+            <NavBar />
+            <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
+            <Cycling />
+          </Route>
+          <Route path="/skates" component={Skates}>
+            <NavBar />
+            <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
+            <Skates />
+          </Route>
+          <Route path="/watersports" component={WaterSports}>
+            <NavBar />
+            <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
+            <WaterSports />
+          </Route>
+          <Route path="/wintersports" component={WinterSports}>
+            <NavBar />
+            <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
+            <WinterSports />
+          </Route>
+          <Route path="/outdooraccessories" component={OutdoorAccessories}>
+            <NavBar />
+            <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
+            <OutdoorAccessories />
+          </Route>
+          <Route path="/alloutdoor" component={AllOutdoor}>
+            <NavBar />
+            <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
+            <AllOutdoor />
           </Route>
 
 
