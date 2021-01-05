@@ -35,6 +35,7 @@ import SportsMenu from './components/SportsCategory/SportsMenu';
 import OutdoorsMenu from './components/OutdoorsCategory/OutdoorsMenu';
 import AutomotiveMenu from './components/AutomotiveCategory/AutomotiveMenu';
 
+// ELECTRONICS CATEGORY
 import TVVideo from './components/ElectricCategory/Category/TVVideo';
 import HomeAudioTheater from './components/ElectricCategory/Category/HomeAudioTheater';
 import CameraPhotoVideo from './components/ElectricCategory/Category/CameraPhotoVideo';
@@ -47,6 +48,82 @@ import MusicalInstruments from './components/ElectricCategory/Category/MusicalIn
 import WearableTechnology from './components/ElectricCategory/Category/WearableTechnology';
 import ElectronicsBase from './components/ElectricCategory/Category/ElectronicsBase';
 import AmazonRenewed from './components/ElectricCategory/Category/AmazonRenewed';
+
+// COMPUTERS CATEGORY
+import ComputerAccessories from './components/ComputerCategory/Category/ComputerAccessories';
+import ComputerComponents from './components/ComputerCategory/Category/ComputerComponents';
+import ComputerTablet from './components/ComputerCategory/Category/ComputerTablet';
+import DrivesStorage from './components/ComputerCategory/Category/DrivesStorage';
+import Monitors from './components/ComputerCategory/Category/Monitors';
+import Networking from './components/ComputerCategory/Category/Networking';
+import OfficeSchool from './components/ComputerCategory/Category/OfficeSchool';
+import PrintersInk from './components/ComputerCategory/Category/PrintersInk';
+import Software from './components/ComputerCategory/Category/Software';
+import Trade from './components/ComputerCategory/Category/Trade';
+
+// HOME GARDEN TOOLS CATEGORY
+import AmazonHome from './components/HomeGardenToolsCategory/Category/AmazonHome';
+import Appliances from './components/HomeGardenToolsCategory/Category/Appliances';
+import ArtsCrafts from './components/HomeGardenToolsCategory/Category/ArtsCrafts';
+import BedBath from './components/HomeGardenToolsCategory/Category/BedBath';
+import CollectiveFineArt from './components/HomeGardenToolsCategory/Category/CollectiveFineArt';
+import Discover from './components/HomeGardenToolsCategory/Category/Discover';
+import EventsParty from './components/HomeGardenToolsCategory/Category/EventsParty';
+import ExploreShowroom from './components/HomeGardenToolsCategory/Category/ExploreShowroom';
+import FineArt from './components/HomeGardenToolsCategory/Category/FineArt';
+import Furniture from './components/HomeGardenToolsCategory/Category/Furniture';
+import GardenOutdoor from './components/HomeGardenToolsCategory/Category/GardenOutdoor';
+import HomeDecor from './components/HomeGardenToolsCategory/Category/HomeDecor';
+import KitchenDining from './components/HomeGardenToolsCategory/Category/KitchenDining';
+import Lighting from './components/HomeGardenToolsCategory/Category/Lighting';
+import Mattresses from './components/HomeGardenToolsCategory/Category/Mattresses';
+// import PetSupplies from './components/HomeGardenToolsCategory/Category/PetSupplies';
+import ShopRoom from './components/HomeGardenToolsCategory/Category/ShopRoom';
+import StorageOrganization from './components/HomeGardenToolsCategory/Category/StorageOrganization';
+
+
+// PET SUPPLIES CATEGORY
+import Birds from './components/PetSuppliesCategory/Category/Birds';
+import CatFood from './components/PetSuppliesCategory/Category/CatFood';
+import CatSupplies from './components/PetSuppliesCategory/Category/CatSupplies';
+import DogFood from './components/PetSuppliesCategory/Category/DogFood';
+import DogSupplies from './components/PetSuppliesCategory/Category/DogSupplies';
+import FishAquatic from './components/PetSuppliesCategory/Category/FishAquatic';
+import PetProfiles from './components/PetSuppliesCategory/Category/PetProfiles';
+import SmallAnimals from './components/PetSuppliesCategory/Category/SmallAnimals';
+
+
+// OUTDOORS CATEGORY
+import Accessories from './components/OutdoorsCategory/Category/Accessories';
+import AllOutdoor from './components/OutdoorsCategory/Category/AllOutdoor';
+import CampingHiking from './components/OutdoorsCategory/Category/CampingHiking';
+import Climbing from './components/OutdoorsCategory/Category/Climbing';
+import Cycling from './components/OutdoorsCategory/Category/Cycling';
+import OutdoorClothing from './components/OutdoorsCategory/Category/OutdoorClothing';
+import Skates from './components/OutdoorsCategory/Category/Skates';
+import WaterSports from './components/OutdoorsCategory/Category/WaterSports';
+import WinterSports from './components/OutdoorsCategory/Category/WinterSports';
+
+// SMART HOME CATEGORY
+
+
+// FOOD GROCERY CATEGORY
+
+
+// BEAUTY HEALTH CATEGORY
+
+
+// TOYS KIDS BABY
+
+
+// HANDMADE CATEGORY
+
+
+// SPORTS CATEGORY
+
+
+// AUTOMOTIVE CATEGORY
+
 
 function App() {
   return (
@@ -343,6 +420,170 @@ function App() {
             />
             <Computers />
           </Route>
+          <Route path="/computeraccessories" component={ComputerAccessories}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <ComputerAccessories />
+          </Route>
+          <Route path="/monitors" component={Monitors}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <Monitors />
+          </Route>
+          <Route path="/computeraccessories" component={ComputerAccessories}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <ComputerAccessories />
+          </Route>
+          <Route path="/networking" component={Networking}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <Networking />
+          </Route>
+          <Route path="/drivesstorage" component={DrivesStorage}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <DrivesStorage />
+          </Route>
+          <Route path="/printersink" component={PrintersInk}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <PrintersInk />
+          </Route>
+          <Route path="/software" component={Software}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <Software />
+          </Route>
+          <Route path="/computercomponents" component={ComputerComponents}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <ComputerComponents />
+          </Route>
+          <Route path="/officeschool" component={OfficeSchool}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <OfficeSchool />
+          </Route>
+          <Route path="/trade" component={Trade}>
+            <NavBar />
+            <ComputerMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+            />
+            <Trade />
+          </Route>
+
+
+
+          {/* Smart Home COMPONENTS */}
           <Route path="/smarthome" component={SmartHome}>
             <NavBar />
             <SmartHomeMenu 
@@ -366,6 +607,11 @@ function App() {
             />
             <SmartHome />
           </Route>
+
+
+
+
+          {/* Home Garden Tools COMPONENTS */}
           <Route path="/homegardentools" component={HomeGardenTools}>
             <NavBar />
             <HomeGardenToolsMenu 
@@ -391,6 +637,12 @@ function App() {
             />
             <HomeGardenTools />
           </Route>
+
+
+
+
+          {/* Pet Supplies COMPONENTS */}
+
           <Route path="/petsupplies" component={PetSupplies}>
             <NavBar />
             <PetSuppliesMenu 
@@ -405,6 +657,11 @@ function App() {
             />
             <PetSupplies />
           </Route>
+
+
+
+
+          {/* Food Grocery COMPONENTS */}
           <Route path="/foodgrocery" component={FoodGrocery}>
             <NavBar />
             <FoodGroceryMenu 
@@ -419,6 +676,11 @@ function App() {
             />
             <FoodGrocery />
           </Route>
+
+
+
+
+          {/* Beauty Health COMPONENTS */}
           <Route path="/beautyhealth" component={BeautyHealth}>
             <NavBar />
             <BeautyHealthMenu 
@@ -432,6 +694,11 @@ function App() {
             />
             <BeautyHealth />
           </Route>
+
+
+
+
+          {/* Toys Kids Baby COMPONENTS */}
           <Route path="/toyskidsbaby" component={ToysKidsBaby}>
             <NavBar />
             <ToysKidsBabyMenu 
@@ -448,6 +715,11 @@ function App() {
             />
             <ToysKidsBaby />
           </Route>
+
+
+
+
+          {/* Handmade COMPONENTS */}
           <Route path="/handmade" component={Handmade}>
             <NavBar />
             <HandmadeMenu 
@@ -471,6 +743,11 @@ function App() {
             />
             <Handmade />
           </Route>
+
+
+
+
+          {/* Sports COMPONENTS */}
           <Route path="/sports" component={Sports}>
             <NavBar />
             <SportsMenu 
@@ -486,6 +763,11 @@ function App() {
             />
             <Sports />
           </Route>
+
+
+
+
+          {/* Outdoors COMPONENTS */}
           <Route path="/outdoors" component={Outdoors}>
             <NavBar />
             <OutdoorsMenu 
@@ -501,6 +783,11 @@ function App() {
             />
             <Outdoors />
           </Route>
+
+
+
+
+          {/* Automotive COMPONENTS */}
           <Route path="/automotiveindustrial" component={AutomotiveIndustrial}>
             <NavBar />
             <AutomotiveMenu 
