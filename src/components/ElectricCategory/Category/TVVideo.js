@@ -566,73 +566,46 @@ function TVVideo() {
               <div className="tv-video__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
+                  title = "PERLESMITH Full Motion TV Wall Mount for 37-80 Inch Flat Curved TVs with Smooth Tilts Swivel & Extends - Dual Articulating Arms Wall Mount TV Bracket"
+                  price = {46.73}
+                  rating = {4}
+                  image = "https://images-na.ssl-images-amazon.com/images/I/71INH2K3wKL._AC_SL1500_.jpg"
                 />
               </div>
               <div className="tv-video__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
+                  title = "PERLESMITH Fixed TV Wall Mount Bracket Low Profile for 32-82 inch LED, LCD,and OLED Flat Screen TVs - Fits 16”- 24” Wood Studs"
+                  price = {15.29}
+                  rating = {4}
+                  image = "https://images-na.ssl-images-amazon.com/images/I/61JNvejgFaL._AC_SL1500_.jpg"
                 />
               </div>
               <div className="tv-video__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
+                  title = "BLUE STONE Tilt TV Wall Mount Bracket for Most 32-65 Inch LED LCD OLED Flat Screen TVs/Curved TVs, Low Profile, Up to VESA 400x400 and 165 LBS"
+                  price = {12.74}
+                  rating = {4}
+                  image = "https://images-na.ssl-images-amazon.com/images/I/61n2MrNMsML._AC_SL1500_.jpg"
                 />
               </div>
               <div className="tv-video__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
+                  title = "PERLESMITH TV Tripod Stand-Portable TV Stand for 23-55 Inch LED LCD OLED Flat Screen TVs-Height Adjustable Display Floor TV Stand with VESA 400x400mm"
+                  price = {59.99}
+                  rating = {4}
+                  image = "https://images-na.ssl-images-amazon.com/images/I/612lAJXcFkL._AC_SL1500_.jpg"
                 />
               </div>
               <div className="tv-video__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
-                />
-              </div>
-              <div className="tv-video__product-card">
-                <ElectronicsProductTemplate 
-                  id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
-                />
-              </div>
-              <div className="tv-video__product-card">
-                <ElectronicsProductTemplate 
-                  id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
-                />
-              </div>
-              <div className="tv-video__product-card">
-                <ElectronicsProductTemplate 
-                  id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
+                  title = "Universal TV Stand Base Tabletop TV Stand for 26 to 55 Inch TVs -Height Adjustable TV Base Stand with Tempered Glass Base & Wire Management"
+                  price = {25.95}
+                  rating = {4}
+                  image = "https://images-na.ssl-images-amazon.com/images/I/71Ml4u4O59L._AC_SL1500_.jpg"
                 />
               </div>
             </div>
@@ -642,15 +615,6 @@ function TVVideo() {
               <h1>Most wished for</h1>
             </div>
             <div className="tv-video__flex-box">
-              <div className="tv-video__product-card">
-                <ElectronicsProductTemplate 
-                  id = "123123"
-                  title = "VANKYO LEISURE 3 Mini Projector, 1080P and 170'' Display Supported"
-                  price = {99.99}
-                  rating = {4}
-                  image = "https://images-na.ssl-images-amazon.com/images/I/71aqRWD3Z3L._AC._SR360,460.jpg"
-                />
-              </div>
               <div className="tv-video__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
@@ -773,24 +737,6 @@ function TVVideo() {
                   price = {56.99}
                   rating = {3}
                   image = "https://images-na.ssl-images-amazon.com/images/I/51is6bX7nFL._AC._SR360,460.jpg"
-                />
-              </div>
-              <div className="tv-video__product-card">
-                <ElectronicsProductTemplate 
-                  id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
-                />
-              </div>
-              <div className="tv-video__product-card">
-                <ElectronicsProductTemplate 
-                  id = "123123"
-                  title = ""
-                  price = {1.99}
-                  rating = {5}
-                  image = ""
                 />
               </div>
             </div>

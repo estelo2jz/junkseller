@@ -10,8 +10,9 @@
     text-align: left;
     width: 100%;
     margin-left: 50px;
-    font-size: 1.5em;
+    font-size: 1em;
     position: sticky;
+    padding: 40px 0px;
     top: 0;
   }
   .tv-video__ads-image {
@@ -44,6 +45,9 @@
     flex-wrap: wrap;
     padding: 0 40px;
     grid-gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
     
     // grid-gap: 5px;
 
