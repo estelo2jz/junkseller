@@ -1,0 +1,26 @@
+.featured-category__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  // height: 40vh;
+  // overflow: hidden;
+  .featured-category__image {
+    border-radius: 90%;
+    background-color: gray;
+    overflow: hidden;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    img {
+      width: 100%;
+    }
+  }
+  .featured-category__heading {
+    width: 70%;
+    text-align: center;
+  }
+}
