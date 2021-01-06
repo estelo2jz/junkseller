@@ -7,9 +7,11 @@
   margin-top: 130px;
   align-items: center;
   .amazon-renewed__header {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    margin-left: 50px;
     font-size: 1em;
     position: sticky;
     padding: 40px 0px;
@@ -36,16 +38,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    grid-column-gap: 20px;
+    // align-items: center;
+    grid-column-gap: 50px;
     .amazon-renewed__grid-item {
       display: flex;
       justify-content: center;
       align-content: center;
       // align-items: center; will display uneven height of an image if there isn't one
       // align-items: center;
-      width: 400px;
-      height: 400px;
+      width: 300px;
+      height: 100%;
     }
   }
 }

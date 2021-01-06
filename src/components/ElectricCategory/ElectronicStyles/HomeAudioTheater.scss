@@ -6,6 +6,24 @@
   align-items: center;
   margin-top: 130px;
   position: relative;
+  .home-audio-theater__ads-one {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    img {
+      max-width: 100%;
+      cursor: pointer;
+      background-size: contain;
+      margin-top: 10px;
+      background-position: center;
+    }
+  }
+  .home-audio-theater__ads-two-container {
+    .home-audio-theater__ads-two {
+      margin-bottom: 100px;
+    }
+  }
   .home-audio-theater__heading {
     text-align: left;
     width: 100%;
@@ -22,9 +40,22 @@
     justify-content: center;
     grid-column-gap: 20px;
     // text-align: left;
-    // margin-left: 50px;
+    margin-bottom: 100px;
     img {
       cursor: pointer;
+    }
+  }
+  .home-audio-theater__brand-category {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 20px;
+    // text-align: left;
+    margin-bottom: 100px;
+    .home-audio-theater_flex-box {
+
     }
   }
 }
