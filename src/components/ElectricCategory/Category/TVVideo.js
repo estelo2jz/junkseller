@@ -127,11 +127,11 @@ function TVVideo() {
                 featured="Home Theater Systems"
               />
               <FeaturedCategoryTemplate 
-                img="https://m.media-amazon.com/images/I/71hqkeutqTL._AC_UY218_.jpg"
+                img="https://images-na.ssl-images-amazon.com/images/I/71%2B0JAFy1-L._AC_SL1500_.jpg"
                 featured="AV Reveivers & Aplifiers"
               />
               <FeaturedCategoryTemplate 
-                img="https://m.media-amazon.com/images/I/31G58B26TTL._AC_UY218_.jpg"
+                img="https://m.media-amazon.com/images/I/81AyC1bS6yL._AC_UY218_.jpg"
                 featured="VCRs"
               />
               <FeaturedCategoryTemplate 
@@ -733,6 +733,9 @@ function TVVideo() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="back-to-top__container">
+        <a className="gotop" href="#">Back to top</a>
       </div>
     </div>
   )

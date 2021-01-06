@@ -1,7 +1,51 @@
 .amazon-renewed__container {
-  height: 100vh;
-  background-color: rgb(229, 255, 0);
+  height: 100%;
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  margin-top: 130px;
   align-items: center;
+  .amazon-renewed__header {
+    text-align: left;
+    width: 100%;
+    margin-left: 50px;
+    font-size: 1em;
+    position: sticky;
+    padding: 40px 0px;
+    top: 0;
+    .amazon-renewed__category-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0px;
+      .amazon-renewed__image-container {
+        img {
+          width: 200px;
+          min-width: 20%;
+          cursor: pointer;
+          margin: 10px;
+        }
+
+      }
+    }
+  }
+
+  .amazon-renewed__grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 20px;
+    .amazon-renewed__grid-item {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      // align-items: center; will display uneven height of an image if there isn't one
+      // align-items: center;
+      width: 400px;
+      height: 400px;
+    }
+  }
 }

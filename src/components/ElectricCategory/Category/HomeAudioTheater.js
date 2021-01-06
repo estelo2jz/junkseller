@@ -6,10 +6,17 @@ import '../ElectronicStyles/HomeAudioTheater.scss';
 function HomeAudioTheater() {
   return (
     <div className="home-audio-theater__container">
+      <div>
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Consumer_Electronics/XCM_Manual_1301610_1538042_US_GD21_us_ce_storefront_stripes_2362205_us_en_3625898_1500x90_en_US.jpg" alt="ads-image" />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Home_Entertainment/XCM_Manual_1296378_1515069_US_us_home_entertainment_categorystorefront_us_en_3593549_3000x600_en_US.jpg" alt="ads-image" />
+      </div>
       <div className="home-audio-theater__heading">
         <h1>Home Audio Theater</h1>
       </div>
       <div className="home-audio-theater__category">
+      <div className="home-audio-theater__heading">
+        <h1>Shop by Category</h1>
+      </div>
         <div className="tv-video__flex-box">
           <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/aa/cat-tile/ce_aa_cat-tile_desktop_wirelessaudio.jpg" alt="image" />
         </div>
@@ -43,7 +50,7 @@ function HomeAudioTheater() {
       </div>
       <div>
         <div>
-          <img asrc="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Consumer_Electronics/XCM_Manual_1299910_1529403_US_us_ce_storefront_3629787_1500x440_en_US.jpg" alt="ads-image"/>
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Consumer_Electronics/XCM_Manual_1299910_1529403_US_us_ce_storefront_3629787_1500x440_en_US.jpg" alt="ads-image"/>
         </div>
       </div>
       <div className="home-audio-theater__heading">
@@ -74,6 +81,9 @@ function HomeAudioTheater() {
         <div className="tv-video__flex-box">
           <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/aa/brand-tile/ce_aa_brand-tile_desktop_amznbasics.jpg" alt="brand-image" />
         </div>
+      </div>
+      <div className="back-to-top__container">
+        <a className="gotop" href="#">Back to top</a>
       </div>
     </div>
   )

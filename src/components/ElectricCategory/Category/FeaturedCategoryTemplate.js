@@ -5,7 +5,7 @@ function FeaturedCategoryTemplate(props) {
   return (
     <div className="featured-category__container">
       <div className="featured-category__image">
-        <div>
+        <div className="featured-category__image-box">
          <img src={props.img} alt="image-featured"/>
         </div>
       </div>

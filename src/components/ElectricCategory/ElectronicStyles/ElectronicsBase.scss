@@ -1,7 +1,28 @@
 .electronics-base__container {
-  background-color: rgb(122, 128, 0);
-  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
   display: flex;
+  margin-top: 130px;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+  .electronics-base__trending {
+    width: 100%;
+    .electronics-base__trending-header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .electronics-base__trending-products {
+      display: flex;
+      // justify-content: center;
+      overflow-x: scroll;
+      // padding: 10px;
+      // padding-left: 40px;
+      // top: 0;
+      width: 100%;
+      z-index: 10000;
+      background: #ffffff;
+    }
+  }
 }

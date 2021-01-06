@@ -15,8 +15,14 @@
     width: 100px;
     height: 100px;
     cursor: pointer;
+    margin: 20px 0px;
+    .featured-category__image-box {
+      background-position: center;
+      background-size: contain;
+
+    }
     img {
-      width: 100%;
+      width: 150px;
     }
   }
   .featured-category__heading {
