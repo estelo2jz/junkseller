@@ -164,15 +164,6 @@ function TVVideo() {
               <div className="tv-video__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
-                  title = "All-new Fire TV Stick with Alexa Voice Remote (includes TV controls) | HD"
-                  price = {39.99}
-                  rating = {5}
-                  image = "https://images-na.ssl-images-amazon.com/images/I/51GF9vRAnFL._AC._SR360,460.jpg"
-                />
-              </div>
-              <div className="tv-video__product-card">
-                <ElectronicsProductTemplate 
-                  id = "123123"
                   title = "Introducing Fire TV Stick Lite with Alexa Voice Remote Lite (no TV"
                   price = {29.99}
                   rating = {4}
