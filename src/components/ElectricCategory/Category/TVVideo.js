@@ -13,12 +13,24 @@ function TVVideo() {
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HandpickedTelevisions_DT_EN.jpg" alt="image" />
       </div>
       <div className="tv-video__tv-category">
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Value_B084JBTYHJ_Storefront.jpg" alt="image"/>
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/FamilyEntertainment_B0849L2DM3_Storefront.jpg" alt="image"/>
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/AllAround_B084KQLVFH_Storefront.jpg" alt="image"/>
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Premium_B0817H41YN_Storefront.jpg" alt="image"/>
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Style_B084RMZJDY_Storefront.jpg" alt="image"/>
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/AlexaVoice_B0851NMSC6_Storefront.jpg" alt="image"/>
+        <div className="tv-video__tv-item">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Value_B084JBTYHJ_Storefront.jpg" alt="image"/>        
+        </div>
+        <div className="tv-video__tv-item">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/FamilyEntertainment_B0849L2DM3_Storefront.jpg" alt="image"/>
+        </div>
+        <div className="tv-video__tv-item"> 
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/AllAround_B084KQLVFH_Storefront.jpg" alt="image"/>
+        </div>
+        <div className="tv-video__tv-item">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Premium_B0817H41YN_Storefront.jpg" alt="image"/>
+        </div>
+        <div className="tv-video__tv-item">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Style_B084RMZJDY_Storefront.jpg" alt="image"/>
+        </div>
+        <div className="tv-video__tv-item">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/AlexaVoice_B0851NMSC6_Storefront.jpg" alt="image"/>
+        </div>
       </div>
       <div>
         <div>
@@ -86,7 +98,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__featured-category-container">
-            <div>
+            <div className="tv-video__featured-category-heading">
               <h1>Featured categories</h1>  
             </div>
             <div className="tv-video__flex-box">

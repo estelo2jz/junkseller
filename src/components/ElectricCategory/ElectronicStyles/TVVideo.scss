@@ -21,21 +21,31 @@ html {
   }
   .tv-video__ads-image {
     padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
   }
   .tv-video__tv-category {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    // overflow-x: scroll;
     width: 100%;
     padding: 40px 0px;
-    overflow-x: scroll;
-    grid-column-gap: 20px;
+    grid-column-gap: 10px;
     // padding: 10px;
     // padding-left: 40px;
     // top: 0;
-    width: 100%;
-    img {
-      width: 200px;
-      cursor: pointer;
+    .tv-video__tv-item {
+      // width: 100%;
+      display: flex;
+      justify-content: center;
+      
+      img {
+        width: 180px;
+        cursor: pointer;
+      }
     }
   }
 
@@ -43,14 +53,17 @@ html {
     .tv-video__ralated {
     }
   }
+  .tv-video__featured-category-container {
+    // margin-bottom: 100px;
+  }
   .tv-video__flex-box {
     // background-color: red;
     display: flex;
     flex-wrap: wrap;
     padding: 0 40px;
     grid-gap: 5px;
-    align-items: center;
-    justify-content: center;
+    // align-items: center;
+    // justify-content: center;
     text-align: left;
     
     // grid-gap: 5px;
@@ -60,7 +73,7 @@ html {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 250px;
+      width: 330px;
     }
   }
 }

@@ -58,7 +58,7 @@ function ElectronicsBase() {
           <ElectronicsProductTemplate 
             id = "123123"
             title = ""
-            price = {138.99}
+            price = {140.99}
             rating = {4}
             image = ""
           />  
