@@ -35,7 +35,7 @@ function TVVideo() {
       <div>
         <div>
           <div className="tv-video__ralated-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Related to Items You've Viewed</h1>
             </div>
             <div className="tv-video__related">
@@ -98,7 +98,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__featured-category-container">
-            <div className="tv-video__featured-category-heading">
+            <div className="tv-video__heading">
               <h1>Featured categories</h1>  
             </div>
             <div className="tv-video__flex-box">
@@ -169,7 +169,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__top-rated-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Top rated</h1>
             </div>
             <div className="tv-video__flex-box">
@@ -239,7 +239,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__hot-new-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Hot new releases</h1>
             </div>
             <div className="tv-video__flex-box">
@@ -300,7 +300,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__recommended-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Recommended for you</h1>
             </div>
             <div className="tv-video__flex-box">
@@ -352,7 +352,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__under-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Under $25</h1>
             </div>
             <div className="tv-video__flex-box">
@@ -422,7 +422,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__best-seller-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Best sellers</h1>
             </div>
             <div className="tv-video__flex-box">
@@ -492,7 +492,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__featured-deals-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Featured deals</h1>
             </div>
             <div className="tv-video__flex-box">
@@ -562,7 +562,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__lightning-deals-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Lightning deals</h1>
             </div>
             <div className="tv-video__flex-box">
@@ -614,7 +614,7 @@ function TVVideo() {
             </div>
           </div>
           <div className="tv-video__most-wished-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Most wished for</h1>
             </div>
             <div className="tv-video__flex-box">
@@ -684,7 +684,7 @@ function TVVideo() {
             </div>
           </div>        
           <div className="tv-video__most-gifted-container">
-            <div>
+            <div className="tv-video__heading">
               <h1>Most gifted</h1>
             </div>
             <div className="tv-video__flex-box">

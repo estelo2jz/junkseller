@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  // background-image: url('https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-position: center;
   background-size: 100% 100%;
   object-fit: cover;
@@ -30,7 +30,7 @@
 }
 .computer__container-heading h1 {
   font-size: 5em;
-  color: rgb(0, 51, 255);
+  color: rgb(0, 0, 0);
   font-family: 'Poppins', sans-serif;
 }
 .computer__container-flex-grid {
