@@ -5,11 +5,11 @@ import Product from './Product';
 function Home() {
   return (
     <div className="home">
-      <img 
+      {/* <img 
         className="home__image"
         src="https://images.pexels.com/photos/3641056/pexels-photo-3641056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         alt="logo"
-      />
+      /> */}
          <div className="home__row">
       {/* Product id, title, price, rating, image */}
         <Product 
