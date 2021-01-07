@@ -65,13 +65,14 @@
     }
   }
 }
-.electronics-menu-items  {
-  li.active {
-    a {
-        background: rgb(223, 30, 30);
-        color: black;
-        z-index: 100000;
-    }
+.electronics-menu  {
+
+  .electronics-menu-items:active  {
+    font-weight: 700;
+    background-color: red;
+  }
+  .electronics-menu-items:focus  {
+    color: red;
   }
 }
 // /* Hide scrollbar for Chrome, Safari, and Opera */
