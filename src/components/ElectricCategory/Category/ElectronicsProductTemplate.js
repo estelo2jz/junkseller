@@ -21,7 +21,9 @@ function ElectronicsProductTemplate({ id, title, image, price, rating }) {
   };
   return (
     <div className="electronics-product">
-      <img src={image} />
+      <div className="electronics-product__image">
+        <img src={image} />
+      </div>
       <div className="electronics-product__info">
         <p className="electronics-product__price">
           <small>$</small>
