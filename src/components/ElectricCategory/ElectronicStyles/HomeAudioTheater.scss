@@ -22,6 +22,18 @@
   .home-audio-theater__ads-two-container {
     .home-audio-theater__ads-two {
       margin-bottom: 100px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-items: center;
+      img {
+      max-width: 100%;  
+      cursor: pointer;
+      background-size: contain;
+      // margin-top: 10px;
+      // margin: 0px -10px;
+      background-position: center;
+      }
     }
   }
   .home-audio-theater__heading {
