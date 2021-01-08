@@ -1,7 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}
 .cell-phone__container {
-  background-color: rgb(0, 128, 51);
-  height: 100vh;
+  min-height: 100%;
+  background-color: white;
+  display: flex;
+  margin-top: 130px;
+  // margin-bottom: 100px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  .cell-phone__heading {
+    text-align: left;
+    width: 100%;
+    margin-left: 50px;
+    font-size: 1em;
+    position: sticky;
+    padding: 40px 0px;
+    top: 0;
+    h1 {
+      font-size: 1.3em;
+    }
+  }
+  .cell-phone__ads-image {
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .cell-phone__flex-box {
+    display: flex;
+    justify-content: center;
+    // align-content: center;
+    flex-wrap: wrap;
+    .cell-phone__featured-items {
+      background-color: rgb(241, 237, 237);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      height: 150px;
+      margin: 10px ;
+      img {
+        border-radius: 50%;
+        width: 200px;
+        max-width: 40%;
+        // margin: 10px 10px;
+        // margin: 10px;
+      }
+    }
+  }
+
+  .cell-phone__brand-category {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    img {
+      width: 300px;
+      max-width: 40%;
+      margin: 10px;
+      cursor: pointer;
+    } 
+  }
+
+  .cell-phone__ralated-container {
+    .cell-phone__ralated {
+    }
+  }
+  .cell-phone__flex-box {
+    // background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    grid-gap: 5px;
+    // align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+    // grid-gap: 5px;
+
+    .cell-phone__product-card {
+      // background-color: rgb(184, 176, 176);
+      display: flex;
+      justify-content: center;
+      // align-items: center;
+      width: 330px;
+      // height: 300px;
+    }
+  }
+}
+.back-to-top__container {
+  bottom: 100;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(68, 86, 110);
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.gotop {
+  height: 40px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+// /* Hide scrollbar for Chrome, Safari, and Opera */
+// .cell-phone__tv-category::-webkit-scrollbar {
+//   display: none;
+// }
+// /* Hide scrollbar for IE, Edge and Firefox */
+// .cell-phone__tv-category {
+//   -ms-overlfow-style: none; 
+//   scrollbar-width: none;
+// }
+
+
+// @media only screen and (max-width: 600px) {
+//    .cell-phone__product-card{
+//     width: 40%;
+
+//     }
+// }
