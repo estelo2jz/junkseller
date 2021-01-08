@@ -14,26 +14,7 @@
     img {
       max-width: 100%;
       cursor: pointer;
-      background-size: contain;
       margin-top: 10px;
-      background-position: center;
-    }
-  }
-  .home-audio-theater__ads-two-container {
-    .home-audio-theater__ads-two {
-      margin-bottom: 100px;
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-items: center;
-      img {
-      max-width: 100%;  
-      cursor: pointer;
-      background-size: contain;
-      // margin-top: 10px;
-      // margin: 0px -10px;
-      background-position: center;
-      }
     }
   }
   .home-audio-theater__heading {
@@ -43,6 +24,23 @@
     font-size: 1em;
     padding: 40px 0px;
     // top: 0;
+  }
+  .home-audio-theater__flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    img {
+      width: 250px;
+      max-width: 40%;
+      margin: 10px;
+    }
+  }
+  .home-audio-theater__ads-two {
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
   }
   .home-audio-theater__category {
     display: flex;
@@ -60,14 +58,11 @@
   .home-audio-theater__brand-category {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
     justify-content: center;
-    grid-column-gap: 20px;
-    // text-align: left;
-    margin-bottom: 100px;
-    .home-audio-theater_flex-box {
-
+    img {
+      width: 250px;
+      max-width: 40%;
+      margin: 10px;
     }
   }
 }

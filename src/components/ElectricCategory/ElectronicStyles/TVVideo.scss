@@ -40,15 +40,11 @@ html {
     // padding: 10px;
     // padding-left: 40px;
     // top: 0;
-    .tv-video__tv-item {
-      // width: 100%;
-      display: flex;
-      justify-content: center;
-      
-      img {
-        width: 180px;
-        cursor: pointer;
-      }
+    img {
+      width: 200px;
+      max-width: 40%;
+      margin: 10px;
+      cursor: pointer;
     }
   }
 

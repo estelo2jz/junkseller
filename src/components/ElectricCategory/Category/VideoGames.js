@@ -5,48 +5,32 @@ import '../ElectronicStyles/VideoGames.scss';
 
 function VideoGames() {
   return (
-    <div className="tv-video__container">
-      <div className="tv-video__heading">
-        <h1>Video Games</h1>
-      </div>
-      <div>
-        <div>
-          <div className="tv-video__featured-category-container">
-            <div className="">
-              <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/PlayStation750.png" alt="ps" />
-            </div>
-            <div className="">
-              <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/XBOX750.png" alt="xbox" />
-            </div>
-            <div className="">
-              <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/SWITCH750.png" alt="switch" />
-            </div>
-            <div className="">
-              <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/PC750.png" alt="pc" />
-            </div>
-            <div className="">
-              <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/Luna750.jpg" alt="luna" />
-            </div>
+        <div className="video-games__container">
+          <div className="video-games__heading">
+            <h1>Video Games</h1>
           </div>
-          <div>
-            <div>
-              <h2>Explore next0gen consoles</h2>
+          <div className="video-games__featured-brand-container">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/PlayStation750.png" alt="ps" />
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/XBOX750.png" alt="xbox" />
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/SWITCH750.png" alt="switch" />
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/PC750.png" alt="pc" />
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/NEW/Luna750.jpg" alt="luna" />
+          </div>
+          <div className="video-games__next-gen-container">
+            <div className="video-games__next-gen-heading">
+              <h1>Explore next-gen consoles</h1>
             </div>
-            <div>
-              <div>
+            <div className="video-games__next-gen-ads">
                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/videogames/PS5_banner_v3.jpg" alt="ps5" />
-              </div>
-              <div>
                 <img src="https://images-na.ssl-images-amazon.com/images/G/01/digital-videogames/vghp/XboxBanner.jpg" alt="xs" />
-              </div>
             </div>
           </div>
-          <div className="tv-video__top-rated-container">
-            <div>
+          <div className="video-games__top-rated-container">
+            <div className="video-games__heading">
               <h1>Top rated</h1>
             </div>
-            <div className="tv-video__flex-box">
-              <div className="tv-video__product-card">
+            <div className="video-games__flex-box">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -55,7 +39,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -64,7 +48,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -73,7 +57,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -82,7 +66,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -91,7 +75,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -100,7 +84,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -111,12 +95,12 @@ function VideoGames() {
               </div>
             </div>
           </div>
-          <div className="tv-video__hot-new-container">
-            <div>
+          <div className="video-games__hot-new-container">
+           <div className="video-games__heading">
               <h1>Hot new releases</h1>
             </div>
-            <div className="tv-video__flex-box">
-              <div className="tv-video__product-card">
+            <div className="video-games__flex-box">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate   
                   id = "123123"
                   title = ""
@@ -125,7 +109,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = "TCL 4K Smart LED TV, 43' (43S435)"
@@ -134,7 +118,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -143,7 +127,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -152,7 +136,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -161,7 +145,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -172,12 +156,12 @@ function VideoGames() {
               </div>
             </div>
           </div>
-          <div className="tv-video__recommended-container">
-            <div>
+          <div className="video-games__recommended-container">
+            <div className="video-games__heading">
               <h1>Recommended for you</h1>
             </div>
-            <div className="tv-video__flex-box">
-             <div className="tv-video__product-card">
+            <div className="video-games__flex-box">
+             <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -186,7 +170,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -195,7 +179,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -204,7 +188,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -213,7 +197,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -224,12 +208,12 @@ function VideoGames() {
               </div>
             </div>
           </div>
-          <div className="tv-video__under-container">
-            <div>
+          <div className="video-games__under-container">
+           <div className="video-games__heading">
               <h1>Under $25</h1>
             </div>
-            <div className="tv-video__flex-box">
-              <div className="tv-video__product-card">
+            <div className="video-games__flex-box">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -238,7 +222,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -247,7 +231,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -256,7 +240,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -265,7 +249,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -274,7 +258,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -283,7 +267,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = "g"
@@ -294,12 +278,12 @@ function VideoGames() {
               </div>
             </div>
           </div>
-          <div className="tv-video__best-seller-container">
-            <div>
+          <div className="video-games__best-seller-container">
+            <div className="video-games__heading">
               <h1>Best sellers</h1>
             </div>
-            <div className="tv-video__flex-box">
-             <div className="tv-video__product-card">
+            <div className="video-games__flex-box">
+             <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -308,7 +292,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -317,7 +301,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -326,7 +310,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -335,7 +319,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -344,7 +328,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -353,7 +337,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -364,12 +348,12 @@ function VideoGames() {
               </div>
             </div>
           </div>
-          <div className="tv-video__featured-deals-container">
-            <div>
+          <div className="video-games__featured-deals-container">
+            <div className="video-games__heading">
               <h1>Featured deals</h1>
             </div>
-            <div className="tv-video__flex-box">
-              <div className="tv-video__product-card">
+            <div className="video-games__flex-box">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -378,7 +362,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -387,7 +371,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -396,7 +380,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -405,7 +389,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -414,7 +398,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -423,7 +407,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -434,12 +418,12 @@ function VideoGames() {
               </div>
             </div>
           </div>
-          <div className="tv-video__lightning-deals-container">
-            <div>
+          <div className="video-games__lightning-deals-container">
+            <div className="video-games__heading">
               <h1>Lightning deals</h1>
             </div>
-            <div className="tv-video__flex-box">
-              <div className="tv-video__product-card">
+            <div className="video-games__flex-box">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -448,7 +432,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -457,7 +441,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -466,7 +450,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -475,7 +459,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -486,12 +470,12 @@ function VideoGames() {
               </div>
             </div>
           </div>
-          <div className="tv-video__most-wished-container">
-            <div>
+          <div className="video-games__most-wished-container">
+            <div className="video-games__heading">
               <h1>Most wished for</h1>
             </div>
-            <div className="tv-video__flex-box">
-              <div className="tv-video__product-card">
+            <div className="video-games__flex-box">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -500,7 +484,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -509,7 +493,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -518,7 +502,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -527,7 +511,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -536,7 +520,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -545,7 +529,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -556,12 +540,12 @@ function VideoGames() {
               </div>
             </div>
           </div>        
-          <div className="tv-video__most-gifted-container">
-            <div>
+          <div className="video-games__most-gifted-container">
+            <div className="video-games__heading">
               <h1>Most gifted</h1>
             </div>
-            <div className="tv-video__flex-box">
-             <div className="tv-video__product-card">
+            <div className="video-games__flex-box">
+             <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -570,7 +554,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -579,7 +563,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -588,7 +572,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -597,7 +581,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -606,7 +590,7 @@ function VideoGames() {
                   image = ""
                 />
               </div>
-              <div className="tv-video__product-card">
+              <div className="video-games__product-card">
                 <ElectronicsProductTemplate 
                   id = "123123"
                   title = ""
@@ -617,11 +601,9 @@ function VideoGames() {
               </div>
             </div>
           </div>
+        <div className="back-to-top__container">
+          <a className="gotop" href="#">Back to top</a>
         </div>
-      </div>
-      <div className="back-to-top__container">
-        <a className="gotop" href="#">Back to top</a>
-      </div>
     </div>
   )
 }

@@ -5,17 +5,70 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 130px;
+  margin-top: 140px;
+  .headphones__ads-container {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .headphones__ads-two-container {
+    margin: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
 
-
-  .headphones__heading {
+  .headphones__image-category {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 40px 0px;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    img {
+      width: 300px;
+      max-width: 40%;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  .headphones__image-category-two {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    // margin: 20px 0px;
+    img {
+      width: 250px;
+      max-width: 40%;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  .headphones__image-category-three {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    img {
+      width: 300px;
+      max-width: 40%;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  .headphones__heading {
+    text-align: left;
     width: 100%;
+    margin-left: 50px;
+    font-size: 1em;
+    position: sticky;
+    padding: 40px 0px;
+    top: 0;
     h1 {
-      font-size: 3em;
+      font-size: 1.3em;
     }
   }
 
