@@ -74,15 +74,15 @@ li > a {
 
 .sub-nav {
   display: flex;
-  background: #666363;
+  background: #ffffff;
   border-radius: 5px;
   box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
   display: none;
   left: -100px;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   position: absolute;
   top: 100%;
-  width: 250px;
+  width: 220px;
 }
 #services h3 {
   cursor: pointer;
@@ -91,6 +91,7 @@ li > a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 #services:hover .sub-nav {
@@ -179,7 +180,7 @@ li > a {
 
 .sub-nav::after {
   bottom: 100%;
-  left: 140px;
+  left: 112px;
   content: '';
   height: 0;
   width: 0;
@@ -187,7 +188,7 @@ li > a {
   pointer-events: none;
   border: solid transparent;
   border-color: rgba(252,252,252,0);
-  border-bottom-color: #f7f7f7;
+  border-bottom-color: #000000;
   border-width: 20px;
   border-radius: 2px;
   margin-left: -20px;
@@ -199,33 +200,33 @@ li > a {
 }
 
 #box-1:hover, #icon-1 {
-  background: #7e3ef3;
+  background: #000000;
 }
 
 #box-2:hover, #icon-2 {
-  background: #fe4242;
+  background: #000000;
 }
 
 #box-3:hover, #icon-3 {
-  background: #2ee1f9;
+  background: #000000;
 }
 
 #box-4:hover, #icon-4 {
-  background: #2ef968;
+  background: #000000;
 }
 
 #box-5:hover, #icon-5 {
-  background-color: rgb(251, 255, 0);
+  background: #000000;
 }
 
 #box-6:hover, #icon-6 {
-  background: #86ffc6;
+  background: #000000;
 }
 
 #box-7:hover, #icon-7 {
-  background: #ff60b2;
+  background: #000000;
 }
 
 #box-8:hover, #icon-8 {
-  background: #5462ff;
+  background: #000000;
 }

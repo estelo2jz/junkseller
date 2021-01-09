@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import MenuIcon from '@material-ui/icons/Menu';
 import { useStateValue } from './StateProvider';
 import Logo from './logo/junk.png';
 import '../styles/Navbar.css';
@@ -22,7 +23,7 @@ function NavBar() {
                     {/* <li><a href="/">Home</a></li> */}
                     <li id="services">
                         <div className="services-heading">
-                            <h3>Categories</h3>
+                            <MenuIcon />
                         </div>
                        <div className="sub-nav">
                         {/* <div className="sun-nav-container">
