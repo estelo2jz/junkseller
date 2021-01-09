@@ -20,8 +20,32 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    grid-gap: 5px;
+    grid-gap: 10px;
+    padding: 40px 0px;
     img {
+      // background-color: lightgray;
+      width: 200px;
+      max-width: 40%;
+      cursor: pointer;
+    }
+  }
+  .musical-instruments__ads-image {
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .musical-instruments__brand-category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px 0px;
+    img {
+      width: 250px;
+      max-width: 40%;
       cursor: pointer;
     }
   }

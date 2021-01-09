@@ -6,13 +6,88 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  .electronics-base__heading {
+    text-align: left;
+    width: 100%;
+    margin-left: 50px;
+    font-size: 1em;
+    position: sticky;
+    padding: 40px 0px;
+    top: 0;
+    h1 {
+      font-size: 1.3em;
+    }
+  }
+  .electronics-base__ads-one {
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .electronics-base__ads-two {
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .electronics-base__ads-three {
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .electronics-base__ads-four {
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .electronics-base__category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px 0px;
+    img {
+      width: 250px;
+      max-width: 40%;
+      cursor: pointer;
+    }
+  }
+  .electronics-base__handpick-category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px 0px;
+    img {
+      width: 300px;
+      height: 40px;
+      max-width: 40%;
+      cursor: pointer;
+    } 
+  }
   .electronics-base__trending {
     width: 100%;
+    padding: 40px 0px;
 
     .electronics-base__trending-header {
       width: 100%;
-      // display: flex;
-      // justify-content: space-between;
+      display: flex;
+      justify-content: space-between;
+      // margin: 0px 20px;
+      h4 {
+        margin-left: 10px;
+      }
+      a {
+        margin-right: 10px;
+      }
     }
     .electronics-base__trending-products {
       display: flex;
@@ -25,5 +100,19 @@
       z-index: 10000;
       background: #ffffff;
     }
+  }
+  .electronics-base__product-category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px 0px;
+    img {
+      width: 250px;
+      // height: 40px;
+      max-width: 40%;
+      cursor: pointer;
+    } 
   }
 }

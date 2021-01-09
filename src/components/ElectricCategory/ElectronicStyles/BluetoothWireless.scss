@@ -1,7 +1,108 @@
 .bluetooth-wireless__container {
-  background-color: rgb(128, 0, 49);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    min-height: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 130px;
+    // margin-bottom: 100px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  .bluetooth-wireless__heading {
+    text-align: left;
+    width: 100%;
+    margin-left: 50px;
+    font-size: 1em;
+    position: sticky;
+    padding: 40px 0px;
+    top: 0;
+    h1 {
+      font-size: 1.3em;
+    }
+  }
+  .bluetooth-wireless__ads-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+      margin: 5px 0px;
+    }
+  }
+  .bluetooth-wireless__ads-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .bluetooth-wireless__ads-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0px;
+    width: 100%;
+    img {
+      width: 100%;
+      // margin: 5px 0px;
+    }
+  }
+  .bluetooth-wireless__category {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    img {
+      width: 300px;
+      max-width: 40%;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  .bluetooth-wireless__headphone-category {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    img {
+      width: 220px;
+      max-width: 40%;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  .bluetooth-wireless__speaker-category {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    // padding: 0px 40px;
+    img {
+      width: 200px;
+      max-width: 40%;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  .bluetooth-wireless__brand-category {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    // padding: 0px 40px;
+    img {
+      width: 200px;
+      max-width: 40%;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
 }
