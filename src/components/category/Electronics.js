@@ -9,7 +9,7 @@ function Electronics() {
     <div className="products__base">
       <div className="electronics__container">
         <div className="electronics__container-heading">
-          <h1>Electronics</h1>
+          {/* <h1>Electronics</h1> */}
         </div>
         <div className="electronics__container-flex-grid">
           <div className="electronics__container-flex-1">

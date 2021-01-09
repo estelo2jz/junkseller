@@ -45,6 +45,8 @@
   vertical-align: top;
   margin-top: 22px;
   margin-left: 50px;
+  
+  
 }
 
 ul {
@@ -83,6 +85,7 @@ li > a {
   position: absolute;
   top: 100%;
   width: 220px;
+  border: 2px solid black;
 }
 #services h3 {
   cursor: pointer;
@@ -134,6 +137,7 @@ li > a {
   position: relative;
   transition: .2s all ease-in-out;
   text-decoration: none;
+    /* border: 2px solid black; */
 }
 
 .icon-background {
