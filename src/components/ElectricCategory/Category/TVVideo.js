@@ -62,7 +62,7 @@ function TVVideo() {
               image = "https://images-na.ssl-images-amazon.com/images/I/71YY4Vy4xgL._AC._SR360,460.jpg"
             />
           </div>
-          <div className="tv-video__product-card">
+          {/* <div className="tv-video__product-card">
             <ElectronicsProductTemplate 
               id = "123123"
               title = "Fire TV Recast, over-the-air DVR, 1 TB, 150 hours, DVR for cord cutters"
@@ -79,7 +79,7 @@ function TVVideo() {
               rating = {5}
               image = "https://images-na.ssl-images-amazon.com/images/I/51Y-Dulc3bL._AC._SR360,460.jpg"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
@@ -205,7 +205,7 @@ function TVVideo() {
         <h1>Top rated</h1>
       </div>
       <div className="tv-video__flex-box">
-        <div className="tv-video__product-card">
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "Introducing Fire TV Stick Lite with Alexa Voice Remote Lite (no TV"
@@ -222,8 +222,8 @@ function TVVideo() {
             rating = {4}
             image = "https://images-na.ssl-images-amazon.com/images/I/81lsA5v8EIL._AC._SR360,460.jpg"
           />
-        </div>
-        <div className="tv-video__product-card">
+        </div> */}
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "Google Chromecast (3rd Generation)"
@@ -231,7 +231,7 @@ function TVVideo() {
             rating = {4}
             image = "https://images-na.ssl-images-amazon.com/images/I/81rOtfzI0QL._AC._SR360,460.jpg"
           />
-        </div>
+        </div> */}
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
@@ -275,7 +275,7 @@ function TVVideo() {
         <h1>Hot new releases</h1>
       </div>
       <div className="tv-video__flex-box">
-        <div className="tv-video__product-card">
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate   
             id = "123123"
             title = "Roku Ultra 2020 | Streaming Media Player HD/4K/HDR/Dolby Vision"
@@ -292,7 +292,7 @@ function TVVideo() {
             rating = {4}
             image = "https://images-na.ssl-images-amazon.com/images/I/71hkz1X+LgL._AC._SR360,460.jpg"
           />
-        </div>
+        </div> */}
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
@@ -372,7 +372,7 @@ function TVVideo() {
             image = "https://images-na.ssl-images-amazon.com/images/I/71bej4zekBL._AC._SR360,460.jpg"
           />
         </div>
-        <div className="tv-video__product-card">
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "Projector Screen with Stand, Upgraded 3 Layers 120 inch 4K HD 16:9"
@@ -380,7 +380,7 @@ function TVVideo() {
             rating = {5}
             image = "https://images-na.ssl-images-amazon.com/images/I/61sj5mju4VL._AC._SR360,460.jpg"
           />
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="tv-video__under-container">
@@ -424,7 +424,7 @@ function TVVideo() {
             image = "https://images-na.ssl-images-amazon.com/images/I/61kxUH1ZRSL._AC._SR360,460.jpg"
           />
         </div>
-        <div className="tv-video__product-card">
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "WALI Universal TV Stand Table Top for Most 22 to 65 inch LCD Flat Screen"
@@ -450,7 +450,7 @@ function TVVideo() {
             rating = {4}
             image = "https://images-na.ssl-images-amazon.com/images/I/61E2DRD56gL._AC._SR360,460.jpg"
           />
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="tv-video__best-seller-container">
@@ -494,7 +494,7 @@ function TVVideo() {
             image = "https://images-na.ssl-images-amazon.com/images/I/915YXVMH6qL._AC._SR360,460.jpg"
           />
         </div>
-        <div className="tv-video__product-card">
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "Full Motion TV Wall Mount Bracket Dual Articulating Arms Swivels Tilts Rotation"
@@ -520,7 +520,7 @@ function TVVideo() {
             rating = {4}
             image = "https://images-na.ssl-images-amazon.com/images/I/712V3dBfluL._AC._SR360,460.jpg"
           />
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="tv-video__featured-deals-container">
@@ -564,7 +564,7 @@ function TVVideo() {
             image = "https://images-na.ssl-images-amazon.com/images/I/61a1uKJquEL._AC_SL1000_.jpg"
           />
         </div>
-        <div className="tv-video__product-card">
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "Projector Screen with Stand 100 inch Portable Projection Screen 16:9 4K HD Rear Front Projections Movies Screen with Carry Bag for Indoor Outdoor Home"
@@ -572,8 +572,8 @@ function TVVideo() {
             rating = {4}
             image = "https://images-na.ssl-images-amazon.com/images/I/71NO0x7vDjL._AC_SL1500_.jpg"
           />
-        </div>
-        <div className="tv-video__product-card">
+        </div> */}
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "Everstone Heavy Duty Single Stud TV Wall Mount Bracket for Most 32-80 Inch LED,LCD,OLED,Plasma Flat Screen,Curved TVs,with Full Motion Articulating Arm"
@@ -590,7 +590,7 @@ function TVVideo() {
             rating = {4}
             image = "https://images-na.ssl-images-amazon.com/images/I/91k0fB2gQHL._AC_SL1500_.jpg"
           />
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="tv-video__lightning-deals-container">
@@ -598,7 +598,7 @@ function TVVideo() {
         <h1>Lightning deals</h1>
       </div>
       <div className="tv-video__flex-box">
-        <div className="tv-video__product-card">
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "PERLESMITH Full Motion TV Wall Mount for 37-80 Inch Flat Curved TVs with Smooth Tilts Swivel & Extends - Dual Articulating Arms Wall Mount TV Bracket"
@@ -606,7 +606,7 @@ function TVVideo() {
             rating = {4}
             image = "https://images-na.ssl-images-amazon.com/images/I/71INH2K3wKL._AC_SL1500_.jpg"
           />
-        </div>
+        </div> */}
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
@@ -686,7 +686,7 @@ function TVVideo() {
             image = "https://images-na.ssl-images-amazon.com/images/I/718A7339wbL._AC._SR360,460.jpg"
           />
         </div>
-        <div className="tv-video__product-card">
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "Mini Projector for iPhone, ELEPHAS 2020 WiFi Movie Projector with Synchronize"
@@ -712,7 +712,7 @@ function TVVideo() {
             rating = {5}
             image = "https://images-na.ssl-images-amazon.com/images/I/71RiQZ0J2SL._AC._SR360,460.jpg"
           />
-        </div>
+        </div> */}
       </div>
     </div>        
     <div className="tv-video__most-gifted-container">
@@ -756,7 +756,7 @@ function TVVideo() {
             image = "https://images-na.ssl-images-amazon.com/images/I/61By+PYGkwL._AC._SR360,460.jpg"
           />
         </div>
-        <div className="tv-video__product-card">
+        {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
             id = "123123"
             title = "Mdbebbron 120 inch Projection Screen 16:9 HD Foldable Anti-Crease"
@@ -773,7 +773,7 @@ function TVVideo() {
             rating = {3}
             image = "https://images-na.ssl-images-amazon.com/images/I/51is6bX7nFL._AC._SR360,460.jpg"
           />
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="back-to-top__container">
