@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import Logo from './logo/junk.png';
 
 import { useStateValue } from './StateProvider';
 
@@ -14,7 +15,7 @@ function Header() {
   return (
     <nav className="header">
       <Link to="/">
-        <h1>JunkSeller</h1>
+        <img src={Logo}  alt="LOGO"/>
       </Link>
 
       {/* <div className="header__search">

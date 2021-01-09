@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import { useStateValue } from './StateProvider';
+import Logo from './logo/junk.png';
 import '../styles/Navbar.css';
 
 function NavBar() {
@@ -12,16 +13,18 @@ function NavBar() {
     <header className="global-header">
         <div className="row">
             <div className="global-logo">
-                <a href="/">Junk-Seller</a>
+                <Link to="/">
+                    <img src={Logo} alt="LOGO" />
+                </Link>
             </div>
             <nav className="nav-menu">
                 <ul>
                     {/* <li><a href="/">Home</a></li> */}
                     <li id="services">
-                      <h3>
-                        Categories
-                      </h3>
-                    <div className="sub-nav">
+                        <div className="services-heading">
+                            <h3>Categories</h3>
+                        </div>
+                       <div className="sub-nav">
                         {/* <div className="sun-nav-container">
 
                         </div> */}
@@ -103,8 +106,8 @@ function NavBar() {
                         </div>
                     </div>
                 </li>
-                </ul>
-            </nav>
+            </ul>
+        </nav>
         </div>
         <div>
           <Link to="/checkout" className="header__link">
