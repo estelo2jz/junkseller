@@ -8,7 +8,7 @@ function Sports() {
     <div className="products__base">
       <div className="sports__container">
         <div className="sports__container-heading">
-          <h1>Sports</h1>
+          <p>Sports</p>
         </div>
         <div className="sports__container-flex-grid">
           <div className="sports__container-flex-1">

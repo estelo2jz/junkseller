@@ -8,7 +8,7 @@ function FoodGrocery() {
     <div className="products__base">
       <div className="grocery-food__container">
         <div className="grocery-food__container-heading">
-          <h1>Food & Grocery</h1>
+          <p>Food & Grocery</p>
         </div>
         <div className="grocery-food__container-flex-grid">
           <div className="grocery-food__container-flex-1">

@@ -8,7 +8,7 @@ function BeautyHealth() {
     <div className="products__base">
       <div className="beauty-health__container">
         <div className="beauty-health__container-heading">
-          <h1>Beauty & Health</h1>
+          <p>Beauty & Health</p>
         </div>
         <div className="beauty-health__container-flex-grid">
           <div className="beauty-health__container-flex-1">

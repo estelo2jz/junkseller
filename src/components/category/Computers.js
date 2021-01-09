@@ -8,7 +8,7 @@ function Computers() {
     <div className="products__base">
       <div className="computer__container">
         <div className="computer__container-heading">
-          <h1>Computers</h1>
+          <p>Computers</p>
         </div>
         <div className="computer__container-flex-grid">
           <div className="computer__container-flex-1">

@@ -8,7 +8,7 @@ function PetSupplies() {
     <div className="products__base">
       <div className="pet-supplies__container">
         <div className="pet-supplies__container-heading">
-          <h1>Pet Supplies</h1>
+          <p>Pet Supplies</p>
         </div>
         <div className="pet-supplies__container-flex-grid">
           <div className="pet-supplies__container-flex-1">

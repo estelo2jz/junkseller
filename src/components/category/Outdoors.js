@@ -8,7 +8,7 @@ function Outdoors() {
     <div className="products__base">
       <div className="outdoors__container">
         <div className="outdoors__container-heading">
-          <h1>Outdoors</h1>
+          <p>Outdoors</p>
         </div>
         <div className="outdoors__container-flex-grid">
           <div className="outdoors__container-flex-1">

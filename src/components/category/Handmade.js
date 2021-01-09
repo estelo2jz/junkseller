@@ -8,7 +8,7 @@ function Handmade() {
     <div className="products__base">
       <div className="handmade__container">
         <div className="handmade__container-heading">
-          <h1>Handmade</h1>
+          <p>Handmade</p>
         </div>
         <div className="handmade__container-flex-grid">
           <div className="handmade__container-flex-1">

@@ -8,7 +8,7 @@ function ToysKidsBaby() {
     <div className="products__base">
       <div className="toys-kids-baby__container">
         <div className="toys-kids-baby__container-heading">
-          <h1>Toys, Kids & Baby</h1>
+          <p>Toys, Kids & Baby</p>
         </div>
         <div className="toys-kids-baby__container-flex-grid">
           <div className="toys-kids-baby__container-flex-1">

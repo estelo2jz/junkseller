@@ -8,7 +8,7 @@ function HomeGardenTools() {
     <div className="products__base">
       <div className="home-garden-tools__container">
         <div className="home-garden-tools__container-heading">
-          <h1>Home, Garden & Tools</h1>
+          <p>Home, Garden & Tools</p>
         </div>
         <div className="home-garden-tools__container-flex-grid">
           <div className="home-garden-tools__container-flex-1">

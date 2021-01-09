@@ -1,13 +1,14 @@
 .electronics__container {
-  background-color: rgb(247, 247, 247);
+  // background-color: green;
 }
 .electronics__container-heading {
   display: flex;
   justify-content: center;
   align-items: center;
-  // background-image: url('https://images.unsplash.com/photo-1554941068-a252680d25d9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  // background-image: url('https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
+  object-fit: cover;
   padding: 0;
   // background-repeat: no-repeat;
   width: 100%;
@@ -29,175 +30,61 @@
 // }
 .electronics__container-heading h1 {
   font-size: 5em;
-  color: #333;
+  color: rgb(0, 0, 0);
   font-family: 'Poppins', sans-serif;
 }
 .electronics__container-flex-grid {
-  width: 100%;
   .electronics__container-flex-1 {
     display: flex;
     overflow-x: scroll;
-    width: 100%;
-    // padding: 10px;
-    // align-items: center;
-    // justify-content: space-between;
+    padding: 10px;
     // padding-left: 40px;
     // background-color: rgb(128, 83, 0);
     // width: 300px;
-    // grid-column-gap: 10px;
-
-    .electronics__item-one-container {
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      // width: 500px;
-      // height: 100%;
-      height: 320px;
-      // margin: 0px 20px;
-      margin-bottom: 20px;
-      font-size: 0.8em;
-      padding: 20px 0px;
-      img {
-        width: 100px;
-      }
-    }
   }
   .electronics__container-3-grid {
-    margin-top: 20px;
     display: flex;
-    flex-direction: column;
-    // align-content: center;
-    // width: 100%;
-    // align-items: center;
+    justify-content: center;
     .electronics__container-3-grid-grid-1 {
       display: flex;
       flex-wrap: wrap;
+      grid-template-columns: 1fr;
       justify-content: center;
-      // align-items: center;
-      // align-content: left;
-      // width: 100%;
-      
-      // align-items: center;
+      align-items: center;
       // border: 5px solid rgb(199, 164, 48);
       // background-color: pink;
-      // margin: 20px 0px;
-      // padding: 30px !important;
-      margin: 20px 0px;
-      width: 100%;
+      padding: 30px !important;
       overflow: hidden;
-      .electronics__item-grid-one-container {
-        display: flex;
-        justify-content: space-evenly;
-        align-content: center;
-        margin: 10px;
-        width: 300px;
-        height: 400px;
-        font-size: 0.8em;
-        margin: 0px -5px;
-        img {
-          width: 120px;
-        }
-      }
     }
     .electronics__container-3-grid-grid-2 {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      // align-items: center;
-      // align-content: left;
-      // width: 100%;
-      
-      // align-items: center;
-      // border: 5px solid rgb(199, 164, 48);
-      // background-color: pink;
-      // margin: 20px 0px;
-      // padding: 30px !important;
-      margin: 20px 0px;
-      width: 100%;
+      align-items: center;
+      grid-template-columns: 1fr;
+      // border: 5px solid rgb(196, 23, 202);
+      // background-color: red;
       overflow: hidden;
-      .electronics__item-grid-two-container {
-        display: flex;
-        justify-content: space-evenly;
-        align-content: center;
-        margin: 10px;
-        width: 300px;
-        height: 400px;
-        font-size: 0.8em;
-        margin: 0px -5px;
-        img {
-          width: 120px;
-        }
-      }
+      padding: 30px !important;
     }
     .electronics__container-3-grid-grid-3 {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      // align-items: center;
-      // align-content: left;
-      // width: 100%;
-      
-      // align-items: center;
-      // border: 5px solid rgb(199, 164, 48);
-      // background-color: pink;
-      // margin: 20px 0px;
-      // padding: 30px !important;
-      margin: 20px 0px;
-      width: 100%;
+      align-items: center;
+      grid-template-columns: 1fr;
+      // border: 5px solid rgb(138, 81, 245);
+      // background-color: blue;
+      padding: 30px !important;
       overflow: hidden;
-      .electronics__item-grid-three-container {
-        display: flex;
-        justify-content: space-evenly;
-        align-content: center;
-        margin: 10px;
-        width: 300px;
-        height: 400px;
-        font-size: 0.8em;
-        margin: 20px -5px;
-        img {
-          width: 120px;
-        }
-      }
-    }
-    .electronics__container-4-grid-grid-4 {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      // align-items: center;
-      // align-content: left;
-      // width: 100%;
-      
-      // align-items: center;
-      // border: 5px solid rgb(199, 164, 48);
-      // background-color: pink;
-      // margin: 20px 0px;
-      // padding: 30px !important;
-      margin: 20px 0px;
-      width: 100%;
-      overflow: hidden;
-      .electronics__item-grid-four-container {
-        display: flex;
-        justify-content: space-evenly;
-        align-content: center;
-        margin: 10px;
-        width: 300px;
-        height: 400px;
-        font-size: 0.8em;
-        margin: 0px -5px;
-        img {
-          width: 120px;
-        }
-      }
+
     }
   }
 }
 
-@media screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   .electronics__container-3-grid {
-    .electronics__container-3-grid-grid-1 {
-      .electronics__item-grid-one-container {
-        font-size: 0.2em;
-      }
-    }
+    display: flex;
+    flex-direction: column;
   }
 } 

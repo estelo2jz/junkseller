@@ -8,7 +8,7 @@ function AutomotiveIndustrial() {
     <div className="products__base">
       <div className="automotive__container">
         <div className="automotive__container-heading">
-          <h1>Automotive & Industrial</h1>
+          <p>Automotive & Industrial</p>
         </div>
         <div className="automotive__container-flex-grid">
           <div className="automotive__container-flex-1">

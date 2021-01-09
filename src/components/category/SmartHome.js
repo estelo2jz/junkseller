@@ -8,7 +8,7 @@ function SmartHome() {
     <div className="products__base">
       <div className="smart-home__container">
         <div className="smart-home__container-heading">
-          <h1>Smart Home</h1>
+          <p>Smart Home</p>
         </div>
         <div className="smart-home__container-flex-grid">
           <div className="smart-home__container-flex-1">
