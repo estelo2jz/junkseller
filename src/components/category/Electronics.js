@@ -7,12 +7,12 @@ import '../../styles/Electronics.scss';
 function Electronics() {
   return (
     <div className="products__base">
-      <div className="computer__container">
-        <div className="computer__container-heading">
-          <p>Computers</p>
+      <div className="electronics__container">
+        <div className="electronics__container-heading">
+          <p>Electronics</p>
         </div>
-        <div className="computer__container-flex-grid">
-          <div className="computer__container-flex-1">
+        <div className="electronics__container-flex-grid">
+          <div className="electronics__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -69,7 +69,7 @@ function Electronics() {
               rating={4}
               image=""
             />
-            {/* <div className="computer__item-container">
+            {/* <div className="electronics__item-container">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
@@ -78,7 +78,7 @@ function Electronics() {
                 image=""
               />
             </div>
-            <div className="computer__item-container">
+            <div className="electronics__item-container">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
@@ -87,7 +87,7 @@ function Electronics() {
                 image=""
               />
             </div>
-            <div className="computer__item-container">
+            <div className="electronics__item-container">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
@@ -96,7 +96,7 @@ function Electronics() {
                 image=""
               />
             </div>
-            <div className="computer__item-container">
+            <div className="electronics__item-container">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
@@ -105,7 +105,7 @@ function Electronics() {
                 image=""
               />
             </div>
-            <div className="computer__item-container">
+            <div className="electronics__item-container">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
@@ -114,7 +114,7 @@ function Electronics() {
                 image=""
               />
             </div>
-            <div className="computer__item-container">
+            <div className="electronics__item-container">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
@@ -124,8 +124,8 @@ function Electronics() {
               />
             </div>  */}
           </div>
-          <div className="computer__container-3-grid">
-            <div className="computer__container-3-grid-grid-1">
+          <div className="electronics__container-3-grid">
+            <div className="electronics__container-3-grid-grid-1">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
@@ -155,7 +155,7 @@ function Electronics() {
                 image=""
               />
             </div>
-            <div className="computer__container-3-grid-grid-2">
+            <div className="electronics__container-3-grid-grid-2">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
@@ -185,7 +185,7 @@ function Electronics() {
                 image=""
               />
             </div>
-            <div className="computer__container-3-grid-grid-3">
+            <div className="electronics__container-3-grid-grid-3">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
@@ -215,7 +215,7 @@ function Electronics() {
                 image=""
               />
             </div>
-            <div className="computer__container-3-grid-grid-3">
+            <div className="electronics__container-3-grid-grid-3">
               <ElectronicsProductTemplate
                 id="123123"
                 title=""
