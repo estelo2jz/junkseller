@@ -56,15 +56,14 @@ html {
 
   .wearable-technology__brand-category {
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
-    margin: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
     padding: 40px 0px;
     img {
       width: 300px;
       max-width: 40%;
-      margin: 10px;
       cursor: pointer;
     } 
   }

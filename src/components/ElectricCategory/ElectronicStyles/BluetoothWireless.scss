@@ -53,55 +53,53 @@
   }
   .bluetooth-wireless__category {
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
-    margin: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px 0px;
     img {
-      width: 300px;
+      width: 220px;
       max-width: 40%;
-      margin: 10px;
       cursor: pointer;
     }
   }
   .bluetooth-wireless__headphone-category {
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
-    margin: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px 0px;
     img {
       width: 220px;
       max-width: 40%;
-      margin: 10px;
       cursor: pointer;
     }
   }
   .bluetooth-wireless__speaker-category {
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
-    margin: 20px 0px;
-    // padding: 0px 40px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px 0px;
     img {
-      width: 200px;
+      width: 220px;
       max-width: 40%;
-      margin: 10px;
       cursor: pointer;
     }
   }
   .bluetooth-wireless__brand-category {
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
-    margin: 20px 0px;
-    // padding: 0px 40px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px 0px;
     img {
-      width: 200px;
+      width: 220px;
       max-width: 40%;
-      margin: 10px;
       cursor: pointer;
     }
   }

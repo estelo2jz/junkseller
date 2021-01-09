@@ -24,39 +24,29 @@ html {
   }
   .video-games__featured-brand-container {
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
-    margin: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 40px 0px;
     img {
       width: 250px;
       max-width: 40%;
-      margin: 10px;
       cursor: pointer;
     }
   }
-  .video-games__next-gen-container {
+  .video-games__next-gen-ads {
+    // padding: 40px 0px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    padding: 40px 0px;
-    .video-games__next-gen-heading {
-      width: 100%;
-      text-align: center;
-      font-size: 1em;
+    width: 100%;
+    grid-gap: 10px;
+    img {
+      max-width: 100%;
+      cursor: pointer;
     }
-    .video-games__next-gen-ads {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 40px 0px;
-      width: 100%;
-      img {
-        width: 40%;
-        margin: 10px;
-      }
-    }
-
   }
   .video-games__tv-category {
     display: flex;
