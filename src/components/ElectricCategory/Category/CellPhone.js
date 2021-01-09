@@ -42,7 +42,7 @@ function CellPhone() {
               src="https://m.media-amazon.com/images/I/716JVo5F8oL._AC_UY218_.jpg"
               alt="SIM Cards & Prepaid Minutes"
             />
-            <p>SIM Cards & Prepaid Minutes</p>
+            <p>SIM Cards & Prepaid</p>
           </div>
         </div>
       <div className="cell-phone__top-rated-container">
