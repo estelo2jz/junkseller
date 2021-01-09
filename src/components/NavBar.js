@@ -23,13 +23,17 @@ function NavBar() {
                     {/* <li><a href="/">Home</a></li> */}
                     <li id="services">
                         <div className="services-heading">
-                            <MenuIcon />
+                            <MenuIcon /> <strong>ALL</strong>
                         </div>
                        <div className="sub-nav">
                         {/* <div className="sun-nav-container">
 
                         </div> */}
+
                         <div className="sub-nav-col left">
+                            <div className="sub-nav-col-department"> 
+                                <p>Shop By Department</p>
+                            </div>
                             <Link to="/electronics" className="sub-nav-box" id="box-1">
                                 {/* <div className="icon-background" id="icon-1">
                                     <i className="fab fa-sellsy icon"></i>

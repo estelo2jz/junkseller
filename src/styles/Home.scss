@@ -1,0 +1,27 @@
+.home__container {
+  height: 100%;
+  margin-top: 130px;
+  .home__links-container {
+    display: flex;
+    flex-direction: column;
+
+    .home__link {
+      margin: 5px 10px;
+      p {
+        color: black;
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+.home__image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  z-index: -1;
+  margin-bottom: -150px;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}

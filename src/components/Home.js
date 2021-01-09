@@ -1,65 +1,51 @@
 import React from 'react';
-import '../styles/Home.css';
+import { Link } from 'react-router-dom';
+import '../styles/Home.scss';
 import Product from './Product';
 
 function Home() {
   return (
-    <div className="home">
-      {/* <img 
-        className="home__image"
-        src="https://images.pexels.com/photos/3641056/pexels-photo-3641056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        alt="logo"
-      /> */}
-         <div className="home__row">
-      {/* Product id, title, price, rating, image */}
-        <Product 
-          id = "123123"
-          title = "Intel Core i7-9700K Desktop Processor 8 Cores up to 4.9 GHz Turbo unlocked LGA1151 300 Series 95W"
-          price = {599.99}
-          rating = {5}
-          image = "https://m.media-amazon.com/images/I/71Q5sdPHD-L._AC_UY218_.jpg"
-        />
-        <Product 
-          id = "659874"
-          title = "PS5 Console"
-          price = {799.99}
-          rating = {5}
-          image = "https://m.media-amazon.com/images/I/619BkvKW35L._AC_UY218_.jpg"
-        />
-      </div>
-      <div className="home__row">
-      {/* Product id, title, price, rating, image */}
-        <Product 
-          id = "569875"
-          title = "XBOX Series X Console"
-          price = {599.99}
-          rating = {5}
-          image = "https://m.media-amazon.com/images/I/51ntJkth4CL._AC_UY218_.jpg"
-        />
-        <Product 
-          id = "012453"
-          title = "AOC CQ27G2 27' Super Curved Frameless Gaming Monitor QHD 2K"
-          price = {499.99}
-          rating = {3}
-          image = "https://m.media-amazon.com/images/I/81oORaahKZL._AC_UY218_.jpg"
-        />
-        <Product 
-          id = "965486"
-          title = "XFX Radeon RX 570 RS XXX Edition 1286MHz, 8gb GDDR5, DX12 VR Ready."
-          price = {399.99}
-          rating = {4}
-          image = "https://m.media-amazon.com/images/I/61izqMPsY7L._AC_UY218_.jpg"
-        />
-      </div>
-      <div className="home__row">
-      {/* Product id, title, price, rating, image */}
-        <Product 
-          id = "123123"
-          title = "Samsung Double QHD CRG9 Series 49-Inch Curved Gaming Monitor (LC49RG90SSNXZA), Black (Renewed)"
-          price = {999.99}
-          rating = {4}
-          image = "https://m.media-amazon.com/images/I/81vlA84pg6L._AC_UY218_.jpg"
-        />
+    <div className="home__container">
+      {/* <div>
+        <h1>Shop By Department </h1>
+      </div> */}
+      <div className="home__links-container">
+        <div className="home__link">
+          <Link to="/electronics"><p>Electronics</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/computers"><p>Computer</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/homegardentools"><p>Home, Garden & Tools</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/petsupplies"><p>Pet Supplies</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/outdoors"><p>Outdoors</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/smarthome"><p>Smart Home</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/foodgrocery"><p>Fodd & Grocery</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/beautyhealth"><p>Beauty & Health</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/toyskidsbaby"><p>Toys, Kids & Baby</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/handmade"><p>Handmade</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/sports"><p>Sports</p></Link>
+        </div>
+        <div className="home__link">
+          <Link to="/automotiveindustrial"><p>Automotive & Industrial</p></Link>
+        </div>
       </div>
     </div>
   )
