@@ -7,87 +7,87 @@ function ElectronicsMenu(props) {
   return (
       <div className="electronics-menu">
         <div className="electronics-menu-items">
-          <Link to="/tvvideo">
-            <span>
+          <Link className="category-one" to="/tvvideo">
+            <label>
               {props.category0}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/homeaudiotheater">
-          <span>
+          <Link className="category-two" to="/homeaudiotheater">
+          <label>
             {props.category1}
-          </span>
+          </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/cameraphotovideo">
-            <span>
+          <Link className="category-three" to="/cameraphotovideo">
+            <label>
               {props.category2}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/cellphones">
-            <span>
+          <Link className="category-four" to="/cellphones">
+            <label>
               {props.category3}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/headphones">
-            <span>
+          <Link className="category-five" to="/headphones">
+            <label>
               {props.category4}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/videogames">
-            <span>
+          <Link className="category-six" to="/videogames">
+            <label>
               {props.category5}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/bluetoothwireless">
-            <span>
+          <Link className="category-seven" to="/bluetoothwireless">
+            <label>
               {props.category6}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/carelectronics">
-            <span>
+          <Link className="category-eight" to="/carelectronics">
+            <label>
               {props.category7}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/musicalinstruments">
-            <span>
+          <Link className="category-nine" to="/musicalinstruments">
+            <label>
               {props.category8}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/wearabletechnology">
-            <span>
+          <Link className="category-ten" to="/wearabletechnology">
+            <label>
               {props.category9}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/electronicsbase">
-            <span>
+          <Link className="category-eleven" to="/electronicsbase">
+            <label>
               {props.category10}
-            </span>
+            </label>
           </Link>
         </div>
         <div className="electronics-menu-items">
-          <Link to="/amazonrenewed">
-            <span>
+          <Link className="category-twelve" to="/amazonrenewed">
+            <label>
               {props.category11}
-            </span>
+            </label>
           </Link>
         </div>
       </div>

@@ -2,10 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.scss';
 import Product from './Product';
+import Slider from './Slider';
+
 
 function Home() {
   return (
     <div className="home__container">
+      <Slider />
       {/* <div>
         <h1>Shop By Department </h1>
       </div> */}

@@ -4,7 +4,7 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import MenuIcon from '@material-ui/icons/Menu';
 import { useStateValue } from './StateProvider';
 import Logo from './logo/junk.png';
-import '../styles/Navbar.css';
+
 
 function NavBar() {
   const [{basket}] = useStateValue();

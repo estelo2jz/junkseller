@@ -1,0 +1,80 @@
+.slider {
+  position: relative;
+  // width: 100%;
+  // width: 500px;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  // background: black;
+  outline: none;
+  i {
+    font-size: 2vw;
+  }
+}
+.slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  // border: 1px solid blue;
+  width: 10%;
+  min-width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+%btn-styles {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 80%;
+  background: none;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  
+  &:hover {
+    background: rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+    i {
+      color: whitesmoke;
+    }
+  }
+}
+
+#goLeft {
+  left: 0;
+  @extend %btn-styles;
+  width: 30px;
+}
+#goRight {
+  right: 0;
+  @extend %btn-styles;
+  width: 30px;
+
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.img-comp__container {
+  width: 50%;
+  .img-comp__img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    img {
+      width: 100%;
+    }
+  }
+}
