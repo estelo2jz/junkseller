@@ -3,7 +3,7 @@ import './slider.scss';
 
 function ImgComp({ src, title}) {
   let imgStyles = {
-    width: 100 + "%",
+    width: 50 + "%",
     height: "auto",
     backgroundPosition: "center",
     backgroundSize: "100% 100%",
