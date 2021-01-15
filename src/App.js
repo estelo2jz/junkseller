@@ -4,6 +4,7 @@ import './styles/main.scss';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
+import NewNav from './components/NewNav';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Checkout from './components/Checkout';
