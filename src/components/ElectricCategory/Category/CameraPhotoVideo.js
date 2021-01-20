@@ -123,64 +123,73 @@ function CameraPhotoVideo() {
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Introducing Fire TV Stick Lite with Alexa Voice Remote Lite (no TV"
-              price = {29.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/51Da2Z+FTFL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Roku Streaming Stick+ | HD/4K/HDR Streaming Device with Long-range"
-              price = {47.92}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/81lsA5v8EIL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Google Chromecast (3rd Generation)"
-              price = {29.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/81rOtfzI0QL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Apple TV (32GB, 4th generation)"
-              price = {149.00}
+              title = "SAMSUNG: EVO Select 128GB MicroSDXC UHS-I U3 100MB/s Full HD & 4K"
+              price = {17.99}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/41LpF5n38kL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/81axmUuRHrL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "SAMSUNG 43-inch Class Crystal UHD TU-8000 Series - 4K UHD HDR"
-              price = {347.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71RiQZ0J2SL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Insignia NS-32DF310NA19 32-inch Smart HD TV - Fire TV Edition"
-              price = {169.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/41VCva3xinL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "USX MOUNT Full Motion TV Wall Mount for Most 47-84 inch Flat"
-              price = {45.99}
+              title = "Fujifilm Instax Mini Instant Film Twin Pack (White)"
+              price = {13.38}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71jcxZXEaGL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/81nkuTnzwVL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Fujifilm Instax Mini Instant Film, 10 Sheets×5 Pack(Total 50 Shoots)"
+              price = {36.00}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/510gNC8PV8L._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "10'' Ring Light with 50'' Extendable Tripod Stand, Sensyne LED Circle Lights"
+              price = {36.99}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/51yb9yuvqJL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Wyze Cam 1080p HD Indoor WiFi Smart Home Camera with Night Vision"
+              price = {25.98}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/61B04f0ALWL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Ring Video Doorbell – 1080p HD video, improved motion detection, easy"
+              price = {99.99}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/71vtXgJBagL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Nixplay Smart Digital Picture Frame 10.1 Inch, Share Video Clips"
+              price = {139.99}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/81-59aOYNuL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "DJI Mini 2 Fly More Combo – Ultralight Foldable Drone, 3-Axis Gimbal"
+              price = {599.00}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/71wfsfmD-UL._AC._SR360,460.jpg"
             />
           </div>
         </div>
@@ -208,55 +217,55 @@ function CameraPhotoVideo() {
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate   
               id = {uuid()}
-              title = "Roku Ultra 2020 | Streaming Media Player HD/4K/HDR/Dolby Vision"
-              price = {95.67}
+              title = "Viajero 12X50 Monocular Telescope, High Power Starscope Monocular"
+              price = {39.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/81Jc5Hf41JL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61-6nBr3nWL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "TCL 4K Smart LED TV, 43' (43S435)"
-              price = {228.00}
+              title = "eufy Security, Wi-Fi Video Doorbell Kit"
+              price = {89.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71hkz1X+LgL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61o+xkuIb7L._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "TP-Link USB WiFi Adapter for Desktop PC, AC1300Mbps USB 3.0 WiFi"
-              price = {19.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/414EnmcsFjL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "TCL 4K Smart LED TV, 50' (50S435)"
-              price = {327.50}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/714hn7q7WxL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "LG BP175 Blu-Ray DVD Player, with HDMI Port Bundle (Comes with a 6"
-              price = {83.19}
+              title = "Hidden Mini Spy Camera with Audio and Video Live Feed WiFi with Cell Phone"
+              price = {44.98}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/418C0wu9DML._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/51Sr2b-rU+L._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Replacement Remote for Fire TV Stick, Fire TV Stick 4K & Fire TV Stick Lite"
-              price = {21.99}
-              rating = {3}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61xIeJFGaVL._AC._SR360,460.jpg"
+              title = "Blink Outdoor Wireless, Weather Resistant HD Security Camera with 2"
+              price = {34.95}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/51k8P8BpfbL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Security Camera Outdoor Wireless WiFi, Floodlight Camera HOSAFE Video"
+              price = {42.99}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/61-epdndwJL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Security Camera Outdoor, 2 Pack GOAOFOEOI 1080P WiFi Wireless Camera"
+              price = {67.99}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/71UDZ7glAAL._AC._SR360,460.jpg"
             />
           </div>
         </div>
@@ -269,46 +278,46 @@ function CameraPhotoVideo() {
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "TaoTronics Projector Screen with Stand, TT-HP020 Indoor Outdoor"
-              price = {138.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71hOdTAlxQL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Projector Screen with Stand 100 inch - Indoor and Outdoor Projection"
-              price = {119.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/91NstomHSTL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Sideclick Remotes SC2-FT16K Universal Remote Attachment for Amazon"
-              price = {24.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71SvmExX45L._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Vamvo Outdoor Indoor Projector Screen with Stand Foldable Portable"
-              price = {129.00}
+              title = "GoPro HERO8 Black 4K Waterproof Action Camera - Black (Renewed)"
+              price = {25.99}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71bej4zekBL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/71UAtd5yS5L._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Projector Screen with Stand, Upgraded 3 Layers 120 inch 4K HD 16:9"
-              price = {175.00}
+              title = "Neewer 50-In-1 Action Camera Accessory Kit Compatible with GoPro"
+              price = {29.99}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/81HjyDDLEtL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Kupton Waterproof Housing Case Compatible with GoPro Hero 8 Black"
+              price = {15.90}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/71lHUpo9nVL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "SNAPTAIN S5C WiFi FPV Drone with 1080P HD Camera,Voice Control"
+              price = {79.00}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/71-LV9vYPmL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "GoPro HERO8 Black — Waterproof Action Camera with Touch Screen"
+              price = {299.99}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61sj5mju4VL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/617H15wJYxL._AC._SR360,460.jpg"
             />
           </div>
         </div>
@@ -321,64 +330,64 @@ function CameraPhotoVideo() {
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Full Motion TV Monitor Wall Mount Bracket Articulating Arms Swivels"
-              price = {23.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71zPlLF3w-L._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Roku Voice Remote (Official) for Roku Players and Roku TVs"
-              price = {19.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71SEgNJxRmL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Tilting TV Wall Mount Bracket Low Profile for Most 23-55 Inch LED, LCD"
-              price = {19.99}
+              title = "Amazon Basics High-Speed 4K HDMI Cable - 6 Feet"
+              price = {8.61}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61XwAsbn71L._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61pBvlYVPxL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "RCA to HDMI,AV to HDMI Converter,ABLEWE 1080P Mini RCA Composite CVBS"
-              price = {14.99}
+              title = "SanDisk 128GB Ultra microSDXC UHS-I Memory Card with Adapter"
+              price = {20.99}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61kxUH1ZRSL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/81ti8lPxEjL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "WALI Universal TV Stand Table Top for Most 22 to 65 inch LCD Flat Screen"
-              price = {16.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/715cK8BTg2L._AC._SR360,460.jpg"
+              title = "SanDisk 128GB microSDXC UHS-I-Memory-Card for Nintendo-Switch"
+              price = {25.29}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/810o-i5jpiL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "avedio links HDMI Splitter 1 in 2 Out, 4K HDMI Splitter for Dual Monitors"
-              price = {12.99}
+              title = "SanDisk 64GB Ultra microSDXC UHS-I Memory Card with Adapter"
+              price = {12.49}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/716I5dAuOCL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/51IEVgCe89L._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "RC280 Replacement Remote Applicable for TCL Roku TV with Netflix Sling"
-              price = {6.34}
+              title = "PowerBear 4K HDMI Cable 10 ft | High Speed, Braided Nylon & Gold Connectors"
+              price = {10.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61E2DRD56gL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/81bnp9oosVL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "SanDisk 32GB Ultra SDHC UHS-I Memory Card - 120MB/s, C10, U1, Full HD"
+              price = {8.99}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/81ySKIiDGOL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "USB C to HDMI Cable for Home Office | 6ft 4K@60Hz, uni USB Type C"
+              price = {17.99}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/61GhvYaPWtL._AC._SR360,460.jpg"
             />
           </div>
         </div>
@@ -391,64 +400,64 @@ function CameraPhotoVideo() {
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Fire TV Stick 4K with all-new Alexa Voice Remote, streaming media player"
-              price = {49.99}
+              title = "Wyze Cam Smart Home Cameras"
+              price = {25.98}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/51Dmg3tGpbL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61prs9ArY1L._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Roku Express | HD Streaming Media Player with High Speed HDMI"
-              price = {28.89}
+              title = "Wyze Cam Pan 1080p Pan/Tilt/Zoom"
+              price = {37.95}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/51GTM1f9OwL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "All-new Ring Stick Up Cam HD security camera with two-way talk"
+              price = {99.99}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/81+0dqbDGWL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/714EzDQpKRL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Mounting Dream UL Listed TV Mount for Most 37-70 Inches TVs, Universal Tilt"
-              price = {27.99}
+              title = "eufy Security 2K Indoor Cam Pan & Tilt, Plug-in Security Indoor Camera"
+              price = {39.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71VOIPqcJTL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/51RAiKC4hgL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "U MUST HAVE Amplified HD Digital TV Antenna Long 180 Miles Range"
-              price = {29.90}
+              title = "Gskyer Telescope, 70mm Aperture 400mm AZ Mount Astronomical"
+              price = {99.99}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/915YXVMH6qL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/81nUym12AOL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Full Motion TV Wall Mount Bracket Dual Articulating Arms Swivels Tilts Rotation"
-              price = {46.96}
+              title = "BEBIRD Ear Wax Removal Endoscope Otoscope, Earwax Remover Tools"
+              price = {35.98}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71inkA2txkL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/51U4x0g5SmL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "TV Wall Mount Bracket Full Motion Dual Swivel Articulating Arms"
-              price = {37.96}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/619ISmnZK3L._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Mounting Dream Full Motion TV Wall Mount for Most 26-55 Inch TVs"
+              title = "Wansview Wireless Security Camera 1080P HD Wansview, WiFi Home"
               price = {29.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/712V3dBfluL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61ZZMqjlfSL._AC._SR360,460.jpg"
             />
           </div>
         </div>
@@ -461,64 +470,64 @@ function CameraPhotoVideo() {
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Mini DVD Player, DVD CD/Disc Player for TV with HDMI/AV Output, HDMI/AV Cables Included, HD 1080P Supported Built-in PAL/NTSC System USB Input"
-              price = {35.99}
+              title = "Gskyer Telescope, 70mm Aperture 400mm AZ Mount Astronomical Refracting Telescope for Kids Beginners - Travel Telescope with Carry Bag, Phone Adapter"
+              price = {99.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61qp67eI4eL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/81nUym12AOL._AC_SL1500_.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Universal TV Stand - Table Top TV Stand for 32-47 Inch LCD LED TVs - Height Adjustable TV Base Stand with Tempered Glass Base & Wire Management"
-              price = {20.64}
+              title = "Security Camera Indoor, Goowls 2-Pack 1080p HD 2.4GHz WiFi Plug-in IP Camera for Home Security, Baby/Dog/Pet/Nanny Camera Monitor with Motion Detection Night Vision Two-Way Audio, Works with Alexa"
+              price = {33.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61DRLfmrVDL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61Udqm-Ba1L._AC_SL1500_.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Full Motion TV Wall Mount Dual Swivel Articulating Tilt 6 Arms TV Bracket for 37-70' LED, OLED, 4K Flat/Curved TVs "
-              price = {20.84}
+              title = "Outdoor Security Camera System Wireless, Solar Battery Powered, 1080p Wirefree Waterproof 2-Way Audio Night Vision w/ PIR Motion Sensor, Support Alexa/Google Assistant/Local SD, Argus Eco+Solar Panel"
+              price = {75.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71uFsg6T1kL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/71DCBMF%2BSeL._AC_SL1500_.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Abdtech Portable Outdoor Movie Screen, 120 inch 3D Projector Screen Frame Foldable Movie Screen for Projectors "
-              price = {92.03}
+              title = "TETHYS Wireless Security Camera 1080P Indoor [Work with Alexa] Pan/Tilt WiFi Smart IP Camera Dome Surveillance System w/Night Vision,Motion Detection,2-Way Audio,Cloud for Home,Business, Baby Monitor"
+              price = {22.94}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/51M%2Bjm5kJ4L._AC_SL1059_.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "TaoTronics Ring Light CL025, 12'' Ring Light with 78'' Tripod Stand, Dimmable LED Light Outer 24W 6500K, USB Charging Port, Carrying Bag, Light Remote Control for YouTube TikTok Live Stream Video"
+              price = {67.63}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61a1uKJquEL._AC_SL1000_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61OYVYwY24L._AC_SL1500_.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Projector Screen with Stand 100 inch Portable Projection Screen 16:9 4K HD Rear Front Projections Movies Screen with Carry Bag for Indoor Outdoor Home"
-              price = {65.01}
+              title = "Viajero 12X50 Monocular Telescope, High Power Starscope Monocular with Smartphone Holder & Tripod, Day & Low Night Vision Waterproof Zoom Telescope, BAK4 Prism Dual Focus for Hunting Bird Watching"
+              price = {39.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71NO0x7vDjL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61-6nBr3nWL._AC_SL1500_.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Everstone Heavy Duty Single Stud TV Wall Mount Bracket for Most 32-80 Inch LED,LCD,OLED,Plasma Flat Screen,Curved TVs,with Full Motion Articulating Arm"
-              price = {28.58}
+              title = "eufy Security 2K Indoor Cam Pan & Tilt, Plug-in Security Indoor Camera with Wi-Fi, IP Camera, Human & Pet AI, Voice Assistant Compatibility, Motion Tracking, HomeBase Not Required"
+              price = {39.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71x-ns2WZvL._AC_SL1500_.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "TaoTronics Projector Screen with Stand,Indoor Outdoor PVC Projection Screen 4K HD 100'' 16: 9 Wrinkle-Free Design(Easy to Clean, 1.1Gain, 160° Viewing"
-              price = {102.82}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/91k0fB2gQHL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/51RAiKC4hgL._AC_SL1500_.jpg"
             />
           </div>
         </div>
@@ -531,46 +540,46 @@ function CameraPhotoVideo() {
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "PERLESMITH Full Motion TV Wall Mount for 37-80 Inch Flat Curved TVs with Smooth Tilts Swivel & Extends - Dual Articulating Arms Wall Mount TV Bracket"
-              price = {46.73}
+              title = "WiFi Otoscope Ear Wax Removal Kit- KFF 3.9mm HD Visual Ear Camera with 6 LED Light Storage Box, Wireless Ear Scope Endoscope with Eax Wax Remover Tool, Phone Holder for iPhone, Android and iPad"
+              price = {28.85}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71INH2K3wKL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/71UeyJ5i67L._AC_SL1500_.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "PERLESMITH Fixed TV Wall Mount Bracket Low Profile for 32-82 inch LED, LCD,and OLED Flat Screen TVs - Fits 16”- 24” Wood Studs"
-              price = {15.29}
+              title = "(Latest Gen)PatrolMaster 1296P UHD Body Camera with Audio (build-in 64GB), 2 Inch Display, Night Vision, Waterproof, Shockproof, Body Worn Camera with Compact Design, Police Camera for Law Enforcement"
+              price = {110.49}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61JNvejgFaL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/81QVjjEHXjL._AC_SL1500_.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "BLUE STONE Tilt TV Wall Mount Bracket for Most 32-65 Inch LED LCD OLED Flat Screen TVs/Curved TVs, Low Profile, Up to VESA 400x400 and 165 LBS"
-              price = {12.74}
+              title = "Byakov 12x42 Binoculars for Adults and Kids, Compact Hunting Binoculars with Clear Weak Light Vision, 18mm Large Eyepiece Binoculars for Bird Watching, Outdoor Sports and Concerts with BAK4 FMC Lens"
+              price = {35.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61n2MrNMsML._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/71yRwGfFlxL._AC_SL1500_.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "PERLESMITH TV Tripod Stand-Portable TV Stand for 23-55 Inch LED LCD OLED Flat Screen TVs-Height Adjustable Display Floor TV Stand with VESA 400x400mm"
-              price = {59.99}
+              title = "Neewer NW-670 TTL Flash Speedlite with LCD Display Kit for Canon DSLR Cameras,Includes:(1)NW-670 Flash,(1)2.4 GHz Wireless Trigger with C1/C3 Cable,(1)Soft/Hard Diffuser+(1)Lens Cap Holder"
+              price = {64.59}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/612lAJXcFkL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/71%2BkYbgIquL._AC_SL1001_.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Universal TV Stand Base Tabletop TV Stand for 26 to 55 Inch TVs -Height Adjustable TV Base Stand with Tempered Glass Base & Wire Management"
-              price = {25.95}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71Ml4u4O59L._AC_SL1500_.jpg"
+              title = "Neewer 8.5ft X 10ft/2.6M X 3M Background Stand Support System with 6ft X 9ft/1.8M X 2.8M Backdrop(White,Black,Green) for Portrait,Product Photography and Video Shooting"
+              price = {74.79}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/61L39wZqycL._AC_SL1001_.jpg"
             />
           </div>
         </div>
@@ -583,64 +592,64 @@ function CameraPhotoVideo() {
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "WiFi Projector,VILINICE 5000L Mini Outdoor Movie Projector ,Portable Phone"
+              title = "Victure 1080P FHD Baby Monitor Pet Camera 2.4G Wireless Indoor Home"
+              price = {29.99}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/51kHZ5QIlHL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Anykit Ear Wax Removal Tool, HD Otoscope for Android and PC-NOT"
+              price = {26.99}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/61LxWqYnxCL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "YI 1080P Home Security Camera"
+              price = {22.49}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/51PinGfn0rL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Carson MicroBrite Plus 60x-120x LED Lighted Zoom Pocket Microscope"
+              price = {11.76}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/61CLmYGD72L._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Spy Camera Charger - Hidden Camera - Premium Pack - Mini Spy Camera"
+              price = {36.99}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/81yQgbkm49L._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "HeimVision PTZ Security Camera Outdoor, 2x2MP Ultra HD Dual Lens"
+              price = {59.99}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/61QFi8KopeL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "Pet Camera, Conico 1080P Baby Monitor with Sound Motion Detection IR Night"
               price = {99.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/715l4w-zFUL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "SAMSUNG 50-inch Class Crystal UHD TU-8000 Series - 4K UHD HDR"
-              price = {397.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71RiQZ0J2SL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Insignia Smart HD TV - Fire TV Edition"
-              price = {169.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/51YUcT86d4L._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "DR. J Professional HI-04 Mini Projector Outdoor Movie Projector"
-              price = {79.03}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/718A7339wbL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Mini Projector for iPhone, ELEPHAS 2020 WiFi Movie Projector with Synchronize"
-              price = {99.99}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71asgWsMZyL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Philips Hue Play HDMI Sync Box, HDMI 4K Splitter, 4 HDMI in 1 Out"
-              price = {1.99}
-              rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61fkf2Q0ppL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "SAMSUNG 65-inch Class Crystal UHD TU-8000 Series - 4K UHD HDR"
-              price = {697.99}
-              rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71RiQZ0J2SL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61NHaxeg1jL._AC._SR360,460.jpg"
             />
           </div>
         </div>
@@ -653,55 +662,55 @@ function CameraPhotoVideo() {
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Roku Premiere | HD/4K/HDR Streaming Media Player"
-              price = {37.49}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/81wHpn6wPLL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "TCL 32' 3-Series 720p ROKU Smart TV - 32S335"
-              price = {128.00}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61ficuy07aL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "All-new Fire TV Cube, hands-free with Alexa and 4K Ultra HD, streaming"
-              price = {119.99}
+              title = "Nooie Baby Monitor, WiFi Pet Camera Indoor, 360-degree Wireless IP Nanny"
+              price = {49.99}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/41e9eAuFMQL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/51eejJiZEzL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Mini Projector, PVO Portable Projector for Cartoon, Kids Gift"
-              price = {69.99}
-              rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61By+PYGkwL._AC._SR360,460.jpg"
-            />
-          </div>
-          <div className="camera-photo-video__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "Mdbebbron 120 inch Projection Screen 16:9 HD Foldable Anti-Crease"
-              price = {29.99}
+              title = "Occer 12x25 Compact Binoculars with Clear Low Light Vision"
+              price = {35.99}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/81RIoVN1MWL._AC._SR360,460.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/71aIoTvKaLL._AC._SR360,460.jpg"
             />
           </div>
           <div className="camera-photo-video__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Mini Projector, Meer Portable Pico Full Color LED LCD Video Projector"
-              price = {56.99}
-              rating = {3}
-              image = "https://images-na.ssl-images-amazon.com/images/I/51is6bX7nFL._AC._SR360,460.jpg"
+              title = "Binoculars for Adults and Kids, 10x25 Compact Binoculars for Bird"
+              price = {24.88}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/71p-bGgJhuL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "NASA Lunar Telescope for Kids – Capable of 90x Magnification"
+              price = {49.99}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/810IhV6aMNL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "12x42 Binoculars for Adults with 18mm Large View Eyepiece & Clear Dim"
+              price = {38.86}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/613FtBfcOQL._AC._SR360,460.jpg"
+            />
+          </div>
+          <div className="camera-photo-video__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "SkyGenius 10 x 50 Powerful Binoculars for Adults Durable Full-Size"
+              price = {36.99}
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/61YaLg-nAlL._AC._SR360,460.jpg"
             />
           </div>
         </div>

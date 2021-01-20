@@ -28,6 +28,12 @@
 }
 .electronics-product__rating {
   display: flex;
+  span {
+    font-size: 0.7em;
+    padding: 0;
+    margin: 5px 0px;
+    margin-left: 3px;
+  }
 }
 .electronics-product__image {
   img {

@@ -2,7 +2,7 @@ import React from 'react';
 import '../ElectronicStyles/ElectronicsProductTemplate.scss';
 import { useStateValue } from '../../StateProvider';
 
-function ElectronicsProductTemplate({ id, title, image, price, rating }) {
+function ElectronicsProductTemplate({ id, title, image, price, rating, rateNumber }) {
   const [{basket}, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -15,7 +15,8 @@ function ElectronicsProductTemplate({ id, title, image, price, rating }) {
         title: title,
         image: image,
         price: price,
-        rating: rating
+        rating: rating,
+        rateNumber: rateNumber
       }
     }) 
   };
@@ -40,6 +41,7 @@ function ElectronicsProductTemplate({ id, title, image, price, rating }) {
               <p>⭐</p>
             ))
           }
+          <span>{rateNumber}</span>
         </div>
       </div>
       <button onClick={addToBasket}>Add to basket</button>
