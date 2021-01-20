@@ -1,127 +1,60 @@
-import React from 'react';
-import $ from 'jquery';
-import { Link } from 'react-router-dom';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import MenuIcon from '@material-ui/icons/Menu';
 import { useStateValue } from './StateProvider';
 import Logo from './logo/junk.png';
+import React, { useState } from 'react';
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+import { SidebarData } from './SidebarData';
+import { IconContext } from 'react-icons';
 
 
 function NavBar() {
   const [{basket}] = useStateValue();
   console.log(basket);
 
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
+
   return (
     <header className="global-header">
         <div className="row">
-            <div className="global-logo">
-                <Link to="/">
-                    <img src={Logo} alt="LOGO" />
-                </Link>
-            </div>
-            <nav className="nav-menu">
-                <ul>
-                    {/* <li><a href="/">Home</a></li> */}
-                    <li id="services">
-                        <div className="services-heading">
-                            <MenuIcon /> <strong>ALL</strong>
-                        </div>
-                       <div className="sub-nav">
-                        {/* <div className="sun-nav-container">
-
-                        </div> */}
-
-                        <div className="sub-nav-col left">
-                            <div className="sub-nav-col-department"> 
-                                <p>Shop By Department</p>
+           <>
+                <IconContext.Provider value={{ color: '#fff' }}>
+                    <div className='navbar'>
+                        <Link to='#' className='menu-bars'>
+                            <FaIcons.FaBars onClick={showSidebar} />
+                        </Link>
+                        <Link to="/checkout" className="header__link">
+                            <div className="header__optionBasket">
+                                <ShoppingBasketIcon />
+                                <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
                             </div>
-                            <Link to="/electronics" className="sub-nav-box" id="box-1">
-                                {/* <div className="icon-background" id="icon-1">
-                                    <i className="fab fa-sellsy icon"></i>
-                                </div> */}
-                                <h4>Electronics</h4>
-                            </Link>
-                            <Link to="/computers" className="sub-nav-box" id="box-2">
-                                {/* <div className="icon-background" id="icon-2">
-                                    <i className="fas fa-user-lock icon"></i>
-                                </div> */}
-                                <h4>Computers</h4>
-                            </Link>
-                            <Link to="/homegardentools" className="sub-nav-box" id="box-3">
-                                {/* <div className="icon-background" id="icon-3">
-                                    <i className="fas fa-chart-line icon"></i>
-                                </div> */}
-                                <h4>Home, Garden & Tools</h4>
-                            </Link>
-                            <Link to="/petsupplies" className="sub-nav-box" id="box-4">
-                                {/* <div className="icon-background" id="icon-4">
-                                    <i className="fas fa-hand-holding-usd icon"></i>
-                                </div> */}
-                                <h4>Pet Supplies</h4>
-                            </Link>
-                            <Link to="/outdoors" className="sub-nav-box" id="box-7">
-                                {/* <div className="icon-background" id="icon-7">
-                                    <i className="fas fa-briefcase icon"></i>
-                                </div> */}
-                                <h4>Outdoors</h4>
-                            </Link>
-                            <Link to="/smarthome" className="sub-nav-box" id="box-5">
-                                {/* <div className="icon-background" id="icon-5">
-                            <i className="fas fa-trophy icon"></i>
-                        </div> */}
-                                <h4>Smart Home</h4>
-                            </Link>
-                            <Link to="/foodgrocery" className="sub-nav-box" id="box-5">
-                                {/* <div className="icon-background" id="icon-5">
-                            <i className="fas fa-trophy icon"></i>
-                        </div> */}
-                                <h4>Food & Grocery</h4>
-                            </Link>
-                            <Link to="/beautyhealth" className="sub-nav-box" id="box-6">
-                                {/* <div className="icon-background" id="icon-6">
-                            <i className="far fa-calendar-check icon"></i>
-                        </div> */}
-                                <h4>Beauty & Health</h4>
-                            </Link>
-                            <Link to="/toyskidsbaby" className="sub-nav-box" id="box-7">
-                                {/* <div className="icon-background" id="icon-7">
-                            <i className="fas fa-briefcase icon"></i>
-                        </div> */}
-                                <h4>Toys, Kids & Baby</h4>
-                            </Link>
-                            <Link to="/handmade" className="sub-nav-box" id="box-8">
-                                {/* <div className="icon-background" id="icon-8">
-                            <i className="fas fa-phone-alt icon"></i>
-                        </div> */}
-                                <h4>Handmade</h4>
-                            </Link>
-                            <Link to="/sports" className="sub-nav-box" id="box-6">
-                                {/* <div className="icon-background" id="icon-6">
-                            <i className="far fa-calendar-check icon"></i>
-                        </div> */}
-                                <h4>Sports</h4>
-                            </Link>
-                            <Link to="/automotiveindustrial" className="sub-nav-box" id="box-8">
-                                {/* <div className="icon-background" id="icon-8">
-                            <i className="fas fa-phone-alt icon"></i>
-                        </div> */}
-                                <h4>Automotive & Industrial</h4>
-                            </Link>
-                        </div>
-                        <div className="sub-nav-col right">
-                        </div>
+                        </Link>
                     </div>
-                </li>
-            </ul>
-        </nav>
-        </div>
-        <div>
-          <Link to="/checkout" className="header__link">
-            <div className="header__optionBasket">
-              <ShoppingBasketIcon />
-              <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
-            </div>
-          </Link>
+                    <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+                    <ul className='nav-menu-items' onClick={showSidebar}>
+                        <li className='navbar-toggle'>
+                        <Link to='#' className='menu-bars'>
+                            <AiIcons.AiOutlineClose />
+                        </Link>
+                        </li>
+                        {SidebarData.map((item, index) => {
+                        return (
+                            <li key={index} className={item.cName}>
+                            <Link to={item.path}>
+                                {/* {item.icon} */}
+                                <span>{item.title}</span>
+                            </Link>
+                            </li>
+                        );
+                        })}
+                    </ul>
+                    </nav>
+                </IconContext.Provider>
+            </>
         </div>
     </header>
   )

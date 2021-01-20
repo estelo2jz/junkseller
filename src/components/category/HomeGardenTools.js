@@ -1,6 +1,6 @@
 import React from 'react';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
-import Product from '../Product';
+import HomeGardenToolsMenu from '../HomeGardenToolsCategory/HomeGardenToolsMenu';
 import '../../styles/HomeGardenTools.scss';
 
 function HomeGardenTools() {
@@ -8,7 +8,26 @@ function HomeGardenTools() {
     <div className="products__base">
       <div className="home-garden-tools__container">
         <div className="home-garden-tools__container-heading">
-          <p>Home, Garden & Tools</p>
+          <HomeGardenToolsMenu 
+              category0="Amazon Home" 
+              category1="Appliances"
+              category2="Arts Crafts & Sewing"
+              category3="Bed & Bath"
+              category4="Collective & Fine Art"
+              category5="Discover"
+              category6="Events & Party Supplies"
+              category7="Explore Showroom"
+              category8="Fine Art"
+              category9="Furniture"
+              category10="Garden & Outdoor"
+              category11="Home Decor"
+              category12="Kitchen & Dining"
+              category13="Lighting"
+              category14="Mattresses"
+              category15="Pet Supplies"
+              category16="Shop by Room"
+              category17="Storage & Organization"
+          />
         </div>
         <div className="home-garden-tools__container-flex-grid">
           <div className="home-garden-tools__container-flex-1">

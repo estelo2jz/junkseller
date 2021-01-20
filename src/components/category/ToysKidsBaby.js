@@ -1,6 +1,6 @@
 import React from 'react';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
-import Product from '../Product';
+import ToysKidsBabyMenu from '../ToysKidsBabyCategory/ToysKidsBabyMenu';
 import '../../styles/ToysKidsBaby.scss';
 
 function ToysKidsBaby() {
@@ -8,7 +8,18 @@ function ToysKidsBaby() {
     <div className="products__base">
       <div className="toys-kids-baby__container">
         <div className="toys-kids-baby__container-heading">
-          <p>Toys, Kids & Baby</p>
+          <ToysKidsBabyMenu 
+              category0="Toys & Games" 
+              category1="Baby"
+              category2="Diapering"
+              category3="Video Games for Kids"
+              category4="Amazon Family"
+              category5="Amazon Teen"
+              category6="Baby Registry"
+              category7="Kids Birthdays"
+              category8="Amazon Launchpad"
+              category9="Amazon Elements"
+            />
         </div>
         <div className="toys-kids-baby__container-flex-grid">
           <div className="toys-kids-baby__container-flex-1">

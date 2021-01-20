@@ -1,6 +1,6 @@
 import React from 'react';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
-import Product from '../Product';
+import OutdoorsMenu from '../OutdoorsCategory/OutdoorsMenu';
 import '../../styles/Outdoors.scss';
 
 function Outdoors() {
@@ -8,7 +8,17 @@ function Outdoors() {
     <div className="products__base">
       <div className="outdoors__container">
         <div className="outdoors__container-heading">
-          <p>Outdoors</p>
+         <OutdoorsMenu 
+              category0="Outdoor Clothing" 
+              category1="Camping & Hiking"
+              category2="Climbing"
+              category3="Cycling"
+              category4="Scooters, Skates & Skateboards"
+              category5="Water Sports"
+              category6="Winter Sports"
+              category7="Accessories"
+              category8="All Outdoor Recreation"
+            />
         </div>
         <div className="outdoors__container-flex-grid">
           <div className="outdoors__container-flex-1">

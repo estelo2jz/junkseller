@@ -1,6 +1,6 @@
 import React from 'react';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
-import Product from '../Product';
+import SportsMenu from '../SportsCategory/SportsMenu';
 import '../../styles/Sports.scss';
 
 function Sports() {
@@ -8,7 +8,17 @@ function Sports() {
     <div className="products__base">
       <div className="sports__container">
         <div className="sports__container-heading">
-          <p>Sports</p>
+          <SportsMenu 
+              category0="Athletic Clothing" 
+              category1="Exercise & Fitness"
+              category2="Hunting & Fishing"
+              category3="Golf"
+              category4="Fan Shop"
+              category5="Leisure Sports & Game Room"
+              category6="Sports & Collectibles"
+              category7="All Sports & Fitness"
+              category8="New Gear Innovations"
+            />
         </div>
         <div className="sports__container-flex-grid">
           <div className="sports__container-flex-1">

@@ -1,6 +1,6 @@
 import React from 'react';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
-import Product from '../Product';
+import BeautyHealthMenu from '../BeautyHealthCategory/BeautyHealthMenu';
 import '../../styles/BeautyHealth.scss';
 
 function BeautyHealth() {
@@ -8,7 +8,15 @@ function BeautyHealth() {
     <div className="products__base">
       <div className="beauty-health__container">
         <div className="beauty-health__container-heading">
-          <p>Beauty & Health</p>
+         <BeautyHealthMenu 
+              category0="All Beauty" 
+              category1="Premium Beauty"
+              category2="Professional Skin Care"
+              category3="Slaon & Spa"
+              category4="Men's Grooming"
+              category5="Health, Household & Baby"
+              category6="Vitamins & Dietary Supplements"
+            />
         </div>
         <div className="beauty-health__container-flex-grid">
           <div className="beauty-health__container-flex-1">

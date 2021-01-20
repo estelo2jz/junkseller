@@ -1,6 +1,6 @@
 import React from 'react';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
-import Product from '../Product';
+import FoodGroceryMenu from '../FoodGroceryCategory/FoodGroceryMenu';
 import '../../styles/FoodGrocery.scss';
 
 function FoodGrocery() {
@@ -8,7 +8,16 @@ function FoodGrocery() {
     <div className="products__base">
       <div className="grocery-food__container">
         <div className="grocery-food__container-heading">
-          <p>Food & Grocery</p>
+          <FoodGroceryMenu 
+              category0="Grocery & Gourmet Food" 
+              category1="Amazon Fresh"
+              category2="Whole Foods"
+              category3="Pantry"
+              category4="Amazon Launchpad Food"
+              category5="Subscribe & Save"
+              category6="Wickedly Prime"
+              category7="Pay with SNAP EBT"
+            />
         </div>
         <div className="grocery-food__container-flex-grid">
           <div className="grocery-food__container-flex-1">

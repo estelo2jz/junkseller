@@ -4,7 +4,7 @@ import './styles/main.scss';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
-import NewNav from './components/NewNav';
+import NewNav from './components/SidebarData';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Checkout from './components/Checkout';
@@ -149,20 +149,6 @@ function App() {
             component={Electronics}
           >
             <NavBar />
-            <ElectronicsMenu 
-              category0="TV & Video"
-              category1="Home Audio & Theater"
-              category2="Camera, Photo & Video"
-              category3="Cell Phones & Accessories"
-              category4="Headphones"
-              category5="Video Games"
-              category6="Bluetooth & Wireless "
-              category7="Car Electronics"
-              category8="Musical Instruments"
-              category9="Wearable Technology"
-              category10="Electronics"
-              category11="Amazon Renewed"
-            />
             <Electronics></Electronics>
           </Route>
           <Route path="/tvvideo" component={TVVideo}>
@@ -406,18 +392,6 @@ function App() {
           {/* COMPUTER COMPONENTS */}
           <Route path="/computers" component={Computers}>
             <NavBar />
-            <ComputerMenu 
-              category0="Computers, Tablets & PC" 
-              category1="Monitors"
-              category2="Accessories"
-              category3="Networking"
-              category4="Drives & Storage"
-              category5="Computer Parts & Components"
-              category6="Printers & Ink"
-              category7="Software"
-              category8="Office & School Supllies"
-              category9="Trade In Your Electronics"
-            />
             <Computers />
           </Route>
           <Route path="/computertablet" component={ComputerTablet}>
@@ -586,7 +560,7 @@ function App() {
           {/* Smart Home COMPONENTS */}
           <Route path="/smarthome" component={SmartHome}>
             <NavBar />
-            <SmartHomeMenu 
+            {/* <SmartHomeMenu 
               category0="Amazon Smart Home" 
               category1="Smart Home Lighting"
               category2="Smart Locks and Entry"
@@ -604,7 +578,7 @@ function App() {
               category14="WIFI and Networking"
               category15="Other Solutions"
 
-            />
+            /> */}
             <SmartHome />
           </Route>
 
@@ -614,27 +588,6 @@ function App() {
           {/* Home Garden Tools COMPONENTS */}
           <Route path="/homegardentools" component={HomeGardenTools}>
             <NavBar />
-            <HomeGardenToolsMenu 
-              category0="Amazon Home" 
-              category1="Appliances"
-              category2="Arts Crafts & Sewing"
-              category3="Bed & Bath"
-              category4="Collective & Fine Art"
-              category5="Discover"
-              category6="Events & Party Supplies"
-              category7="Explore Showroom"
-              category8="Fine Art"
-              category9="Furniture"
-              category10="Garden & Outdoor"
-              category11="Home Decor"
-              category12="Kitchen & Dining"
-              category13="Lighting"
-              category14="Mattresses"
-              category15="Pet Supplies"
-              category16="Shop by Room"
-              category17="Storage & Organization"
-              
-            />
             <HomeGardenTools />
           </Route>
           <Route path="/amazonhome" component={AmazonHome}>
@@ -1076,16 +1029,6 @@ function App() {
           {/* Pet Supplies COMPONENTS */}
           <Route path="/petsupplies" component={PetSupplies}>
             <NavBar />
-            <PetSuppliesMenu 
-              category0="Pet Profiles" 
-              category1="Dog Supplies"
-              category2="Dog Food"
-              category3="Cat Supplies"
-              category4="Cat Food"
-              category5="Fish & Aquatic Pets"
-              category6="Small Animals"
-              category7="Birds"
-            />
             <PetSupplies />
           </Route>
           <Route path="/petprofiles" component={PetProfiles}>
@@ -1207,7 +1150,7 @@ function App() {
           {/* Food Grocery COMPONENTS */}
           <Route path="/foodgrocery" component={FoodGrocery}>
             <NavBar />
-            <FoodGroceryMenu 
+            {/* <FoodGroceryMenu 
               category0="Grocery & Gourmet Food" 
               category1="Amazon Fresh"
               category2="Whole Foods"
@@ -1216,7 +1159,7 @@ function App() {
               category5="Subscribe & Save"
               category6="Wickedly Prime"
               category7="Pay with SNAP EBT"
-            />
+            /> */}
             <FoodGrocery />
           </Route>
 
@@ -1226,7 +1169,7 @@ function App() {
           {/* Beauty Health COMPONENTS */}
           <Route path="/beautyhealth" component={BeautyHealth}>
             <NavBar />
-            <BeautyHealthMenu 
+            {/* <BeautyHealthMenu 
               category0="All Beauty" 
               category1="Premium Beauty"
               category2="Professional Skin Care"
@@ -1234,7 +1177,7 @@ function App() {
               category4="Men's Grooming"
               category5="Health, Household & Baby"
               category6="Vitamins & Dietary Supplements"
-            />
+            /> */}
             <BeautyHealth />
           </Route>
 
@@ -1244,7 +1187,7 @@ function App() {
           {/* Toys Kids Baby COMPONENTS */}
           <Route path="/toyskidsbaby" component={ToysKidsBaby}>
             <NavBar />
-            <ToysKidsBabyMenu 
+            {/* <ToysKidsBabyMenu 
               category0="Toys & Games" 
               category1="Baby"
               category2="Diapering"
@@ -1255,7 +1198,7 @@ function App() {
               category7="Kids Birthdays"
               category8="Amazon Launchpad"
               category9="Amazon Elements"
-            />
+            /> */}
             <ToysKidsBaby />
           </Route>
 
@@ -1265,7 +1208,7 @@ function App() {
           {/* Handmade COMPONENTS */}
           <Route path="/handmade" component={Handmade}>
             <NavBar />
-            <HandmadeMenu 
+            {/* <HandmadeMenu 
               category0="All Handmade" 
               category1="Gifts"
               category2="Jewerly"
@@ -1283,7 +1226,7 @@ function App() {
               category14="Furniture"
               category15="Baby"
               category16="Sell on Amazon Handmade"
-            />
+            /> */}
             <Handmade />
           </Route>
 
@@ -1293,7 +1236,7 @@ function App() {
           {/* Sports COMPONENTS */}
           <Route path="/sports" component={Sports}>
             <NavBar />
-            <SportsMenu 
+            {/* <SportsMenu 
               category0="Athletic Clothing" 
               category1="Exercise & Fitness"
               category2="Hunting & Fishing"
@@ -1303,7 +1246,7 @@ function App() {
               category6="Sports & Collectibles"
               category7="All Sports & Fitness"
               category8="New Gear Innovations"
-            />
+            /> */}
             <Sports />
           </Route>
 
@@ -1313,17 +1256,6 @@ function App() {
           {/* Outdoors COMPONENTS */}
           <Route path="/outdoors" component={Outdoors}>
             <NavBar />
-            <OutdoorsMenu 
-              category0="Outdoor Clothing" 
-              category1="Camping & Hiking"
-              category2="Climbing"
-              category3="Cycling"
-              category4="Scooters, Skates & Skateboards"
-              category5="Water Sports"
-              category6="Winter Sports"
-              category7="Accessories"
-              category8="All Outdoor Recreation"
-            />
             <Outdoors />
           </Route>
           <Route path="/outdoorclothing" component={OutdoorClothing}>
@@ -1468,7 +1400,7 @@ function App() {
           {/* Automotive COMPONENTS */}
           <Route path="/automotiveindustrial" component={AutomotiveIndustrial}>
             <NavBar />
-            <AutomotiveMenu 
+            {/* <AutomotiveMenu 
               category0="Automotive Parts & Accessories" 
               category1="Automotive Tools & Equipment"
               category2="Car/Vehicle Electronics & GPS"
@@ -1477,7 +1409,7 @@ function App() {
               category5="RV Parts & Accessories"
               category6="Vehicles"
               category7="Your Garage"
-            />
+            /> */}
             <AutomotiveIndustrial />
           </Route>
         </Switch>

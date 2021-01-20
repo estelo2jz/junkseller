@@ -1,6 +1,6 @@
 import React from 'react';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
-import Product from '../Product';
+import ComputerMenu from '../ComputerCategory/ComputerMenu';
 import '../../styles/Computer.scss';
 
 function Computers() {
@@ -8,7 +8,18 @@ function Computers() {
     <div className="products__base">
       <div className="computer__container">
         <div className="computer__container-heading">
-          <p>Computers</p>
+          <ComputerMenu 
+              category0="Computers, Tablets & PC" 
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Printers & Ink"
+              category7="Software"
+              category8="Office & School Supllies"
+              category9="Trade In Your Electronics"
+          />
         </div>
         <div className="computer__container-flex-grid">
           <div className="computer__container-flex-1">
