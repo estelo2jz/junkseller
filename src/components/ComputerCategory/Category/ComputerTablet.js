@@ -10,7 +10,7 @@ function ComputerTablet() {
             <img className="responsive" src="https://images-na.ssl-images-amazon.com/images/I/71k45hZkLmL._AC._SR360,460.jpg" alt="product-image" />
           </div>
           <div className="computer-tablet__span">
-            <span>Jackets & coats</span>
+            <span>Laptops</span>
           </div>
         </div>
         <div className="computer-tablet__box-one-two">
@@ -18,7 +18,7 @@ function ComputerTablet() {
             <img src="https://images-na.ssl-images-amazon.com/images/I/81PeBrTfhnL._AC_SL1500_.jpg" alt="product-image" />
           </div>
           <div className="computer-tablet__span">
-            <span>Watches</span>
+            <span>Dektops</span>
           </div>
         </div>
         <div className="computer-tablet__box-one-three">
@@ -26,7 +26,7 @@ function ComputerTablet() {
             <img src="https://images-na.ssl-images-amazon.com/images/I/71S31CWSs3L._AC._SR360,460.jpg" alt="product-image" />
           </div>
           <div className="computer-tablet__span">
-            <span>Sunglasses</span>
+            <span>CPU</span>
           </div>
         </div>
         <div className="computer-tablet__box-one-four">
@@ -34,7 +34,7 @@ function ComputerTablet() {
             <img src="https://images-na.ssl-images-amazon.com/images/I/81l9Y%2BQKyRL._AC_SL1500_.jpg" alt="product-image" />
           </div>
           <div className="computer-tablet__span">
-            <span>Sweaters</span>
+            <span>Monitors</span>
           </div>
         </div>
       </div>
