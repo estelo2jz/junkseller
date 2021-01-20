@@ -420,71 +420,71 @@ function CellPhone() {
           <div className="cell-phone__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Mini DVD Player, DVD CD/Disc Player for TV with HDMI/AV Output, HDMI/AV Cables Included, HD 1080P Supported Built-in PAL/NTSC System USB Input"
-              price = {35.99}
+              title = "Anker Wireless Charger, PowerWave Stand, Qi-Certified for iPhone SE, 11, 11 Pro, 11 Pro Max, XR, Xs Max, XS, X, 8, 8 Plus, 10W Fast-Charging Galaxy S20 S10 S9 S8, Note 10 Note 9 (No AC Adapter)"
+              price = {15.19}
               rateNumber = {"234,618"}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61qp67eI4eL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/51J1d8kZsCL._AC_SL1250_.jpg"
             />
           </div>
           <div className="cell-phone__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Universal TV Stand - Table Top TV Stand for 32-47 Inch LCD LED TVs - Height Adjustable TV Base Stand with Tempered Glass Base & Wire Management"
-              price = {20.64}
+              title = "Yootech Wireless Charger, Qi-Certified 10W Max Fast Wireless Charging Pad Compatible with iPhone 12/12 Mini/12 Pro Max/SE 2020/11 Pro Max,Samsung Galaxy S20/Note 10/S10/S9,AirPods Pro(No AC Adapter)"
+              price = {9.19}
               rateNumber = {"234,618"}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61DRLfmrVDL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61oIAKY9s1L._AC_SL1500_.jpg"
             />
           </div>
           <div className="cell-phone__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Full Motion TV Wall Mount Dual Swivel Articulating Tilt 6 Arms TV Bracket for 37-70' LED, OLED, 4K Flat/Curved TVs "
-              price = {20.84}
+              title = "JETech 3-Pack Screen Protector for iPhone SE 2020, iPhone 8, iPhone 7, iPhone 6s, and iPhone 6, Tempered Glass Film, 4.7-Inch"
+              price = {5.07}
               rateNumber = {"234,618"}
               rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71uFsg6T1kL._AC_SL1500_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/71-a7F4zObL._AC_SL1500_.jpg"
             />
           </div>
           <div className="cell-phone__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Abdtech Portable Outdoor Movie Screen, 120 inch 3D Projector Screen Frame Foldable Movie Screen for Projectors "
-              price = {92.03}
+              title = "Mpow Car Phone Mount, Dashboard Car Phone Holder, Washable Strong Sticky Gel Pad with One-Touch Design Compatible iPhone Xs,XS MAX,XR,X,8,8Plus,7,7Plus,6,6Plus, Galaxy S7,8,9,10, Google Nexus, Black"
+              price = {7.17}
+              rateNumber = {"234,618"}
+              rating = {4}
+              image = "https://images-na.ssl-images-amazon.com/images/I/81OB3Y9wKGL._AC_SL1500_.jpg"
+            />
+          </div>
+          <div className="cell-phone__product-card">
+            <ElectronicsProductTemplate 
+              id = {uuid()}
+              title = "JETech Screen Protector for iPhone 11 Pro, for iPhone Xs, for iPhone X, 5.8-Inch, Tempered Glass Film, 2-Pack"
+              price = {5.08}
               rateNumber = {"234,618"}
               rating = {5}
-              image = "https://images-na.ssl-images-amazon.com/images/I/61a1uKJquEL._AC_SL1000_.jpg"
+              image = "https://images-na.ssl-images-amazon.com/images/I/61QEY3YKqqL._AC_SL1500_.jpg"
             />
           </div>
           <div className="cell-phone__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Projector Screen with Stand 100 inch Portable Projection Screen 16:9 4K HD Rear Front Projections Movies Screen with Carry Bag for Indoor Outdoor Home"
-              price = {65.01}
+              title = "BRG Case for Apple Watch Series SE 6 5 4 3 Screen Protector 40mm 44mm 38mm 42mm,[2 Pack] Soft TPU HD Clear Ultra-Thin Overall Protective Cover Case"
+              price = {5.83}
               rateNumber = {"234,618"}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71NO0x7vDjL._AC_SL1500_.jpg"
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/719Fc7MvqlL._AC_SL1500_.jpg"
             />
           </div>
           <div className="cell-phone__product-card">
             <ElectronicsProductTemplate 
               id = {uuid()}
-              title = "Everstone Heavy Duty Single Stud TV Wall Mount Bracket for Most 32-80 Inch LED,LCD,OLED,Plasma Flat Screen,Curved TVs,with Full Motion Articulating Arm"
-              price = {28.58}
+              title = "Smiling Case Compatible with Apple Watch Series 6/SE/Series 5/Series 4 44mm with Built in Tempered Glass Screen Protector- All Around Hard PC Case Overall Protective Cover (Black)"
+              price = {7.93}
               rateNumber = {"234,618"}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/71x-ns2WZvL._AC_SL1500_.jpg"
-            />
-          </div>
-          <div className="cell-phone__product-card">
-            <ElectronicsProductTemplate 
-              id = {uuid()}
-              title = "TaoTronics Projector Screen with Stand,Indoor Outdoor PVC Projection Screen 4K HD 100'' 16: 9 Wrinkle-Free Design(Easy to Clean, 1.1Gain, 160° Viewing"
-              price = {102.82}
-              rateNumber = {"234,618"}
-              rating = {4}
-              image = "https://images-na.ssl-images-amazon.com/images/I/91k0fB2gQHL._AC_SL1500_.jpg"
+              rating = {5}
+              image = "https://images-na.ssl-images-amazon.com/images/I/61wJ747%2BkML._AC_SL1254_.jpg"
             />
           </div>
         </div>
