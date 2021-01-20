@@ -7,27 +7,35 @@ function ComputerTablet() {
       <div className="computer-tablet__box-one-container">
         <div className="computer-tablet__box-one-one">
           <div className="computer-tablet__box-one-img">
-            <img className="responsive" src="https://images-na.ssl-images-amazon.com/images/I/41vMYgD92xL._AC_SX184_.jpg" alt="product-image" />
+            <img className="responsive" src="https://images-na.ssl-images-amazon.com/images/I/71k45hZkLmL._AC._SR360,460.jpg" alt="product-image" />
           </div>
-          <span>Jackets & coats</span>
+          <div className="computer-tablet__span">
+            <span>Jackets & coats</span>
+          </div>
         </div>
         <div className="computer-tablet__box-one-two">
           <div className="computer-tablet__box-one-img">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/41jSuUHT8eL._AC_SX184_.jpg" alt="product-image" />
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81PeBrTfhnL._AC_SL1500_.jpg" alt="product-image" />
           </div>
-          <span>Watches</span>
+          <div className="computer-tablet__span">
+            <span>Watches</span>
+          </div>
         </div>
         <div className="computer-tablet__box-one-three">
           <div className="computer-tablet__box-one-img">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/51rGP3HU3HL._AC_SX184_.jpg" alt="product-image" />
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71S31CWSs3L._AC._SR360,460.jpg" alt="product-image" />
           </div>
-          <span>Sunglasses</span>
+          <div className="computer-tablet__span">
+            <span>Sunglasses</span>
+          </div>
         </div>
         <div className="computer-tablet__box-one-four">
           <div className="computer-tablet__box-one-img">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/41Qf7+v71YL._AC_SX184_.jpg" alt="product-image" />
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81l9Y%2BQKyRL._AC_SL1500_.jpg" alt="product-image" />
           </div>
-          <span>Sweaters</span>
+          <div className="computer-tablet__span">
+            <span>Sweaters</span>
+          </div>
         </div>
       </div>
     </div>

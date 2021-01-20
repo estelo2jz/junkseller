@@ -25,30 +25,98 @@
       height: auto;
     }
     .computer-tablet__box-one-one {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-content: center;
       background-color: red;
       width: 250px;
       height: 250px;
       max-width: 50%;
+      .computer-tablet__span {
+        background-color: rgb(0, 0, 0);
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          color: white;
+          padding: 0;
+          margin: 0;
+        }
+      }
     }
     .computer-tablet__box-one-two {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-content: center;
       background-color: rgb(21, 255, 0);
       width: 250px;
       height: 250px;
       max-width: 50%;
+      .computer-tablet__span {
+        background-color: rgb(0, 0, 0);
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          color: white;
+          padding: 0;
+          margin: 0;
+        }
+      }
 
     }
     .computer-tablet__box-one-three {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-content: center;
       background-color: rgb(0, 183, 255);
       width: 250px;
       height: 250px;
       max-width: 50%;
+      .computer-tablet__span {
+        background-color: rgb(0, 0, 0);
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          color: white;
+          padding: 0;
+          margin: 0;
+        }
+      }
 
     }
     .computer-tablet__box-one-four {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-content: center;
       background-color: rgb(255, 0, 170);
       width: 250px;
       height: 250px;
       max-width: 50%;
+      .computer-tablet__span {
+        background-color: rgb(0, 0, 0);
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          color: white;
+          padding: 0;
+          margin: 0;
+        }
+      }
 
     }
   }
