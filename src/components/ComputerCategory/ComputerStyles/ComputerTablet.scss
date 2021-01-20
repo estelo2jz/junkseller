@@ -7,6 +7,23 @@
   .computer-tablet__box-one-container {
     display: flex;
     flex-wrap: wrap;
+
+    .computer-tablet__box-one-img {
+      height: 200px;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: contain;
+        
+        
+      }
+    }
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
     .computer-tablet__box-one-one {
       background-color: red;
       width: 250px;
