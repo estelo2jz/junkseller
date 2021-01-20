@@ -4,4 +4,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  .computer-tablet__box-one-container {
+    display: flex;
+    flex-wrap: wrap;
+    .computer-tablet__box-one-one {
+      background-color: red;
+      width: 250px;
+      height: 250px;
+      max-width: 50%;
+    }
+    .computer-tablet__box-one-two {
+      background-color: rgb(21, 255, 0);
+      width: 250px;
+      height: 250px;
+      max-width: 50%;
+
+    }
+    .computer-tablet__box-one-three {
+      background-color: rgb(0, 183, 255);
+      width: 250px;
+      height: 250px;
+      max-width: 50%;
+
+    }
+    .computer-tablet__box-one-four {
+      background-color: rgb(255, 0, 170);
+      width: 250px;
+      height: 250px;
+      max-width: 50%;
+
+    }
+  }
 }
