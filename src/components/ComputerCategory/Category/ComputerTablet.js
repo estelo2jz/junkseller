@@ -60,7 +60,7 @@ function ComputerTablet() {
       <div className="computer-tablet__handpick">
         <Link to="#" className="computer-tablet__handpick-item"><p>laptops</p></Link>
         <Link to="#" className="computer-tablet__handpick-item"><p>desktops</p></Link>
-        <Link to="#" className="computer-tablet__handpick-item"><p>monitors</p></Link>
+        <Link to="/computers/monitors" className="computer-tablet__handpick-item"><p>monitors</p></Link>
         <Link to="#" className="computer-tablet__handpick-item"><p>gaming</p></Link>
       </div>
 
