@@ -24,9 +24,14 @@ function NavBar() {
            <>
                 <IconContext.Provider value={{ color: '#fff' }}>
                     <div className='navbar'>
-                        <Link to='#' className='menu-bars'>
-                            <FaIcons.FaBars onClick={showSidebar} />
-                        </Link>
+                        <div className="navbar__bar-title">
+                            <Link to='#' className='menu-bars'>
+                                <FaIcons.FaBars onClick={showSidebar} />
+                            </Link>
+                            <Link to="/" className="menu-title" >
+                                <span>JunkSeller</span>
+                            </Link>
+                        </div>
                         <Link to="/checkout" className="header__link">
                             <div className="header__optionBasket">
                                 <ShoppingBasketIcon />
