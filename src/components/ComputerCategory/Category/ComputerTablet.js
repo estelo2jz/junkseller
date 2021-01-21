@@ -64,6 +64,19 @@ function ComputerTablet() {
         <Link to="#" className="computer-tablet__handpick-item"><p>gaming</p></Link>
       </div>
 
+      <div className="computer-tablet__product-container">
+        <div className="computer-tablet__product-heading">
+          <p>Deals in Computers & Accessories</p>
+        </div>
+        <div className="computer-tablet__product-tabs">
+          <ul>
+            <li>All available</li>
+            <li>Upcoming</li>
+            <li>Missed</li>
+            <li>Watch Deals</li>
+          </ul>
+        </div>
+      </div>
 
       <div className="computer-tablet__box-one-container">
         <div className="computer-tablet__box-one-one">

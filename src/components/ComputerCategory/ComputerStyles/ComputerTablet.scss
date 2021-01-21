@@ -17,6 +17,7 @@
     // padding: 0px 70px;
     padding-top: 30px;
     .computer-tablet__category-item {
+      text-decoration: none;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -36,7 +37,7 @@
         align-items: center;
         height: 100%;
         // width: 100%;
-        margin-top: 200px;
+        margin-top: 190px;
         // margin: 0;
         // padding: 0;
         // background-position: center;
@@ -114,7 +115,11 @@
       text-decoration: none;
       p {
         color: rgb(17, 17, 16);
+        text-transform: uppercase;
       }
+    }
+    .computer-tablet__handpick-item:hover {
+      background-color: rgb(192, 189, 189);
     }
   }
   
