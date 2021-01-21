@@ -146,12 +146,13 @@ function App() {
             <Home />
           </Route>
           <Route path="/electronics" 
+            exact
             component={Electronics}
           >
             <NavBar />
             <Electronics></Electronics>
           </Route>
-          <Route path="/tvvideo" component={TVVideo}>
+          <Route path="/electronics/tvvideo" exact component={TVVideo}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -169,7 +170,7 @@ function App() {
             />
             <TVVideo />
           </Route>
-          <Route path="/homeaudiotheater" component={HomeAudioTheater}>
+          <Route path="/electronics/homeaudiotheater" exact component={HomeAudioTheater}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -187,7 +188,7 @@ function App() {
             />
             <HomeAudioTheater />
           </Route>
-          <Route path="/cameraphotovideo" component={CameraPhotoVideo}>
+          <Route path="/electronics/cameraphotovideo" exact component={CameraPhotoVideo}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -205,7 +206,7 @@ function App() {
             />
             <CameraPhotoVideo />
           </Route>
-          <Route path="/cellphones" component={CellPhone}>
+          <Route path="/electronics/cellphones" exact component={CellPhone}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -223,7 +224,7 @@ function App() {
             />
             <CellPhone />
           </Route>
-          <Route path="/headphones" component={Headphones}>
+          <Route path="/electronics/headphones" exact component={Headphones}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -241,7 +242,7 @@ function App() {
             />
             <Headphones />
           </Route>
-          <Route path="/VideoGames" component={VideoGames}>
+          <Route path="/electronics/VideoGames" exact component={VideoGames}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -259,7 +260,7 @@ function App() {
             />
             <VideoGames />
           </Route>
-          <Route path="/bluetoothwireless" component={BluetoothWireless}>
+          <Route path="/electronics/bluetoothwireless" exact component={BluetoothWireless}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -277,7 +278,7 @@ function App() {
             />
             <BluetoothWireless />
           </Route>
-          <Route path="/carelectronics" component={CarElectronics}>
+          <Route path="/electronics/carelectronics" exact component={CarElectronics}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -295,7 +296,7 @@ function App() {
             />
             <CarElectronics />
           </Route>
-          <Route path="/musicalinstruments" component={MusicalInstruments}>
+          <Route path="/electronics/musicalinstruments" exact component={MusicalInstruments}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -313,7 +314,7 @@ function App() {
             />
             <MusicalInstruments />
           </Route>
-          <Route path="/cameraphotovideo" component={CameraPhotoVideo}>
+          <Route path="/electronics/cameraphotovideo" exact component={CameraPhotoVideo}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -331,7 +332,7 @@ function App() {
             />
             <CameraPhotoVideo />
           </Route>
-          <Route path="/wearabletechnology" component={WearableTechnology}>
+          <Route path="/electronics/wearabletechnology" exact component={WearableTechnology}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -349,7 +350,7 @@ function App() {
             />
             <WearableTechnology />
           </Route>
-          <Route path="/electronicsbase" component={ElectronicsBase}>
+          <Route path="/electronics/electronicsbase" exact component={ElectronicsBase}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -367,7 +368,7 @@ function App() {
             />
             <ElectronicsBase />
           </Route>
-          <Route path="/amazonrenewed" component={AmazonRenewed}>
+          <Route path="/electronics/amazonrenewed" exact component={AmazonRenewed}>
             <NavBar />
             <ElectronicsMenu
               category0="TV & Video"
@@ -390,11 +391,11 @@ function App() {
 
 
           {/* COMPUTER COMPONENTS */}
-          <Route path="/computers" component={Computers}>
+          <Route path="/computers" exact component={Computers}>
             <NavBar />
             <Computers />
           </Route>
-          <Route path="/computertablet" component={ComputerTablet}>
+          <Route path="/computers/computertablet" exact component={ComputerTablet}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -410,7 +411,7 @@ function App() {
             />
             <ComputerTablet />
           </Route>
-          <Route path="/monitors" component={Monitors}>
+          <Route path="/computers/monitors" exact component={Monitors}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -426,7 +427,7 @@ function App() {
             />
             <Monitors />
           </Route>
-          <Route path="/computeraccessories" component={ComputerAccessories}>
+          <Route path="/computers/computeraccessories" exact component={ComputerAccessories}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -442,7 +443,7 @@ function App() {
             />
             <ComputerAccessories />
           </Route>
-          <Route path="/networking" component={Networking}>
+          <Route path="/computers/networking" exact component={Networking}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -458,7 +459,7 @@ function App() {
             />
             <Networking />
           </Route>
-          <Route path="/drivesstorage" component={DrivesStorage}>
+          <Route path="/computers/drivesstorage" exact component={DrivesStorage}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -474,7 +475,7 @@ function App() {
             />
             <DrivesStorage />
           </Route>
-          <Route path="/printersink" component={PrintersInk}>
+          <Route path="/computers/printersink" exact component={PrintersInk}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -490,7 +491,7 @@ function App() {
             />
             <PrintersInk />
           </Route>
-          <Route path="/software" component={Software}>
+          <Route path="/computers/software" exact component={Software}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -506,7 +507,7 @@ function App() {
             />
             <Software />
           </Route>
-          <Route path="/computercomponents" component={ComputerComponents}>
+          <Route path="/computers/computercomponents" exact component={ComputerComponents}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -522,7 +523,7 @@ function App() {
             />
             <ComputerComponents />
           </Route>
-          <Route path="/officeschool" component={OfficeSchool}>
+          <Route path="/computers/officeschool" exact component={OfficeSchool}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -538,7 +539,7 @@ function App() {
             />
             <OfficeSchool />
           </Route>
-          <Route path="/trade" component={Trade}>
+          <Route path="/computers/trade" exact component={Trade}>
             <NavBar />
             <ComputerMenu
               category0="Computers, Tablets & PC"
@@ -558,7 +559,7 @@ function App() {
 
 
           {/* Smart Home COMPONENTS */}
-          <Route path="/smarthome" component={SmartHome}>
+          <Route path="/smarthome" exact component={SmartHome}>
             <NavBar />
             {/* <SmartHomeMenu 
               category0="Amazon Smart Home" 
@@ -586,11 +587,11 @@ function App() {
 
 
           {/* Home Garden Tools COMPONENTS */}
-          <Route path="/homegardentools" component={HomeGardenTools}>
+          <Route path="/homegardentools" exact component={HomeGardenTools}>
             <NavBar />
             <HomeGardenTools />
           </Route>
-          <Route path="/amazonhome" component={AmazonHome}>
+          <Route path="/homegardentools/amazonhome" exact component={AmazonHome}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -614,7 +615,7 @@ function App() {
             />
             <AmazonHome />
           </Route>
-          <Route path="/appliances" component={Appliances}>
+          <Route path="/homegardentools/appliances" exact component={Appliances}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -638,7 +639,7 @@ function App() {
             />
             <Appliances />
           </Route>
-          <Route path="/artscrafts" component={ArtsCrafts}>
+          <Route path="/homegardentools/artscrafts" exact component={ArtsCrafts}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -662,7 +663,7 @@ function App() {
             />
             <ArtsCrafts />
           </Route>
-          <Route path="/bedbath" component={BedBath}>
+          <Route path="/homegardentools/bedbath" exact component={BedBath}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -686,7 +687,7 @@ function App() {
             />
             <BedBath />
           </Route>
-          <Route path="/collectivefineart" component={CollectiveFineArt}>
+          <Route path="/homegardentools/collectivefineart" exact component={CollectiveFineArt}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -710,7 +711,7 @@ function App() {
             />
             <CollectiveFineArt />
           </Route>
-          <Route path="/discover" component={Discover}>
+          <Route path="/homegardentools/discover" exact component={Discover}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -734,7 +735,7 @@ function App() {
             />
             <Discover />
           </Route>
-          <Route path="/eventsparty" component={EventsParty}>
+          <Route path="/homegardentools/eventsparty" exact component={EventsParty}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -758,7 +759,7 @@ function App() {
             />
             <EventsParty />
           </Route>
-          <Route path="/exploreshowroom" component={ExploreShowroom}>
+          <Route path="/homegardentools/exploreshowroom" exact component={ExploreShowroom}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -782,7 +783,7 @@ function App() {
             />
             <ExploreShowroom />
           </Route>
-          <Route path="/fineart" component={FineArt}>
+          <Route path="/homegardentools/fineart" exact component={FineArt}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -806,7 +807,7 @@ function App() {
             />
             <FineArt />
           </Route>
-          <Route path="/furniture" component={Furniture}>
+          <Route path="/homegardentools/furniture" exact component={Furniture}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -830,7 +831,7 @@ function App() {
             />
             <Furniture />
           </Route>
-          <Route path="/gardenoutdoor" component={GardenOutdoor}>
+          <Route path="/homegardentools/gardenoutdoor" exact component={GardenOutdoor}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -854,7 +855,7 @@ function App() {
             />
             <GardenOutdoor />
           </Route>
-          <Route path="/homedecor" component={HomeDecor}>
+          <Route path="/homegardentools/homedecor" exact component={HomeDecor}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -878,7 +879,7 @@ function App() {
             />
             <HomeDecor />
           </Route>
-          <Route path="/kitchendining" component={KitchenDining}>
+          <Route path="/homegardentools/kitchendining" exact component={KitchenDining}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -902,7 +903,7 @@ function App() {
             />
             <KitchenDining />
           </Route>
-          <Route path="/lighting" component={Lighting}>
+          <Route path="/homegardentools/lighting" exact component={Lighting}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -926,7 +927,7 @@ function App() {
             />
             <Lighting />
           </Route>
-          <Route path="/mattresses" component={Mattresses}>
+          <Route path="/homegardentools/mattresses" exact component={Mattresses}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -950,7 +951,7 @@ function App() {
             />
             <Mattresses />
           </Route>
-          <Route path="/homepetsupplies" component={HomePetSupplies}>
+          <Route path="/homegardentools/homepetsupplies" exact component={HomePetSupplies}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -974,7 +975,7 @@ function App() {
             />
             <HomePetSupplies />
           </Route>
-          <Route path="/ShopRoom" component={ShopRoom}>
+          <Route path="/homegardentools/ShopRoom" exact component={ShopRoom}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -998,7 +999,7 @@ function App() {
             />
             <ShopRoom />
           </Route>
-          <Route path="/storageorganization" component={StorageOrganization}>
+          <Route path="/homegardentools/storageorganization" exact component={StorageOrganization}>
             <NavBar />
             <HomeGardenToolsMenu 
               category0="Amazon Home" 
@@ -1027,11 +1028,11 @@ function App() {
 
 
           {/* Pet Supplies COMPONENTS */}
-          <Route path="/petsupplies" component={PetSupplies}>
+          <Route path="/petsupplies" exact component={PetSupplies}>
             <NavBar />
             <PetSupplies />
           </Route>
-          <Route path="/petprofiles" component={PetProfiles}>
+          <Route path="/petsupplies/petprofiles" exact component={PetProfiles}>
             <NavBar />
             <PetSuppliesMenu 
               category0="Pet Profiles" 
@@ -1045,7 +1046,7 @@ function App() {
             />
             <PetProfiles />
           </Route>
-          <Route path="/dogsupplies" component={DogSupplies}>
+          <Route path="/petsupplies/dogsupplies" exact component={DogSupplies}>
             <NavBar />
             <PetSuppliesMenu 
               category0="Pet Profiles" 
@@ -1059,7 +1060,7 @@ function App() {
             />
             <DogSupplies />
           </Route>
-          <Route path="/dogfood" component={DogFood}>
+          <Route path="/petsupplies/dogfood" exact component={DogFood}>
             <NavBar />
             <PetSuppliesMenu 
               category0="Pet Profiles" 
@@ -1073,7 +1074,7 @@ function App() {
             />
             <DogFood />
           </Route>
-          <Route path="/catsupplies" component={CatSupplies}>
+          <Route path="/petsupplies/catsupplies" exact component={CatSupplies}>
             <NavBar />
             <PetSuppliesMenu 
               category0="Pet Profiles" 
@@ -1087,7 +1088,7 @@ function App() {
             />
             <CatSupplies />
           </Route>
-          <Route path="/catfood" component={CatFood}>
+          <Route path="/petsupplies/catfood" exact component={CatFood}>
             <NavBar />
             <PetSuppliesMenu 
               category0="Pet Profiles" 
@@ -1101,7 +1102,7 @@ function App() {
             />
             <CatFood />
           </Route>
-          <Route path="/fishaquatic" component={FishAquatic}>
+          <Route path="/petsupplies/fishaquatic" exact component={FishAquatic}>
             <NavBar />
             <PetSuppliesMenu 
               category0="Pet Profiles" 
@@ -1115,7 +1116,7 @@ function App() {
             />
             <FishAquatic />
           </Route>
-          <Route path="/smallanimals" component={SmallAnimals}>
+          <Route path="/petsupplies/smallanimals" exact component={SmallAnimals}>
             <NavBar />
             <PetSuppliesMenu 
               category0="Pet Profiles" 
@@ -1129,7 +1130,7 @@ function App() {
             />
             <SmallAnimals />
           </Route>
-          <Route path="/birds" component={PetBirds}>
+          <Route path="/petsupplies/birds" exact component={PetBirds}>
             <NavBar />
             <PetSuppliesMenu 
               category0="Pet Profiles" 
@@ -1148,7 +1149,7 @@ function App() {
 
 
           {/* Food Grocery COMPONENTS */}
-          <Route path="/foodgrocery" component={FoodGrocery}>
+          <Route path="/foodgrocery" exact component={FoodGrocery}>
             <NavBar />
             {/* <FoodGroceryMenu 
               category0="Grocery & Gourmet Food" 
@@ -1167,7 +1168,7 @@ function App() {
 
 
           {/* Beauty Health COMPONENTS */}
-          <Route path="/beautyhealth" component={BeautyHealth}>
+          <Route path="/beautyhealth" exact component={BeautyHealth}>
             <NavBar />
             {/* <BeautyHealthMenu 
               category0="All Beauty" 
@@ -1185,7 +1186,7 @@ function App() {
 
 
           {/* Toys Kids Baby COMPONENTS */}
-          <Route path="/toyskidsbaby" component={ToysKidsBaby}>
+          <Route path="/toyskidsbaby" exact component={ToysKidsBaby}>
             <NavBar />
             {/* <ToysKidsBabyMenu 
               category0="Toys & Games" 
@@ -1206,7 +1207,7 @@ function App() {
 
 
           {/* Handmade COMPONENTS */}
-          <Route path="/handmade" component={Handmade}>
+          <Route path="/handmade" exact component={Handmade}>
             <NavBar />
             {/* <HandmadeMenu 
               category0="All Handmade" 
@@ -1234,7 +1235,7 @@ function App() {
 
 
           {/* Sports COMPONENTS */}
-          <Route path="/sports" component={Sports}>
+          <Route path="/sports" exact component={Sports}>
             <NavBar />
             {/* <SportsMenu 
               category0="Athletic Clothing" 
@@ -1254,11 +1255,11 @@ function App() {
 
 
           {/* Outdoors COMPONENTS */}
-          <Route path="/outdoors" component={Outdoors}>
+          <Route path="/outdoors" exact component={Outdoors}>
             <NavBar />
             <Outdoors />
           </Route>
-          <Route path="/outdoorclothing" component={OutdoorClothing}>
+          <Route path="/outdoors/outdoorclothing" exact component={OutdoorClothing}>
             <NavBar />
             <OutdoorsMenu 
               category0="Outdoor Clothing" 
@@ -1273,7 +1274,7 @@ function App() {
             />
             <OutdoorClothing />
           </Route>
-          <Route path="/campinghiking" component={CampingHiking}>
+          <Route path="/outdoors/campinghiking" exact component={CampingHiking}>
             <NavBar />
             <OutdoorsMenu 
               category0="Outdoor Clothing" 
@@ -1288,7 +1289,7 @@ function App() {
             />
             <CampingHiking />
           </Route>
-          <Route path="/climbing" component={Climbing}>
+          <Route path="/outdoors/climbing" exact component={Climbing}>
             <NavBar />
             <OutdoorsMenu 
               category0="Outdoor Clothing" 
@@ -1303,7 +1304,7 @@ function App() {
             />
             <Climbing />
           </Route>
-          <Route path="/cycling" component={Cycling}>
+          <Route path="/outdoors/cycling" exact component={Cycling}>
             <NavBar />
             <OutdoorsMenu 
               category0="Outdoor Clothing" 
@@ -1318,7 +1319,7 @@ function App() {
             />
             <Cycling />
           </Route>
-          <Route path="/skates" component={Skates}>
+          <Route path="/outdoors/skates" exact component={Skates}>
             <NavBar />
             <OutdoorsMenu 
               category0="Outdoor Clothing" 
@@ -1333,7 +1334,7 @@ function App() {
             />
             <Skates />
           </Route>
-          <Route path="/watersports" component={WaterSports}>
+          <Route path="/outdoors/watersports" exact component={WaterSports}>
             <NavBar />
             <OutdoorsMenu 
               category0="Outdoor Clothing" 
@@ -1348,7 +1349,7 @@ function App() {
             />
             <WaterSports />
           </Route>
-          <Route path="/wintersports" component={WinterSports}>
+          <Route path="/outdoors/wintersports" exact component={WinterSports}>
             <NavBar />
             <OutdoorsMenu 
               category0="Outdoor Clothing" 
@@ -1363,7 +1364,7 @@ function App() {
             />
             <WinterSports />
           </Route>
-          <Route path="/outdooraccessories" component={OutdoorAccessories}>
+          <Route path="/outdoors/outdooraccessories" exact component={OutdoorAccessories}>
             <NavBar />
             <OutdoorsMenu 
               category0="Outdoor Clothing" 
@@ -1378,7 +1379,7 @@ function App() {
             />
             <OutdoorAccessories />
           </Route>
-          <Route path="/alloutdoor" component={AllOutdoor}>
+          <Route path="/outdoors/alloutdoor" exact component={AllOutdoor}>
             <NavBar />
             <OutdoorsMenu 
               category0="Outdoor Clothing" 
@@ -1398,7 +1399,7 @@ function App() {
 
 
           {/* Automotive COMPONENTS */}
-          <Route path="/automotiveindustrial" component={AutomotiveIndustrial}>
+          <Route path="/automotiveindustrial" exact component={AutomotiveIndustrial}>
             <NavBar />
             {/* <AutomotiveMenu 
               category0="Automotive Parts & Accessories" 

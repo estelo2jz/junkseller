@@ -7,63 +7,63 @@ function OutdoorsMenu(props) {
   return (
     <div className="outdoors-menu">
       <div className="outdoors-menu-items">
-        <Link to="/outdoorclothing">
+        <Link to="/outdoors/outdoorclothing">
           <span>
             {props.category0}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/campinghiking">
+        <Link to="/outdoors/campinghiking">
           <span>
             {props.category1}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/climbing">
+        <Link to="/outdoors/climbing">
           <span>
             {props.category2}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/cycling">
+        <Link to="/outdoors/cycling">
           <span>
             {props.category3}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/skates">
+        <Link to="/outdoors/skates">
           <span>
             {props.category4}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/watersports">
+        <Link to="/outdoors/watersports">
           <span>
             {props.category5}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/wintersports">
+        <Link to="/outdoors/wintersports">
           <span>
             {props.category6}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/outdooraccessories">
+        <Link to="/outdoors/outdooraccessories">
           <span>
             {props.category7}
           </span>
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/alloutdoor">
+        <Link to="/outdoors/alloutdoor">
           <span>
             {props.category8}
           </span>

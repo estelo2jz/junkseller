@@ -7,70 +7,70 @@ function ElectronicsMenu(props) {
   return (
     <div className="computer-menu">
       <div className="computer-menu-items">
-        <Link to="/computertablet">
+        <Link to="/computers/computertablet">
           <span>
             {props.category0}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/monitors">
+        <Link to="/computers/monitors">
           <span>
             {props.category1}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/computeraccessories">
+        <Link to="/computers/computeraccessories">
           <span>
             {props.category2}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/networking">
+        <Link to="/computers/networking">
           <span>
             {props.category3}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/drivesstorage">
+        <Link to="/computers/drivesstorage">
           <span>
             {props.category4}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/computercomponents">
+        <Link to="/computers/computercomponents">
           <span>
             {props.category5}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/printersink">
+        <Link to="/computers/printersink">
           <span>
             {props.category6}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/software">
+        <Link to="/computers/software">
           <span>
             {props.category7}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/officeschool">
+        <Link to="/computers/officeschool">
           <span>
             {props.category8}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/trade">
+        <Link to="/computers/trade">
           <span>
             {props.category9}
           </span>
