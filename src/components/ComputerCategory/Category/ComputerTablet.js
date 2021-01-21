@@ -21,7 +21,7 @@ function ComputerTablet() {
             <span>PC Gaming</span>
           </div>
         </Link>
-        <Link to="#" className="computer-tablet__category-item">
+        <Link to="/computers/monitors" className="computer-tablet__category-item">
           <div className="computer-tablet__category-heading">
             <span>Monitors</span>
           </div>
@@ -64,7 +64,49 @@ function ComputerTablet() {
         <Link to="#" className="computer-tablet__handpick-item"><p>gaming</p></Link>
       </div>
 
-      <div className="computer-tablet__product-container">
+      <div className="computer-tablet__section-heading">
+        <p>Deals in Computers & Accessories</p>
+      </div>
+      <div className="computer-tablet__section">
+        <div class="tabbed">
+          <input type="radio" name="tabs" id="tab_one" checked />
+          <label for="tab_one" >All available</label>
+          <input type="radio" name="tabs" id="tab_two" checked />
+          <label for="tab_two" >Upcoming</label>
+          <input type="radio" name="tabs" id="tab_three" checked />
+          <label for="tab_three" >Missed</label>
+          <input type="radio" name="tabs" id="tab_four" checked />
+          <label for="tab_four" >Watched Deals</label>
+          <div class="tabs">
+            <div>
+              <h2>All available</h2>
+              <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
+            <div>
+              <h2>Upcoming</h2>
+              <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              </p>
+             </div>
+            <div>
+              <h2>Missed</h2>
+              <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
+            <div>
+              <h2>Watched Deals</h2>
+              <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="computer-tablet__product-container">
         <div className="computer-tablet__product-heading">
           <p>Deals in Computers & Accessories</p>
         </div>
@@ -76,7 +118,7 @@ function ComputerTablet() {
             <li>Watch Deals</li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       <div className="computer-tablet__box-one-container">
         <div className="computer-tablet__box-one-one">
@@ -114,7 +156,7 @@ function ComputerTablet() {
       </div>
 
 
-      <div className="computer-tablet__box-two-container">
+      {/* <div className="computer-tablet__box-two-container">
         <div className="computer-tablet__box-two-one">
           <div className="computer-tablet__box-two-img">
             <img className="responsive" src="https://images-na.ssl-images-amazon.com/images/I/71k45hZkLmL._AC._SR360,460.jpg" alt="product-image" />
@@ -147,7 +189,7 @@ function ComputerTablet() {
             <span>Monitors</span>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
