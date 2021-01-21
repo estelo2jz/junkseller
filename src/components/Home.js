@@ -12,7 +12,7 @@ function Home() {
       {/* <div>
         <h1>Shop By Department </h1>
       </div> */}
-      <div className="home__links-container">
+      {/* <div className="home__links-container">
         <div className="home__link">
           <Link to="/electronics"><p>Electronics</p></Link>
         </div>
@@ -49,7 +49,7 @@ function Home() {
         <div className="home__link">
           <Link to="/automotiveindustrial"><p>Automotive & Industrial</p></Link>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

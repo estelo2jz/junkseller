@@ -1,10 +1,32 @@
+.global-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100000000;
+  box-shadow: 0px 0px 5px #333;
+  -moz-box-shadow: 0px 0px 5px #333;
+  -webkit-box-shadow: 0px 0px 5px #333;
+}
 .navbar {
   background-color: #82c7dc;
   height: 60px;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   z-index: 100000000;
+  .header__link {
+    color: white;
+    text-decoration: none;
+    .header__optionBasket {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 30px;
+    }
+    :hover {
+      background-color: red;
+    }
+  }
 }
 
 .menu-bars {

@@ -112,7 +112,7 @@ function Footer() {
       {/* </ul> */}
       {/* <hr /> */}
       <div class="footer__bottom">
-        {/* <p>All right reserved by &copy;JUNK-SELLER 2020 </p> */}
+        <p>All right reserved by &copy;JUNK-SELLER 2020 </p>
       </div>
     </footer>
   )

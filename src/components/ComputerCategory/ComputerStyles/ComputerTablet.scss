@@ -2,7 +2,7 @@
   background-color: rgb(243, 243, 243);
   height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   .computer-tablet__box-one-container {
     display: flex;
@@ -127,5 +127,9 @@
       }
 
     }
+  }
+
+  .computer-tablet__box-two-container {
+
   }
 }

@@ -38,6 +38,16 @@ function ComputerTablet() {
           </div>
         </div>
       </div>
+      <div>
+        <div className="computer-tablet__box-one-four">
+          <div className="computer-tablet__box-one-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81l9Y%2BQKyRL._AC_SL1500_.jpg" alt="product-image" />
+          </div>
+          <div className="computer-tablet__span">
+            <span>Monitors</span>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
