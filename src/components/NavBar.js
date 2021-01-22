@@ -42,20 +42,22 @@ function NavBar() {
                     <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                     <ul className='nav-menu-items' onClick={showSidebar}>
                         <li className='navbar-toggle'>
-                        <Link to='#' className='menu-bars'>
+                        <Link to='#' className='menu-bars close'>
                             <AiIcons.AiOutlineClose />
                         </Link>
                         </li>
-                        {SidebarData.map((item, index) => {
-                        return (
-                            <li key={index} className={item.cName}>
-                            <Link to={item.path}>
-                                {/* {item.icon} */}
-                                <span>{item.title}</span>
-                            </Link>
-                            </li>
-                        );
-                        })}
+                        <div className="navbar__items-container">
+                            {SidebarData.map((item, index) => {
+                            return (
+                                <li key={index} className={item.cName}>
+                                <Link to={item.path}>
+                                    {/* {item.icon} */}
+                                    <span>{item.title}</span>
+                                </Link>
+                                </li>
+                            );
+                            })}
+                        </div>
                     </ul>
                     </nav>
                 </IconContext.Provider>
