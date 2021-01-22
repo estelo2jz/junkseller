@@ -34,11 +34,13 @@
     }
   }
   .computer-tablet-template__right-container {
-    margin-left: 20px;
+    margin-left: 10px;
+    width: 100%;
+
     // background-color: rgb(156, 148, 148);
     .computer-tablet-template__price {
       p {
-        font-size: 0.9em;
+        font-size: 0.8em;
       }
     }
     .computer-tablet-template__title {
@@ -48,19 +50,21 @@
         display: -webkit-box;
         -webkit-line-clamp: 2; /* number of lines to show */
         -webkit-box-orient: vertical;
-        font-size: 0.9em;
+        font-size: 0.8em;
+        width: 80%;
       }
     }
     .computer-tablet-template__desc {
+        width: 80%;
       p {
-        font-size: 0.9em;
+        font-size: 0.7em;
       }
     }
     .computer-tablet-template__rating {
       display: flex;
       align-items: center;
       p {
-        font-size: 0.9em;
+        font-size: 0.7em;
       }
       p:nth-child(2) {
         margin-top: 3px;
@@ -68,7 +72,10 @@
       }
     }
     .computer-tablet-template__btn {
-
+      button {
+        font-size: 0.7em;
+        padding: 5px 10px;
+      }
     }
   }
 
