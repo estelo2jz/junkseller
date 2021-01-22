@@ -133,10 +133,18 @@
     }
   }
   .computer-tablet__section {
+    // scrollbar-3dlight-color:gold;
+    // scrollbar-arrow-color:blue;
+    // scrollbar-base-color:;
+    // scrollbar-darkshadow-color:blue;
+    // scrollbar-face-color:;
+    // scrollbar-highlight-color:;
+    // scrollbar-shadow-color:
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 500px;
     width: 100%;
     padding: 20px 0px;
     .tabbed {
@@ -164,6 +172,21 @@
     .tabs {
       clear: both;
       perspective: 600px;
+      .tabs-template__outer-container {
+        padding: 0;
+        margin: 0; 
+      }
+      .tabs-template__container {
+        height: 500px;
+        width: 100%;		
+        overflow-y:auto;
+        float:left;
+        position:relative;
+        margin-left:-5px;
+        padding: 0;
+        margin: 0;
+
+      }
     }
     .tabs > div {
       // width: 700px;

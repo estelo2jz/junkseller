@@ -1,6 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../ComputerStyles/ComputerTablet.scss';
+import '../ComputerStyles/ComputerTabletTemplate.scss';
+
+function ComputerTabletTemplate() {
+  return (
+    <div className="computer-tablet-template__container">
+      <div className="computer-tablet-template__left-container">
+        <div className="computer-tablet-template__img">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/61FA9BbugzL._AC_SL1500_.jpg" alt="computer-product-image" />
+        </div>
+      </div>
+      <div className="computer-tablet-template__right-container">
+        <div className="computer-tablet-template__title">
+          <p>TP-Link 8 Port Gigabit Ethernet Network Switch - Ethernet Splitter | Plug & Play | Fanless | Sturdy Metal w/ Shielded Ports | Traffic Optimization | Unmanaged | Limited Lifetime Protection (TL-SG108)</p>
+        </div>
+        <div className="computer-tablet-template__price">
+          <p> $ 17.99</p>
+          <p>List: $13.99 (55% off)</p>
+        </div>
+        <div className="computer-tablet-template__desc">
+          <p>Ships from and sold by JunkSeller.</p>
+        </div>
+        <div className="computer-tablet-template__rating">
+          <p>⭐⭐⭐⭐⭐</p>
+          <p>20601</p>
+        </div>
+        <div className="computer-tablet-template__btn">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 function ComputerTablet() {
   return (
@@ -68,7 +100,7 @@ function ComputerTablet() {
         <p>Deals in Computers & Accessories</p>
       </div>
       <div className="computer-tablet__section">
-        <div class="tabbed">
+        <div className="tabbed">
           <input type="radio" name="tabs" id="tab_one" checked />
           <label for="tab_one" >All available</label>
           <input type="radio" name="tabs" id="tab_two" checked />
@@ -77,30 +109,42 @@ function ComputerTablet() {
           <label for="tab_three" >Missed</label>
           <input type="radio" name="tabs" id="tab_four" checked />
           <label for="tab_four" >Watched Deals</label>
-          <div class="tabs">
-            <div>
-              <h2>All available</h2>
-              <p>
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </p>
+          <div className="tabs">
+            <div className="tabs-template__outer-container">
+              <div className="tabs-template__container">
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+              </div>
             </div>
-            <div>
-              <h2>Upcoming</h2>
-              <p>
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </p>
-             </div>
-            <div>
-              <h2>Missed</h2>
-              <p>
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </p>
+            <div className="tabs-template__outer-container">
+              <div className="tabs-template__container">
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+              </div>
             </div>
-            <div>
-              <h2>Watched Deals</h2>
-              <p>
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </p>
+            <div className="tabs-template__outer-container">
+              <div className="tabs-template__container">
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+              </div>
+            </div>
+            <div className="tabs-template__outer-container">
+              <div className="tabs-template__container">
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+                <ComputerTabletTemplate />
+              </div>
             </div>
           </div>
         </div>
