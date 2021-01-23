@@ -5,6 +5,7 @@
   align-items: center;
   margin: 3px 1px;
   height: 220px;
+  overflow: hidden;
   // grid-gap: 20px;
   // grid-column-gap: 20px;
   // grid-row-gap: 20px;
@@ -15,7 +16,7 @@
     width: 270px;
     .computer-tablet-template__img {
       // background-color: gray;
-      height: 250px;
+      height: 220px;
       // width: 250px;
       // max-width: 40%;
       background-position: center;
@@ -29,7 +30,7 @@
         // width: 200px;
         // height: 200px;
         max-width: 150px;
-        max-height: 150px;
+        max-height: 120px;
       }
     }
   }
@@ -67,13 +68,15 @@
       p {
         font-size: 0.7em;
       }
-      p:nth-child(2) {
-        margin-top: 3px;
-        margin-left: 3px;
+      .computer-tablet-template__rating-stars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
     .computer-tablet-template__btn {
       button {
+        cursor: pointer;
         font-size: 0.7em;
         padding: 5px 10px;
       }
