@@ -112,6 +112,7 @@ function Footer() {
       {/* </ul> */}
       {/* <hr /> */}
       <div class="footer__bottom">
+        <div>Icons made by <a href="" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         <p>All right reserved by &copy;JUNK-SELLER 2020 </p>
       </div>
     </footer>
