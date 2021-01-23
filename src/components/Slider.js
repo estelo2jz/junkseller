@@ -30,8 +30,8 @@ function Slider() {
       descTwo="desc two here"
       descThree="desc three here"
       descFour="desc four here"
-      descOneImg= "https://www.flaticon.com/premium-icon/icons/svg/2681/2681706.svg"
-      descTwoImg= "https://www.flaticon.com/premium-icon/icons/svg/2931/2931940.svg"
+      descOneImg= "https://www.flaticon.com/svg/vstatic/svg/4108/4108514.svg?token=exp=1611430976~hmac=12be04cd99da87a88a1275e2538c99fd"
+      descTwoImg= "https://www.flaticon.com/svg/vstatic/svg/3869/3869979.svg?token=exp=1611431029~hmac=13d57eafd2a8f80c034ae500f501e406"
       descThreeImg= "https://www.flaticon.com/svg/vstatic/svg/4107/4107747.svg?token=exp=1611430464~hmac=c418300ca5c38e993de55ad0ad272372"
       descFourImg= "https://www.flaticon.com/svg/vstatic/svg/3662/3662920.svg?token=exp=1611430500~hmac=088d934d9215b9a369fba0a99f52898f"
     />,
@@ -43,9 +43,9 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg= "https://www.flaticon.com/svg/vstatic/svg/900/900618.svg?token=exp=1611430228~hmac=106c9e4a9aaa3cec6bf95b9cf911f336"
-      descTwoImg= "https://www.flaticon.com/premium-icon/icons/svg/1615/1615995.svg"
-      descThreeImg = ""
-      descFourImg = ""
+      descTwoImg= "https://www.flaticon.com/svg/vstatic/svg/100/100310.svg?token=exp=1611430823~hmac=23c1ade544cdb9a91e0cc75310be1aba"
+      descThreeImg= "https://www.flaticon.com/svg/vstatic/svg/33/33272.svg?token=exp=1611430823~hmac=98465532c94b66875aadefbb78d6fa8e"
+      descFourImg= "https://www.flaticon.com/svg/vstatic/svg/3501/3501039.svg?token=exp=1611430823~hmac=b55161812c7cd1aaeb0c8b193621754d"
     />,
     <HomeSlider 
       src={HomeGardenToolsLogo} 
@@ -55,9 +55,9 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg= "https://www.flaticon.com/svg/vstatic/svg/1261/1261143.svg?token=exp=1611430228~hmac=17a89a190097a1f92bc7612cad73bffc"
-      descTwoImg = ""
-      descThreeImg = ""
-      descFourImg = ""
+      descTwoImg= "https://www.flaticon.com/svg/vstatic/svg/601/601964.svg?token=exp=1611431078~hmac=14b013dda0c3829e5d4dc7417f5c7eef"
+      descThreeImg= "https://www.flaticon.com/svg/vstatic/svg/1571/1571626.svg?token=exp=1611431078~hmac=7e5457cd69ff83147256787c83b0b291"
+      descFourImg= "https://www.flaticon.com/svg/vstatic/svg/3749/3749704.svg?token=exp=1611431173~hmac=afff715add351d6c39b3289ab8e28426"
     />,
     <HomeSlider 
       src={PetSuppliesLogo} 
@@ -66,10 +66,10 @@ function Slider() {
       descTwo="desc two here"
       descThree="desc three here"
       descFour="desc four here"
-      descOneImg= "https://www.flaticon.com/svg/vstatic/svg/3205/3205374.svg?token=exp=1611429755~hmac=03c7274b8e2722e8ecca9f2f3593f1c7"
-      descTwoImg="https://www.flaticon.com/svg/vstatic/svg/2965/2965385.svg?token=exp=1611429755~hmac=1d2f197aeaec28efbd14542d9cc49ebf"
-      descThreeImg="https://www.flaticon.com/svg/vstatic/svg/3969/3969815.svg?token=exp=1611429755~hmac=a6ed70cf044989a33d09e0abb8d39035"
-      descFourImg="https://www.flaticon.com/premium-icon/icons/svg/2681/2681675.svg" 
+      descOneImg= "https://www.flaticon.com/svg/vstatic/svg/3736/3736727.svg?token=exp=1611431436~hmac=22e12c20cad9980a3a00e223bfbdb82c"
+      descTwoImg="https://www.flaticon.com/svg/vstatic/svg/2809/2809814.svg?token=exp=1611431315~hmac=bfbd553f026da6e56f075c0925b20eb0"
+      descThreeImg="https://www.flaticon.com/svg/vstatic/svg/3744/3744606.svg?token=exp=1611431498~hmac=39d1dfba2b9f4b5e2dca1b5dfbdff750"
+      descFourImg="https://www.flaticon.com/svg/vstatic/svg/3050/3050205.svg?token=exp=1611431498~hmac=58c0bee0f96cb0684034613990aec3f2" 
     />,
     <HomeSlider 
       src={OutdoorsLogo} 
