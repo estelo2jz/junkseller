@@ -164,7 +164,7 @@ function ComputerTablet() {
         </div>
       </div> */}
 
-      <div className="computer-tablet__box-one-container">
+      {/* <div className="computer-tablet__box-one-container">
         <div className="computer-tablet__box-one-one">
           <div className="computer-tablet__box-one-img">
             <img className="responsive" src="https://images-na.ssl-images-amazon.com/images/I/71k45hZkLmL._AC._SR360,460.jpg" alt="product-image" />
@@ -197,7 +197,7 @@ function ComputerTablet() {
             <span>Monitors</span>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/* <div className="computer-tablet__box-two-container">

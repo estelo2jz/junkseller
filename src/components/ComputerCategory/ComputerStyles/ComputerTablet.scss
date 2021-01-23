@@ -171,13 +171,13 @@
     
     .tabs {
       clear: both;
-      perspective: 600px;
+      // perspective: 600px;
       .tabs-template__outer-container {
         padding: 0;
         margin: 0; 
       }
       .tabs-template__container {
-        height: 500px;
+        height: 478px;
         width: 100%;		
         overflow-y:auto;
         float:left;
@@ -196,7 +196,7 @@
       line-height: 1.4em;
       opacity: 0;
       z-index: 0;
-      transform: rotateX(20deg);
+      // transform: rotateX(20deg);
       transform-origin: top center;
       transition: opacity 0.3s, transform 1s;
     }

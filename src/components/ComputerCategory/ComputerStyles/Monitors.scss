@@ -1,7 +1,38 @@
 .monitors__container {
-  background-color: rgb(122, 128, 0);
-  height: 100vh;
+  // background-color: rgb(122, 128, 0);
+  height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  // align-items: center;
+  .monitors__heading {
+    margin-left: 30px;
+    padding: 20px 0px;
+    p {
+      font-size: 1.3em;
+
+    }
+    p:nth-child(2) {
+      font-size: 0.8em;
+    }
+  }
+  .monitors__ads-one {
+    width: 100%;
+    padding: 20px 0px;
+    img {
+      width: 100%;
+    }
+  }
+  .monitors__category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 200px;
+      max-width: 45%;
+      margin: 5px;
+      cursor: pointer;
+    }
+  }
 }
