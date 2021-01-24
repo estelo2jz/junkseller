@@ -27,38 +27,38 @@ import HomeGardenToolsLogo1 from './logo/subLogos/tv.svg';
 import HomeGardenToolsLogo2 from './logo/subLogos/tv.svg';
 import HomeGardenToolsLogo3 from './logo/subLogos/tv.svg';
 import HomeGardenToolsLogo4 from './logo/subLogos/tv.svg';
-import SmartHomeLogo1 from './logo/subLogos/tv.svg';
-import SmartHomeLogo2 from './logo/subLogos/tv.svg';
-import SmartHomeLogo3 from './logo/subLogos/tv.svg';
-import SmartHomeLogo4 from './logo/subLogos/tv.svg';
-import PetSuppliesLogo1 from './logo/subLogos/tv.svg';
-import PetSuppliesLogo2 from './logo/subLogos/tv.svg';
-import PetSuppliesLogo3 from './logo/subLogos/tv.svg';
-import PetSuppliesLogo4 from './logo/subLogos/tv.svg';
-import FoodGroceryLogo1 from './logo/subLogos/tv.svg';
-import FoodGroceryLogo2 from './logo/subLogos/tv.svg';
-import FoodGroceryLogo3 from './logo/subLogos/tv.svg';
-import FoodGroceryLogo4 from './logo/subLogos/tv.svg';
+import SmartHomeLogo1 from './logo/subLogos/slocks.svg';
+import SmartHomeLogo2 from './logo/subLogos/ssecurity.svg';
+import SmartHomeLogo3 from './logo/subLogos/svacuum.svg';
+import SmartHomeLogo4 from './logo/subLogos/shomelight.svg';
+import PetSuppliesLogo1 from './logo/subLogos/pprofiles.svg';
+import PetSuppliesLogo2 from './logo/subLogos/pfood.svg';
+import PetSuppliesLogo3 from './logo/subLogos/pfish.svg';
+import PetSuppliesLogo4 from './logo/subLogos/pbirds.svg';
+import FoodGroceryLogo1 from './logo/subLogos/fgourmet.svg';
+import FoodGroceryLogo2 from './logo/subLogos/ffresh.svg';
+import FoodGroceryLogo3 from './logo/subLogos/fpantry.svg';
+import FoodGroceryLogo4 from './logo/subLogos/fgrocery.svg';
 import BeautyHealthLogo1 from './logo/subLogos/bbeauty.svg';
 import BeautyHealthLogo2 from './logo/subLogos/bdiet.svg';
 import BeautyHealthLogo3 from './logo/subLogos/bmens.svg';
 import BeautyHealthLogo4 from './logo/subLogos/bskin.svg';
-import ToyKidsBabyLogo1 from './logo/subLogos/tv.svg';
-import ToyKidsBabyLogo2 from './logo/subLogos/tv.svg';
-import ToyKidsBabyLogo3 from './logo/subLogos/tv.svg';
+import ToyKidsBabyLogo1 from './logo/subLogos/tbaby.svg';
+import ToyKidsBabyLogo2 from './logo/subLogos/tbirthdays.svg';
+import ToyKidsBabyLogo3 from './logo/subLogos/tdiaper.svg';
 import ToyKidsBabyLogo4 from './logo/subLogos/tv.svg';
-import HandmadeLogo1 from './logo/subLogos/tv.svg';
-import HandmadeLogo2 from './logo/subLogos/tv.svg';
-import HandmadeLogo3 from './logo/subLogos/tv.svg';
-import HandmadeLogo4 from './logo/subLogos/tv.svg';
-import SportsLogo1 from './logo/subLogos/tv.svg';
-import SportsLogo2 from './logo/subLogos/tv.svg';
-import SportsLogo3 from './logo/subLogos/tv.svg';
-import SportsLogo4 from './logo/subLogos/tv.svg';
-import OutdoorsLogo1 from './logo/subLogos/tv.svg';
-import OutdoorsLogo2 from './logo/subLogos/tv.svg';
-import OutdoorsLogo3 from './logo/subLogos/tv.svg';
-import OutdoorsLogo4 from './logo/subLogos/tv.svg';
+import HandmadeLogo1 from './logo/subLogos/hhandbags.svg';
+import HandmadeLogo2 from './logo/subLogos/hfurniture.svg';
+import HandmadeLogo3 from './logo/subLogos/hdecor.svg';
+import HandmadeLogo4 from './logo/subLogos/hjewelry.svg';
+import SportsLogo1 from './logo/subLogos/sgolf.svg';
+import SportsLogo2 from './logo/subLogos/sfitness.svg';
+import SportsLogo3 from './logo/subLogos/sexercise.svg';
+import SportsLogo4 from './logo/subLogos/sfishing.svg';
+import OutdoorsLogo1 from './logo/subLogos/ocycling.svg';
+import OutdoorsLogo2 from './logo/subLogos/ocamping.svg';
+import OutdoorsLogo3 from './logo/subLogos/oscooters.svg';
+import OutdoorsLogo4 from './logo/subLogos/oclimbing.svg';
 import AutomotiveLogo1 from './logo/subLogos/aparts.svg';
 import AutomotiveLogo2 from './logo/subLogos/atires.svg';
 import AutomotiveLogo3 from './logo/subLogos/atools1.svg';
@@ -122,9 +122,9 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg={PetSuppliesLogo1}
-      descTwoImg={PetSuppliesLogo1}
-      descThreeImg={PetSuppliesLogo1}
-      descFourImg={PetSuppliesLogo1} 
+      descTwoImg={PetSuppliesLogo2}
+      descThreeImg={PetSuppliesLogo3}
+      descFourImg={PetSuppliesLogo4} 
       descPathOne=""
       descPathTwo=""
       descPathThree=""
@@ -138,9 +138,9 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg={OutdoorsLogo1}
-      descTwoImg={OutdoorsLogo1}
-      descThreeImg={OutdoorsLogo1}
-      descFourImg={OutdoorsLogo1}
+      descTwoImg={OutdoorsLogo2}
+      descThreeImg={OutdoorsLogo3}
+      descFourImg={OutdoorsLogo4}
       descPathOne = ""
       descPathTwo = ""
       descPathThree = ""
@@ -154,9 +154,9 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg={SmartHomeLogo1}
-      descTwoImg={SmartHomeLogo1}
-      descThreeImg={SmartHomeLogo1}
-      descFourImg={SmartHomeLogo1}
+      descTwoImg={SmartHomeLogo2}
+      descThreeImg={SmartHomeLogo3}
+      descFourImg={SmartHomeLogo4}
       descPathOne = ""
       descPathTwo = ""
       descPathThree = ""
@@ -170,9 +170,9 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg={FoodGroceryLogo1}
-      descTwoImg={FoodGroceryLogo1}
-      descThreeImg={FoodGroceryLogo1}
-      descFourImg={FoodGroceryLogo1}
+      descTwoImg={FoodGroceryLogo2}
+      descThreeImg={FoodGroceryLogo3}
+      descFourImg={FoodGroceryLogo4}
       descPathOne = ""
       descPathTwo = ""
       descPathThree = ""
@@ -202,8 +202,8 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg={ToyKidsBabyLogo1}
-      descTwoImg={ToyKidsBabyLogo1}
-      descThreeImg={ToyKidsBabyLogo1}
+      descTwoImg={ToyKidsBabyLogo2}
+      descThreeImg={ToyKidsBabyLogo3}
       descFourImg={ToyKidsBabyLogo1}
       descPathOne = ""
       descPathTwo = ""
@@ -218,9 +218,9 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg={HandmadeLogo1}
-      descTwoImg={HandmadeLogo1}
-      descThreeImg={HandmadeLogo1}
-      descFourImg={HandmadeLogo1}
+      descTwoImg={HandmadeLogo2}
+      descThreeImg={HandmadeLogo3}
+      descFourImg={HandmadeLogo4}
       descPathOne = ""
       descPathTwo = ""
       descPathThree = ""
@@ -234,9 +234,9 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg={SportsLogo1}
-      descTwoImg={SportsLogo1}
-      descThreeImg={SportsLogo1}
-      descFourImg={SportsLogo1}
+      descTwoImg={SportsLogo2}
+      descThreeImg={SportsLogo3}
+      descFourImg={SportsLogo4}
       descPathOne = ""
       descPathTwo = ""
       descPathThree = ""
