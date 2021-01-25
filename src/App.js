@@ -105,25 +105,87 @@ import WaterSports from './components/OutdoorsCategory/Category/WaterSports';
 import WinterSports from './components/OutdoorsCategory/Category/WinterSports';
 
 // SMART HOME CATEGORY
+import SmartSmartHome from './components/SmartHomeCategory/Category/SmartHome';
+// import DetectorsSensors from './components/SmartHomeCategory/Category/DetectorsSensors';
+// import HeatingCooling from './components/SmartHomeCategory/Category/HeatingCooling';
+// import HomeEntertainment from './components/SmartHomeCategory/Category/HomeEntertainment';
+// import SmartKitchen from './components/SmartHomeCategory/Category/Kitchen';
+// import LawnGarden from './components/SmartHomeCategory/Category/LawnGarden';
+// import SmartPet from './components/SmartHomeCategory/Category/Pet';
+// import PlugsOutlet from './components/SmartHomeCategory/Category/PlugsOutlet';
+// import SecurityCameras from './components/SmartHomeCategory/Category/SecurityCameras';
+// import SmartDevices from './components/SmartHomeCategory/Category/SmartDevices';
+// import SmartLocks from './components/SmartHomeCategory/Category/SmartLocks';
+// import VacuumMops from './components/SmartHomeCategory/Category/VacuumMops';
+// import VoiceAssistants from './components/SmartHomeCategory/Category/VoiceAssistants';
+// import WifiNetworking from './components/SmartHomeCategory/Category/WifiNetworking';
 
 
 // FOOD GROCERY CATEGORY
-
+// import Fresh from './components/FoodGroceryCategory/Category/Fresh';
+// import GroceryGourmet from './components/FoodGroceryCategory/Category/GroceryGourmet';
+// import Pantry from './components/FoodGroceryCategory/Category/Pantry';
+// import WholeFoods from './components/FoodGroceryCategory/Category/WholeFoods';
 
 // BEAUTY HEALTH CATEGORY
-
+// import AllBeauty from './components/BeautyHealthCategory/Category/AllBeauty';
+// import HealthHousehold from './components/BeautyHealthCategory/Category/HealthHousehold';
+// import MensGrooming from './components/BeautyHealthCategory/Category/MensGrooming';
+// import PremiumBeauty from './components/BeautyHealthCategory/Category/PremiumBeauty';
+// import SalonSpa from './components/BeautyHealthCategory/Category/SalonSpa';
+// import SkinCare from './components/BeautyHealthCategory/Category/SkinCare';
+// import VitaminsDiet from './components/BeautyHealthCategory/Category/VitaminsDiet';
 
 // TOYS KIDS BABY
-
+// import ToysBaby from './components/ToysKidsBabyCategory/Category/Baby';
+// import BabyRegistry from './components/ToysKidsBabyCategory/Category/Babyregistry';
+// import Diapering from './components/ToysKidsBabyCategory/Category/Diapering';
+// import ToysFamily from './components/ToysKidsBabyCategory/Category/Family';
+// import KidsBirthdays from './components/ToysKidsBabyCategory/Category/KidsBirthdays';
+// import KidsTeen from './components/ToysKidsBabyCategory/Category/Teen';
+// import ToysGames from './components/ToysKidsBabyCategory/Category/ToysGames';
+// import VideoGameKids from './components/ToysKidsBabyCategory/Category/VideoGameKids';
 
 // HANDMADE CATEGORY
-
+// import AllHandmade from './components/HandmadeCategory/Category/AllHandmade';
+// import Artwork from './components/HandmadeCategory/Category/Artwork';
+// import HandmadeBaby from './components/HandmadeCategory/Category/Baby';
+// import BeautyGrooming from './components/HandmadeCategory/Category/BeautyGrooming';
+// import ClothingShoes from './components/HandmadeCategory/Category/ClothingShoes';
+// import HandmadeFurniture from './components/HandmadeCategory/Category/Furniture';
+// import HandmadeGifts from './components/HandmadeCategory/Category/Gifts';
+// import HandbagsAccessories from './components/HandmadeCategory/Category/HandbagsAccessories';
+// import HomeDecor from './components/HandmadeCategory/Category/HomeDecor';
+// import HomeKitchen from './components/HandmadeCategory/Category/HomeKitchen';
+// import Jewelry from './components/HandmadeCategory/Category/Jewelry';
+// import KitchenDining from './components/HandmadeCategory/Category/KitchenDining';
+// import HandmadePetSupplies from './components/HandmadeCategory/Category/PetSupplies';
+// import SellOn from './components/HandmadeCategory/Category/SellOn';
+// import StationaryParty from './components/HandmadeCategory/Category/StationaryParty';
+// import ToysGames from './components/HandmadeCategory/Category/ToysGames';
+// import Wedding from './components/HandmadeCategory/Category/Wedding';
 
 // SPORTS CATEGORY
+// import AllSports from './components/SportsCategory/Category/AllSports';
+// import AthleticClothing from './components/SportsCategory/Category/AthleticClothing';
+// import ExerciseFitness from './components/SportsCategory/Category/ExerciseFitness';
+// import FanShop from './components/SportsCategory/Category/FanShop';
+// import Golf from './components/SportsCategory/Category/Golf';
+// import HuntingFishing from './components/SportsCategory/Category/HuntingFishing';
+// import LeisureGame from './components/SportsCategory/Category/LeisureGame';
+// import  NewGear from './components/SportsCategory/Category/NewGear';
+// import SportsCollectibles from './components/SportsCategory/Category/SportsCollectibles';
 
 
 // AUTOMOTIVE CATEGORY
-
+// import CarElectronics from './components/AutomotiveCategory/Category/CarElectronics';
+// import Garage from './components/AutomotiveCategory/Category/Garage';
+// import MotorcyclePowerSports from './components/AutomotiveCategory/Category/MotorcyclePowerSports';
+// import PartsAccessories from './components/AutomotiveCategory/Category/PartsAccessories';
+// import RV from './components/AutomotiveCategory/Category/RV';
+// import TiresWheel from './components/AutomotiveCategory/Category/TiresWheel';
+// import ToolsEquipment from './components/AutomotiveCategory/Category/ToolsEquipment';
+// import Vehicles from './components/AutomotiveCategory/Category/Vehicles';
 
 function App() {
   return (

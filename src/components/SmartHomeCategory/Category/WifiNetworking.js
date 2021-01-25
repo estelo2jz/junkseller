@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HomeEntertaiment() {
+function WifiNetworking() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function HomeEntertaiment() {
   )
 }
 
-export default HomeEntertaiment
+export default WifiNetworking
