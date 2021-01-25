@@ -23,10 +23,10 @@ import ComputerLogo1 from './logo/subLogos/ccomputers.svg';
 import ComputerLogo2 from './logo/subLogos/cgpu.svg';
 import ComputerLogo3 from './logo/subLogos/charddrives.svg';
 import ComputerLogo4 from './logo/subLogos/cprinters.svg';
-import HomeGardenToolsLogo1 from './logo/subLogos/tv.svg';
-import HomeGardenToolsLogo2 from './logo/subLogos/tv.svg';
-import HomeGardenToolsLogo3 from './logo/subLogos/tv.svg';
-import HomeGardenToolsLogo4 from './logo/subLogos/tv.svg';
+import HomeGardenToolsLogo1 from './logo/subLogos/hbath.svg';
+import HomeGardenToolsLogo2 from './logo/subLogos/happliances.svg';
+import HomeGardenToolsLogo3 from './logo/subLogos/hbed.svg';
+import HomeGardenToolsLogo4 from './logo/subLogos/hwedding.svg';
 import SmartHomeLogo1 from './logo/subLogos/slocks.svg';
 import SmartHomeLogo2 from './logo/subLogos/ssecurity.svg';
 import SmartHomeLogo3 from './logo/subLogos/svacuum.svg';
@@ -106,9 +106,9 @@ function Slider() {
       descThree="desc three here"
       descFour="desc four here"
       descOneImg={HomeGardenToolsLogo1}
-      descTwoImg={HomeGardenToolsLogo1}
-      descThreeImg={HomeGardenToolsLogo1}
-      descFourImg={HomeGardenToolsLogo1}
+      descTwoImg={HomeGardenToolsLogo2}
+      descThreeImg={HomeGardenToolsLogo3}
+      descFourImg={HomeGardenToolsLogo4}
       descPathOne = ""
       descPathTwo = ""
       descPathThree = ""
