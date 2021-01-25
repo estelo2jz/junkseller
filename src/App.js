@@ -110,6 +110,7 @@ import DetectorsSensors from './components/SmartHomeCategory/Category/DetectorsS
 import HeatingCooling from './components/SmartHomeCategory/Category/HeatingCooling';
 import HomeEntertainment from './components/SmartHomeCategory/Category/HomeEntertainment';
 import SmartKitchen from './components/SmartHomeCategory/Category/Kitchen';
+import SmartLighting from './components/SmartHomeCategory/Category/SmartLighting';
 import LawnGarden from './components/SmartHomeCategory/Category/LawnGarden';
 import SmartPet from './components/SmartHomeCategory/Category/Pet';
 import PlugsOutlet from './components/SmartHomeCategory/Category/PlugsOutlet';
@@ -648,7 +649,7 @@ function App() {
             />
             <SmartSmartHome />
           </Route>
-          <Route path="/smarthome/detectorssensors" exact component={DetectorsSensors}>
+          <Route path="/smarthome/detectors&sensors" exact component={DetectorsSensors}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -671,7 +672,7 @@ function App() {
             />
             <DetectorsSensors />
           </Route>
-          <Route path="/smarthome/" exact component={HeatingCooling}>
+          <Route path="/smarthome/heating&cooling" exact component={HeatingCooling}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -694,7 +695,7 @@ function App() {
             />
             <HeatingCooling />
           </Route>
-          <Route path="/smarthome/" exact component={HomeEntertainment}>
+          <Route path="/smarthome/homeentertainment" exact component={HomeEntertainment}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -717,7 +718,7 @@ function App() {
             />
             <HomeEntertainment />
           </Route>
-          <Route path="/smarthome/" exact component={SmartKitchen}>
+          <Route path="/smarthome/kitchen" exact component={SmartKitchen}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -740,7 +741,7 @@ function App() {
             />
             <SmartKitchen />
           </Route>
-          <Route path="/smarthome/" exact component={LawnGarden}>
+          <Route path="/smarthome/lawn&garden" exact component={LawnGarden}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -763,7 +764,7 @@ function App() {
             />
             <LawnGarden />
           </Route>
-          <Route path="/smarthome/" exact component={SmartPet}>
+          <Route path="/smarthome/pet" exact component={SmartPet}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -786,7 +787,7 @@ function App() {
             />
             <SmartPet />
           </Route>
-          <Route path="/smarthome/" exact component={PlugsOutlet}>
+          <Route path="/smarthome/plugs&outlets" exact component={PlugsOutlet}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -809,7 +810,7 @@ function App() {
             />
             <PlugsOutlet />
           </Route>
-          <Route path="/smarthome/" exact component={SecurityCameras}>
+          <Route path="/smarthome/securitycameras&systems" exact component={SecurityCameras}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -832,7 +833,7 @@ function App() {
             />
             <SecurityCameras />
           </Route>
-          <Route path="/smarthome/" exact component={SmartDevices}>
+          <Route path="/smarthome/newsmartdevices" exact component={SmartDevices}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -855,7 +856,7 @@ function App() {
             />
             <SmartDevices />
           </Route>
-          <Route path="/smarthome/" exact component={SmartLocks}>
+          <Route path="/smarthome/smartlocks&entry" exact component={SmartLocks}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -878,7 +879,7 @@ function App() {
             />
             <SmartLocks />
           </Route>
-          <Route path="/smarthome/" exact component={VacuumMops}>
+          <Route path="/smarthome/vacuum&mops" exact component={VacuumMops}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -901,7 +902,7 @@ function App() {
             />
             <VacuumMops />
           </Route>
-          <Route path="/smarthome/" exact component={VoiceAssistants}>
+          <Route path="/smarthome/voiceassistants&hubs" exact component={VoiceAssistants}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 
@@ -924,7 +925,53 @@ function App() {
             />
             <VoiceAssistants />
           </Route>
-          <Route path="/smarthome/" exact component={WifiNetworking}>
+          <Route path="/smarthome/wifi&networking" exact component={WifiNetworking}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <WifiNetworking />
+          </Route>
+          <Route path="/smarthome/Smarthomelighting" exact component={SmartLighting}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartLighting />
+          </Route>
+          <Route path="/smarthome/wifi&networking" exact component={WifiNetworking}>
             <NavBar />
             <SmartHomeMenu 
               category0="Smart Home" 

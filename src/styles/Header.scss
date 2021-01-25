@@ -54,7 +54,7 @@
   background-color: #82c7dc;
   width: 200px;
   height: 100vh;
-  display: flex;
+  display: flex-start;
   justify-content: center;
   position: fixed;
   top: 0;
@@ -87,7 +87,7 @@
   font-size: 15px;
   width: 95%;
   height: 100%;
-  display: flex;
+  display: flex-start;
   align-items: center;
   /* padding: 10px 0px; */
   margin-left: 5px;
