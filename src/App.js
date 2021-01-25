@@ -181,7 +181,7 @@ import SportsCollectibles from './components/SportsCategory/Category/SportsColle
 // AUTOMOTIVE CATEGORY
 import AutoCarElectronics from './components/AutomotiveCategory/Category/CarElectronics';
 import Garage from './components/AutomotiveCategory/Category/Garage';
-import MotorcyclePowerSports from './components/AutomotiveCategory/Category/MotorcyclePowerSports';
+import MotorcyclePowerSports from './components/AutomotiveCategory/Category/MotorcyclePowersports';
 import PartsAccessories from './components/AutomotiveCategory/Category/PartsAccessories';
 import RV from './components/AutomotiveCategory/Category/RV';
 import TiresWheel from './components/AutomotiveCategory/Category/TiresWheel';
