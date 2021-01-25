@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import ComingSoon from '../../ComingSoon';
 
 function BabyRegistry() {
   return (
     <div>
+<ComingSoon />
       
     </div>
   )

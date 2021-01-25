@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import ComingSoon from '../../ComingSoon';
 
 function LawnGarden() {
   return (
     <div>
-      
+      <ComingSoon />
     </div>
   )
 }

@@ -1,10 +1,12 @@
 import React from 'react';
-import '../ComputerStyles/ComputerTrade.scss';
+// import '../ComputerStyles/ComputerTrade.scss';
+import ComingSoon from '../../ComingSoon';
 
 function ComputerTrade() {
   return (
     <div className="computer-trade__container">
-      <h1>Trade In Your Electronics</h1>
+      <p>Trade In Your Electronics</p>
+      <ComingSoon />
     </div>
   )
 }

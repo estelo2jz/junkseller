@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import ComingSoon from '../../ComingSoon';
 
-function MotorcyclePowersports() {
+function MotorcyclePowerSports() {
   return (
     <div>
+<ComingSoon />
       
     </div>
   )
 }
 
-export default MotorcyclePowersports
+export default MotorcyclePowerSports

@@ -1,10 +1,12 @@
 import React from 'react';
-import '../HomeGardenStyles/GardenOutdoor.scss';
+// import '../HomeGardenStyles/GardenOutdoor.scss';
+import ComingSoon from '../../ComingSoon';
 
 function GardenOutdoor() {
   return (
     <div className="garden-outdoor__container">
-      <h1>Garden & Outdoor</h1>
+      <p>Garden & Outdoor</p>
+<ComingSoon />
     </div>
   )
 }

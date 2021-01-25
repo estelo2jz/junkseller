@@ -1,10 +1,12 @@
 import React from 'react';
-import '../ComputerStyles/ComputerAccessories.scss';
+// import '../ComputerStyles/ComputerAccessories.scss';
+import ComingSoon from '../../ComingSoon';
 
 function ComputerAccessories() {
   return (
     <div className="computer-accessories__container">
-      <h1>Accessories</h1>
+      <p>Accessories</p>
+        <ComingSoon />
     </div>
   )
 }

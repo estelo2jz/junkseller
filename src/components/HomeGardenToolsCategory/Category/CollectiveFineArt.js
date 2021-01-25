@@ -1,10 +1,12 @@
 import React from 'react';
-import '../HomeGardenStyles/CollectiveFineArt.scss';
+// import '../HomeGardenStyles/CollectiveFineArt.scss';
+import ComingSoon from '../../ComingSoon';
 
 function CollectiveFineArt() {
   return (
     <div className="collective-fine-art__container">
-      <h1>Collective & Fine Art</h1>
+      <p>Collective & Fine Art</p>
+<ComingSoon />
     </div>
   )
 }

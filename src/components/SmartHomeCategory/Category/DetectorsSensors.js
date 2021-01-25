@@ -1,9 +1,11 @@
 import React from 'react'
+import ComingSoon from '../../ComingSoon';
 
 function DetectorsSensors() {
   return (
     <div>
-      <h3>dectecting</h3>
+      <p>dectecting</p>
+      <ComingSoon />
     </div>
   )
 }

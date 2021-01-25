@@ -1,12 +1,13 @@
 import React from 'react';
 import ComingSoon from '../../ComingSoon';
 
-function HeatingCooling() {
+function AthleticClothing() {
   return (
     <div>
-      <ComingSoon />
+<ComingSoon /> 
+      
     </div>
   )
 }
 
-export default HeatingCooling
+export default AthleticClothing

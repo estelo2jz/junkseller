@@ -1,10 +1,12 @@
 import React from 'react';
-import '../HomeGardenStyles/KitchenDining.scss';
+// import '../HomeGardenStyles/KitchenDining.scss';
+import ComingSoon from '../../ComingSoon';
 
 function KitchenDining() {
   return (
     <div className="kitchen-dining__container">
-      <h1>Kitchen & Dining</h1>
+      <p>Kitchen & Dining</p>
+<ComingSoon />
     </div>
   )
 }

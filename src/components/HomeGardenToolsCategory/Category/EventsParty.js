@@ -1,10 +1,12 @@
 import React from 'react';
-import '../HomeGardenStyles/EventsParty.scss';
+// import '../HomeGardenStyles/EventsParty.scss';
+import ComingSoon from '../../ComingSoon';
 
 function EventsParty() {
   return (
     <div className="events-party__container">
-      <h1>Events & Party Supplies</h1>
+      <p>Events & Party Supplies</p>
+<ComingSoon />
     </div>
   )
 }

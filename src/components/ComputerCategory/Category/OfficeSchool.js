@@ -1,10 +1,12 @@
 import React from 'react';
-import '../ComputerStyles/OfficeSchool.scss';
+// import '../ComputerStyles/OfficeSchool.scss';
+import ComingSoon from '../../ComingSoon';
 
 function OfficeSchool() {
   return (
     <div className="office-school__container">
-      <h1>Office & School Supplies</h1>
+      <p>Office & School Supplies</p>
+      <ComingSoon />
     </div>
   )
 }

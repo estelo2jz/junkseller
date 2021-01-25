@@ -1,10 +1,12 @@
 import React from 'react';
-import '../ComputerStyles/DrivesStorage.scss';
+// import '../ComputerStyles/DrivesStorage.scss';
+import ComingSoon from '../../ComingSoon';
 
 function DrivesStorage() {
   return (
     <div  className="drives-storage__container">
-      <h1>Drives & Storage</h1>
+      <p>Drives & Storage</p>
+      <ComingSoon />
     </div>
   )
 }
