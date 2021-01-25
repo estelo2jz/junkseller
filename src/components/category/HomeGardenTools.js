@@ -9,7 +9,7 @@ function HomeGardenTools() {
       <div className="home-garden-tools__container">
         <div className="home-garden-tools__container-heading">
           <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"

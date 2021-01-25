@@ -10,13 +10,13 @@ function FoodGrocery() {
         <div className="grocery-food__container-heading">
           <FoodGroceryMenu 
               category0="Grocery & Gourmet Food" 
-              category1="Amazon Fresh"
+              category1="Fresh"
               category2="Whole Foods"
               category3="Pantry"
-              category4="Amazon Launchpad Food"
-              category5="Subscribe & Save"
-              category6="Wickedly Prime"
-              category7="Pay with SNAP EBT"
+              // category4="Launchpad Food"
+              // category5="Subscribe & Save"
+              // category6="Wickedly Prime"
+              // category7="Pay with SNAP EBT"
             />
         </div>
         <div className="grocery-food__container-flex-grid">

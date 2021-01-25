@@ -9,7 +9,7 @@ function SmartHome() {
       <div className="smart-home__container">
         <div className="smart-home__container-heading">
           <SmartHomeMenu 
-              category0="Amazon Smart Home" 
+              category0="Smart Home" 
               category1="Smart Home Lighting"
               category2="Smart Locks and Entry"
               category3="Securtity Cameras and Systems"

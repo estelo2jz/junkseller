@@ -13,12 +13,12 @@ function ToysKidsBaby() {
               category1="Baby"
               category2="Diapering"
               category3="Video Games for Kids"
-              category4="Amazon Family"
-              category5="Amazon Teen"
+              category4="Family"
+              category5="Teen"
               category6="Baby Registry"
               category7="Kids Birthdays"
-              category8="Amazon Launchpad"
-              category9="Amazon Elements"
+              // category8="Launchpad"
+              // category9="Elements"
             />
         </div>
         <div className="toys-kids-baby__container-flex-grid">
