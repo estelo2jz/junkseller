@@ -105,25 +105,88 @@ import WaterSports from './components/OutdoorsCategory/Category/WaterSports';
 import WinterSports from './components/OutdoorsCategory/Category/WinterSports';
 
 // SMART HOME CATEGORY
+import SmartSmartHome from './components/SmartHomeCategory/Category/SmartHome';
+import DetectorsSensors from './components/SmartHomeCategory/Category/DetectorsSensors';
+import HeatingCooling from './components/SmartHomeCategory/Category/HeatingCooling';
+import HomeEntertainment from './components/SmartHomeCategory/Category/HomeEntertainment';
+import SmartKitchen from './components/SmartHomeCategory/Category/Kitchen';
+import SmartLighting from './components/SmartHomeCategory/Category/SmartLighting';
+import LawnGarden from './components/SmartHomeCategory/Category/LawnGarden';
+import SmartPet from './components/SmartHomeCategory/Category/Pet';
+import PlugsOutlet from './components/SmartHomeCategory/Category/PlugsOutlet';
+import SecurityCameras from './components/SmartHomeCategory/Category/SecurityCameras';
+import SmartDevices from './components/SmartHomeCategory/Category/SmartDevices';
+import SmartLocks from './components/SmartHomeCategory/Category/SmartLocks';
+import VacuumMops from './components/SmartHomeCategory/Category/VacuumsMops';
+import VoiceAssistants from './components/SmartHomeCategory/Category/VoiceAssistants';
+import WifiNetworking from './components/SmartHomeCategory/Category/WifiNetworking';
 
 
 // FOOD GROCERY CATEGORY
-
+import Fresh from './components/FoodGroceryCategory/Category/Fresh';
+import GroceryGourmet from './components/FoodGroceryCategory/Category/GroceryGourmet';
+import Pantry from './components/FoodGroceryCategory/Category/Pantry';
+import WholeFoods from './components/FoodGroceryCategory/Category/WholeFoods';
 
 // BEAUTY HEALTH CATEGORY
-
+import AllBeauty from './components/BeautyHealthCategory/Category/AllBeauty';
+import HealthHousehold from './components/BeautyHealthCategory/Category/HealthHousehold';
+import MensGrooming from './components/BeautyHealthCategory/Category/MensGrooming';
+import PremiumBeauty from './components/BeautyHealthCategory/Category/PremiumBeauty';
+import SalonSpa from './components/BeautyHealthCategory/Category/SalonSpa';
+import SkinCare from './components/BeautyHealthCategory/Category/SkinCare';
+import VitaminsDiet from './components/BeautyHealthCategory/Category/VitaminsDiet';
 
 // TOYS KIDS BABY
-
+import ToysBaby from './components/ToysKidsBabyCategory/Category/Baby';
+import BabyRegistry from './components/ToysKidsBabyCategory/Category/BabyRegistry';
+import Diapering from './components/ToysKidsBabyCategory/Category/Diapering';
+import ToysFamily from './components/ToysKidsBabyCategory/Category/Family';
+import KidsBirthdays from './components/ToysKidsBabyCategory/Category/KidsBirthdays';
+import KidsTeen from './components/ToysKidsBabyCategory/Category/Teen';
+import ToysGames from './components/ToysKidsBabyCategory/Category/ToysGames';
+import VideoGameKids from './components/ToysKidsBabyCategory/Category/VideoGameKids';
 
 // HANDMADE CATEGORY
-
+import AllHandmade from './components/HandmadeCategory/Category/AllHandmade';
+import Artwork from './components/HandmadeCategory/Category/Artwork';
+import HandmadeBaby from './components/HandmadeCategory/Category/Baby';
+import BeautyGrooming from './components/HandmadeCategory/Category/BeautyGrooming';
+import ClothingShoes from './components/HandmadeCategory/Category/ClothingShoes';
+import HandmadeFurniture from './components/HandmadeCategory/Category/Furniture';
+import HandmadeGifts from './components/HandmadeCategory/Category/Gifts';
+import HandbagsAccessories from './components/HandmadeCategory/Category/HandbagsAccessories';
+import HandmadeHomeDecor from './components/HandmadeCategory/Category/HomeDecor';
+import HomeKitchen from './components/HandmadeCategory/Category/HomeKitchen';
+import Jewelry from './components/HandmadeCategory/Category/Jewelry';
+import HandmadeKitchenDining from './components/HandmadeCategory/Category/KitchenDining';
+import HandmadePetSupplies from './components/HandmadeCategory/Category/PetSupplies';
+import SellOn from './components/HandmadeCategory/Category/SellOn';
+import StationaryParty from './components/HandmadeCategory/Category/StationaryParty';
+import HandmadeToysGames from './components/HandmadeCategory/Category/ToysGames';
+import Wedding from './components/HandmadeCategory/Category/Wedding';
 
 // SPORTS CATEGORY
+import AllSports from './components/SportsCategory/Category/AllSports';
+import AthleticClothing from './components/SportsCategory/Category/AthleticClothing';
+import ExerciseFitness from './components/SportsCategory/Category/ExerciseFitness';
+import FanShop from './components/SportsCategory/Category/FanShop';
+import Golf from './components/SportsCategory/Category/Golf';
+import HuntingFishing from './components/SportsCategory/Category/HuntingFishing';
+import LeisureGame from './components/SportsCategory/Category/LeisureGame';
+import NewGear from './components/SportsCategory/Category/NewGear';
+import SportsCollectibles from './components/SportsCategory/Category/SportsCollectibles';
 
 
 // AUTOMOTIVE CATEGORY
-
+import AutoCarElectronics from './components/AutomotiveCategory/Category/CarElectronics';
+import Garage from './components/AutomotiveCategory/Category/Garage';
+import MotorcyclePowerSports from './components/AutomotiveCategory/Category/MotorcyclePowerSports';
+import PartsAccessories from './components/AutomotiveCategory/Category/PartsAccessories';
+import RV from './components/AutomotiveCategory/Category/RV';
+import TiresWheel from './components/AutomotiveCategory/Category/TiresWheel';
+import ToolsEquipment from './components/AutomotiveCategory/Category/ToolsEquipment';
+import Vehicles from './components/AutomotiveCategory/Category/Vehicles';
 
 function App() {
   return (
@@ -561,8 +624,12 @@ function App() {
           {/* Smart Home COMPONENTS */}
           <Route path="/smarthome" exact component={SmartHome}>
             <NavBar />
-            {/* <SmartHomeMenu 
-              category0="Amazon Smart Home" 
+            <SmartHome />
+          </Route>
+          <Route path="/smarthome/smarthome" exact component={SmartSmartHome}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
               category1="Smart Home Lighting"
               category2="Smart Locks and Entry"
               category3="Securtity Cameras and Systems"
@@ -579,12 +646,356 @@ function App() {
               category14="WIFI and Networking"
               category15="Other Solutions"
 
-            /> */}
-            <SmartHome />
+            />
+            <SmartSmartHome />
+          </Route>
+          <Route path="/smarthome/detectors&sensors" exact component={DetectorsSensors}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <DetectorsSensors />
+          </Route>
+          <Route path="/smarthome/heating&cooling" exact component={HeatingCooling}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <HeatingCooling />
+          </Route>
+          <Route path="/smarthome/homeentertainment" exact component={HomeEntertainment}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <HomeEntertainment />
+          </Route>
+          <Route path="/smarthome/kitchen" exact component={SmartKitchen}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartKitchen />
+          </Route>
+          <Route path="/smarthome/lawn&garden" exact component={LawnGarden}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <LawnGarden />
+          </Route>
+          <Route path="/smarthome/pet" exact component={SmartPet}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartPet />
+          </Route>
+          <Route path="/smarthome/plugs&outlets" exact component={PlugsOutlet}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <PlugsOutlet />
+          </Route>
+          <Route path="/smarthome/securitycameras&systems" exact component={SecurityCameras}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SecurityCameras />
+          </Route>
+          <Route path="/smarthome/newsmartdevices" exact component={SmartDevices}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartDevices />
+          </Route>
+          <Route path="/smarthome/smartlocks&entry" exact component={SmartLocks}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartLocks />
+          </Route>
+          <Route path="/smarthome/vacuum&mops" exact component={VacuumMops}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <VacuumMops />
+          </Route>
+          <Route path="/smarthome/voiceassistants&hubs" exact component={VoiceAssistants}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <VoiceAssistants />
+          </Route>
+          <Route path="/smarthome/wifi&networking" exact component={WifiNetworking}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <WifiNetworking />
+          </Route>
+          <Route path="/smarthome/Smarthomelighting" exact component={SmartLighting}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartLighting />
+          </Route>
+          <Route path="/smarthome/wifi&networking" exact component={WifiNetworking}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <WifiNetworking />
           </Route>
 
-
-
+        
 
           {/* Home Garden Tools COMPONENTS */}
           <Route path="/homegardentools" exact component={HomeGardenTools}>
@@ -594,7 +1005,7 @@ function App() {
           <Route path="/homegardentools/amazonhome" exact component={AmazonHome}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -618,7 +1029,7 @@ function App() {
           <Route path="/homegardentools/appliances" exact component={Appliances}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -642,7 +1053,7 @@ function App() {
           <Route path="/homegardentools/artscrafts" exact component={ArtsCrafts}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -666,7 +1077,7 @@ function App() {
           <Route path="/homegardentools/bedbath" exact component={BedBath}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -690,7 +1101,7 @@ function App() {
           <Route path="/homegardentools/collectivefineart" exact component={CollectiveFineArt}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -714,7 +1125,7 @@ function App() {
           <Route path="/homegardentools/discover" exact component={Discover}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -738,7 +1149,7 @@ function App() {
           <Route path="/homegardentools/eventsparty" exact component={EventsParty}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -762,7 +1173,7 @@ function App() {
           <Route path="/homegardentools/exploreshowroom" exact component={ExploreShowroom}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -786,7 +1197,7 @@ function App() {
           <Route path="/homegardentools/fineart" exact component={FineArt}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -810,7 +1221,7 @@ function App() {
           <Route path="/homegardentools/furniture" exact component={Furniture}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -834,7 +1245,7 @@ function App() {
           <Route path="/homegardentools/gardenoutdoor" exact component={GardenOutdoor}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -858,7 +1269,7 @@ function App() {
           <Route path="/homegardentools/homedecor" exact component={HomeDecor}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -882,7 +1293,7 @@ function App() {
           <Route path="/homegardentools/kitchendining" exact component={KitchenDining}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -906,7 +1317,7 @@ function App() {
           <Route path="/homegardentools/lighting" exact component={Lighting}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -930,7 +1341,7 @@ function App() {
           <Route path="/homegardentools/mattresses" exact component={Mattresses}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -954,7 +1365,7 @@ function App() {
           <Route path="/homegardentools/homepetsupplies" exact component={HomePetSupplies}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -978,7 +1389,7 @@ function App() {
           <Route path="/homegardentools/ShopRoom" exact component={ShopRoom}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -1002,7 +1413,7 @@ function App() {
           <Route path="/homegardentools/storageorganization" exact component={StorageOrganization}>
             <NavBar />
             <HomeGardenToolsMenu 
-              category0="Amazon Home" 
+              category0="Home" 
               category1="Appliances"
               category2="Arts Crafts & Sewing"
               category3="Bed & Bath"
@@ -1153,15 +1564,51 @@ function App() {
             <NavBar />
             {/* <FoodGroceryMenu 
               category0="Grocery & Gourmet Food" 
-              category1="Amazon Fresh"
+              category1="Fresh"
               category2="Whole Foods"
               category3="Pantry"
-              category4="Amazon Launchpad Food"
-              category5="Subscribe & Save"
-              category6="Wickedly Prime"
-              category7="Pay with SNAP EBT"
             /> */}
             <FoodGrocery />
+          </Route>
+          <Route path="/foodgrocery/fresh" exact component={Fresh}>
+            <NavBar />
+            <FoodGroceryMenu 
+              category0="Grocery & Gourmet Food" 
+              category1="Fresh"
+              category2="Whole Foods"
+              category3="Pantry"
+            />
+            <Fresh />
+          </Route>
+          <Route path="/foodgrocery/grocerygourmet" exact component={GroceryGourmet}>
+            <NavBar />
+            <FoodGroceryMenu 
+              category0="Grocery & Gourmet Food" 
+              category1="Fresh"
+              category2="Whole Foods"
+              category3="Pantry"
+            />
+            <GroceryGourmet />
+          </Route>
+          <Route path="/foodgrocery/pantry" exact component={Pantry}>
+            <NavBar />
+            <FoodGroceryMenu 
+              category0="Grocery & Gourmet Food" 
+              category1="Fresh"
+              category2="Whole Foods"
+              category3="Pantry"
+            />
+            <Pantry />
+          </Route>
+          <Route path="/foodgrocery/wholefoods" exact component={WholeFoods}>
+            <NavBar />
+            <FoodGroceryMenu 
+              category0="Grocery & Gourmet Food" 
+              category1="Fresh"
+              category2="Whole Foods"
+              category3="Pantry"
+            />
+            <WholeFoods />
           </Route>
 
 
@@ -1181,6 +1628,97 @@ function App() {
             /> */}
             <BeautyHealth />
           </Route>
+          <Route path="/beautyhealth/allbeauty" exact component={AllBeauty}>
+            <NavBar />
+            <BeautyHealthMenu 
+              category0="All Beauty" 
+              category1="Premium Beauty"
+              category2="Professional Skin Care"
+              category3="Slaon & Spa"
+              category4="Men's Grooming"
+              category5="Health, Household & Baby"
+              category6="Vitamins & Dietary Supplements"
+            />
+            <AllBeauty />
+          </Route>
+          <Route path="/beautyhealth/healthhousehold" exact component={HealthHousehold}>
+            <NavBar />
+            <BeautyHealthMenu 
+              category0="All Beauty" 
+              category1="Premium Beauty"
+              category2="Professional Skin Care"
+              category3="Slaon & Spa"
+              category4="Men's Grooming"
+              category5="Health, Household & Baby"
+              category6="Vitamins & Dietary Supplements"
+            />
+            <HealthHousehold />
+          </Route>
+          <Route path="/beautyhealth/mensgrooming" exact component={MensGrooming}>
+            <NavBar />
+            <BeautyHealthMenu 
+              category0="All Beauty" 
+              category1="Premium Beauty"
+              category2="Professional Skin Care"
+              category3="Slaon & Spa"
+              category4="Men's Grooming"
+              category5="Health, Household & Baby"
+              category6="Vitamins & Dietary Supplements"
+            />
+            <MensGrooming />
+          </Route>
+          <Route path="/beautyhealth/premiumbeauty" exact component={PremiumBeauty}>
+            <NavBar />
+            <BeautyHealthMenu 
+              category0="All Beauty" 
+              category1="Premium Beauty"
+              category2="Professional Skin Care"
+              category3="Slaon & Spa"
+              category4="Men's Grooming"
+              category5="Health, Household & Baby"
+              category6="Vitamins & Dietary Supplements"
+            />
+            <PremiumBeauty />
+          </Route>
+          <Route path="/beautyhealth/salonspa" exact component={SalonSpa}>
+            <NavBar />
+            <BeautyHealthMenu 
+              category0="All Beauty" 
+              category1="Premium Beauty"
+              category2="Professional Skin Care"
+              category3="Slaon & Spa"
+              category4="Men's Grooming"
+              category5="Health, Household & Baby"
+              category6="Vitamins & Dietary Supplements"
+            />
+            <SalonSpa />
+          </Route>
+          <Route path="/beautyhealth/skincare" exact component={SkinCare}>
+            <NavBar />
+            <BeautyHealthMenu 
+              category0="All Beauty" 
+              category1="Premium Beauty"
+              category2="Professional Skin Care"
+              category3="Slaon & Spa"
+              category4="Men's Grooming"
+              category5="Health, Household & Baby"
+              category6="Vitamins & Dietary Supplements"
+            />
+            <SkinCare />
+          </Route>
+          <Route path="/beautyhealth/vitaminsdiet" exact component={VitaminsDiet}>
+            <NavBar />
+            <BeautyHealthMenu 
+              category0="All Beauty" 
+              category1="Premium Beauty"
+              category2="Professional Skin Care"
+              category3="Slaon & Spa"
+              category4="Men's Grooming"
+              category5="Health, Household & Baby"
+              category6="Vitamins & Dietary Supplements"
+            />
+            <VitaminsDiet />
+          </Route>
 
 
 
@@ -1188,19 +1726,119 @@ function App() {
           {/* Toys Kids Baby COMPONENTS */}
           <Route path="/toyskidsbaby" exact component={ToysKidsBaby}>
             <NavBar />
-            {/* <ToysKidsBabyMenu 
+            <ToysKidsBaby />
+          </Route>
+          <Route path="/toyskidsbaby/baby" exact component={ToysBaby}>
+            <NavBar />
+            <ToysKidsBabyMenu 
               category0="Toys & Games" 
               category1="Baby"
               category2="Diapering"
               category3="Video Games for Kids"
-              category4="Amazon Family"
-              category5="Amazon Teen"
+              category4="Family"
+              category5="Teen"
               category6="Baby Registry"
               category7="Kids Birthdays"
-              category8="Amazon Launchpad"
-              category9="Amazon Elements"
-            /> */}
-            <ToysKidsBaby />
+            />
+            <ToysBaby />
+          </Route>
+          <Route path="/toyskidsbaby/babyregistry" exact component={BabyRegistry}>
+            <NavBar />
+            <ToysKidsBabyMenu 
+              category0="Toys & Games" 
+              category1="Baby"
+              category2="Diapering"
+              category3="Video Games for Kids"
+              category4="Family"
+              category5="Teen"
+              category6="Baby Registry"
+              category7="Kids Birthdays"
+            />
+            <BabyRegistry />
+          </Route>
+          <Route path="/toyskidsbaby/diapering" exact component={Diapering}>
+            <NavBar />
+            <ToysKidsBabyMenu 
+              category0="Toys & Games" 
+              category1="Baby"
+              category2="Diapering"
+              category3="Video Games for Kids"
+              category4="Family"
+              category5="Teen"
+              category6="Baby Registry"
+              category7="Kids Birthdays"
+            />
+            <Diapering />
+          </Route>
+          <Route path="/toyskidsbaby/family" exact component={ToysFamily}>
+            <NavBar />
+            <ToysKidsBabyMenu 
+              category0="Toys & Games" 
+              category1="Baby"
+              category2="Diapering"
+              category3="Video Games for Kids"
+              category4="Family"
+              category5="Teen"
+              category6="Baby Registry"
+              category7="Kids Birthdays"
+            />
+            <ToysFamily />
+          </Route>
+          <Route path="/toyskidsbaby/kidsbirthdays" exact component={KidsBirthdays}>
+            <NavBar />
+            <ToysKidsBabyMenu 
+              category0="Toys & Games" 
+              category1="Baby"
+              category2="Diapering"
+              category3="Video Games for Kids"
+              category4="Family"
+              category5="Teen"
+              category6="Baby Registry"
+              category7="Kids Birthdays"
+            />
+            <KidsBirthdays />
+          </Route>
+          <Route path="/toyskidsbaby/teen" exact component={KidsTeen}>
+            <NavBar />
+            <ToysKidsBabyMenu 
+              category0="Toys & Games" 
+              category1="Baby"
+              category2="Diapering"
+              category3="Video Games for Kids"
+              category4="Family"
+              category5="Teen"
+              category6="Baby Registry"
+              category7="Kids Birthdays"
+            />
+            <KidsTeen />
+          </Route>
+          <Route path="/toyskidsbaby/toysgames" exact component={ToysGames}>
+            <NavBar />
+            <ToysKidsBabyMenu 
+              category0="Toys & Games" 
+              category1="Baby"
+              category2="Diapering"
+              category3="Video Games for Kids"
+              category4="Family"
+              category5="Teen"
+              category6="Baby Registry"
+              category7="Kids Birthdays"
+            />
+            <ToysGames />
+          </Route>
+          <Route path="/toyskidsbaby/videogamekids" exact component={VideoGameKids}>
+            <NavBar />
+            <ToysKidsBabyMenu 
+              category0="Toys & Games" 
+              category1="Baby"
+              category2="Diapering"
+              category3="Video Games for Kids"
+              category4="Family"
+              category5="Teen"
+              category6="Baby Registry"
+              category7="Kids Birthdays"
+            />
+            <VideoGameKids />
           </Route>
 
 
@@ -1209,16 +1847,20 @@ function App() {
           {/* Handmade COMPONENTS */}
           <Route path="/handmade" exact component={Handmade}>
             <NavBar />
-            {/* <HandmadeMenu 
+            <Handmade />
+          </Route>
+          <Route path="/handmade/allhandmade" exact component={AllHandmade}>
+            <NavBar />
+            <HandmadeMenu 
               category0="All Handmade" 
               category1="Gifts"
               category2="Jewerly"
               category3="Home & Kitchen"
               category4="Wedding"
-              category5="CLothing & Shoes"
+              category5="Clothing & Shoes"
               category6="Handbags & Accessories"
               category7="Beauty & Grooming"
-              category8="Stationay & Party Supplies"
+              category8="Stationary & Party Supplies"
               category9="Toys & Games"
               category10="Pet Supplies"
               category11="Home Decor"
@@ -1226,9 +1868,377 @@ function App() {
               category13="Kitchen & Dining"
               category14="Furniture"
               category15="Baby"
-              category16="Sell on Amazon Handmade"
-            /> */}
-            <Handmade />
+              category16="Sell on JunkSeller"
+            />
+            <AllHandmade />
+          </Route>
+          <Route path="/handmade/artwork" exact component={Artwork}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <Artwork />
+          </Route>
+          <Route path="/handmade/baby" exact component={HandmadeBaby}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <HandmadeBaby />
+          </Route>
+          <Route path="/handmade/beautygrooming" exact component={BeautyGrooming}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <BeautyGrooming />
+          </Route>
+          <Route path="/handmade/clothing&shoes" exact component={ClothingShoes}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <ClothingShoes />
+          </Route>
+          <Route path="/handmade/furniture" exact component={HandmadeFurniture}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <HandmadeFurniture />
+          </Route>
+          <Route path="/handmade/gifts" exact component={HandmadeGifts}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <HandmadeGifts />
+          </Route>
+          <Route path="/handmade/handbags&accessories" exact component={HandbagsAccessories}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <HandbagsAccessories />
+          </Route>
+          <Route path="/handmade/homedecor" exact component={HandmadeHomeDecor}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <HandmadeHomeDecor />
+          </Route>
+          <Route path="/handmade/home&kitchen" exact component={HomeKitchen}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <HomeKitchen />
+          </Route>
+          <Route path="/handmade/jewelry" exact component={Jewelry}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <Jewelry />
+          </Route>
+          <Route path="/handmade/kitchen&dining" exact component={HandmadeKitchenDining}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <HandmadeKitchenDining />
+          </Route>
+          <Route path="/handmade/petsupplies" exact component={HandmadePetSupplies}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <HandmadePetSupplies />
+          </Route>
+          <Route path="/handmade/sellon" exact component={SellOn}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <SellOn />
+          </Route>
+          <Route path="/handmade/stationary&partysupplies" exact component={StationaryParty}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <StationaryParty />
+          </Route>
+          <Route path="/handmade/toys&games" exact component={HandmadeToysGames}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <HandmadeToysGames />
+          </Route>
+          <Route path="/handmade/wedding" exact component={Wedding}>
+            <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationary & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
+            <Wedding />
           </Route>
 
 
@@ -1237,18 +2247,142 @@ function App() {
           {/* Sports COMPONENTS */}
           <Route path="/sports" exact component={Sports}>
             <NavBar />
-            {/* <SportsMenu 
+            <Sports />
+          </Route>
+          <Route path="/sports/allsports&fitness" exact component={AllSports}>
+            <NavBar />
+            <SportsMenu 
               category0="Athletic Clothing" 
               category1="Exercise & Fitness"
               category2="Hunting & Fishing"
-              category3="Glof"
+              category3="Golf"
               category4="Fan Shop"
               category5="Leisure Sports & Game Room"
               category6="Sports & Collectibles"
               category7="All Sports & Fitness"
               category8="New Gear Innovations"
-            /> */}
-            <Sports />
+            />
+            <AllSports />
+          </Route>
+          <Route path="/sports/athleticclothing" exact component={AthleticClothing}>
+            <NavBar />
+            <SportsMenu 
+              category0="Athletic Clothing" 
+              category1="Exercise & Fitness"
+              category2="Hunting & Fishing"
+              category3="Golf"
+              category4="Fan Shop"
+              category5="Leisure Sports & Game Room"
+              category6="Sports & Collectibles"
+              category7="All Sports & Fitness"
+              category8="New Gear Innovations"
+            />
+            <AthleticClothing />
+          </Route>
+          <Route path="/sports/exercise&fitness" exact component={ExerciseFitness}>
+            <NavBar />
+            <SportsMenu 
+              category0="Athletic Clothing" 
+              category1="Exercise & Fitness"
+              category2="Hunting & Fishing"
+              category3="Golf"
+              category4="Fan Shop"
+              category5="Leisure Sports & Game Room"
+              category6="Sports & Collectibles"
+              category7="All Sports & Fitness"
+              category8="New Gear Innovations"
+            />
+            <ExerciseFitness />
+          </Route>
+          <Route path="/sports/fanshop" exact component={FanShop}>
+            <NavBar />
+            <SportsMenu 
+              category0="Athletic Clothing" 
+              category1="Exercise & Fitness"
+              category2="Hunting & Fishing"
+              category3="Golf"
+              category4="Fan Shop"
+              category5="Leisure Sports & Game Room"
+              category6="Sports & Collectibles"
+              category7="All Sports & Fitness"
+              category8="New Gear Innovations"
+            />
+            <FanShop />
+          </Route>
+          <Route path="/sports/golf" exact component={Golf}>
+            <NavBar />
+            <SportsMenu 
+              category0="Athletic Clothing" 
+              category1="Exercise & Fitness"
+              category2="Hunting & Fishing"
+              category3="Golf"
+              category4="Fan Shop"
+              category5="Leisure Sports & Game Room"
+              category6="Sports & Collectibles"
+              category7="All Sports & Fitness"
+              category8="New Gear Innovations"
+            />
+            <Golf />
+          </Route>
+          <Route path="/sports/hunting&fishing" exact component={HuntingFishing}>
+            <NavBar />
+            <SportsMenu 
+              category0="Athletic Clothing" 
+              category1="Exercise & Fitness"
+              category2="Hunting & Fishing"
+              category3="Golf"
+              category4="Fan Shop"
+              category5="Leisure Sports & Game Room"
+              category6="Sports & Collectibles"
+              category7="All Sports & Fitness"
+              category8="New Gear Innovations"
+            />
+            <HuntingFishing />
+          </Route>
+          <Route path="/sports/leisure&game" exact component={LeisureGame}>
+            <NavBar />
+            <SportsMenu 
+              category0="Athletic Clothing" 
+              category1="Exercise & Fitness"
+              category2="Hunting & Fishing"
+              category3="Golf"
+              category4="Fan Shop"
+              category5="Leisure Sports & Game Room"
+              category6="Sports & Collectibles"
+              category7="All Sports & Fitness"
+              category8="New Gear Innovations"
+            />
+            <LeisureGame />
+          </Route>
+          <Route path="/sports/newgearinnovations" exact component={NewGear}>
+            <NavBar />
+            <SportsMenu 
+              category0="Athletic Clothing" 
+              category1="Exercise & Fitness"
+              category2="Hunting & Fishing"
+              category3="Golf"
+              category4="Fan Shop"
+              category5="Leisure Sports & Game Room"
+              category6="Sports & Collectibles"
+              category7="All Sports & Fitness"
+              category8="New Gear Innovations"
+            />
+            <NewGear />
+          </Route>
+          <Route path="/sports/sports&collectibles" exact component={SportsCollectibles}>
+            <NavBar />
+            <SportsMenu 
+              category0="Athletic Clothing" 
+              category1="Exercise & Fitness"
+              category2="Hunting & Fishing"
+              category3="Golf"
+              category4="Fan Shop"
+              category5="Leisure Sports & Game Room"
+              category6="Sports & Collectibles"
+              category7="All Sports & Fitness"
+              category8="New Gear Innovations"
+            />
+            <SportsCollectibles />
           </Route>
 
 
@@ -1401,7 +2535,11 @@ function App() {
           {/* Automotive COMPONENTS */}
           <Route path="/automotiveindustrial" exact component={AutomotiveIndustrial}>
             <NavBar />
-            {/* <AutomotiveMenu 
+            <AutomotiveIndustrial />
+          </Route>
+          <Route path="/automotiveindustrial/carelectronics&gps" exact component={AutoCarElectronics}>
+            <NavBar />
+            <AutomotiveMenu 
               category0="Automotive Parts & Accessories" 
               category1="Automotive Tools & Equipment"
               category2="Car/Vehicle Electronics & GPS"
@@ -1410,8 +2548,106 @@ function App() {
               category5="RV Parts & Accessories"
               category6="Vehicles"
               category7="Your Garage"
-            /> */}
-            <AutomotiveIndustrial />
+            />
+            <AutoCarElectronics />
+          </Route>
+          <Route path="/automotiveindustrial/yourgarage" exact component={Garage}>
+            <NavBar />
+            <AutomotiveMenu 
+              category0="Automotive Parts & Accessories" 
+              category1="Automotive Tools & Equipment"
+              category2="Car/Vehicle Electronics & GPS"
+              category3="Tires & Wheels"
+              category4="Motorcycle & Powersports"
+              category5="RV Parts & Accessories"
+              category6="Vehicles"
+              category7="Your Garage"
+            />
+            <Garage />
+          </Route>
+          <Route path="/automotiveindustrial/parts&accessories" exact component={PartsAccessories}>
+            <NavBar />
+            <AutomotiveMenu 
+              category0="Automotive Parts & Accessories" 
+              category1="Automotive Tools & Equipment"
+              category2="Car/Vehicle Electronics & GPS"
+              category3="Tires & Wheels"
+              category4="Motorcycle & Powersports"
+              category5="RV Parts & Accessories"
+              category6="Vehicles"
+              category7="Your Garage"
+            />
+            <PartsAccessories />
+          </Route>
+          <Route path="/automotiveindustrial/rvpart&accessories" exact component={RV}>
+            <NavBar />
+            <AutomotiveMenu 
+              category0="Automotive Parts & Accessories" 
+              category1="Automotive Tools & Equipment"
+              category2="Car/Vehicle Electronics & GPS"
+              category3="Tires & Wheels"
+              category4="Motorcycle & Powersports"
+              category5="RV Parts & Accessories"
+              category6="Vehicles"
+              category7="Your Garage"
+            />
+            <RV />
+          </Route>
+          <Route path="/automotiveindustrial/tires&wheels" exact component={TiresWheel}>
+            <NavBar />
+            <AutomotiveMenu 
+              category0="Automotive Parts & Accessories" 
+              category1="Automotive Tools & Equipment"
+              category2="Car/Vehicle Electronics & GPS"
+              category3="Tires & Wheels"
+              category4="Motorcycle & Powersports"
+              category5="RV Parts & Accessories"
+              category6="Vehicles"
+              category7="Your Garage"
+            />
+            <TiresWheel />
+          </Route>
+          <Route path="/automotiveindustrial/tools&equipment" exact component={ToolsEquipment}>
+            <NavBar />
+            <AutomotiveMenu 
+              category0="Automotive Parts & Accessories" 
+              category1="Automotive Tools & Equipment"
+              category2="Car/Vehicle Electronics & GPS"
+              category3="Tires & Wheels"
+              category4="Motorcycle & Powersports"
+              category5="RV Parts & Accessories"
+              category6="Vehicles"
+              category7="Your Garage"
+            />
+            <ToolsEquipment />
+          </Route>
+          <Route path="/automotiveindustrial/vehicles" exact component={Vehicles}>
+            <NavBar />
+            <AutomotiveMenu 
+              category0="Automotive Parts & Accessories" 
+              category1="Automotive Tools & Equipment"
+              category2="Car/Vehicle Electronics & GPS"
+              category3="Tires & Wheels"
+              category4="Motorcycle & Powersports"
+              category5="RV Parts & Accessories"
+              category6="Vehicles"
+              category7="Your Garage"
+            />
+            <Vehicles />
+          </Route>
+          <Route path="/automotiveindustrial/motorcycle&powersports" exact component={MotorcyclePowerSports}>
+            <NavBar />
+            <AutomotiveMenu 
+              category0="Automotive Parts & Accessories" 
+              category1="Automotive Tools & Equipment"
+              category2="Car/Vehicle Electronics & GPS"
+              category3="Tires & Wheels"
+              category4="Motorcycle & Powersports"
+              category5="RV Parts & Accessories"
+              category6="Vehicles"
+              category7="Your Garage"
+            />
+            <MotorcyclePowerSports />
           </Route>
         </Switch>
         <Footer />

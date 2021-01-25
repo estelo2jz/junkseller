@@ -1,10 +1,12 @@
 import React from 'react';
-import '../ComputerStyles/PrintersInk.scss';
+// import '../ComputerStyles/PrintersInk.scss';
+import ComingSoon from '../../ComingSoon';
 
 function PrintersInk() {
   return (
     <div className="printers-ink__container">
-      <h1>Printers & Ink</h1>
+      <p>Printers & Ink</p>
+      <ComingSoon />
     </div>
   )
 }

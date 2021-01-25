@@ -1,10 +1,12 @@
 import React from 'react';
-import '../ComputerStyles/Networking.scss';
+// import '../ComputerStyles/Networking.scss';
+import ComingSoon from '../../ComingSoon';
 
 function Networking() {
   return (
     <div className="networking__container">
-      <h1>Networking</h1>
+      <p>Networking</p>
+      <ComingSoon />
     </div>
   )
 }

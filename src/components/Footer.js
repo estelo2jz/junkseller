@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer__box">
           <h5>Categories</h5>
           <ul>
-            <Link to="/electronics"><a to="#top">Electronics</a></Link>
+            <Link to="/electronics"><p>Electronics</p></Link>
             <Link to="/computers"><p>Computers</p></Link>
             <Link to="/smarthome"><p>SmartHome</p></Link>
             <Link to="/homegardentools"><p>Home, Garden & Tools</p></Link>

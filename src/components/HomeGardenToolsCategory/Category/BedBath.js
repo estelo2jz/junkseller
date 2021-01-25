@@ -1,10 +1,12 @@
 import React from 'react';
-import '../HomeGardenStyles/BedBath.scss';
+// import '../HomeGardenStyles/BedBath.scss';
+import ComingSoon from '../../ComingSoon';
 
 function BedBath() {
   return (
-    <div className="amazon-home__container">
-      <h1>Bed & Bath</h1>
+    <div className="bed-bath__container">
+      <p>Bed & Bath</p>
+<ComingSoon />
     </div>
   )
 }

@@ -21,7 +21,6 @@ function Electronics() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
           />
         </div>
         <div className="electronics__container-flex-grid">

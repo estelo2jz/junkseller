@@ -3,7 +3,7 @@ import '../ElectronicStyles/ElectronicsProductTemplate.scss';
 import { useStateValue } from '../../StateProvider';
 
 function ElectronicsProductTemplate({ id, title, image, price, rating, rateNumber }) {
-  const [{basket}, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
 
   const addToBasket = () => {
     // add item to basket...
@@ -21,9 +21,9 @@ function ElectronicsProductTemplate({ id, title, image, price, rating, rateNumbe
     }) 
   };
   return (
-    <div className="electronics-product">
+    <div key={id} className="electronics-product">
       <div className="electronics-product__image">
-        <img src={image} />
+        <img src={image} alt="electronics-product-template-img" />
       </div>
       <div className="electronics-product__info">
         <p className="electronics-product__price">

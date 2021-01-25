@@ -1,10 +1,12 @@
 import React from 'react';
-import '../HomeGardenStyles/ExploreShowroom.scss';
+// import '../HomeGardenStyles/ExploreShowroom.scss';
+import ComingSoon from '../../ComingSoon';
 
 function ExploreShowroom() {
   return (
     <div className="explore-showroom__container">
-      <h1>Explore Showroom</h1>
+      <p>Explore Showroom</p>
+<ComingSoon />
     </div>
   )
 }

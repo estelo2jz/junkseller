@@ -7,72 +7,58 @@ function ToysKidsBabyMenu(props) {
   return (
     <div className="toys-kids-baby-menu">
       <div className="toys-kids-baby-menu-items">
-        <Link to="/tvvideo">
+        <Link to="/toyskidsbaby/toysgames">
           <span>
             {props.category0}
           </span>
         </Link>
       </div>
       <div className="toys-kids-baby-menu-items">
-        <Link to="/homeaudiotheater">
+        <Link to="/toyskidsbaby/baby">
           <span>
             {props.category1}
           </span>
         </Link>
       </div>
       <div className="toys-kids-baby-menu-items">
-        <Link to="/cameraphotovideo">
+        <Link to="/toyskidsbaby/diapering">
           <span>
             {props.category2}
           </span>
         </Link>
       </div>
       <div className="toys-kids-baby-menu-items">
-        <Link to="/cellphones">
+        <Link to="/toyskidsbaby/videogamekids">
           <span>
             {props.category3}
           </span>
         </Link>
       </div>
       <div className="toys-kids-baby-menu-items">
-        <Link to="/headphones">
+        <Link to="/toyskidsbaby/family">
           <span>
             {props.category4}
           </span>
         </Link>
       </div>
       <div className="toys-kids-baby-menu-items">
-        <Link to="/videogames">
+        <Link to="/toyskidsbaby/teen">
           <span>
             {props.category5}
           </span>
         </Link>
       </div>
       <div className="toys-kids-baby-menu-items">
-        <Link to="/bluetoothwireless">
+        <Link to="/toyskidsbaby/babyregistry">
           <span>
             {props.category6}
           </span>
         </Link>
       </div>
       <div className="toys-kids-baby-menu-items">
-        <Link to="/carelectronics">
+        <Link to="/toyskidsbaby/kidsbirthdays">
           <span>
             {props.category7}
-          </span>
-        </Link>
-      </div>
-      <div className="toys-kids-baby-menu-items">
-        <Link to="/musicalinstruments">
-          <span>
-            {props.category8}
-          </span>
-        </Link>
-      </div>
-      <div className="toys-kids-baby-menu-items">
-        <Link to="/wearabletechnology">
-          <span>
-            {props.category9}
           </span>
         </Link>
       </div>

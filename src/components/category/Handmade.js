@@ -14,7 +14,7 @@ function Handmade() {
               category2="Jewerly"
               category3="Home & Kitchen"
               category4="Wedding"
-              category5="CLothing & Shoes"
+              category5="Clothing & Shoes"
               category6="Handbags & Accessories"
               category7="Beauty & Grooming"
               category8="Stationay & Party Supplies"
@@ -25,7 +25,7 @@ function Handmade() {
               category13="Kitchen & Dining"
               category14="Furniture"
               category15="Baby"
-              category16="Sell on Amazon Handmade"
+              category16="Sell on JunkSeller"
             />
         </div>
         <div className="handmade__container-flex-grid">

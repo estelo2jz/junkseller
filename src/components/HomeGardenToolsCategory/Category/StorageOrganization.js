@@ -1,10 +1,12 @@
 import React from 'react';
-import '../HomeGardenStyles/StorageOrganization.scss';
+// import '../HomeGardenStyles/StorageOrganization.scss';
+import ComingSoon from '../../ComingSoon';
 
 function StorageOrganization() {
   return (
     <div className="storage-org__container">
-      <h1>Storage & Organization</h1>
+      <p>Storage & Organization</p>
+<ComingSoon />
     </div>
   )
 }

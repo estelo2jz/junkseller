@@ -1,10 +1,12 @@
 import React from 'react';
-import '../HomeGardenStyles/Furniture.scss';
+// import '../HomeGardenStyles/Furniture.scss';
+import ComingSoon from '../../ComingSoon';
 
 function Furniture() {
   return (
     <div className="furniture__container">
-      <h1>Furniture</h1>
+      <p>Furniture</p>
+<ComingSoon />
     </div>
   )
 }

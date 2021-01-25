@@ -7,105 +7,105 @@ function SmartHomeMenu(props) {
   return (
     <div className="smart-home-menu">
       <div className="smart-home-menu-items">
-        <Link to="/tvvideo">
+        <Link to="/smarthome/smarthome">
           <span>
             {props.category0}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/homeaudiotheater">
+        <Link to="/smarthome/smarthomelighting">
           <span>
             {props.category1}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/cameraphotovideo">
+        <Link to="/smarthome/smartlocks&entry">
           <span>
             {props.category2}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/cellphones">
+        <Link to="/smarthome/securitycameras&systems">
           <span>
             {props.category3}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/headphones">
+        <Link to="/smarthome/plugs&outlets">
           <span>
             {props.category4}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/videogames">
+        <Link to="/smarthome/newsmartdevices">
           <span>
             {props.category5}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/bluetoothwireless">
+        <Link to="/smarthome/heating&cooling">
           <span>
             {props.category6}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/carelectronics">
+        <Link to="/smarthome/detectors&sensors">
           <span>
             {props.category7}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/musicalinstruments">
+        <Link to="/smarthome/homeentertainment">
           <span>
             {props.category8}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/wearabletechnology">
+        <Link to="/smarthome/pet">
           <span>
             {props.category9}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/electronicsbase">
+        <Link to="/smarthome/voiceassistants&hubs">
           <span>
             {props.category10}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/amazonrenewed">
+        <Link to="/smarthome/kitchen">
           <span>
             {props.category11}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/musicalinstruments">
+        <Link to="/smarthome/vacuum&mops">
           <span>
             {props.category12}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/wearabletechnology">
+        <Link to="lawn&garden">
           <span>
             {props.category13}
           </span>
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/electronicsbase">
+        <Link to="/smarthome/wifi&networking">
           <span>
             {props.category14}
           </span>

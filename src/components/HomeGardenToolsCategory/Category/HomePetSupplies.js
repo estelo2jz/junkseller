@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import ComingSoon from '../../ComingSoon';
 
 function HomePetSupplies() {
   return (
     <div>
-      <h1>Pet Supplies</h1>
+      <p>Pet Supplies</p>
+<ComingSoon />
     </div>
   )
 }

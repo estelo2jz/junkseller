@@ -1,10 +1,12 @@
 import React from 'react';
-import '../ComputerStyles/Software.scss';
+// import '../ComputerStyles/Software.scss';
+import ComingSoon from '../../ComingSoon';
 
 function Software() {
   return (
     <div  className="software__container">
-      <h1>Software</h1>
+      <p>Software</p>
+      <ComingSoon />
     </div>
   )
 }

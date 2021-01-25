@@ -12,7 +12,7 @@ function BeautyHealth() {
               category0="All Beauty" 
               category1="Premium Beauty"
               category2="Professional Skin Care"
-              category3="Slaon & Spa"
+              category3="Salon & Spa"
               category4="Men's Grooming"
               category5="Health, Household & Baby"
               category6="Vitamins & Dietary Supplements"

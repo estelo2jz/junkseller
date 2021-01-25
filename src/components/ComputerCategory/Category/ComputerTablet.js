@@ -26,7 +26,7 @@ function ComputerTabletTemplate({ id, title, image, price, rating, rateNumber, s
     })
   };
   return (
-    <div className="computer-tablet-template__container">
+    <div key="id" className="computer-tablet-template__container">
       <div className="computer-tablet-template__left-container">
         <div className="computer-tablet-template__img">
           <img src={image} alt="computer-product-image" />
