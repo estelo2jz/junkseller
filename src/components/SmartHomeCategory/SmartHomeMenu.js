@@ -7,7 +7,7 @@ function SmartHomeMenu(props) {
   return (
     <div className="smart-home-menu">
       <div className="smart-home-menu-items">
-        <Link to="/tvvideo">
+        <Link to="/smarthome/smarthome">
           <span>
             {props.category0}
           </span>
@@ -56,7 +56,7 @@ function SmartHomeMenu(props) {
         </Link>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/carelectronics">
+        <Link to="/smarthome/detectorssensors">
           <span>
             {props.category7}
           </span>

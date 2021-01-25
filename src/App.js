@@ -106,19 +106,19 @@ import WinterSports from './components/OutdoorsCategory/Category/WinterSports';
 
 // SMART HOME CATEGORY
 import SmartSmartHome from './components/SmartHomeCategory/Category/SmartHome';
-// import DetectorsSensors from './components/SmartHomeCategory/Category/DetectorsSensors';
-// import HeatingCooling from './components/SmartHomeCategory/Category/HeatingCooling';
-// import HomeEntertainment from './components/SmartHomeCategory/Category/HomeEntertainment';
-// import SmartKitchen from './components/SmartHomeCategory/Category/Kitchen';
-// import LawnGarden from './components/SmartHomeCategory/Category/LawnGarden';
-// import SmartPet from './components/SmartHomeCategory/Category/Pet';
-// import PlugsOutlet from './components/SmartHomeCategory/Category/PlugsOutlet';
-// import SecurityCameras from './components/SmartHomeCategory/Category/SecurityCameras';
-// import SmartDevices from './components/SmartHomeCategory/Category/SmartDevices';
-// import SmartLocks from './components/SmartHomeCategory/Category/SmartLocks';
-// import VacuumMops from './components/SmartHomeCategory/Category/VacuumMops';
-// import VoiceAssistants from './components/SmartHomeCategory/Category/VoiceAssistants';
-// import WifiNetworking from './components/SmartHomeCategory/Category/WifiNetworking';
+import DetectorsSensors from './components/SmartHomeCategory/Category/DetectorsSensors';
+import HeatingCooling from './components/SmartHomeCategory/Category/HeatingCooling';
+import HomeEntertainment from './components/SmartHomeCategory/Category/HomeEntertainment';
+import SmartKitchen from './components/SmartHomeCategory/Category/Kitchen';
+import LawnGarden from './components/SmartHomeCategory/Category/LawnGarden';
+import SmartPet from './components/SmartHomeCategory/Category/Pet';
+import PlugsOutlet from './components/SmartHomeCategory/Category/PlugsOutlet';
+import SecurityCameras from './components/SmartHomeCategory/Category/SecurityCameras';
+import SmartDevices from './components/SmartHomeCategory/Category/SmartDevices';
+import SmartLocks from './components/SmartHomeCategory/Category/SmartLocks';
+import VacuumMops from './components/SmartHomeCategory/Category/VacuumsMops';
+import VoiceAssistants from './components/SmartHomeCategory/Category/VoiceAssistants';
+import WifiNetworking from './components/SmartHomeCategory/Category/WifiNetworking';
 
 
 // FOOD GROCERY CATEGORY
@@ -623,8 +623,12 @@ function App() {
           {/* Smart Home COMPONENTS */}
           <Route path="/smarthome" exact component={SmartHome}>
             <NavBar />
-            {/* <SmartHomeMenu 
-              category0="Amazon Smart Home" 
+            <SmartHome />
+          </Route>
+          <Route path="/smarthome/smarthome" exact component={SmartSmartHome}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
               category1="Smart Home Lighting"
               category2="Smart Locks and Entry"
               category3="Securtity Cameras and Systems"
@@ -641,12 +645,310 @@ function App() {
               category14="WIFI and Networking"
               category15="Other Solutions"
 
-            /> */}
-            <SmartHome />
+            />
+            <SmartSmartHome />
+          </Route>
+          <Route path="/smarthome/detectorssensors" exact component={DetectorsSensors}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <DetectorsSensors />
+          </Route>
+          <Route path="/smarthome/" exact component={HeatingCooling}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <HeatingCooling />
+          </Route>
+          <Route path="/smarthome/" exact component={HomeEntertainment}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <HomeEntertainment />
+          </Route>
+          <Route path="/smarthome/" exact component={SmartKitchen}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartKitchen />
+          </Route>
+          <Route path="/smarthome/" exact component={LawnGarden}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <LawnGarden />
+          </Route>
+          <Route path="/smarthome/" exact component={SmartPet}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartPet />
+          </Route>
+          <Route path="/smarthome/" exact component={PlugsOutlet}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <PlugsOutlet />
+          </Route>
+          <Route path="/smarthome/" exact component={SecurityCameras}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SecurityCameras />
+          </Route>
+          <Route path="/smarthome/" exact component={SmartDevices}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartDevices />
+          </Route>
+          <Route path="/smarthome/" exact component={SmartLocks}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <SmartLocks />
+          </Route>
+          <Route path="/smarthome/" exact component={VacuumMops}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <VacuumMops />
+          </Route>
+          <Route path="/smarthome/" exact component={VoiceAssistants}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <VoiceAssistants />
+          </Route>
+          <Route path="/smarthome/" exact component={WifiNetworking}>
+            <NavBar />
+            <SmartHomeMenu 
+              category0="Smart Home" 
+              category1="Smart Home Lighting"
+              category2="Smart Locks and Entry"
+              category3="Securtity Cameras and Systems"
+              category4="Plugs and Outlets"
+              category5="New Smart Devices"
+              category6="Heating and Cooling"
+              category7="Detectors and Sensors"
+              category8="Home Entertaiment"
+              category9="Pet"
+              category10="Voice Assistants and Hubs"
+              category11="Kitchen"
+              category12="Vacuums and Mops"
+              category13="Lawn and Garden"
+              category14="WIFI and Networking"
+              category15="Other Solutions"
+
+            />
+            <WifiNetworking />
           </Route>
 
-
-
+        
 
           {/* Home Garden Tools COMPONENTS */}
           <Route path="/homegardentools" exact component={HomeGardenTools}>
