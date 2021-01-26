@@ -1,6 +1,18 @@
 import React from 'react';
 import '../ComputerStyles/Monitors.scss';
 
+function MonitorsTemplate() {
+  return (
+    <div className="monitor-template__container">
+      <div>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/712ZOa8Ze2L._AC._SR360,460.jpg" alt="monitor-product-img" />
+      </div>
+    </div>
+  )
+}
+
+
+
 function Monitors() {
   return (
     <div className="monitors__container">
@@ -34,6 +46,9 @@ function Monitors() {
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_4KGaming.jpg" alt="monitor-category" />
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_UltraGaming.jpg" alt="monitor-category" />
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_ExtremeGaming.jpg" alt="monitor-category" />
+      </div>
+      <div className="monitors__product-container">
+        <MonitorsTemplate />
       </div>
     </div>
   )
