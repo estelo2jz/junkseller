@@ -52,10 +52,10 @@ function MonitorsTemplate({ id, title, image, price, rating, rateNumber, listPri
           </p>
           <p>{rateNumber}</p>
         </div>
+      </div>
         <div className="monitor-template__btn">
           <button onClick={addToBasket}>Add to basket</button>
         </div>
-      </div>
     </div>
   )
 }
@@ -96,6 +96,9 @@ function Monitors() {
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_UltraGaming.jpg" alt="monitor-category" />
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_ExtremeGaming.jpg" alt="monitor-category" />
       </div>
+      <div>
+        <p>Hot new releases</p>
+      </div>
       <div className="monitors__product-container">
         <MonitorsTemplate
           id = {uuid()} 
@@ -103,7 +106,7 @@ function Monitors() {
           price={199.99}
           rateNumber={"313,962"}
           rating={5}
-          listPrice={"2,631"}
+          listPrice={"299.99"}
           image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
@@ -121,16 +124,16 @@ function Monitors() {
           price={329.99}
           rateNumber={"1,886"}
           rating={4}
-          listPrice={"349.99"}
+          listPrice={"449.99"}
           image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
           title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
-          price={1,944.00}
+          price={1944.99}
           rateNumber={"1,988"}
           rating={4}
-          listPrice="349.99"
+          listPrice="2349.99"
           image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
@@ -148,7 +151,7 @@ function Monitors() {
           price={109.99}
           rateNumber={"12"}
           rating={4}
-          listPrice={"349.99"}
+          listPrice={"200.99"}
           image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
@@ -157,13 +160,13 @@ function Monitors() {
           price={79.99}
           rateNumber={"115"}
           rating={4}
-          listPrice="349.99"
+          listPrice={""}
           image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
           title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
-          price={739.78}
+          price={397.78}
           rateNumber={"7"}
           rating={4}
           listPrice={""}
