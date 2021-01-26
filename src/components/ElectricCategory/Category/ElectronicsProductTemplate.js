@@ -3,7 +3,7 @@ import '../ElectronicStyles/ElectronicsProductTemplate.scss';
 import { useStateValue } from '../../StateProvider';
 
 function ElectronicsProductTemplate({ id, title, image, price, rating, rateNumber }) {
-  const [dispatch] = useStateValue();
+  const [{ basket },dispatch] = useStateValue();
 
   const addToBasket = () => {
     // add item to basket...
