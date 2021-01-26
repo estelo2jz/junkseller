@@ -13,7 +13,7 @@ function Computers() {
               category1="Monitors"
               category2="Accessories"
               category3="Networking"
-              category4="Drives & Storage"
+              category4="Hard Drives & Storage"
               category5="Computer Parts & Components"
               category6="Printers & Ink"
               category7="Software"
