@@ -98,6 +98,7 @@ function Monitors() {
       </div>
       <div className="monitors__sub-heading">
         <p>Hot new releases</p>
+        <p>See more</p>
       </div>
       <div className="monitors__product-container">
         <MonitorsTemplate
@@ -175,6 +176,319 @@ function Monitors() {
       </div>
       <div className="monitors__sub-heading">
         <p>Under $25</p>
+        <p>See more</p>
+      </div>
+      <div className="monitors__product-container">
+        <MonitorsTemplate
+          id={uuid()}
+          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
+          price={199.99}
+          rateNumber={"313,962"}
+          rating={5}
+          listPrice={"299.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
+          price={340.99}
+          rateNumber={"567"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
+          price={329.99}
+          rateNumber={"1,886"}
+          rating={4}
+          listPrice={"449.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
+          price={1944.99}
+          rateNumber={"1,988"}
+          rating={4}
+          listPrice="2349.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
+          price={293.98}
+          rateNumber={"18,057"}
+          rating={4}
+          listPrice={"349.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
+          price={109.99}
+          rateNumber={"12"}
+          rating={4}
+          listPrice={"200.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
+          price={79.99}
+          rateNumber={"115"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
+          price={397.78}
+          rateNumber={"7"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
+        />
+      </div>
+      <div className="monitors__sub-heading">
+        <p>Best Sellers</p>
+        <p>See more</p>
+      </div>
+      <div className="monitors__product-container">
+        <MonitorsTemplate
+          id={uuid()}
+          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
+          price={199.99}
+          rateNumber={"313,962"}
+          rating={5}
+          listPrice={"299.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
+          price={340.99}
+          rateNumber={"567"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
+          price={329.99}
+          rateNumber={"1,886"}
+          rating={4}
+          listPrice={"449.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
+          price={1944.99}
+          rateNumber={"1,988"}
+          rating={4}
+          listPrice="2349.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
+          price={293.98}
+          rateNumber={"18,057"}
+          rating={4}
+          listPrice={"349.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
+          price={109.99}
+          rateNumber={"12"}
+          rating={4}
+          listPrice={"200.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
+          price={79.99}
+          rateNumber={"115"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
+          price={397.78}
+          rateNumber={"7"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
+        />
+      </div>
+      <div className="monitors__sub-heading">
+        <p>Lightning deals</p>
+        {/* <p>See more</p> */}
+      </div>
+      <div className="monitors__product-container">
+        <MonitorsTemplate
+          id={uuid()}
+          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
+          price={199.99}
+          rateNumber={"313,962"}
+          rating={5}
+          listPrice={"299.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
+          price={340.99}
+          rateNumber={"567"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
+          price={329.99}
+          rateNumber={"1,886"}
+          rating={4}
+          listPrice={"449.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
+          price={1944.99}
+          rateNumber={"1,988"}
+          rating={4}
+          listPrice="2349.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
+          price={293.98}
+          rateNumber={"18,057"}
+          rating={4}
+          listPrice={"349.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
+          price={109.99}
+          rateNumber={"12"}
+          rating={4}
+          listPrice={"200.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
+          price={79.99}
+          rateNumber={"115"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
+          price={397.78}
+          rateNumber={"7"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
+        />
+      </div>
+      <div className="monitors__sub-heading">
+        <p>Most wished for</p>
+        <p>See more</p>
+      </div>
+      <div className="monitors__product-container">
+        <MonitorsTemplate
+          id={uuid()}
+          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
+          price={199.99}
+          rateNumber={"313,962"}
+          rating={5}
+          listPrice={"299.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
+          price={340.99}
+          rateNumber={"567"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
+          price={329.99}
+          rateNumber={"1,886"}
+          rating={4}
+          listPrice={"449.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
+          price={1944.99}
+          rateNumber={"1,988"}
+          rating={4}
+          listPrice="2349.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
+          price={293.98}
+          rateNumber={"18,057"}
+          rating={4}
+          listPrice={"349.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
+          price={109.99}
+          rateNumber={"12"}
+          rating={4}
+          listPrice={"200.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
+          price={79.99}
+          rateNumber={"115"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
+          price={397.78}
+          rateNumber={"7"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
+        />
+      </div>
+      <div className="monitors__sub-heading">
+        <p>Most gifted</p>
+        <p>See more</p>
       </div>
       <div className="monitors__product-container">
         <MonitorsTemplate
