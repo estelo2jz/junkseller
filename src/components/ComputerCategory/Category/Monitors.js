@@ -4,8 +4,27 @@ import '../ComputerStyles/Monitors.scss';
 function MonitorsTemplate() {
   return (
     <div className="monitor-template__container">
-      <div>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/712ZOa8Ze2L._AC._SR360,460.jpg" alt="monitor-product-img" />
+      <div className="monitor-template__img">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg" alt="monitor-product-img" />
+      </div>
+      <div className="monitor-template__info">
+        <div className="monitor-template__price">
+          <span>
+            <p>$</p>
+            <p>109</p>
+          </span>
+          <span>
+            <p>139.99</p>
+          </span>
+        </div>
+        <div className="monitor-template__title">
+          <p>
+            BenQ 24 Inch IPS Monitor | 1080P | Proprietary Eye-Care Tech | Ultra-Slim
+          </p>
+        </div>
+        <div className="monitor-template__rating">
+          <p>⭐⭐⭐⭐⭐</p>
+        </div>
       </div>
     </div>
   )
@@ -48,6 +67,13 @@ function Monitors() {
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_ExtremeGaming.jpg" alt="monitor-category" />
       </div>
       <div className="monitors__product-container">
+        <MonitorsTemplate />
+        <MonitorsTemplate />
+        <MonitorsTemplate />
+        <MonitorsTemplate />
+        <MonitorsTemplate />
+        <MonitorsTemplate />
+        <MonitorsTemplate />
         <MonitorsTemplate />
       </div>
     </div>
