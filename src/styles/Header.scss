@@ -1,4 +1,5 @@
 .global-header {
+  display: flex-start;
   position: fixed;
   top: 0;
   width: 100%;
@@ -9,7 +10,7 @@
 }
 .navbar {
   background-color: #82c7dc;
-  height: 60px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,7 +52,7 @@
 }
 
 .nav-menu {
-  background-color: #82c7dc;
+  background-color: #7cbccf;
   width: 200px;
   height: 100vh;
   display: flex-start;
@@ -104,16 +105,16 @@
   // z-index: -1000;
   .navbar__items-container {
     margin-top: 10px;
-    box-shadow: 5px 0 5px -5px rgba(0,0,0,0.7),
-    -5px 0 5px -5px rgba(0,0,0,0.7);
+    // box-shadow: 5px 0 5px -5px rgba(0,0,0,0.7),
+    // -5px 0 5px -5px rgba(0,0,0,0.7);
     height: 100%;
   }
 }
 
 .navbar-toggle {
-  background-color: #82c7dc;
+  background-color: #7cbccf;
   width: 100%;
-  height: 60px;
+  height: 50px;
   display: flex;
   justify-content: start;
   align-items: center;
