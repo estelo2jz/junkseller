@@ -23,10 +23,10 @@ import ComputerLogo1 from './logo/subLogos/ccomputers.svg';
 import ComputerLogo2 from './logo/subLogos/cgpu.svg';
 import ComputerLogo3 from './logo/subLogos/charddrives.svg';
 import ComputerLogo4 from './logo/subLogos/cprinters.svg';
-import HomeGardenToolsLogo1 from './logo/subLogos/hbath.svg';
+import HomeGardenToolsLogo1 from './logo/subLogos/hdecor.svg';
 import HomeGardenToolsLogo2 from './logo/subLogos/happliances.svg';
 import HomeGardenToolsLogo3 from './logo/subLogos/hbed.svg';
-import HomeGardenToolsLogo4 from './logo/subLogos/hwedding.svg';
+import HomeGardenToolsLogo4 from './logo/subLogos/hsewing.svg';
 import SmartHomeLogo1 from './logo/subLogos/slocks.svg';
 import SmartHomeLogo2 from './logo/subLogos/ssecurity.svg';
 import SmartHomeLogo3 from './logo/subLogos/svacuum.svg';
@@ -45,11 +45,11 @@ import BeautyHealthLogo3 from './logo/subLogos/bmens.svg';
 import BeautyHealthLogo4 from './logo/subLogos/bskin.svg';
 import ToyKidsBabyLogo1 from './logo/subLogos/tbaby.svg';
 import ToyKidsBabyLogo2 from './logo/subLogos/tbirthdays.svg';
-import ToyKidsBabyLogo3 from './logo/subLogos/tdiaper.svg';
-import ToyKidsBabyLogo4 from './logo/subLogos/tv.svg';
+import ToyKidsBabyLogo3 from './logo/subLogos/tteen.svg';
+import ToyKidsBabyLogo4 from './logo/subLogos/tfamily.svg';
 import HandmadeLogo1 from './logo/subLogos/hhandbags.svg';
 import HandmadeLogo2 from './logo/subLogos/hfurniture.svg';
-import HandmadeLogo3 from './logo/subLogos/hdecor.svg';
+import HandmadeLogo3 from './logo/subLogos/hwedding.svg';
 import HandmadeLogo4 from './logo/subLogos/hjewelry.svg';
 import SportsLogo1 from './logo/subLogos/sgolf.svg';
 import SportsLogo2 from './logo/subLogos/sfitness.svg';
@@ -69,10 +69,10 @@ function Slider() {
     <HomeSlider 
       src={ElectronicsLogo} 
       title="Electronics" 
-      descOne = "desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne = "TVs"
+      descTwo="Cameras"
+      descThree="Wearable Technology"
+      descFour="Video Games"
       descOneImg= {ElectricLogo1}
       descTwoImg={ElectricLogo2}
       descThreeImg={ElectricLogo3}
@@ -85,10 +85,10 @@ function Slider() {
     <HomeSlider 
       src={ComputerLogo} 
       title="Computers"  
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Computers"
+      descTwo="Components"
+      descThree="Hard Drives"
+      descFour="Printers"
       descOneImg={ComputerLogo1}
       descTwoImg={ComputerLogo2}
       descThreeImg={ComputerLogo3}
@@ -101,10 +101,10 @@ function Slider() {
     <HomeSlider 
       src={HomeGardenToolsLogo} 
       title="Home, Garden & Tools" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Decor"
+      descTwo="Appliances"
+      descThree="Bath"
+      descFour="Sewing"
       descOneImg={HomeGardenToolsLogo1}
       descTwoImg={HomeGardenToolsLogo2}
       descThreeImg={HomeGardenToolsLogo3}
@@ -117,10 +117,10 @@ function Slider() {
     <HomeSlider 
       src={PetSuppliesLogo} 
       title="Pet Supplies" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Pet Profiles"
+      descTwo="Dog Food"
+      descThree="Aquatic Pets"
+      descFour="Birds"
       descOneImg={PetSuppliesLogo1}
       descTwoImg={PetSuppliesLogo2}
       descThreeImg={PetSuppliesLogo3}
@@ -133,10 +133,10 @@ function Slider() {
     <HomeSlider 
       src={OutdoorsLogo} 
       title="Outdoors" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Cycling"
+      descTwo="Camping"
+      descThree="Scooters"
+      descFour="Climbing"
       descOneImg={OutdoorsLogo1}
       descTwoImg={OutdoorsLogo2}
       descThreeImg={OutdoorsLogo3}
@@ -149,10 +149,10 @@ function Slider() {
     <HomeSlider 
       src={SmartHomeLogo} 
       title="Smart Home" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Smart Locks"
+      descTwo="Security Camera"
+      descThree="Vacuum"
+      descFour="Smart Lighting"
       descOneImg={SmartHomeLogo1}
       descTwoImg={SmartHomeLogo2}
       descThreeImg={SmartHomeLogo3}
@@ -165,10 +165,10 @@ function Slider() {
     <HomeSlider 
       src={FoodGroceryLogo} 
       title="Food & Grocery" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Gourmet"
+      descTwo="Fresh"
+      descThree="Pantry"
+      descFour="Grocery"
       descOneImg={FoodGroceryLogo1}
       descTwoImg={FoodGroceryLogo2}
       descThreeImg={FoodGroceryLogo3}
@@ -181,10 +181,10 @@ function Slider() {
     <HomeSlider 
       src={BeautyHealthLogo} 
       title="Beauty & Health" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Premium Beauty"
+      descTwo="Dietary Supplements"
+      descThree="Men's Grooming"
+      descFour="Skin Care"
       descOneImg={BeautyHealthLogo1}
       descTwoImg={BeautyHealthLogo2}
       descThreeImg={BeautyHealthLogo3}
@@ -197,14 +197,14 @@ function Slider() {
     <HomeSlider 
       src={ToyKidsBabyLogo} 
       title="Toys, Kids & Baby" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Baby"
+      descTwo="Kids Birthdays"
+      descThree="Teen"
+      descFour="Family"
       descOneImg={ToyKidsBabyLogo1}
       descTwoImg={ToyKidsBabyLogo2}
       descThreeImg={ToyKidsBabyLogo3}
-      descFourImg={ToyKidsBabyLogo1}
+      descFourImg={ToyKidsBabyLogo4}
       descPathOne = ""
       descPathTwo = ""
       descPathThree = ""
@@ -213,10 +213,10 @@ function Slider() {
     <HomeSlider 
       src={HandmadeLogo} 
       title="Handmade" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Handbags"
+      descTwo="Furniture"
+      descThree="Wedding"
+      descFour="Jewelry"
       descOneImg={HandmadeLogo1}
       descTwoImg={HandmadeLogo2}
       descThreeImg={HandmadeLogo3}
@@ -229,10 +229,10 @@ function Slider() {
     <HomeSlider 
       src={SportsLogo} 
       title="Sports" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Golf"
+      descTwo="All Exercise"
+      descThree="Fitness"
+      descFour="Fishing"
       descOneImg={SportsLogo1}
       descTwoImg={SportsLogo2}
       descThreeImg={SportsLogo3}
@@ -245,10 +245,10 @@ function Slider() {
     <HomeSlider 
       src={AutomotiveLogo} 
       title="Automotive & Industrial" 
-      descOne="desc one here"
-      descTwo="desc two here"
-      descThree="desc three here"
-      descFour="desc four here"
+      descOne="Parts"
+      descTwo="Tires"
+      descThree="Tools"
+      descFour="Vehicles"
       descOneImg={AutomotiveLogo1}
       descTwoImg={AutomotiveLogo2}
       descThreeImg={AutomotiveLogo3}
