@@ -1,29 +1,59 @@
 import React from 'react';
+import { uuid } from 'uuidv4';
+import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/Monitors.scss';
 
-function MonitorsTemplate() {
+function MonitorsTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+  const [{ basket }, dispatch] = useStateValue();
+
+  const addToBasket = () => {
+    // add item to basket...
+    // to manipulate the data layer
+    dispatch({
+      type: 'ADD_TO_BASKET',
+      item: {
+        id: id,
+        title: title,
+        image: image,
+        price: price,
+        rating: rating,
+        rateNumber: rateNumber,
+        listPrice: listPrice
+      }
+    })
+  };
   return (
     <div className="monitor-template__container">
       <div className="monitor-template__img">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg" alt="monitor-product-img" />
+        <img src={image} alt="monitor-product-img" />
       </div>
       <div className="monitor-template__info">
         <div className="monitor-template__price">
           <span>
             <p>$</p>
-            <p>109</p>
+            <p>{price}</p>
           </span>
           <span>
-            <p>139.99</p>
+            <p>{listPrice}</p>
           </span>
         </div>
         <div className="monitor-template__title">
-          <p>
-            BenQ 24 Inch IPS Monitor | 1080P | Proprietary Eye-Care Tech | Ultra-Slim
-          </p>
+          <p>{title}</p>
         </div>
         <div className="monitor-template__rating">
-          <p>⭐⭐⭐⭐⭐</p>
+          <p>
+            {
+              Array(rating)
+                .fill()
+                .map((_, i) => (
+                  <p>⭐</p>
+                ))
+            }
+          </p>
+          <p>{rateNumber}</p>
+        </div>
+        <div className="monitor-template__btn">
+          <button onClick={addToBasket}>Add to basket</button>
         </div>
       </div>
     </div>
@@ -67,14 +97,78 @@ function Monitors() {
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_ExtremeGaming.jpg" alt="monitor-category" />
       </div>
       <div className="monitors__product-container">
-        <MonitorsTemplate />
-        <MonitorsTemplate />
-        <MonitorsTemplate />
-        <MonitorsTemplate />
-        <MonitorsTemplate />
-        <MonitorsTemplate />
-        <MonitorsTemplate />
-        <MonitorsTemplate />
+        <MonitorsTemplate
+          id = {uuid()} 
+          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
+          price={199.99}
+          rateNumber={"313,962"}
+          rating={5}
+          listPrice={"2,631"}
+          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
+          price={340.99}
+          rateNumber={"567"}
+          rating={4}
+          listPrice= {""}
+          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
+          price={329.99}
+          rateNumber={"1,886"}
+          rating={4}
+          listPrice={"349.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
+          price={1,944.00}
+          rateNumber={"1,988"}
+          rating={4}
+          listPrice="349.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
+          price={293.98}
+          rateNumber={"18,057"}
+          rating={4}
+          listPrice={"349.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
+          price={109.99}
+          rateNumber={"12"}
+          rating={4}
+          listPrice={"349.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
+          price={79.99}
+          rateNumber={"115"}
+          rating={4}
+          listPrice="349.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
+          price={739.78}
+          rateNumber={"7"}
+          rating={4}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
+        />
       </div>
     </div>
   )
