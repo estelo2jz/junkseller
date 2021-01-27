@@ -229,7 +229,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <TVVideo />
           </Route>
@@ -247,7 +246,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <HomeAudioTheater />
           </Route>
@@ -265,7 +263,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <CameraPhotoVideo />
           </Route>
@@ -283,7 +280,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <CellPhone />
           </Route>
@@ -301,7 +297,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <Headphones />
           </Route>
@@ -319,7 +314,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <VideoGames />
           </Route>
@@ -337,7 +331,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <BluetoothWireless />
           </Route>
@@ -355,7 +348,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <CarElectronics />
           </Route>
@@ -373,7 +365,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <MusicalInstruments />
           </Route>
@@ -391,7 +382,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <CameraPhotoVideo />
           </Route>
@@ -409,7 +399,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <WearableTechnology />
           </Route>
@@ -427,7 +416,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <ElectronicsBase />
           </Route>
@@ -445,7 +433,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Amazon Renewed"
             />
             <AmazonRenewed />
           </Route>

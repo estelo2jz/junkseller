@@ -1,4 +1,5 @@
 import React from 'react';
+import { uuid } from 'uuidv4';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
 // import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import ElectronicsMenu from '../ElectricCategory/ElectronicsMenu';
@@ -26,56 +27,56 @@ function Electronics() {
         <div className="electronics__container-flex-grid">
           <div className="electronics__container-flex-1">
             <ElectronicsProductTemplate
-              id="123123"
+              id={uuid()}
               title=""
               price={120.99}
               rating={4}
               image=""
             />
             <ElectronicsProductTemplate
-              id="123123"
+              id={uuid()}
               title=""
               price={119.99}
               rating={4}
               image=""
             />
             <ElectronicsProductTemplate
-              id="123123"
+              id={uuid()}
               title=""
               price={119.99}
               rating={4}
               image=""
             />
             <ElectronicsProductTemplate
-              id="123123"
+              id={uuid()}
               title=""
               price={119.99}
               rating={4}
               image=""
             />
             <ElectronicsProductTemplate
-              id="123123"
+              id={uuid()}
               title=""
               price={119.99}
               rating={4}
               image=""
             />
             <ElectronicsProductTemplate
-              id="123123"
+              id={uuid()}
               title=""
               price={119.99}
               rating={4}
               image=""
             />
             <ElectronicsProductTemplate
-              id="123123"
+              id={uuid()}
               title=""
               price={119.99}
               rating={4}
               image=""
             />
             <ElectronicsProductTemplate
-              id="123123"
+              id={uuid()}
               title=""
               price={119.99}
               rating={4}
@@ -83,7 +84,7 @@ function Electronics() {
             />
             {/* <div className="electronics__item-container">
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
@@ -92,7 +93,7 @@ function Electronics() {
             </div>
             <div className="electronics__item-container">
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
@@ -101,7 +102,7 @@ function Electronics() {
             </div>
             <div className="electronics__item-container">
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
@@ -110,7 +111,7 @@ function Electronics() {
             </div>
             <div className="electronics__item-container">
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
@@ -119,7 +120,7 @@ function Electronics() {
             </div>
             <div className="electronics__item-container">
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
@@ -128,7 +129,7 @@ function Electronics() {
             </div>
             <div className="electronics__item-container">
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
@@ -139,28 +140,28 @@ function Electronics() {
           <div className="electronics__container-3-grid">
             <div className="electronics__container-3-grid-grid-1">
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
                 image=""
               />
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
                 image=""
               />
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
                 image=""
               />
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
@@ -169,58 +170,28 @@ function Electronics() {
             </div>
             <div className="electronics__container-3-grid-grid-2">
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
                 image=""
               />
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
                 image=""
               />
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
                 image=""
               />
               <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-            </div>
-            <div className="electronics__container-3-grid-grid-3">
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
@@ -229,28 +200,58 @@ function Electronics() {
             </div>
             <div className="electronics__container-3-grid-grid-3">
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
                 image=""
               />
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
                 image=""
               />
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}
                 image=""
               />
               <ElectronicsProductTemplate
-                id="123123"
+                id={uuid()}
+                title=""
+                price={119.99}
+                rating={4}
+                image=""
+              />
+            </div>
+            <div className="electronics__container-3-grid-grid-3">
+              <ElectronicsProductTemplate
+                id={uuid()}
+                title=""
+                price={119.99}
+                rating={4}
+                image=""
+              />
+              <ElectronicsProductTemplate
+                id={uuid()}
+                title=""
+                price={119.99}
+                rating={4}
+                image=""
+              />
+              <ElectronicsProductTemplate
+                id={uuid()}
+                title=""
+                price={119.99}
+                rating={4}
+                image=""
+              />
+              <ElectronicsProductTemplate
+                id={uuid()}
                 title=""
                 price={119.99}
                 rating={4}

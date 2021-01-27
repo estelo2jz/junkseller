@@ -22,7 +22,7 @@ function HomeSlider({
     <div className="home-slider__container">
       <div className="home-slider__left-container">
         <div className="home-slider__img">
-          <img src={src} alt="slide-img" />
+          {/* <img src={src} alt="slide-img" /> */}
         </div>
         <div className="home-slider__heading">
           <p>{title}</p>

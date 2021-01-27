@@ -1,4 +1,5 @@
 import React from 'react';
+import { uuid } from 'uuidv4';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
 import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/TVVideo.scss';
@@ -28,7 +29,7 @@ function TVVideo() {
         <div className="tv-video__flex-box">
           <div className="tv-video__product-card">
             <ElectronicsProductTemplate 
-              id = "123123"
+              id = {uuid()}
               title = "Fire TV Cube | Hands-free streaming device with Alexa | 4K Ultra HD | 2019"
               price = {119.99}
               rating = {4}
@@ -37,7 +38,7 @@ function TVVideo() {
           </div>
           <div className="tv-video__product-card">
             <ElectronicsProductTemplate 
-              id = "123123"
+              id = {uuid()}
               title = "TaoTronics Projector Screen with Stand,Indoor Outdoor PVC Projection"
               price = {102.82}
               rating = {5}
@@ -46,7 +47,7 @@ function TVVideo() {
           </div>
           <div className="tv-video__product-card">
             <ElectronicsProductTemplate 
-              id = "123123"
+              id = {uuid()}
               title = "Fire TV Stick 4K streaming device with Alexa Voice Remote | Dolby Vision |"
               price = {4.99}
               rating = {4}
@@ -55,7 +56,7 @@ function TVVideo() {
           </div>
           <div className="tv-video__product-card">
             <ElectronicsProductTemplate 
-              id = "123123"
+              id = {uuid()}
               title = "Elite Screens Yard Master 2, 120-inch Outdoor Indoor Projector Screen"
               price = {169.00}
               rating = {5}
@@ -64,7 +65,7 @@ function TVVideo() {
           </div>
           {/* <div className="tv-video__product-card">
             <ElectronicsProductTemplate 
-              id = "123123"
+              id = {uuid()}
               title = "Fire TV Recast, over-the-air DVR, 1 TB, 150 hours, DVR for cord cutters"
               price = {279.99}
               rating = {4}
@@ -73,7 +74,7 @@ function TVVideo() {
           </div>
           <div className="tv-video__product-card">
             <ElectronicsProductTemplate 
-              id = "123123"
+              id = {uuid()}
               title = "Apple TV 4K (32GB, Latest Model)"
               price = {179.00}
               rating = {5}
@@ -207,7 +208,7 @@ function TVVideo() {
       <div className="tv-video__flex-box">
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Introducing Fire TV Stick Lite with Alexa Voice Remote Lite (no TV"
             price = {29.99}
             rating = {4}
@@ -216,7 +217,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Roku Streaming Stick+ | HD/4K/HDR Streaming Device with Long-range"
             price = {47.92}
             rating = {4}
@@ -225,7 +226,7 @@ function TVVideo() {
         </div> */}
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Google Chromecast (3rd Generation)"
             price = {29.99}
             rating = {4}
@@ -234,7 +235,7 @@ function TVVideo() {
         </div> */}
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Apple TV (32GB, 4th generation)"
             price = {149.00}
             rating = {5}
@@ -243,7 +244,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "SAMSUNG 43-inch Class Crystal UHD TU-8000 Series - 4K UHD HDR"
             price = {347.99}
             rating = {4}
@@ -252,7 +253,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Insignia NS-32DF310NA19 32-inch Smart HD TV - Fire TV Edition"
             price = {169.99}
             rating = {4}
@@ -261,7 +262,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "USX MOUNT Full Motion TV Wall Mount for Most 47-84 inch Flat"
             price = {45.99}
             rating = {5}
@@ -277,7 +278,7 @@ function TVVideo() {
       <div className="tv-video__flex-box">
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate   
-            id = "123123"
+            id = {uuid()}
             title = "Roku Ultra 2020 | Streaming Media Player HD/4K/HDR/Dolby Vision"
             price = {95.67}
             rating = {4}
@@ -286,7 +287,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "TCL 4K Smart LED TV, 43' (43S435)"
             price = {228.00}
             rating = {4}
@@ -295,7 +296,7 @@ function TVVideo() {
         </div> */}
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "TP-Link USB WiFi Adapter for Desktop PC, AC1300Mbps USB 3.0 WiFi"
             price = {19.99}
             rating = {4}
@@ -304,7 +305,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "TCL 4K Smart LED TV, 50' (50S435)"
             price = {327.50}
             rating = {4}
@@ -313,7 +314,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "LG BP175 Blu-Ray DVD Player, with HDMI Port Bundle (Comes with a 6"
             price = {83.19}
             rating = {5}
@@ -322,7 +323,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Replacement Remote for Fire TV Stick, Fire TV Stick 4K & Fire TV Stick Lite"
             price = {21.99}
             rating = {3}
@@ -338,7 +339,7 @@ function TVVideo() {
       <div className="tv-video__flex-box">
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "TaoTronics Projector Screen with Stand, TT-HP020 Indoor Outdoor"
             price = {138.99}
             rating = {4}
@@ -347,7 +348,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Projector Screen with Stand 100 inch - Indoor and Outdoor Projection"
             price = {119.99}
             rating = {4}
@@ -356,7 +357,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Sideclick Remotes SC2-FT16K Universal Remote Attachment for Amazon"
             price = {24.99}
             rating = {4}
@@ -365,7 +366,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Vamvo Outdoor Indoor Projector Screen with Stand Foldable Portable"
             price = {129.00}
             rating = {5}
@@ -374,7 +375,7 @@ function TVVideo() {
         </div>
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Projector Screen with Stand, Upgraded 3 Layers 120 inch 4K HD 16:9"
             price = {175.00}
             rating = {5}
@@ -390,7 +391,7 @@ function TVVideo() {
       <div className="tv-video__flex-box">
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Full Motion TV Monitor Wall Mount Bracket Articulating Arms Swivels"
             price = {23.99}
             rating = {4}
@@ -399,7 +400,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Roku Voice Remote (Official) for Roku Players and Roku TVs"
             price = {19.99}
             rating = {4}
@@ -408,7 +409,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Tilting TV Wall Mount Bracket Low Profile for Most 23-55 Inch LED, LCD"
             price = {19.99}
             rating = {5}
@@ -417,7 +418,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "RCA to HDMI,AV to HDMI Converter,ABLEWE 1080P Mini RCA Composite CVBS"
             price = {14.99}
             rating = {5}
@@ -426,7 +427,7 @@ function TVVideo() {
         </div>
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "WALI Universal TV Stand Table Top for Most 22 to 65 inch LCD Flat Screen"
             price = {16.99}
             rating = {4}
@@ -435,7 +436,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "avedio links HDMI Splitter 1 in 2 Out, 4K HDMI Splitter for Dual Monitors"
             price = {12.99}
             rating = {4}
@@ -444,7 +445,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "RC280 Replacement Remote Applicable for TCL Roku TV with Netflix Sling"
             price = {6.34}
             rating = {4}
@@ -460,7 +461,7 @@ function TVVideo() {
       <div className="tv-video__flex-box">
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Fire TV Stick 4K with all-new Alexa Voice Remote, streaming media player"
             price = {49.99}
             rating = {4}
@@ -469,7 +470,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Roku Express | HD Streaming Media Player with High Speed HDMI"
             price = {28.89}
             rating = {5}
@@ -478,7 +479,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Mounting Dream UL Listed TV Mount for Most 37-70 Inches TVs, Universal Tilt"
             price = {27.99}
             rating = {4}
@@ -487,7 +488,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "U MUST HAVE Amplified HD Digital TV Antenna Long 180 Miles Range"
             price = {29.90}
             rating = {5}
@@ -496,7 +497,7 @@ function TVVideo() {
         </div>
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Full Motion TV Wall Mount Bracket Dual Articulating Arms Swivels Tilts Rotation"
             price = {46.96}
             rating = {4}
@@ -505,7 +506,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "TV Wall Mount Bracket Full Motion Dual Swivel Articulating Arms"
             price = {37.96}
             rating = {4}
@@ -514,7 +515,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Mounting Dream Full Motion TV Wall Mount for Most 26-55 Inch TVs"
             price = {29.99}
             rating = {4}
@@ -530,7 +531,7 @@ function TVVideo() {
       <div className="tv-video__flex-box">
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Mini DVD Player, DVD CD/Disc Player for TV with HDMI/AV Output, HDMI/AV Cables Included, HD 1080P Supported Built-in PAL/NTSC System USB Input"
             price = {35.99}
             rating = {4}
@@ -539,7 +540,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Universal TV Stand - Table Top TV Stand for 32-47 Inch LCD LED TVs - Height Adjustable TV Base Stand with Tempered Glass Base & Wire Management"
             price = {20.64}
             rating = {4}
@@ -548,7 +549,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Full Motion TV Wall Mount Dual Swivel Articulating Tilt 6 Arms TV Bracket for 37-70' LED, OLED, 4K Flat/Curved TVs "
             price = {20.84}
             rating = {4}
@@ -557,7 +558,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Abdtech Portable Outdoor Movie Screen, 120 inch 3D Projector Screen Frame Foldable Movie Screen for Projectors "
             price = {92.03}
             rating = {5}
@@ -566,7 +567,7 @@ function TVVideo() {
         </div>
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Projector Screen with Stand 100 inch Portable Projection Screen 16:9 4K HD Rear Front Projections Movies Screen with Carry Bag for Indoor Outdoor Home"
             price = {65.01}
             rating = {4}
@@ -575,7 +576,7 @@ function TVVideo() {
         </div> */}
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Everstone Heavy Duty Single Stud TV Wall Mount Bracket for Most 32-80 Inch LED,LCD,OLED,Plasma Flat Screen,Curved TVs,with Full Motion Articulating Arm"
             price = {28.58}
             rating = {4}
@@ -584,7 +585,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "TaoTronics Projector Screen with Stand,Indoor Outdoor PVC Projection Screen 4K HD 100'' 16: 9 Wrinkle-Free Design(Easy to Clean, 1.1Gain, 160° Viewing"
             price = {102.82}
             rating = {4}
@@ -600,7 +601,7 @@ function TVVideo() {
       <div className="tv-video__flex-box">
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "PERLESMITH Full Motion TV Wall Mount for 37-80 Inch Flat Curved TVs with Smooth Tilts Swivel & Extends - Dual Articulating Arms Wall Mount TV Bracket"
             price = {46.73}
             rating = {4}
@@ -609,7 +610,7 @@ function TVVideo() {
         </div> */}
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "PERLESMITH Fixed TV Wall Mount Bracket Low Profile for 32-82 inch LED, LCD,and OLED Flat Screen TVs - Fits 16”- 24” Wood Studs"
             price = {15.29}
             rating = {4}
@@ -618,7 +619,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "BLUE STONE Tilt TV Wall Mount Bracket for Most 32-65 Inch LED LCD OLED Flat Screen TVs/Curved TVs, Low Profile, Up to VESA 400x400 and 165 LBS"
             price = {12.74}
             rating = {4}
@@ -627,7 +628,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "PERLESMITH TV Tripod Stand-Portable TV Stand for 23-55 Inch LED LCD OLED Flat Screen TVs-Height Adjustable Display Floor TV Stand with VESA 400x400mm"
             price = {59.99}
             rating = {4}
@@ -636,7 +637,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Universal TV Stand Base Tabletop TV Stand for 26 to 55 Inch TVs -Height Adjustable TV Base Stand with Tempered Glass Base & Wire Management"
             price = {25.95}
             rating = {4}
@@ -652,7 +653,7 @@ function TVVideo() {
       <div className="tv-video__flex-box">
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "WiFi Projector,VILINICE 5000L Mini Outdoor Movie Projector ,Portable Phone"
             price = {99.99}
             rating = {4}
@@ -661,7 +662,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "SAMSUNG 50-inch Class Crystal UHD TU-8000 Series - 4K UHD HDR"
             price = {397.99}
             rating = {4}
@@ -670,7 +671,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Insignia Smart HD TV - Fire TV Edition"
             price = {169.99}
             rating = {4}
@@ -679,7 +680,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "DR. J Professional HI-04 Mini Projector Outdoor Movie Projector"
             price = {79.03}
             rating = {4}
@@ -688,7 +689,7 @@ function TVVideo() {
         </div>
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Mini Projector for iPhone, ELEPHAS 2020 WiFi Movie Projector with Synchronize"
             price = {99.99}
             rating = {4}
@@ -697,7 +698,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Philips Hue Play HDMI Sync Box, HDMI 4K Splitter, 4 HDMI in 1 Out"
             price = {1.99}
             rating = {5}
@@ -706,7 +707,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "SAMSUNG 65-inch Class Crystal UHD TU-8000 Series - 4K UHD HDR"
             price = {697.99}
             rating = {5}
@@ -722,7 +723,7 @@ function TVVideo() {
       <div className="tv-video__flex-box">
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Roku Premiere | HD/4K/HDR Streaming Media Player"
             price = {37.49}
             rating = {4}
@@ -731,7 +732,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "TCL 32' 3-Series 720p ROKU Smart TV - 32S335"
             price = {128.00}
             rating = {4}
@@ -740,7 +741,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "All-new Fire TV Cube, hands-free with Alexa and 4K Ultra HD, streaming"
             price = {119.99}
             rating = {5}
@@ -749,7 +750,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Mini Projector, PVO Portable Projector for Cartoon, Kids Gift"
             price = {69.99}
             rating = {5}
@@ -758,7 +759,7 @@ function TVVideo() {
         </div>
         {/* <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Mdbebbron 120 inch Projection Screen 16:9 HD Foldable Anti-Crease"
             price = {29.99}
             rating = {4}
@@ -767,7 +768,7 @@ function TVVideo() {
         </div>
         <div className="tv-video__product-card">
           <ElectronicsProductTemplate 
-            id = "123123"
+            id = {uuid()}
             title = "Mini Projector, Meer Portable Pico Full Color LED LCD Video Projector"
             price = {56.99}
             rating = {3}
