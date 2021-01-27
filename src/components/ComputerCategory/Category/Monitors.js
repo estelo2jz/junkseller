@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/Monitors.scss';
@@ -81,20 +82,48 @@ function Monitors() {
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HandpickedMonitors_DT_EN.jpg" alt="ads-image" />
       </div>
       <div className="monitors__category">
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Home.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_HighPerformance.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Creator.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Work.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Professional.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_BusinessPremium.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Portable.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_ValueGaming.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_EntryGaming.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_EssentialGaming.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_PremiumGaming.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_4KGaming.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_UltraGaming.jpg" alt="monitor-category" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_ExtremeGaming.jpg" alt="monitor-category" />
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Home.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_HighPerformance.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Creator.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Work.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Professional.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_BusinessPremium.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_Portable.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_ValueGaming.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_EntryGaming.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_EssentialGaming.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_PremiumGaming.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_4KGaming.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_UltraGaming.jpg" alt="monitor-category" />
+        </Link>
+        <Link to="/" className="monitors__category-img">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_ExtremeGaming.jpg" alt="monitor-category" />
+        </Link>
       </div>
       <div className="monitors__sub-heading">
         <p>Top rated</p>
@@ -134,7 +163,7 @@ function Monitors() {
           price={124.99}
           rateNumber={"19,140"}
           rating={4}
-          listPrice="209.99"
+          listPrice="239.99"
           image="https://images-na.ssl-images-amazon.com/images/I/71trhuzbhML._AC._SR360,460.jpg"
         />
       </div>

@@ -32,7 +32,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     // background-color: rgb(248, 246, 246);
-    height: 270px;
+    height: 200px;
     // margin: 50px; will not do anything
     padding: 0;
 
@@ -163,11 +163,20 @@
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
-    img {
-      width: 200px;
-      max-width: 45%;
-      margin: 5px;
-      cursor: pointer;
+    .monitors__category-img {
+      display: flex;
+      justify-content: center;
+      // width: 300px;
+      // height: 400px;
+      margin: 3px;
+      max-width: 48%;
+      img {
+        // width: 100%;
+        max-width: 60%;
+        margin: 5px;
+        // cursor: pointer;
+      }
+
     }
   }
   .monitors__product-container {
@@ -176,7 +185,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 0px 0px;
-    padding-bottom: 20px;
+    padding: 20px 0px;
   }
 }
