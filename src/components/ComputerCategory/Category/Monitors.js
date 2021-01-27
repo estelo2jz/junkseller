@@ -216,39 +216,39 @@ function Monitors() {
       <div className="monitors__product-container">
         <MonitorsTemplate
           id={uuid()}
-          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
-          price={199.99}
-          rateNumber={"313,962"}
+          title="HDMI+VGA+DVI+Audio Input LCD Controller Board for HSD190MEN4"
+          price={24.88}
+          rateNumber={"771"}
+          rating={4}
+          listPrice={"35.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/81wHB23jHBL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="2.13inch E-Ink Display HAT, 250x122 Resolution 3.3V/5V Black White"
+          price={21.32}
+          rateNumber={"71"}
           rating={5}
-          listPrice={"299.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
+          listPrice={"30.89"}
+          image="https://images-na.ssl-images-amazon.com/images/I/613AsBH+HPL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
-          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
-          price={340.99}
-          rateNumber={"567"}
+          title="Futurebatt 14V 3A Adapter Charger Power Supply Cable for Samsung"
+          price={11.99}
+          rateNumber={"128"}
           rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
+          listPrice={"15.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71Ighj+sOHL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
-          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
-          price={1944.99}
+          title="VSDISPLAY HD-MI Audio LCD Controller Board Fit to New Arcade1UP 17"
+          price={24.99}
           rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
-          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
+          rating={5}
+          listPrice="34.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/71GAsSxshgL._AC._SR360,460.jpg"
         />
       </div>
       <div className="monitors__sub-heading">
@@ -258,39 +258,39 @@ function Monitors() {
       <div className="monitors__product-container">
         <MonitorsTemplate
           id={uuid()}
-          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
-          price={199.99}
-          rateNumber={"313,962"}
+          title="VIOTEK GFV22CB Ultra-Compact 22-Inch 144Hz Gaming Monitor | 1080P"
+          price={139.99}
+          rateNumber={"1,432"}
           rating={5}
-          listPrice={"299.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
+          listPrice={"209.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71zAgpDdQCL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
-          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
-          price={340.99}
-          rateNumber={"567"}
+          title="Sceptre E248W-19203R 24' Ultra Thin 75Hz 1080p LED Monitor 2x"
+          price={119.99}
+          rateNumber={"11,712"}
           rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
+          listPrice={"259.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71qCGPWI8aL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
-          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
-          price={329.99}
-          rateNumber={"1,886"}
+          title="SAMSUNG LC24F396FHNXZA 23.5' FHD Curved LED-Lit"
+          price={129.99}
+          rateNumber={"3,586"}
           rating={4}
-          listPrice={"449.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
+          listPrice={"209.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/91ubktnbNVL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
-          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
-          price={1944.99}
-          rateNumber={"1,988"}
+          title="HP Pavilion 22cwa 21.5-Inch Full HD 1080p IPS LED Monitor, Tilt, VGA"
+          price={89.99}
+          rateNumber={"9,656"}
           rating={4}
-          listPrice="2349.99"
-          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
+          listPrice="99.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/81HX5N0RPWL._AC._SR360,460.jpg"
         />
       </div>
       <div className="monitors__sub-heading">
@@ -298,42 +298,62 @@ function Monitors() {
         {/* <p>See more</p> */}
       </div>
       <div className="monitors__product-container">
-        <MonitorsTemplate
-          id={uuid()}
-          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
-          price={1944.99}
-          rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
-          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
-        />
+        <div className="monitors__lightning-container">
+          <div className="monitors__lightning-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71DaoW6qQgL._AC_SX679_.jpg" alt="lightning-deals-img" />
+          </div>
+          <div className="monitors__lightning-info">
+            <ul>
+               <p>Upcoming Deal</p>
+              <p>Starts for you in 03:42:28</p>
+            </ul>
+            <p>
+              Portable Monitor, Elecife 15.6 Inch Full HD 1080P USB Type C Computer Monitor, IPS Eyes Care Screen with HDMI for Laptop PC MAC Phone Xbox PS4/5, Dual Speakers, Protective Bag
+            </p>
+          </div>
+        </div>
+        <div className="monitors__lightning-container">
+          <div className="monitors__lightning-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41o-lfbZigL._AC_SX466_.jpg" alt="lightning-deals-img" />
+          </div>
+          <div className="monitors__lightning-info">
+            <ul>
+              <p>Upcoming Deal</p>
+              <p>Starts for you in 01:12:08</p>
+            </ul>
+            <p>
+              Portable Gaming Monitor 4K Anmite 15.6 Inch Mobile Computer Display External Display for Xbox PS4 Phone with Speakers Type-C USB-C HDMI IPS UHD 2160P LED Screen
+            </p>
+          </div>
+        </div>
+        <div className="monitors__lightning-container">
+          <div className="monitors__lightning-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/91lsKw6ZMFL._AC_SL1500_.jpg" alt="lightning-deals-img" />
+          </div>
+          <div className="monitors__lightning-info">
+            <ul>
+              <p>Upcoming Deal</p>
+              <p>Starts for you in 09:53:31</p>
+            </ul>
+            <p>
+              15.6" Portable Monitor, Zissu's Laptop Dual USB C Monitor, Ultra-Slim Full HD 1080P HDR IPS Screen Gaming Monitor, Eye Care 178° Full View Computer
+            </p>
+          </div>
+        </div>
+        <div className="monitors__lightning-container">
+          <div className="monitors__lightning-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61n9Ehh%2BXLL._AC_SL1500_.jpg" alt="lightning-deals-img" />
+          </div>
+          <div className="monitors__lightning-info">
+            <ul>
+              <p>Upcoming Deal</p>
+              <p>Starts for you in 10:15:45</p>
+            </ul>
+            <p>
+              Portable Monitor - UPERFECT 17.3" FHD 1080P 100% sRGB, Frameless FreeSync IPS HDR Gaming Display with 90°Adjustable Kickstand, Dual USB C for Laptop, PC, MAC, Surface, Phone, PS3, PS4, Xbox, Switch
+            </p>
+          </div>
+        </div>
       </div>
       <div className="monitors__sub-heading">
         <p>Most wished for</p>
