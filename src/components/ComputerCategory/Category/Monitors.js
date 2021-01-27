@@ -97,6 +97,48 @@ function Monitors() {
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/PC/Monitors_Storefront_ExtremeGaming.jpg" alt="monitor-category" />
       </div>
       <div className="monitors__sub-heading">
+        <p>Top rated</p>
+        <p>See more</p>
+      </div>
+      <div className="monitors__product-container">
+        <MonitorsTemplate
+          id={uuid()}
+          title="BenQ 24 Inch IPS Monitor | 1080P | Proprietary Eye-Care Tech | Ultra-Slim"
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/712ZOa8Ze2L._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="ViewSonic VX3276-MHD 32 Inch 1080p Frameless Widescreen IPS Monitor"
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/516Vq6aI-JL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="LG 34WN80C-B 34 inch 21:9 Curved UltraWide WQHD IPS Monitor"
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/81WBbFOEHwL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="HP VH240a 23.8-Inch Full HD 1080p IPS LED Monitor with Built-In"
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="209.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/71trhuzbhML._AC._SR360,460.jpg"
+        />
+      </div>
+      <div className="monitors__sub-heading">
         <p>Hot new releases</p>
         <p>See more</p>
       </div>
@@ -136,42 +178,6 @@ function Monitors() {
           rating={4}
           listPrice="2349.99"
           image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
-          price={293.98}
-          rateNumber={"18,057"}
-          rating={4}
-          listPrice={"349.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
-          price={109.99}
-          rateNumber={"12"}
-          rating={4}
-          listPrice={"200.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
-          price={79.99}
-          rateNumber={"115"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
-          price={397.78}
-          rateNumber={"7"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
         />
       </div>
       <div className="monitors__sub-heading">
@@ -215,42 +221,6 @@ function Monitors() {
           listPrice="2349.99"
           image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
         />
-        <MonitorsTemplate
-          id={uuid()}
-          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
-          price={293.98}
-          rateNumber={"18,057"}
-          rating={4}
-          listPrice={"349.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
-          price={109.99}
-          rateNumber={"12"}
-          rating={4}
-          listPrice={"200.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
-          price={79.99}
-          rateNumber={"115"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
-          price={397.78}
-          rateNumber={"7"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
-        />
       </div>
       <div className="monitors__sub-heading">
         <p>Best Sellers</p>
@@ -292,42 +262,6 @@ function Monitors() {
           rating={4}
           listPrice="2349.99"
           image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
-          price={293.98}
-          rateNumber={"18,057"}
-          rating={4}
-          listPrice={"349.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
-          price={109.99}
-          rateNumber={"12"}
-          rating={4}
-          listPrice={"200.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
-          price={79.99}
-          rateNumber={"115"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
-          price={397.78}
-          rateNumber={"7"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
         />
       </div>
       <div className="monitors__sub-heading">
@@ -371,42 +305,6 @@ function Monitors() {
           listPrice="2349.99"
           image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
         />
-        <MonitorsTemplate
-          id={uuid()}
-          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
-          price={293.98}
-          rateNumber={"18,057"}
-          rating={4}
-          listPrice={"349.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
-          price={109.99}
-          rateNumber={"12"}
-          rating={4}
-          listPrice={"200.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
-          price={79.99}
-          rateNumber={"115"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
-          price={397.78}
-          rateNumber={"7"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
-        />
       </div>
       <div className="monitors__sub-heading">
         <p>Most wished for</p>
@@ -449,42 +347,6 @@ function Monitors() {
           listPrice="2349.99"
           image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
         />
-        <MonitorsTemplate
-          id={uuid()}
-          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
-          price={293.98}
-          rateNumber={"18,057"}
-          rating={4}
-          listPrice={"349.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
-          price={109.99}
-          rateNumber={"12"}
-          rating={4}
-          listPrice={"200.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
-          price={79.99}
-          rateNumber={"115"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
-          price={397.78}
-          rateNumber={"7"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
-        />
       </div>
       <div className="monitors__sub-heading">
         <p>Most gifted</p>
@@ -526,42 +388,6 @@ function Monitors() {
           rating={4}
           listPrice="2349.99"
           image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="AOC C32G2 32' Curved Frameless Gaming Monitor FHD, 1500R"
-          price={293.98}
-          rateNumber={"18,057"}
-          rating={4}
-          listPrice={"349.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71jiNX9VBlL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="ASUS VL249HE 23.8” Eye Care Monitor, 1080P Full HD, 75Hz, IPS, Adaptive"
-          price={109.99}
-          rateNumber={"12"}
-          rating={4}
-          listPrice={"200.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/71XRX0tFRcL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="HP V20 HD+ Monitor | 19.5-inch Diagonal HD+ Computer Monitor"
-          price={79.99}
-          rateNumber={"115"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/81KcQCMTTfL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="MSI QHD Rapid-IPS Gaming Non-Glare Super Narrow Bezel 1ms 2560 x 1440 165Hz Refresh Rate Adjustable Arm G-Sync Compatible 27”"
-          price={397.78}
-          rateNumber={"7"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/61HDGsI1VpL._AC_SL1024_.jpg"
         />
       </div>
     </div>
