@@ -69,7 +69,7 @@ function Upccoming() {
     <div className="upcoming__container">
       <div className="upcoming__top">
         <div className="upcoming__img">
-          <img src="https://images-na.ssl-images-amazon.com/images/I/51HCUYvdF1L._AC_SL1001_.jpg" alt="upcoming-img" />
+          <img src="" alt="upcoming-img" />
         </div>
         <p>early access deal</p>
       </div>
