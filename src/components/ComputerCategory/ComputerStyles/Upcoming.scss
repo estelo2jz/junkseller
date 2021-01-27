@@ -25,6 +25,7 @@
       justify-content: center;
       align-items: center;
       overflow: hidden;
+      padding: 20px 0px;
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
@@ -32,9 +33,9 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        width: 110px;
+        width: 70px;
         margin: 3px;
-        height: 70%;
+        // height: 70%;
       }
     }
     p {
