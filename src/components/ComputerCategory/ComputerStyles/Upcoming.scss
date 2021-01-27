@@ -20,6 +20,9 @@
       display:flex;
       justify-content: center;
       img {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
         width: 100px;
         margin: 3px;
       }
