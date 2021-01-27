@@ -362,39 +362,39 @@ function Monitors() {
       <div className="monitors__product-container">
         <MonitorsTemplate
           id={uuid()}
-          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
-          price={199.99}
-          rateNumber={"313,962"}
+          title="Portable Monitor - AUZAI 15.6' Ultra Slim Portable Computer Monitor, FHD"
+          price={179.99}
+          rateNumber={"791"}
           rating={5}
-          listPrice={"299.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
           listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/718Vq5-Q8dL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
-          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
+          title="LG 27GL83A-B 27 Inch Ultragear QHD IPS 1ms NVIDIA G-SYNC"
+          price={379.99}
+          rateNumber={"6,475"}
+          rating={5}
+          listPrice={""}
+          image="https://images-na.ssl-images-amazon.com/images/I/91lS5yEDH-L._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
-          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
-          price={1944.99}
-          rateNumber={"1,988"}
+          title="Portable Monitor - Lepow 15.6 Inch Full HD 1080P USB Type-C Computer"
+          price={188.98}
+          rateNumber={"7,520"}
+          rating={5}
+          listPrice={"269.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71m3D2cIgML._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="Sceptre 30-inch Curved Gaming Monitor 21:9 2560x1080 Ultra Wide"
+          price={278.99}
+          rateNumber={"5,432"}
           rating={4}
-          listPrice="2349.99"
-          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
+          listPrice="269.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/81Wt3h7-V2L._AC._SR360,460.jpg"
         />
       </div>
       <div className="monitors__sub-heading">
@@ -404,39 +404,39 @@ function Monitors() {
       <div className="monitors__product-container">
         <MonitorsTemplate
           id={uuid()}
-          title="AOC C24G1A 24' Curved Frameless Gaming Monitor, FHD 1920x1080"
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/81GJkTKuLnL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="ASUS TUF Gaming VG27WQ1B 27” Curved Monitor, 1440P WQHD"
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
-          image="https://images-na.ssl-images-amazon.com/images/I/8167EJxJ8tL._AC._SR360,460.jpg"
-        />
-        <MonitorsTemplate
-          id={uuid()}
-          title="SAMSUNG 32-Inch Odyssey G5 Gaming Monitor with 1000R"
-          price={329.99}
-          rateNumber={"1,886"}
+          title="Acer Nitro XV272U Pbmiiprzx 27' WQHD (2560 x 1440) IPS G-SYNC"
+          price={299.99}
+          rateNumber={"444"}
           rating={4}
           listPrice={"449.99"}
-          image="https://images-na.ssl-images-amazon.com/images/I/61Lb5JbFxML._AC._SR360,460.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/81Cq+ySZwvL._AC._SR360,460.jpg"
         />
         <MonitorsTemplate
           id={uuid()}
-          title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz"
-          price={1944.99}
-          rateNumber={"1,988"}
+          title="GIGABYTE G32QC 32' 165Hz 1440P Curved Gaming Monitor, 2560 x"
+          price={349.99}
+          rateNumber={"1,249"}
           rating={4}
-          listPrice="2349.99"
-          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC._SR360,460.jpg"
+          listPrice={"369.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/71ZdD4CIZVL._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="Sceptre 24' Curved 75Hz Gaming LED Monitor Full HD 1080P HDMI VGA"
+          price={129.99}
+          rateNumber={"12,101"}
+          rating={4}
+          listPrice={"369.99"}
+          image="https://images-na.ssl-images-amazon.com/images/I/914W+OtJQ-L._AC._SR360,460.jpg"
+        />
+        <MonitorsTemplate
+          id={uuid()}
+          title="Sceptre 20' 1600x900 75Hz Ultra Thin LED Monitor 2x HDMI VGA"
+          price={79.97}
+          rateNumber={"12,190"}
+          rating={4}
+          listPrice="369.99"
+          image="https://images-na.ssl-images-amazon.com/images/I/617S7xFO58L._AC._SR360,460.jpg"
         />
       </div>
     </div>

@@ -217,6 +217,16 @@
       }
       .monitors__lightning-info {
       background-color: rgb(243, 240, 241);
+      ul {
+        p:nth-child(1) {
+          font-weight: 600;
+          font-size: 0.7em;
+        }
+        p:nth-child(2) {
+          color: rgb(156, 154, 154);
+          font-size: 0.7em;
+        }
+      }
 
         p {
           overflow: hidden;
