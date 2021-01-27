@@ -9,21 +9,22 @@
   // height: 40vh;
   // overflow: hidden;
   .featured-category__image {
-    border-radius: 90%;
     background-color: gray;
     overflow: hidden;
     border: 1px solid black;
-    width: 100px;
-    height: 100px;
+    // width: 100px;
+    // height: 100px;
     cursor: pointer;
     margin: 20px 0px;
+    border-radius: 50%;
     .featured-category__image-box {
       background-position: center;
       background-size: contain;
-
-    }
-    img {
-      width: 120px;
+      img {
+        // height: 200px;
+        width: 120px;
+      }
+      
     }
   }
   .featured-category__heading {

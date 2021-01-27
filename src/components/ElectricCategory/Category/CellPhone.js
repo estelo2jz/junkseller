@@ -18,31 +18,39 @@ function CellPhone() {
         </div>
         <div className="cell-phone__flex-box">
           <div className="cell-phone__featured-items">
-            <img
-              src="https://images-na.ssl-images-amazon.com/images/I/81MZ5D1wHpL._AC._SR360,460.jpg"
-              alt="Accessories"
-            />
+            <div className="cell-phone__featured-item-img">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/81MZ5D1wHpL._AC._SR360,460.jpg"
+                alt="Accessories"
+              />
+            </div>
             <p>Accessories</p>
           </div>
           <div className="cell-phone__featured-items">
-            <img
-              src="https://images-na.ssl-images-amazon.com/images/I/71NoAVsl10L._AC._SR360,460.jpg"
-              alt="Cases, Holster & Sleeves"
-            />
+            <div className="cell-phone__featured-item-img">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/71NoAVsl10L._AC._SR360,460.jpg"
+                alt="Cases, Holster & Sleeves"
+              />
+            </div>
             <p>Cases, Holster & Sleeves</p>
           </div>
           <div className="cell-phone__featured-items">
-            <img
-              src="https://images-na.ssl-images-amazon.com/images/I/71ikxa1gBdL._AC_SL1500_.jpg"
-              alt="Cell Phones"
-            />
+            <div className="cell-phone__featured-item-img">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/71ikxa1gBdL._AC_SL1500_.jpg"
+                alt="Cell Phones"
+              />
+            </div>
             <p>Cell Phones</p>
           </div>
           <div className="cell-phone__featured-items">
-            <img
-              src="https://images-na.ssl-images-amazon.com/images/I/41QxYgIJIHL._AC_.jpg"
-              alt="SIM Cards & Prepaid Minutes"
-            />
+            <div className="cell-phone__featured-item-img">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/41QxYgIJIHL._AC_.jpg"
+                alt="SIM Cards & Prepaid Minutes"
+              />
+            </div>
             <p>SIM Cards & Prepaid</p>
           </div>
         </div>

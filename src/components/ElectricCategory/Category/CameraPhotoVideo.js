@@ -16,101 +16,129 @@ function CameraPhotoVideo() {
         </div>
         <div className="camera-photo-video__flex-box">
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/61NPMBpOU2L._AC_UY218_.jpg"
-              alt="Accessories"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/61NPMBpOU2L._AC_UY218_.jpg"
+                alt="Accessories"
+              />
+            </div>
             <p>Accessories</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/81T6hx8XDTL._AC_UY218_.jpg"
-              alt="Video"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/81T6hx8XDTL._AC_UY218_.jpg"
+                alt="Video"
+              />
+            </div>
             <p>Video</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/71ZcdiDEU1L._AC_UY218_.jpg"
-              alt="Lighting Studio"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/71ZcdiDEU1L._AC_UY218_.jpg"
+                alt="Lighting Studio"
+              />
+            </div>
             <p>Lightning Studio</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/716JVo5F8oL._AC_UY218_.jpg"
-              alt="Video Surveillance"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/716JVo5F8oL._AC_UY218_.jpg"
+                alt="Video Surveillance"
+              />
+            </div>
             <p>Video Surveillance</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/71SeIiJC-WL._AC_UY218_.jpg"
-              alt="Binoculars & Scopes"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/71SeIiJC-WL._AC_UY218_.jpg"
+                alt="Binoculars & Scopes"
+              />
+            </div>
             <p>Binoculars & Scopes</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/91HnWaCgcuL._AC_UY218_.jpg"
-              alt="Bags & Cases"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/91HnWaCgcuL._AC_UY218_.jpg"
+                alt="Bags & Cases"
+              />
+            </div>
             <p>Bags & Cases</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/510gNC8PV8L._AC_UY218_.jpg"
-              alt="Film Photography"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/510gNC8PV8L._AC_UY218_.jpg"
+                alt="Film Photography"
+              />
+            </div>
             <p>Film Photography</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/71tGMtL2Y4L._AC_UY218_.jpg"
-              alt="Tripods & Monopods"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/71tGMtL2Y4L._AC_UY218_.jpg"
+                alt="Tripods & Monopods"
+              />
+            </div>
             <p>Tripods & Monopods</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/715KblPZchL._AC_UY218_.jpg"
-              alt="Underwater Photography"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/715KblPZchL._AC_UY218_.jpg"
+                alt="Underwater Photography"
+              />
+            </div>
             <p>Underwater Photography</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/61WEBCKCDWL._AC_UY218_.jpg"
-              alt="Falshes"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/61WEBCKCDWL._AC_UY218_.jpg"
+                alt="Falshes"
+              />
+            </div>
             <p>Falshes</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://images-na.ssl-images-amazon.com/images/I/51NBMySL3sL._AC_SX184_.jpg"
-              alt="Digital Cameras"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/51NBMySL3sL._AC_SX184_.jpg"
+                alt="Digital Cameras"
+              />
+            </div>
             <p>Digital Cameras</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/71HiZaQJzGL._AC_SX180_SY120_QL70_.jpg"
-              alt="Lenses"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/71HiZaQJzGL._AC_SX180_SY120_QL70_.jpg"
+                alt="Lenses"
+              />
+            </div>
             <p>Lenses</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://images-na.ssl-images-amazon.com/images/I/71L7Abx808L._AC_SX466_.jpg"
-              alt="Simulated Cameras"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://images-na.ssl-images-amazon.com/images/I/71L7Abx808L._AC_SX466_.jpg"
+                alt="Simulated Cameras"
+              />
+            </div>
             <p>Simulated Cameras</p>
           </div>
           <div className="camera-photo-video__featured-items">
-            <img
-              src="https://m.media-amazon.com/images/I/81wYdbMAP7L._AC_UY218_.jpg"
-              alt="Printers & Scanners"
-            />
+            <div className="camera-photo-video__featured-item-img">
+              <img
+                src="https://m.media-amazon.com/images/I/81wYdbMAP7L._AC_UY218_.jpg"
+                alt="Printers & Scanners"
+              />
+            </div>
             <p>Printers & Scanners</p>
           </div>
         </div>
