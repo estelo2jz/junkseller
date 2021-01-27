@@ -12,7 +12,7 @@
   max-width: 48%;
   // max-height: 100%;
   // background-color: red;
-  cursor: pointer;
+  // cursor: pointer;
   .monitor-template__info {
     overflow: hidden;
     // height: 50%;
@@ -132,15 +132,15 @@
     background-color: #82c7dc;
     // height: 20vh;
     // padding: 20px 0px;
-    padding-top: 20px;
+    padding: 10px 0px;
     display: flex;
     // justify-content: center;
     align-items: center;
     p:nth-child(1) {
       font-family: "Poppnis", sans-serif;
-      font-size: 1.3em;
+      font-size: 1em;
       margin-left: 30px;
-      color: white;
+      color: rgb(0, 0, 0);
     }
     p:nth-child(2) {
       font-size: 0.8em;
@@ -185,6 +185,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 20px 0px;
+    // padding: 10px 0px;
   }
 }
