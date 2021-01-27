@@ -3,6 +3,7 @@ import { uuid } from 'uuidv4';
 import { Link } from 'react-router-dom';
 import '../ComputerStyles/ComputerTablet.scss';
 import '../ComputerStyles/ComputerTabletTemplate.scss';
+import '../ComputerStyles/Upcoming.scss';
 import { useStateValue } from '../../StateProvider';
 
 function ComputerTabletTemplate({ id, title, image, price, rating, rateNumber, soldBy, listPrice }) {
@@ -57,6 +58,28 @@ function ComputerTabletTemplate({ id, title, image, price, rating, rateNumber, s
         </div>
         <div className="computer-tablet-template__btn">
           <button onClick={addToBasket}>Add to basket</button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Upccoming() {
+  return (
+    <div className="upcoming__container">
+      <div className="upcoming__top">
+        <div className="upcoming__img">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/51HCUYvdF1L._AC_SL1001_.jpg" alt="upcoming-img" />
+        </div>
+        <p>early access deal</p>
+      </div>
+      <div className="upcoming__bottom">
+        <div className="upcoming__info">
+          <p>
+            Full HD 1080P AutoFocus Webcam with Microphones & Privacy Cover,USB Video Web Cam for Computers PC Laptop Desktop,Web Camera for Live Streaming,Conference Study Video Calling and Chatting,Skype
+          </p>
+          <p>Starts for you in 48:30</p>
+          <p>Get access to this deal 30 minutes earlier with <span>Member Access</span>.</p>
         </div>
       </div>
     </div>
@@ -244,315 +267,33 @@ function ComputerTablet() {
               </div>
             </div>
             <div className="tabs-template__outer-container">
-              <div className="tabs-template__container">
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
+              <div className="tabs-template__upcoming">
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
+                <Upccoming />
               </div>
             </div>
             <div className="tabs-template__outer-container">
               <div className="tabs-template__container">
-                <ComputerTabletTemplate 
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
+
               </div>
             </div>
             <div className="tabs-template__outer-container">
               <div className="tabs-template__container">
-                <ComputerTabletTemplate 
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
-                <ComputerTabletTemplate
-                  id={uuid()}
-                  title=""
-                  price={6.97}
-                  rateNumber={"167,320"}
-                  rating={5}
-                  listPrice="$13.99 (55% off)"
-                  soldBy="Ships from and sold by JunkSeller."
-                  image=""
-                />
+                <Upccoming />
               </div>
             </div>
           </div>

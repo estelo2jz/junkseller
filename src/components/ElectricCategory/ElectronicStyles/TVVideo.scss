@@ -57,6 +57,8 @@ html {
     justify-content: center;
     // align-content: center;
     flex-wrap: wrap;
+    margin: 0 !important;
+    padding: 0 !important;
     .tv-video__featured-items {
       background-color: rgb(241, 237, 237);
         display: flex;
@@ -89,7 +91,7 @@ html {
         }
         p {
           font-size: 0.8em;
-          // padding: 0px 20px;
+          padding: 0px 20px;
           text-align: center;
         }
     }

@@ -17,59 +17,66 @@ function WearableTechnology() {
       </div>
       <div className="wearable-technology__flex-box">
         <div className="wearable-technology__featured-items">
-          {/* <div className="wearable-technology__featured-box"></div> */}
-          <img
-            src="https://m.media-amazon.com/images/I/61FxlRNka6L._AC_UL320_.jpg"
-            alt="Accessories"
-          />
+          <div className="wearable-technology__featured-item-img">
+            <img
+              src="https://m.media-amazon.com/images/I/61FxlRNka6L._AC_UL320_.jpg"
+              alt="Accessories"
+            />
+          </div>
           <p>Accessories</p>
         </div>
         <div className="wearable-technology__featured-items">
-          {/* <div className="wearable-technology__featured-box"></div> */}
-          <img
-            src="https://m.media-amazon.com/images/I/81LS-PwwQPL._AC_UY327_FMwebp_QL65_.jpg"
-            alt="Smartwatches"
-          />
+          <div className="wearable-technology__featured-item-img">
+            <img
+              src="https://m.media-amazon.com/images/I/81LS-PwwQPL._AC_UY327_FMwebp_QL65_.jpg"
+              alt="Smartwatches"
+            />
+          </div>
           <p>Smartwatches</p>
         </div>
         <div className="wearable-technology__featured-items">
-          {/* <div className="wearable-technology__featured-box"></div> */}
-          <img
-            src="https://m.media-amazon.com/images/I/61vbluEmWiL._AC_UY218_.jpg"
-            alt="Virtual Reality"
-          />
+          <div className="wearable-technology__featured-item-img">
+            <img
+              src="https://m.media-amazon.com/images/I/61vbluEmWiL._AC_UY218_.jpg"
+              alt="Virtual Reality"
+            />
+          </div>
           <p>Virtual Reality</p>
         </div>
         <div className="wearable-technology__featured-items">
-          {/* <div className="wearable-technology__featured-box"></div> */}
-          <img
-            src="https://m.media-amazon.com/images/I/71c3wJePQKL._AC_UL320_.jpg"
-            alt="Clips, Arm & Wristbands"
-          />
+          <div className="wearable-technology__featured-item-img">
+            <img
+              src="https://m.media-amazon.com/images/I/71c3wJePQKL._AC_UL320_.jpg"
+              alt="Clips, Arm & Wristbands"
+            />
+          </div>
           <p>Clips, Arm & Wristbands</p>
         </div>
         <div className="wearable-technology__featured-items">
-          {/* <div className="wearable-technology__featured-box"></div> */}
-          <img
-            src="https://m.media-amazon.com/images/I/71+mRGP6ExL._AC_UL320_.jpg"
-            alt="Glasses"
-          />
+          <div className="wearable-technology__featured-item-img">
+            <img
+              src="https://m.media-amazon.com/images/I/71+mRGP6ExL._AC_UL320_.jpg"
+              alt="Glasses"
+            />
+          </div>
           <p>Glasses</p>
         </div>
         <div className="wearable-technology__featured-items">
-          {/* <div className="wearable-technology__featured-box"></div> */}
-          <img
-            src="https://m.media-amazon.com/images/I/51L0KR9Ok2L._AC_UY218_.jpg"
-            alt="Rings"
-          />
+          <div className="wearable-technology__featured-item-img">
+            <img
+              src="https://m.media-amazon.com/images/I/51L0KR9Ok2L._AC_UY218_.jpg"
+              alt="Rings"
+            />
+          </div>
           <p>Rings</p>
         </div>
         <div className="wearable-technology__featured-items">
-          {/* <div className="wearable-technology__featured-box"></div> */}
-          <img
-            src="https://m.media-amazon.com/images/I/81nF4V0mJDL._AC_UY327_FMwebp_QL65_.jpg"
-            alt="Body Mounted"
-          />
+          <div className="wearable-technology__featured-item-img">
+            <img
+              src="https://m.media-amazon.com/images/I/81nF4V0mJDL._AC_UY327_FMwebp_QL65_.jpg"
+              alt="Body Mounted"
+            />
+          </div>
           <p>Body Mounted</p>
         </div>
       </div>

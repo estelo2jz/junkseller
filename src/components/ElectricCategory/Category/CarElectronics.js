@@ -7,58 +7,74 @@ function CarElectronics() {
   return (
         <div className="car-electronics__container">
           <div className="car-electronics__heading">
-            <h1>Camera, Photo & Video</h1>
+            <h1>Car Electronics</h1>
           </div>
           <div>
             <h1>Featured categories</h1>  
           </div>
           <div className="car-electronics__flex-box">
             <div className="car-electronics__featured-items">
-              <img src="https://m.media-amazon.com/images/I/61a12ASeT3L._AC_UL480_FMwebp_QL65_.jpg"
-              alt="Car Safety & Security"
-              />
+              <div className="car-electronics__featured-item-img">
+                <img src="https://m.media-amazon.com/images/I/61a12ASeT3L._AC_UL480_FMwebp_QL65_.jpg"
+                alt="Car Safety & Security"
+                />
+              </div>
               <p>Car Safety & Security</p>
             </div>
             <div className="car-electronics__featured-items">
-              <img src="https://m.media-amazon.com/images/I/71+ZYBrjEdL._AC_UL320_.jpg"
-                alt="Installation Accessories"
-             />
+              <div className="car-electronics__featured-item-img">
+                <img src="https://m.media-amazon.com/images/I/71+ZYBrjEdL._AC_UL320_.jpg"
+                  alt="Installation Accessories"
+              />
+              </div>
                <p>Installation Accessories</p>
             </div>
             <div className="car-electronics__featured-items">
-              <img src="https://m.media-amazon.com/images/I/41+pKKvb3WL._AC_UY218_.jpg"
-                alt="Car Video"
-              />
+              <div className="car-electronics__featured-item-img">
+                <img src="https://m.media-amazon.com/images/I/41+pKKvb3WL._AC_UY218_.jpg"
+                  alt="Car Video"
+                />
+              </div>
               <p>Car Video</p>
             </div>
             <div className="car-electronics__featured-items">
-              <img src="https://m.media-amazon.com/images/I/810DET1WFOL._AC_UL320_.jpg"
-                alt="Car Audio"
-              />
+              <div className="car-electronics__featured-item-img">
+                <img src="https://m.media-amazon.com/images/I/810DET1WFOL._AC_UL320_.jpg"
+                  alt="Car Audio"
+                />
+              </div>
               <p>Car Audio</p>
             </div>
             <div className="car-electronics__featured-items">
-              <img src="https://m.media-amazon.com/images/I/71tC4xgAtgL._AC_UY218_.jpg"
-                alt="In-Dash Mounting"
-              />
+              <div className="car-electronics__featured-item-img">
+                <img src="https://m.media-amazon.com/images/I/71tC4xgAtgL._AC_UY218_.jpg"
+                  alt="In-Dash Mounting"
+                />
+              </div>
               <p>In-Dash Mounting</p>
             </div>
             <div className="car-electronics__featured-items">
-              <img src="https://m.media-amazon.com/images/I/71UcGPDggrL._AC_UY218_.jpg"
-                alt="Radar Detectors"
-              />
+              <div className="car-electronics__featured-item-img">
+                <img src="https://m.media-amazon.com/images/I/71UcGPDggrL._AC_UY218_.jpg"
+                  alt="Radar Detectors"
+                />
+              </div>
               <p>Radar Detectors</p>
             </div>
             <div className="car-electronics__featured-items">
-              <img src="https://m.media-amazon.com/images/I/61DkihwBONL._AC_UY218_.jpg"
-                alt="Two-Way Radio"
-              />
+              <div className="car-electronics__featured-item-img">
+                <img src="https://m.media-amazon.com/images/I/61DkihwBONL._AC_UY218_.jpg"
+                  alt="Two-Way Radio"
+                />
+              </div>
               <p>Two-Way Radio</p>
             </div>
             <div className="car-electronics__featured-items">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/81dpIJZtk6L._AC_SL1500_.jpg"
-                alt="GPS Tracker"
-              />
+              <div className="car-electronics__featured-item-img">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81dpIJZtk6L._AC_SL1500_.jpg"
+                  alt="GPS Tracker"
+                />
+              </div>
               <p>GPS Tracker</p>
             </div>
           </div>
