@@ -1,4 +1,5 @@
 import React from 'react';
+import { uuid } from 'uuidv4';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
 import SmartHomeMenu from '../SmartHomeCategory/SmartHomeMenu';
 import '../../styles/SmartHome.scss';
@@ -24,190 +25,69 @@ function SmartHome() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
           />
         </div>
         <div className="smart-home__container-flex-grid">
           <div className="smart-home__container-flex-1">
             <ElectronicsProductTemplate
-              id="123123"
-              title=""
-              price={120.99}
+              id={uuid()}
+              title="50Ft LED Strip Lights Music Sync Color Changing RGB LED Strip 44-Key Remote, Sensitive Built-in Mic, App Controlled LED Lights Rope Lights, 5050 RGB LED Light Strip(APP+Remote+Mic+3 Button Switch)"
+              price={27.98}
               rating={4}
-              image=""
+              image="https://images-na.ssl-images-amazon.com/images/I/81DwO7ZZs2L._AC_SL1500_.jpg"
             />
             <ElectronicsProductTemplate
-              id="123123"
-              title=""
-              price={119.99}
+              id={uuid()}
+              title="BAZZ BR30RGBTNWWF Smart Wi-Fi LED RGB BR30 10W Bulb, Dimmable, Energy Star, Color Change, Outdoor, Alexa and Google Home Compatible, 1, Matte White"
+              price={20.99}
               rating={4}
-              image=""
+              image="https://images-na.ssl-images-amazon.com/images/I/51a4OPpSO3L._AC_SL1200_.jpg"
             />
             <ElectronicsProductTemplate
-              id="123123"
-              title=""
-              price={119.99}
+              id={uuid()}
+              title="Arlo Essential Spotlight Camera | 1 Pack | Wire-Free, 1080p Video | Color Night Vision, 2-Way Audio, 6-Month Battery Life | Direct to WiFi, No Hub Needed | Works with Alexa | White | VMC2030"
+              price={99.99}
               rating={4}
-              image=""
+              image="https://images-na.ssl-images-amazon.com/images/I/61BhxjpQn6L._AC_SL1500_.jpg"
             />
             <ElectronicsProductTemplate
-              id="123123"
-              title=""
-              price={119.99}
+              id={uuid()}
+              title="ecobee EB-STATE3LT-02 ecobee3 lite Smart Thermostat, Black"
+              price={169.00}
               rating={4}
-              image=""
+              image="https://images-na.ssl-images-amazon.com/images/I/71cWT-4o9WL._AC_SL1500_.jpg"
             />
             <ElectronicsProductTemplate
-              id="123123"
-              title=""
-              price={119.99}
+              id={uuid()}
+              title="Ring Solar Steplight -- Outdoor Motion-Sensor Security Light, Black (Ring Bridge required)"
+              price={29.99}
               rating={4}
-              image=""
+              image="https://images-na.ssl-images-amazon.com/images/I/51HkHPQyqtL._SL1000_.jpg"
             />
             <ElectronicsProductTemplate
-              id="123123"
-              title=""
-              price={119.99}
-              rating={4}
-              image=""
+              id={uuid()}
+              title="Fire TV Stick with Alexa Voice Remote (includes TV controls) | HD streaming device | 2020 release"
+              price={39.99}
+              rating={5}
+              image="https://images-na.ssl-images-amazon.com/images/I/51GF9vRAnFL._AC_SL1000_.jpg"
             />
             <ElectronicsProductTemplate
-              id="123123"
-              title=""
-              price={119.99}
+              id={uuid()}
+              title="iRobot Roomba i3 (3150) Wi-Fi Connected Robot Vacuum Vacuum - Wi-Fi Connected Mapping, Works with Alexa, Ideal for Pet Hair, Carpets"
+              price={349.00}
               rating={4}
-              image=""
+              image="https://images-na.ssl-images-amazon.com/images/I/81QukPDvuwL._AC_SL1500_.jpg"
             />
             <ElectronicsProductTemplate
-              id="123123"
-              title=""
-              price={119.99}
+              id={uuid()}
+              title="LEVOIT Cool Mist Humidifiers for Bedroom, 6L Smart WiFi Top Fill Ultrasonic Air Vaporizer for Large Room, Baby [BPA Free], Essential Oil Diffuser, Works with Alexa, Gray"
+              price={68.04}
               rating={4}
-              image=""
+              image="https://images-na.ssl-images-amazon.com/images/I/71XdzM-D9AL._AC_SL1500_.jpg"
             />    
           </div>
           <div className="smart-home__container-3-grid">
-            <div className="smart-home__container-3-grid-grid-1">
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={120.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              /> 
-            </div>
-            <div className="smart-home__container-3-grid-grid-2">
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={120.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              /> 
-            </div>
-            <div className="smart-home__container-3-grid-grid-3">
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={120.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />  
-            </div>
-            <div className="smart-home__container-3-grid-grid-3">
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={120.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />
-              <ElectronicsProductTemplate
-                id="123123"
-                title=""
-                price={119.99}
-                rating={4}
-                image=""
-              />  
-            </div>
           </div>
         </div>
       </div>

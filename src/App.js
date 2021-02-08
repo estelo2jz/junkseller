@@ -181,7 +181,7 @@ import SportsCollectibles from './components/SportsCategory/Category/SportsColle
 // AUTOMOTIVE CATEGORY
 import AutoCarElectronics from './components/AutomotiveCategory/Category/CarElectronics';
 import Garage from './components/AutomotiveCategory/Category/Garage';
-import MotorcyclePowerSports from './components/AutomotiveCategory/Category/MotorcyclePowersports';
+import MotorcyclePowerSports from './components/AutomotiveCategory/Category/MotorcyclePowerSports';
 import PartsAccessories from './components/AutomotiveCategory/Category/PartsAccessories';
 import RV from './components/AutomotiveCategory/Category/RV';
 import TiresWheel from './components/AutomotiveCategory/Category/TiresWheel';
@@ -609,7 +609,7 @@ function App() {
 
 
           {/* Smart Home COMPONENTS */}
-          <Route path="/smarthome" exact component={SmartHome}>
+          {/* <Route path="/smarthome" exact component={SmartHome}>
             <NavBar />
             <SmartHome />
           </Route>
@@ -631,7 +631,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <SmartSmartHome />
@@ -654,7 +653,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <DetectorsSensors />
@@ -677,7 +675,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <HeatingCooling />
@@ -700,7 +697,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <HomeEntertainment />
@@ -723,7 +719,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <SmartKitchen />
@@ -746,7 +741,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <LawnGarden />
@@ -769,7 +763,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <SmartPet />
@@ -792,7 +785,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <PlugsOutlet />
@@ -815,7 +807,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <SecurityCameras />
@@ -838,7 +829,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <SmartDevices />
@@ -861,7 +851,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <SmartLocks />
@@ -884,7 +873,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <VacuumMops />
@@ -907,7 +895,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <VoiceAssistants />
@@ -930,7 +917,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <WifiNetworking />
@@ -953,7 +939,6 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <SmartLighting />
@@ -976,16 +961,15 @@ function App() {
               category12="Vacuums and Mops"
               category13="Lawn and Garden"
               category14="WIFI and Networking"
-              category15="Other Solutions"
 
             />
             <WifiNetworking />
-          </Route>
+          </Route> */}
 
         
 
           {/* Home Garden Tools COMPONENTS */}
-          <Route path="/homegardentools" exact component={HomeGardenTools}>
+          {/* <Route path="/homegardentools" exact component={HomeGardenTools}>
             <NavBar />
             <HomeGardenTools />
           </Route>
@@ -1420,13 +1404,13 @@ function App() {
               category17="Storage & Organization"
             />
             <StorageOrganization />
-          </Route>
+          </Route> */}
 
 
 
 
           {/* Pet Supplies COMPONENTS */}
-          <Route path="/petsupplies" exact component={PetSupplies}>
+          {/* <Route path="/petsupplies" exact component={PetSupplies}>
             <NavBar />
             <PetSupplies />
           </Route>
@@ -1541,20 +1525,14 @@ function App() {
               category7="Birds"
             />
             <PetBirds />
-          </Route>
+          </Route> */}
 
 
 
 
           {/* Food Grocery COMPONENTS */}
-          <Route path="/foodgrocery" exact component={FoodGrocery}>
+          {/* <Route path="/foodgrocery" exact component={FoodGrocery}>
             <NavBar />
-            {/* <FoodGroceryMenu 
-              category0="Grocery & Gourmet Food" 
-              category1="Fresh"
-              category2="Whole Foods"
-              category3="Pantry"
-            /> */}
             <FoodGrocery />
           </Route>
           <Route path="/foodgrocery/fresh" exact component={Fresh}>
@@ -1596,23 +1574,15 @@ function App() {
               category3="Pantry"
             />
             <WholeFoods />
-          </Route>
+          </Route> */}
 
 
 
 
           {/* Beauty Health COMPONENTS */}
-          <Route path="/beautyhealth" exact component={BeautyHealth}>
+          {/* <Route path="/beautyhealth" exact component={BeautyHealth}>
             <NavBar />
-            {/* <BeautyHealthMenu 
-              category0="All Beauty" 
-              category1="Premium Beauty"
-              category2="Professional Skin Care"
-              category3="Slaon & Spa"
-              category4="Men's Grooming"
-              category5="Health, Household & Baby"
-              category6="Vitamins & Dietary Supplements"
-            /> */}
+
             <BeautyHealth />
           </Route>
           <Route path="/beautyhealth/allbeauty" exact component={AllBeauty}>
@@ -1705,13 +1675,13 @@ function App() {
               category6="Vitamins & Dietary Supplements"
             />
             <VitaminsDiet />
-          </Route>
+          </Route> */}
 
 
 
 
           {/* Toys Kids Baby COMPONENTS */}
-          <Route path="/toyskidsbaby" exact component={ToysKidsBaby}>
+          {/* <Route path="/toyskidsbaby" exact component={ToysKidsBaby}>
             <NavBar />
             <ToysKidsBaby />
           </Route>
@@ -1826,13 +1796,13 @@ function App() {
               category7="Kids Birthdays"
             />
             <VideoGameKids />
-          </Route>
+          </Route> */}
 
 
 
 
           {/* Handmade COMPONENTS */}
-          <Route path="/handmade" exact component={Handmade}>
+          {/* <Route path="/handmade" exact component={Handmade}>
             <NavBar />
             <Handmade />
           </Route>
@@ -2226,13 +2196,13 @@ function App() {
               category16="Sell on JunkSeller"
             />
             <Wedding />
-          </Route>
+          </Route> */}
 
 
 
 
           {/* Sports COMPONENTS */}
-          <Route path="/sports" exact component={Sports}>
+          {/* <Route path="/sports" exact component={Sports}>
             <NavBar />
             <Sports />
           </Route>
@@ -2370,13 +2340,13 @@ function App() {
               category8="New Gear Innovations"
             />
             <SportsCollectibles />
-          </Route>
+          </Route> */}
 
 
 
 
           {/* Outdoors COMPONENTS */}
-          <Route path="/outdoors" exact component={Outdoors}>
+          {/* <Route path="/outdoors" exact component={Outdoors}>
             <NavBar />
             <Outdoors />
           </Route>
@@ -2514,13 +2484,13 @@ function App() {
               category8="All Outdoor Recreation"
             />
             <AllOutdoor />
-          </Route>
+          </Route> */}
 
 
 
 
           {/* Automotive COMPONENTS */}
-          <Route path="/automotiveindustrial" exact component={AutomotiveIndustrial}>
+          {/* <Route path="/automotiveindustrial" exact component={AutomotiveIndustrial}>
             <NavBar />
             <AutomotiveIndustrial />
           </Route>
@@ -2635,7 +2605,7 @@ function App() {
               category7="Your Garage"
             />
             <MotorcyclePowerSports />
-          </Route>
+          </Route> */}
         </Switch>
         <Footer />
       </div>

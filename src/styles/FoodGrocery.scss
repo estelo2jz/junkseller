@@ -45,40 +45,8 @@
   .grocery-food__container-3-grid {
     display: flex;
     justify-content: center;
-    .grocery-food__container-3-grid-grid-1 {
-      display: flex;
-      flex-wrap: wrap;
-      grid-template-columns: 1fr;
-      justify-content: center;
-      align-items: center;
-      // border: 5px solid rgb(199, 164, 48);
-      // background-color: pink;
-      padding: 30px !important;
-      overflow: hidden;
-    }
-    .grocery-food__container-3-grid-grid-2 {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      grid-template-columns: 1fr;
-      // border: 5px solid rgb(196, 23, 202);
-      // background-color: red;
-      overflow: hidden;
-      padding: 30px !important;
-    }
-    .grocery-food__container-3-grid-grid-3 {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      grid-template-columns: 1fr;
-      // border: 5px solid rgb(138, 81, 245);
-      // background-color: blue;
-      padding: 30px !important;
-      overflow: hidden;
+    height: 50vh;
 
-    }
   }
 }
 
