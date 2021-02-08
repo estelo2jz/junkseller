@@ -8,11 +8,12 @@
   text-align: left;
   width: 300px;
   height: 400px;
-  margin: 3px;
+  margin: 2px;
   max-width: 48%;
   // max-height: 100%;
   // background-color: red;
   // cursor: pointer;
+  border: 1px solid rgb(243, 240, 241);
   .monitor-template__info {
     overflow: hidden;
     // height: 50%;
@@ -240,4 +241,8 @@
       }
     }
   }
+}
+.monitor-template__container:hover {
+  border: 1px solid lightgray;
+  transition: all 0.3s ease;
 }
