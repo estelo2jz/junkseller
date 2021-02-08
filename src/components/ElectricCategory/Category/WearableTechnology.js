@@ -10,7 +10,7 @@ function WearableTechnology() {
         <h1>Wearable Technology</h1>
       </div>
       <div className="wearable-technology__ads-one">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/819q+00c-tL.png" alt="ads-image" />
+        <img src="https://images-na.ssl-images-amazon.com/images/I/819q+00c-tL.png" alt="ads" />
       </div>
       <div className="wearable-technology__heading">
         <h1>Featured categories</h1>  

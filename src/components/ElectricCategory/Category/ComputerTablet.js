@@ -30,7 +30,7 @@ function ComputerTabletTemplate({ id, title, image, price, rating, rateNumber, s
     <div key="id" className="computer-tablet-template__container">
       <div className="computer-tablet-template__left-container">
         <div className="computer-tablet-template__img">
-          <img src={image} alt="computer-product-image" />
+          <img src={image} alt="computer-product" />
         </div>
       </div>
       <div className="computer-tablet-template__right-container">

@@ -14,7 +14,7 @@ function Checkout() {
         <img 
           className="checkout__ad"
           src="https://images-na.ssl-images-amazon.com/images/G/01/subsamazon/merch/2020-07/SnDBox_ILM_July2020_650x45_ToysKids._CB410496909_.jpg"
-          alt="ad image"
+          alt="ads"
         />
         {/* ternary expression */}
         {basket?.length === 0 ? (

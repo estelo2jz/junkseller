@@ -11,15 +11,15 @@ function TVVideo() {
         <h1>TV & Video</h1>
       </div>
       <div className="tv-video__ads-image">
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HandpickedTelevisions_DT_EN.jpg" alt="image" />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HandpickedTelevisions_DT_EN.jpg" alt="tv-video" />
       </div>
       <div className="tv-video__tv-category">
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Value_B084JBTYHJ_Storefront.jpg" alt="image"/>        
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/FamilyEntertainment_B0849L2DM3_Storefront.jpg" alt="image"/> 
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/AllAround_B084KQLVFH_Storefront.jpg" alt="image"/>
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Premium_B0817H41YN_Storefront.jpg" alt="image"/>
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Style_B084RMZJDY_Storefront.jpg" alt="image"/>
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/AlexaVoice_B0851NMSC6_Storefront.jpg" alt="image"/>
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Value_B084JBTYHJ_Storefront.jpg" alt="tv-video"/>        
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/FamilyEntertainment_B0849L2DM3_Storefront.jpg" alt="tv-video"/> 
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/AllAround_B084KQLVFH_Storefront.jpg" alt="tv-video"/>
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Premium_B0817H41YN_Storefront.jpg" alt="tv-video"/>
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/Style_B084RMZJDY_Storefront.jpg" alt="tv-video"/>
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/consumerelectronics/CAC/HE/AlexaVoice_B0851NMSC6_Storefront.jpg" alt="tv-video"/>
       </div>
       <div>
       <div className="tv-video__heading">

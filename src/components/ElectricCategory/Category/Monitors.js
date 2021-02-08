@@ -70,11 +70,11 @@ function Monitors() {
         <p>Monitors</p>
         <p>
           Shop for monitors from top brands includeing
-          <a href="#">Dell</a>,
-          <a href="#">HP</a>,
-          <a href="#">Asus</a>,
-          <a href="#">ViewSonic</a>,
-          <a href="#">LG</a>,
+          <a href="/">Dell</a>,
+          <a href="/">HP</a>,
+          <a href="/">Asus</a>,
+          <a href="/">ViewSonic</a>,
+          <a href="/">LG</a>,
            and more.
         </p>
       </div>
