@@ -36,36 +36,36 @@ function HomeSlider({
           <div className="home-slider__right-desc-one-img">
             <img src={descOneImg} alt="desc-one-img" />
           </div>
-          <div className="home-slider__right-desc-title">
+          {/* <div className="home-slider__right-desc-title">
             <p>{descOne}</p>
-          </div>
+          </div> */}
         </Link>
         <Link to={descPathTwo} className="home-slider__right-desc-two">
           <div className="home-slider__right-desc-one-img">
             <img src={descTwoImg} alt="desc-one-img" />
             {/* <p>{descTwo}</p> */}
           </div>
-          <div className="home-slider__right-desc-title">
+          {/* <div className="home-slider__right-desc-title">
             <p>{descTwo}</p>
-          </div>
+          </div> */}
         </Link>
         <Link to={descPathThree} className="home-slider__right-desc-three">
           <div className="home-slider__right-desc-one-img">
             <img src={descThreeImg} alt="desc-one-img" />
             {/* <p>{descThree}</p> */}
           </div>
-          <div className="home-slider__right-desc-title">
+          {/* <div className="home-slider__right-desc-title">
             <p>{descThree}</p>
-          </div>
+          </div> */}
         </Link>
         <Link to={descPathFour} className="home-slider__right-desc-four">
           <div className="home-slider__right-desc-one-img">
             <img src={descFourImg} alt="desc-one-img" />
             {/* <p>{descFour}</p> */}
           </div>
-          <div className="home-slider__right-desc-title">
+          {/* <div className="home-slider__right-desc-title">
             <p>{descFour}</p>
-          </div>
+          </div> */}
         </Link>
         {/* <div className="home-slider__right-desc-three">
           <p>{descThree}</p>
