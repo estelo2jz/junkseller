@@ -20,7 +20,7 @@ import Grillz13 from './JewelryImg/grills/grill13/grill1.jpg';
 import Grillz14 from './JewelryImg/grills/grill14/grill1.jpg';
 
 
-function GrillzTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+function GrillzTemplate({ id, title, image, price, rating, nameID,rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -50,6 +50,11 @@ function GrillzTemplate({ id, title, image, price, rating, rateNumber, listPrice
             <p>$</p>
             <p>{price}</p>
           </span>
+          <div className="grillz-template__id">
+            <p>
+              {nameID}
+            </p>
+          </div>
           <span>
             <p>{listPrice}</p>
           </span>
@@ -57,7 +62,7 @@ function GrillzTemplate({ id, title, image, price, rating, rateNumber, listPrice
         <div className="grillz-template__title">
           <p>{title}</p>
         </div>
-        <div className="grillz-template__rating">
+        {/* <div className="grillz-template__rating">
           <p>
             {
               Array(rating)
@@ -68,7 +73,7 @@ function GrillzTemplate({ id, title, image, price, rating, rateNumber, listPrice
             }
           </p>
           <p>{rateNumber}</p>
-        </div>
+        </div> */}
       </div>
       <div className="grillz-template__btn">
         <button onClick={addToBasket}>Add to basket</button>
@@ -83,7 +88,7 @@ function Grillz() {
   return (
     <div className="grillz__container">
       <div className="grillz__heading">
-        <p>Accessories</p>
+        <p>Grillz</p>
       </div>
       {/* <div className="grillz__ads-one">
         <img src="" alt="ads-image" />
@@ -100,380 +105,100 @@ function Grillz() {
       <div className="grillz__product-container">
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={118.69}
-          rateNumber={"8,576"}
-          rating={5}
-          listPrice={""}
+          nameID= {"S505"}
+          title="INVISIBLE SET EMERALD"
+          price={4000}
           image={Grillz1}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
+          nameID= {"S161506-3A"}
+          title="SKY BLUE"
+          price={24000}
           image={Grillz2}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
+          nameID= {"JDG73-ICE"}
+          title="SKATE 8 PIECE"
+          price={5162}
           image={Grillz3}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
+          nameID= {"JDG65-BLUE"}
+          title="MAGIC 4 ROW"
+          price={11200}
           image={Grillz4}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
+          nameID= {"S161506-1B"}
+          title="INVISIBLE"
+          price={6400}
           image={Grillz5}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
+          nameID= {"S2530032-A"}
+          title="16 GOLD TEETH"
+          price={6000}
           image={Grillz6}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
+          nameID= {"S105B"}
+          title="6 PIECE INVISIBLE"
+          price={6050}
           image={Grillz7}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
+          nameID= {"C1532-1"}
+          title="16 TEETH PRONG"
           price={1944.99}
-          rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
           image={Grillz8}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={24.88}
-          rateNumber={"771"}
-          rating={4}
-          listPrice={"35.99"}
+          nameID= {"JDG69-4TH"}
+          title="14K PRINCESS CUT"
+          price={2742}
           image={Grillz9}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={21.32}
-          rateNumber={"71"}
-          rating={5}
-          listPrice={"30.89"}
+          nameID= {"JDG36"}
+          title="Shiny Diesel"
+          price={78000}
           image={Grillz10}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={11.99}
-          rateNumber={"128"}
-          rating={4}
-          listPrice={"15.99"}
+          nameID= {"JD103"}
+          title="Spikey Egde"
+          price={8800}
           image={Grillz11}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID= {"JD102"}
+          title="Santa's Grillz"
+          price={78000}
           image={Grillz12}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID= {"JD101"}
+          title="Slick Golden"
+          price={98000}
           image={Grillz13}
         />
         <GrillzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Grillz14}
-        />
-                <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={118.69}
-          rateNumber={"8,576"}
-          rating={5}
-          listPrice={""}
-          image={Grillz1}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
-          image={Grillz2}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image={Grillz3}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image={Grillz4}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
-          image={Grillz5}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
-          image={Grillz6}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
-          image={Grillz7}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={1944.99}
-          rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
-          image={Grillz8}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={24.88}
-          rateNumber={"771"}
-          rating={4}
-          listPrice={"35.99"}
-          image={Grillz9}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={21.32}
-          rateNumber={"71"}
-          rating={5}
-          listPrice={"30.89"}
-          image={Grillz10}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={11.99}
-          rateNumber={"128"}
-          rating={4}
-          listPrice={"15.99"}
-          image={Grillz11}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Grillz12}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Grillz13}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Grillz14}
-        />
-                <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={118.69}
-          rateNumber={"8,576"}
-          rating={5}
-          listPrice={""}
-          image={Grillz1}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
-          image={Grillz2}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image={Grillz3}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image={Grillz4}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
-          image={Grillz5}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
-          image={Grillz6}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
-          image={Grillz7}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={1944.99}
-          rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
-          image={Grillz8}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={24.88}
-          rateNumber={"771"}
-          rating={4}
-          listPrice={"35.99"}
-          image={Grillz9}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={21.32}
-          rateNumber={"71"}
-          rating={5}
-          listPrice={"30.89"}
-          image={Grillz10}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={11.99}
-          rateNumber={"128"}
-          rating={4}
-          listPrice={"15.99"}
-          image={Grillz11}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Grillz12}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Grillz13}
-        />
-        <GrillzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID= {"JD104"}
+          title="Diamond Ruby Piece"
+          price={10000}
           image={Grillz14}
         />
       </div>

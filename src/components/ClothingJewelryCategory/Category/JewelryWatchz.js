@@ -25,7 +25,7 @@ import Watchz18 from './JewelryImg/watchz/watch18/watch1.jpg'
 import Watchz19 from './JewelryImg/watchz/watch19/watch1.jpg'
 
 
-function WatchzTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+function WatchzTemplate({ id, title, image, price, nameID,rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -55,6 +55,11 @@ function WatchzTemplate({ id, title, image, price, rating, rateNumber, listPrice
             <p>$</p>
             <p>{price}</p>
           </span>
+          <div className="watchz-template__id">
+            <p>
+              {nameID}
+            </p>
+          </div>
           <span>
             <p>{listPrice}</p>
           </span>
@@ -62,7 +67,7 @@ function WatchzTemplate({ id, title, image, price, rating, rateNumber, listPrice
         <div className="watchz-template__title">
           <p>{title}</p>
         </div>
-        <div className="watchz-template__rating">
+        {/* <div className="watchz-template__rating">
           <p>
             {
               Array(rating)
@@ -73,7 +78,7 @@ function WatchzTemplate({ id, title, image, price, rating, rateNumber, listPrice
             }
           </p>
           <p>{rateNumber}</p>
-        </div>
+        </div> */}
       </div>
       <div className="watchz-template__btn">
         <button onClick={addToBasket}>Add to basket</button>
@@ -88,7 +93,7 @@ function Watchz() {
   return (
     <div className="watchz__container">
       <div className="watchz__heading">
-        <p>Accessories</p>
+        <p>Watchz</p>
       </div>
       {/* <div className="watchz__ads-one">
         <img src="" alt="ads-image" />
@@ -105,345 +110,136 @@ function Watchz() {
       <div className="watchz__product-container">
       <WatchzTemplate
           id={uuid()}
-          title=""
-          price={118.69}
-          rateNumber={"8,576"}
-          rating={5}
-          listPrice={""}
+          nameID = {"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
           image={Watchz1}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
+          nameID = {"CW0002"}
+          title="Custom Watch 0002"
+          price={12000}
           image={Watchz2}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
+          nameID = {"CW0003"}
+          title="Custom Watch 0003"
+          price={27000}
           image={Watchz3}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
+          nameID = {"CW0004"}
+          title="Custom Watch 0004"
+          price={24000}
           image={Watchz4}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
+          nameID = {"CW0005"}
+          title="Custom Watch 0005"
+          price={9000}
           image={Watchz5}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
+          nameID = {"CW0006"}
+          title="Custom Watch 0006"
+          price={12000}
           image={Watchz6}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
+          nameID = {"CW0007"}
+          title="Custom Watch 0007"
+          price={15000}
           image={Watchz7}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={1944.99}
-          rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
+          nameID = {"CW0008"}
+          title="Custom Watch 0008"
+          price={25000}
           image={Watchz8}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={24.88}
-          rateNumber={"771"}
-          rating={4}
-          listPrice={"35.99"}
+          nameID = {"CW0009"}
+          title="Custom Watch 0009"
+          price={9000}
           image={Watchz9}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={21.32}
-          rateNumber={"71"}
-          rating={5}
-          listPrice={"30.89"}
+          nameID = {"CW0010"}
+          title="Custom Watch 0010"
+          price={22990}
           image={Watchz10}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={11.99}
-          rateNumber={"128"}
-          rating={4}
-          listPrice={"15.99"}
+          nameID = {"CW0011"}
+          title="Custom Watch 0011"
+          price={26400}
           image={Watchz11}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"CW0012"}
+          title="Custom Watch 0012"
+          price={22990}
           image={Watchz12}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"CW0013"}
+          title="Custom Watch 0013"
+          price={18500}
           image={Watchz13}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"CW0014"}
+          title="Custom Watch 0014"
+          price={29990}
           image={Watchz14}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"CW0015"}
+          title="Custom Watch 0015"
+          price={16940}
           image={Watchz15}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"CW0016"}
+          title="Custom Watch 0016"
+          price={18600}
           image={Watchz16}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"CW0017"}
+          title="Custom Watch 0017"
+          price={18000}
           image={Watchz17}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"CW0018"}
+          title="Custom Watch 0018"
+          price={19800}
           image={Watchz18}
         />
         <WatchzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Watchz18}
-        />
-              <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={118.69}
-          rateNumber={"8,576"}
-          rating={5}
-          listPrice={""}
-          image={Watchz1}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
-          image={Watchz2}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image={Watchz3}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image={Watchz4}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
-          image={Watchz5}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
-          image={Watchz6}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
-          image={Watchz7}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={1944.99}
-          rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
-          image={Watchz8}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={24.88}
-          rateNumber={"771"}
-          rating={4}
-          listPrice={"35.99"}
-          image={Watchz9}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={21.32}
-          rateNumber={"71"}
-          rating={5}
-          listPrice={"30.89"}
-          image={Watchz10}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={11.99}
-          rateNumber={"128"}
-          rating={4}
-          listPrice={"15.99"}
-          image={Watchz11}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Watchz12}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Watchz13}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Watchz14}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Watchz15}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Watchz16}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Watchz17}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Watchz18}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Watchz18}
+          nameID = {"CW0019"}
+          title="Custom Watch 0019"
+          price={22500}
+          image={Watchz19}
         />
       </div>
     </div>

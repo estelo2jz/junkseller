@@ -7,7 +7,7 @@
   // justify-content: center;
   text-align: left;
   width: 300px;
-  height: 400px;
+  height: 100%;
   margin: 3px;
   max-width: 48%;
   // max-height: 100%;
@@ -16,11 +16,12 @@
   .grillz-template__info {
     overflow: hidden;
     // height: 50%;
-    height: 120px;
+    height: 80px;
     width: 100%;
     z-index: 1;
     padding-top: 1px;
     background-color: rgb(243, 240, 241);
+    font-weight: 500;
     
   }
   .grillz-template__img {
@@ -67,10 +68,23 @@
       font-size: 0.8em;
       
     }
+    .grillz-template__id {
+      font-size: 0.7em;
+      padding: 5px 0px;
+      // margin-left: 5px;
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(204, 200, 200);
+        width: 65px
+      }
+    }
   }
   .grillz-template__title {
     font-size: 0.8em;
     padding: 2px 2px;
+    // margin-left: 12px;
     p {
       margin-left: 10px;
       overflow: hidden;
@@ -88,10 +102,13 @@
     display: flex;
     // justify-content: center;
     p:nth-child(1) {
+      padding: 0;
+      margin: 0;
+      align-items: center;
       display: flex;
     }
     p:nth-child(2) {
-      font-size: 0.9em;
+      // font-size: 0.9em;
     }
 
   }
@@ -186,6 +203,7 @@
     align-items: center;
     height: 100%;
     // padding: 10px 0px;
+    padding: 40px 0px;
 
     .grillz__lightning-container {
       display: flex;
@@ -241,3 +259,7 @@
     }
   }
 }
+// .grillz-template__container:hover {
+//   background: rgba(255, 255, 255, 0.2);
+//   transition: all 0.3s ease;
+// }

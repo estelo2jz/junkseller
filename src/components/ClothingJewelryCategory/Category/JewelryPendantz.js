@@ -21,7 +21,7 @@ import Pendantz14 from './JewelryImg/pendantz/pendantz14.jpg';
 import Pendantz15 from './JewelryImg/pendantz/pendantz15.jpg';
 
 
-function PendantzTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+function PendantzTemplate({ id, title, image, price, nameID, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -51,6 +51,11 @@ function PendantzTemplate({ id, title, image, price, rating, rateNumber, listPri
             <p>$</p>
             <p>{price}</p>
           </span>
+          <div className="pendantz-template__id">
+            <p>
+              {nameID}
+            </p>
+          </div>
           <span>
             <p>{listPrice}</p>
           </span>
@@ -58,7 +63,7 @@ function PendantzTemplate({ id, title, image, price, rating, rateNumber, listPri
         <div className="pendantz-template__title">
           <p>{title}</p>
         </div>
-        <div className="pendantz-template__rating">
+        {/* <div className="pendantz-template__rating">
           <p>
             {
               Array(rating)
@@ -69,7 +74,7 @@ function PendantzTemplate({ id, title, image, price, rating, rateNumber, listPri
             }
           </p>
           <p>{rateNumber}</p>
-        </div>
+        </div> */}
       </div>
       <div className="pendantz-template__btn">
         <button onClick={addToBasket}>Add to basket</button>
@@ -84,7 +89,7 @@ function Pendantz() {
   return (
     <div className="pendantz__container">
       <div className="pendantz__heading">
-        <p>Accessories</p>
+        <p>Pendantz</p>
       </div>
       {/* <div className="pendantz__ads-one">
         <img src="" alt="ads-image" />
@@ -101,407 +106,107 @@ function Pendantz() {
       <div className="pendantz__product-container">
       <PendantzTemplate
           id={uuid()}
-          title=""
-          price={118.69}
-          rateNumber={"8,576"}
-          rating={5}
-          listPrice={""}
+          nameID = {"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
           image={Pendantz1}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
+          nameID = {"Lion"}
+          title="Striped Mane Lion Pendant - 14k Yellow Gold"
+          price={20000}
           image={Pendantz2}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
+          nameID = {"WhiteJesus"}
+          title="Jesus Piece Pendant 14k White Gold"
+          price={16000}
           image={Pendantz3}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
+          nameID = {"RoseJesus"}
+          title="Jesus Piece Pendant 14k Rose Gold"
+          price={16000}
           image={Pendantz4}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
+          nameID = {"GoldJesus"}
+          title="Jesus Piece Lg Pendant 14k Yellow Gold"
+          price={16000}
           image={Pendantz5}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
+          nameID = {"Ghost"}
+          title="Ghost Pendant 14k White Gold"
+          price={15000}
           image={Pendantz6}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
+          nameID = {"Hamsa"}
+          title="Hamsa Pendant 14k Yellow Gold"
+          price={15000}
           image={Pendantz7}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={1944.99}
-          rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
+          nameID = {"Panther"}
+          title="Full Body Black Panther Pendant 14k White Gold"
+          price={12500}
           image={Pendantz8}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={24.88}
-          rateNumber={"771"}
-          rating={4}
-          listPrice={"35.99"}
+          nameID = {"Hands"}
+          title="Prayer Hands Pendant 14k Yellow Gold"
+          price={12000}
           image={Pendantz9}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={21.32}
-          rateNumber={"71"}
-          rating={5}
-          listPrice={"30.89"}
+          nameID = {"Snowboarder"}
+          title="Snowboarder Pendant 14k White Gold"
+          price={14000}
           image={Pendantz10}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={11.99}
-          rateNumber={"128"}
-          rating={4}
-          listPrice={"15.99"}
+          nameID = {"Evil"}
+          title="Diamond Evil Cat Pendant - 14k White Gold"
+          price={12000}
           image={Pendantz11}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"Bear"}
+          title="Grizzly Bear Pendant 14k White Gold"
+          price={15000}
           image={Pendantz12}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"Africa"}
+          title="Africa Pendant 14k Yellow Gold"
+          price={11000}
           image={Pendantz13}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"Crown"}
+          title="King Crown Lion Pendant 14k White Gold"
+          price={13000}
           image={Pendantz14}
         />
         <PendantzTemplate
           id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Pendantz15}
-        />
-              <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={118.69}
-          rateNumber={"8,576"}
-          rating={5}
-          listPrice={""}
-          image={Pendantz1}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
-          image={Pendantz2}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image={Pendantz3}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image={Pendantz4}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
-          image={Pendantz5}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
-          image={Pendantz6}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
-          image={Pendantz7}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={1944.99}
-          rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
-          image={Pendantz8}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.88}
-          rateNumber={"771"}
-          rating={4}
-          listPrice={"35.99"}
-          image={Pendantz9}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={21.32}
-          rateNumber={"71"}
-          rating={5}
-          listPrice={"30.89"}
-          image={Pendantz10}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={11.99}
-          rateNumber={"128"}
-          rating={4}
-          listPrice={"15.99"}
-          image={Pendantz11}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Pendantz12}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Pendantz13}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Pendantz14}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Pendantz15}
-        />
-              <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={118.69}
-          rateNumber={"8,576"}
-          rating={5}
-          listPrice={""}
-          image={Pendantz1}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
-          image={Pendantz2}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image={Pendantz3}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image={Pendantz4}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={199.99}
-          rateNumber={"313,962"}
-          rating={5}
-          listPrice={"299.99"}
-          image={Pendantz5}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={340.99}
-          rateNumber={"567"}
-          rating={4}
-          listPrice={""}
-          image={Pendantz6}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={329.99}
-          rateNumber={"1,886"}
-          rating={4}
-          listPrice={"449.99"}
-          image={Pendantz7}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={1944.99}
-          rateNumber={"1,988"}
-          rating={4}
-          listPrice="2349.99"
-          image={Pendantz8}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.88}
-          rateNumber={"771"}
-          rating={4}
-          listPrice={"35.99"}
-          image={Pendantz9}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={21.32}
-          rateNumber={"71"}
-          rating={5}
-          listPrice={"30.89"}
-          image={Pendantz10}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={11.99}
-          rateNumber={"128"}
-          rating={4}
-          listPrice={"15.99"}
-          image={Pendantz11}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Pendantz12}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Pendantz13}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
-          image={Pendantz14}
-        />
-        <PendantzTemplate
-          id={uuid()}
-          title=""
-          price={24.99}
-          rateNumber={"1,988"}
-          rating={5}
-          listPrice="34.99"
+          nameID = {"Bubbly"}
+          title="Bubbly 3 Row Cross Pendant 14k Yellow Gold"
+          price={17000}
           image={Pendantz15}
         />
       </div>
