@@ -3,12 +3,17 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.checkoutProduct__image {
-  object-fit: contain;
-  width: 100px;
-  height: 100px;
-  max-width: 40%;
+.checkoutProduct__img-box {
+  img {
+    width: 100px;
+  }
 }
+// .checkoutProduct__image {
+//   object-fit: contain;
+//   width: 100px;
+//   height: 100px;
+//   max-width: 40%; 
+// }
 .checkoutProduct__info {
   padding-left: 20px;
 
