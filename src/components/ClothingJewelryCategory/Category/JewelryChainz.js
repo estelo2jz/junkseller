@@ -4,7 +4,20 @@ import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ClothingJewelryStyles/JewelryChainz.scss';
 
-function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+import Chain1 from './JewelryImg/chainz/chain1/chain1.jpg'
+import Chain2 from './JewelryImg/chainz/chain2/chain1.jpg'
+import Chain3 from './JewelryImg/chainz/chain3/chain1.jpg'
+import Chain4 from './JewelryImg/chainz/chain4/chain1.jpg'
+import Chain5 from './JewelryImg/chainz/chain5/chain1.jpg'
+import Chain6 from './JewelryImg/chainz/chain6/chain1.jpg'
+import Chain7 from './JewelryImg/chainz/chain7/chain1.jpg'
+import Chain8 from './JewelryImg/chainz/chain8/chain1.jpg'
+import Chain9 from './JewelryImg/chainz/chain9/chain1.jpg'
+import Chain10 from './JewelryImg/chainz/chain10/chain1.jpg'
+import Chain11 from './JewelryImg/chainz/chain11/chain1.jpg'
+import Chain12 from './JewelryImg/chainz/chain12/chain1.jpg'
+
+function ChainzTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -24,12 +37,12 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
     })
   };
   return (
-    <div className="computer-accessories-template__container">
-      <div className="computer-accessories-template__img">
-        <img src={image} alt="computer-accessories-product-img" />
+    <div className="chainz-template__container">
+      <div className="chainz-template__img">
+        <img src={image} alt="chainz-product-img" />
       </div>
-      <div className="computer-accessories-template__info">
-        <div className="computer-accessories-template__price">
+      <div className="chainz-template__info">
+        <div className="chainz-template__price">
           <span>
             <p>$</p>
             <p>{price}</p>
@@ -38,10 +51,10 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="computer-accessories-template__title">
+        <div className="chainz-template__title">
           <p>{title}</p>
         </div>
-        <div className="computer-accessories-template__rating">
+        <div className="chainz-template__rating">
           <p>
             {
               Array(rating)
@@ -54,7 +67,7 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
           <p>{rateNumber}</p>
         </div>
       </div>
-      <div className="computer-accessories-template__btn">
+      <div className="chainz-template__btn">
         <button onClick={addToBasket}>Add to basket</button>
       </div>
     </div>
@@ -63,332 +76,352 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
 
 
 
-function ComputerAccessories() {
+function Chainz() {
   return (
-    <div className="computer-accessories__container">
-      <div className="computer-accessories__heading">
+    <div className="chainz__container">
+      <div className="chainz__heading">
         <p>Accessories</p>
       </div>
-      {/* <div className="computer-accessories__ads-one">
+      {/* <div className="chainz__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="computer-accessories__category">
-        <Link to="/" className="computer-accessories__category-img">
+      <div className="chainz__category">
+        <Link to="/" className="chainz__category-img">
           <img src="" alt="monitor-category" />
         </Link>
       </div>
-      <div className="computer-accessories__sub-heading">
+      <div className="chainz__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+      <div className="chainz__product-container">
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={118.69}
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image={Chain1}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={198.99}
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image={Chain2}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={549.99}
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image={Chain3}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={124.99}
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image={Chain4}
         />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Hot new releases</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={199.99}
           rateNumber={"313,962"}
           rating={5}
           listPrice={"299.99"}
-          image=""
+          image={Chain5}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={340.99}
           rateNumber={"567"}
           rating={4}
           listPrice={""}
-          image=" "
+          image={Chain6}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={329.99}
           rateNumber={"1,886"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image={Chain7}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={1944.99}
           rateNumber={"1,988"}
           rating={4}
           listPrice="2349.99"
-          image=""
+          image={Chain8}
         />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Under $25</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={24.88}
           rateNumber={"771"}
           rating={4}
           listPrice={"35.99"}
-          image=""
+          image={Chain9}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={21.32}
           rateNumber={"71"}
           rating={5}
           listPrice={"30.89"}
-          image=""
+          image={Chain10}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={11.99}
           rateNumber={"128"}
           rating={4}
           listPrice={"15.99"}
-          image=""
+          image={Chain11}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
           price={24.99}
           rateNumber={"1,988"}
           rating={5}
           listPrice="34.99"
-          image=""
+          image={Chain12}
         />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Best Sellers</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+                <ChainzTemplate
           id={uuid()}
           title=""
-          price={139.99}
-          rateNumber={"1,432"}
-          rating={5}
-          listPrice={"209.99"}
-          image=""
-        />
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title=""
-          price={119.99}
-          rateNumber={"11,712"}
-          rating={4}
-          listPrice={"259.99"}
-          image=""
-        />
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title=""
-          price={129.99}
-          rateNumber={"3,586"}
-          rating={4}
-          listPrice={"209.99"}
-          image=""
-        />
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title=""
-          price={89.99}
-          rateNumber={"9,656"}
-          rating={4}
-          listPrice="99.99"
-          image=""
-        />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Lightning deals</p>
-        {/* <p>See more</p> */}
-      </div>
-      <div className="computer-accessories__product-container">
-        <div className="computer-accessories__lightning-container">
-          <div className="computer-accessories__lightning-img">
-            <img src="" alt="lightning-deals-img" />
-          </div>
-          <div className="computer-accessories__lightning-info">
-            <ul>
-              <p>Upcoming Deal</p>
-              <p>Starts for you in 03:42:28</p>
-            </ul>
-            <p>
-            </p>
-          </div>
-        </div>
-        <div className="computer-accessories__lightning-container">
-          <div className="computer-accessories__lightning-img">
-            <img src="" alt="lightning-deals-img" />
-          </div>
-          <div className="computer-accessories__lightning-info">
-            <ul>
-              <p>Upcoming Deal</p>
-              <p>Starts for you in 01:12:08</p>
-            </ul>
-            <p>
-            </p>
-          </div>
-        </div>
-        <div className="computer-accessories__lightning-container">
-          <div className="computer-accessories__lightning-img">
-            <img src="" alt="lightning-deals-img" />
-          </div>
-          <div className="computer-accessories__lightning-info">
-            <ul>
-              <p>Upcoming Deal</p>
-              <p>Starts for you in 09:53:31</p>
-            </ul>
-            <p>
-            </p>
-          </div>
-        </div>
-        <div className="computer-accessories__lightning-container">
-          <div className="computer-accessories__lightning-img">
-            <img src="" alt="lightning-deals-img" />
-          </div>
-          <div className="computer-accessories__lightning-info">
-            <ul>
-              <p>Upcoming Deal</p>
-              <p>Starts for you in 10:15:45</p>
-            </ul>
-            <p>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Most wished for</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title=""
-          price={179.99}
-          rateNumber={"791"}
+          price={118.69}
+          rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image={Chain1}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
-          price={379.99}
-          rateNumber={"6,475"}
+          price={198.99}
+          rateNumber={"3,873"}
           rating={5}
-          listPrice={""}
-          image=""
+          listPrice={"209.99"}
+          image={Chain2}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
-          price={188.98}
-          rateNumber={"7,520"}
-          rating={5}
-          listPrice={"269.99"}
-          image=""
-        />
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title=""
-          price={278.99}
-          rateNumber={"5,432"}
+          price={549.99}
+          rateNumber={"1,997"}
           rating={4}
-          listPrice="269.99"
-          image=""
+          listPrice={"759.99"}
+          image={Chain3}
         />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Most gifted</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
-          price={299.99}
-          rateNumber={"444"}
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image={Chain4}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={199.99}
+          rateNumber={"313,962"}
+          rating={5}
+          listPrice={"299.99"}
+          image={Chain5}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={340.99}
+          rateNumber={"567"}
+          rating={4}
+          listPrice={""}
+          image={Chain6}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={329.99}
+          rateNumber={"1,886"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image={Chain7}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
-          price={349.99}
-          rateNumber={"1,249"}
+          price={1944.99}
+          rateNumber={"1,988"}
           rating={4}
-          listPrice={"369.99"}
-          image=""
+          listPrice="2349.99"
+          image={Chain8}
         />
-        <ComputerAccessoriesTemplate
+                <ChainzTemplate
           id={uuid()}
           title=""
-          price={129.99}
-          rateNumber={"12,101"}
+          price={24.88}
+          rateNumber={"771"}
           rating={4}
-          listPrice={"369.99"}
-          image=""
+          listPrice={"35.99"}
+          image={Chain9}
         />
-        <ComputerAccessoriesTemplate
+        <ChainzTemplate
           id={uuid()}
           title=""
-          price={79.97}
-          rateNumber={"12,190"}
+          price={21.32}
+          rateNumber={"71"}
+          rating={5}
+          listPrice={"30.89"}
+          image={Chain10}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={11.99}
+          rateNumber={"128"}
           rating={4}
-          listPrice="369.99"
-          image=""
+          listPrice={"15.99"}
+          image={Chain11}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={24.99}
+          rateNumber={"1,988"}
+          rating={5}
+          listPrice="34.99"
+          image={Chain12}
+        />
+                <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image={Chain1}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image={Chain2}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image={Chain3}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image={Chain4}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={199.99}
+          rateNumber={"313,962"}
+          rating={5}
+          listPrice={"299.99"}
+          image={Chain5}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={340.99}
+          rateNumber={"567"}
+          rating={4}
+          listPrice={""}
+          image={Chain6}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={329.99}
+          rateNumber={"1,886"}
+          rating={4}
+          listPrice={"449.99"}
+          image={Chain7}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={1944.99}
+          rateNumber={"1,988"}
+          rating={4}
+          listPrice="2349.99"
+          image={Chain8}
+        />
+                <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={24.88}
+          rateNumber={"771"}
+          rating={4}
+          listPrice={"35.99"}
+          image={Chain9}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={21.32}
+          rateNumber={"71"}
+          rating={5}
+          listPrice={"30.89"}
+          image={Chain10}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={11.99}
+          rateNumber={"128"}
+          rating={4}
+          listPrice={"15.99"}
+          image={Chain11}
+        />
+        <ChainzTemplate
+          id={uuid()}
+          title=""
+          price={24.99}
+          rateNumber={"1,988"}
+          rating={5}
+          listPrice="34.99"
+          image={Chain12}
         />
       </div>
     </div>
   )
 }
 
-export default ComputerAccessories;
+export default Chainz;

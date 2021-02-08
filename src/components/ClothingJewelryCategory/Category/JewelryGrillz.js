@@ -4,7 +4,23 @@ import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ClothingJewelryStyles/JewelryGrillz.scss';
 
-function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+import Grillz1 from './JewelryImg/grills/grill1/grill1.jpg';
+import Grillz2 from './JewelryImg/grills/grill2/grill1.jpg';
+import Grillz3 from './JewelryImg/grills/grill3/grill1.jpg';
+import Grillz4 from './JewelryImg/grills/grill4/grill1.jpg';
+import Grillz5 from './JewelryImg/grills/grill5/grill1.jpg';
+import Grillz6 from './JewelryImg/grills/grill6/grill1.jpg';
+import Grillz7 from './JewelryImg/grills/grill7/grill1.jpg';
+import Grillz8 from './JewelryImg/grills/grill8/grill1.jpg';
+import Grillz9 from './JewelryImg/grills/grill9/grill1.jpg';
+import Grillz10 from './JewelryImg/grills/grill10/grill1.jpg';
+import Grillz11 from './JewelryImg/grills/grill11/grill1.jpg';
+import Grillz12 from './JewelryImg/grills/grill12/grill1.jpg';
+import Grillz13 from './JewelryImg/grills/grill13/grill1.jpg';
+import Grillz14 from './JewelryImg/grills/grill14/grill1.jpg';
+
+
+function GrillzTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -24,12 +40,12 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
     })
   };
   return (
-    <div className="computer-accessories-template__container">
-      <div className="computer-accessories-template__img">
-        <img src={image} alt="computer-accessories-product-img" />
+    <div className="grillz-template__container">
+      <div className="grillz-template__img">
+        <img src={image} alt="grillz-product-img" />
       </div>
-      <div className="computer-accessories-template__info">
-        <div className="computer-accessories-template__price">
+      <div className="grillz-template__info">
+        <div className="grillz-template__price">
           <span>
             <p>$</p>
             <p>{price}</p>
@@ -38,10 +54,10 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="computer-accessories-template__title">
+        <div className="grillz-template__title">
           <p>{title}</p>
         </div>
-        <div className="computer-accessories-template__rating">
+        <div className="grillz-template__rating">
           <p>
             {
               Array(rating)
@@ -54,7 +70,7 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
           <p>{rateNumber}</p>
         </div>
       </div>
-      <div className="computer-accessories-template__btn">
+      <div className="grillz-template__btn">
         <button onClick={addToBasket}>Add to basket</button>
       </div>
     </div>
@@ -63,332 +79,406 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
 
 
 
-function ComputerAccessories() {
+function Grillz() {
   return (
-    <div className="computer-accessories__container">
-      <div className="computer-accessories__heading">
+    <div className="grillz__container">
+      <div className="grillz__heading">
         <p>Accessories</p>
       </div>
-      {/* <div className="computer-accessories__ads-one">
+      {/* <div className="grillz__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="computer-accessories__category">
-        <Link to="/" className="computer-accessories__category-img">
+      <div className="grillz__category">
+        <Link to="/" className="grillz__category-img">
           <img src="" alt="monitor-category" />
         </Link>
       </div>
-      <div className="computer-accessories__sub-heading">
+      <div className="grillz__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+      <div className="grillz__product-container">
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={118.69}
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image={Grillz1}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={198.99}
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image={Grillz2}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={549.99}
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image={Grillz3}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={124.99}
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image={Grillz4}
         />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Hot new releases</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={199.99}
           rateNumber={"313,962"}
           rating={5}
           listPrice={"299.99"}
-          image=""
+          image={Grillz5}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={340.99}
           rateNumber={"567"}
           rating={4}
           listPrice={""}
-          image=" "
+          image={Grillz6}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={329.99}
           rateNumber={"1,886"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image={Grillz7}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={1944.99}
           rateNumber={"1,988"}
           rating={4}
           listPrice="2349.99"
-          image=""
+          image={Grillz8}
         />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Under $25</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={24.88}
           rateNumber={"771"}
           rating={4}
           listPrice={"35.99"}
-          image=""
+          image={Grillz9}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={21.32}
           rateNumber={"71"}
           rating={5}
           listPrice={"30.89"}
-          image=""
+          image={Grillz10}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={11.99}
           rateNumber={"128"}
           rating={4}
           listPrice={"15.99"}
-          image=""
+          image={Grillz11}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
           price={24.99}
           rateNumber={"1,988"}
           rating={5}
           listPrice="34.99"
-          image=""
+          image={Grillz12}
         />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Best Sellers</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
-          price={139.99}
-          rateNumber={"1,432"}
+          price={24.99}
+          rateNumber={"1,988"}
           rating={5}
-          listPrice={"209.99"}
-          image=""
+          listPrice="34.99"
+          image={Grillz13}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
-          price={119.99}
-          rateNumber={"11,712"}
-          rating={4}
-          listPrice={"259.99"}
-          image=""
+          price={24.99}
+          rateNumber={"1,988"}
+          rating={5}
+          listPrice="34.99"
+          image={Grillz14}
         />
-        <ComputerAccessoriesTemplate
+                <GrillzTemplate
           id={uuid()}
           title=""
-          price={129.99}
-          rateNumber={"3,586"}
-          rating={4}
-          listPrice={"209.99"}
-          image=""
-        />
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title=""
-          price={89.99}
-          rateNumber={"9,656"}
-          rating={4}
-          listPrice="99.99"
-          image=""
-        />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Lightning deals</p>
-        {/* <p>See more</p> */}
-      </div>
-      <div className="computer-accessories__product-container">
-        <div className="computer-accessories__lightning-container">
-          <div className="computer-accessories__lightning-img">
-            <img src="" alt="lightning-deals-img" />
-          </div>
-          <div className="computer-accessories__lightning-info">
-            <ul>
-              <p>Upcoming Deal</p>
-              <p>Starts for you in 03:42:28</p>
-            </ul>
-            <p>
-            </p>
-          </div>
-        </div>
-        <div className="computer-accessories__lightning-container">
-          <div className="computer-accessories__lightning-img">
-            <img src="" alt="lightning-deals-img" />
-          </div>
-          <div className="computer-accessories__lightning-info">
-            <ul>
-              <p>Upcoming Deal</p>
-              <p>Starts for you in 01:12:08</p>
-            </ul>
-            <p>
-            </p>
-          </div>
-        </div>
-        <div className="computer-accessories__lightning-container">
-          <div className="computer-accessories__lightning-img">
-            <img src="" alt="lightning-deals-img" />
-          </div>
-          <div className="computer-accessories__lightning-info">
-            <ul>
-              <p>Upcoming Deal</p>
-              <p>Starts for you in 09:53:31</p>
-            </ul>
-            <p>
-            </p>
-          </div>
-        </div>
-        <div className="computer-accessories__lightning-container">
-          <div className="computer-accessories__lightning-img">
-            <img src="" alt="lightning-deals-img" />
-          </div>
-          <div className="computer-accessories__lightning-info">
-            <ul>
-              <p>Upcoming Deal</p>
-              <p>Starts for you in 10:15:45</p>
-            </ul>
-            <p>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Most wished for</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title=""
-          price={179.99}
-          rateNumber={"791"}
+          price={118.69}
+          rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image={Grillz1}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
-          price={379.99}
-          rateNumber={"6,475"}
+          price={198.99}
+          rateNumber={"3,873"}
           rating={5}
-          listPrice={""}
-          image=""
+          listPrice={"209.99"}
+          image={Grillz2}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
-          price={188.98}
-          rateNumber={"7,520"}
-          rating={5}
-          listPrice={"269.99"}
-          image=""
-        />
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title=""
-          price={278.99}
-          rateNumber={"5,432"}
+          price={549.99}
+          rateNumber={"1,997"}
           rating={4}
-          listPrice="269.99"
-          image=""
+          listPrice={"759.99"}
+          image={Grillz3}
         />
-      </div>
-      <div className="computer-accessories__sub-heading">
-        <p>Most gifted</p>
-        <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
-          price={299.99}
-          rateNumber={"444"}
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image={Grillz4}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={199.99}
+          rateNumber={"313,962"}
+          rating={5}
+          listPrice={"299.99"}
+          image={Grillz5}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={340.99}
+          rateNumber={"567"}
+          rating={4}
+          listPrice={""}
+          image={Grillz6}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={329.99}
+          rateNumber={"1,886"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image={Grillz7}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
-          price={349.99}
-          rateNumber={"1,249"}
+          price={1944.99}
+          rateNumber={"1,988"}
           rating={4}
-          listPrice={"369.99"}
-          image=""
+          listPrice="2349.99"
+          image={Grillz8}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
-          price={129.99}
-          rateNumber={"12,101"}
+          price={24.88}
+          rateNumber={"771"}
           rating={4}
-          listPrice={"369.99"}
-          image=""
+          listPrice={"35.99"}
+          image={Grillz9}
         />
-        <ComputerAccessoriesTemplate
+        <GrillzTemplate
           id={uuid()}
           title=""
-          price={79.97}
-          rateNumber={"12,190"}
+          price={21.32}
+          rateNumber={"71"}
+          rating={5}
+          listPrice={"30.89"}
+          image={Grillz10}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={11.99}
+          rateNumber={"128"}
           rating={4}
-          listPrice="369.99"
-          image=""
+          listPrice={"15.99"}
+          image={Grillz11}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={24.99}
+          rateNumber={"1,988"}
+          rating={5}
+          listPrice="34.99"
+          image={Grillz12}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={24.99}
+          rateNumber={"1,988"}
+          rating={5}
+          listPrice="34.99"
+          image={Grillz13}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={24.99}
+          rateNumber={"1,988"}
+          rating={5}
+          listPrice="34.99"
+          image={Grillz14}
+        />
+                <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image={Grillz1}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image={Grillz2}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image={Grillz3}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image={Grillz4}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={199.99}
+          rateNumber={"313,962"}
+          rating={5}
+          listPrice={"299.99"}
+          image={Grillz5}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={340.99}
+          rateNumber={"567"}
+          rating={4}
+          listPrice={""}
+          image={Grillz6}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={329.99}
+          rateNumber={"1,886"}
+          rating={4}
+          listPrice={"449.99"}
+          image={Grillz7}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={1944.99}
+          rateNumber={"1,988"}
+          rating={4}
+          listPrice="2349.99"
+          image={Grillz8}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={24.88}
+          rateNumber={"771"}
+          rating={4}
+          listPrice={"35.99"}
+          image={Grillz9}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={21.32}
+          rateNumber={"71"}
+          rating={5}
+          listPrice={"30.89"}
+          image={Grillz10}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={11.99}
+          rateNumber={"128"}
+          rating={4}
+          listPrice={"15.99"}
+          image={Grillz11}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={24.99}
+          rateNumber={"1,988"}
+          rating={5}
+          listPrice="34.99"
+          image={Grillz12}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={24.99}
+          rateNumber={"1,988"}
+          rating={5}
+          listPrice="34.99"
+          image={Grillz13}
+        />
+        <GrillzTemplate
+          id={uuid()}
+          title=""
+          price={24.99}
+          rateNumber={"1,988"}
+          rating={5}
+          listPrice="34.99"
+          image={Grillz14}
         />
       </div>
     </div>
   )
 }
 
-export default ComputerAccessories;
+export default Grillz;
