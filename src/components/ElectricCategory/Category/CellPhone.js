@@ -11,7 +11,7 @@ function CellPhone() {
           <h1>Cell Phones & Accessories</h1>
         </div>
         <div className="cell-phone__ads-image">
-          <img src="https://images-na.ssl-images-amazon.com/images/I/81JZ1r424bL.png" alt="ads-image" />
+          <img src="https://images-na.ssl-images-amazon.com/images/I/81JZ1r424bL.png"  />
         </div>
         <div className="cell-phone__heading">
           <h1>Featured categories</h1>  

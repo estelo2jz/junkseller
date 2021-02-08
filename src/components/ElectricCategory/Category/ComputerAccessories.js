@@ -70,7 +70,7 @@ function ComputerAccessories() {
         <p>Accessories</p>
       </div>
       {/* <div className="computer-accessories__ads-one">
-        <img src="" alt="ads-image" />
+        <img src="" />
       </div> */}
       <div className="computer-accessories__category">
         <Link to="/" className="computer-accessories__category-img">

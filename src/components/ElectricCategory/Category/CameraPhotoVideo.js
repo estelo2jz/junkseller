@@ -223,19 +223,19 @@ function CameraPhotoVideo() {
         </div>
       </div>
       <div className="camera-photo-video__ads-image">
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Consumer_Electronics/XCM_Manual_ORIGIN_1270534_1388561_US_us_ce_camera_3413668_750x447_en_US.jpg" alt="ads-image" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/2pack/ce_camera_2pack_desktop_amazonbasics.jpg" alt="ads-image" />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Consumer_Electronics/XCM_Manual_ORIGIN_1270534_1388561_US_us_ce_camera_3413668_750x447_en_US.jpg"  />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/2pack/ce_camera_2pack_desktop_amazonbasics.jpg"  />
       </div>
       <div className="camera-photo-video__heading">
         <h2>Shop by Brand</h2>
       </div>
       <div className="camera-photo-video__brand-category">
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_canon.png" alt="brand-image" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_fujifilm.png" alt="brand-image" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_sony.png" alt="brand-image" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Consumer_Electronics/XCM_Manual_1222794_1163159_US_us_ce_camera_brandfarm_3069759_230x80_null_en_US.jpg" alt="brand-image" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_olympus.png" alt="brand-image" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_nikon.png" alt="brand-image" />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_canon.png" />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_fujifilm.png" />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_sony.png" />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Consumer_Electronics/XCM_Manual_1222794_1163159_US_us_ce_camera_brandfarm_3069759_230x80_null_en_US.jpg" />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_olympus.png" />
+        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/camera/6pack/ce_camera_brand-tile_6pack_nikon.png" />
       </div>
       <div className="camera-photo-video__hot-new-container">
         <div className="camera-photo-video__heading">
