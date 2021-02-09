@@ -73,8 +73,9 @@ function Backpacks() {
         <img src="" alt="ads-image" />
       </div> */}
       <div className="backpacks__category">
-        <Link to="/" className="backpacks__category-img">
-          <img src="" alt="monitor-category" />
+        {/* https://gearmashers.com/wp-content/uploads/2018/03/Best-Commuter-Backpacks-For-Cyclists.jpg */}
+        <Link to="/clothing/backpacks" className="backpacks__category-img">
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-commuter-backpacks-1603396681.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" alt="monitor-category" />
         </Link>
       </div>
       <div className="backpacks__sub-heading">

@@ -74,7 +74,7 @@ function HatsBeanies() {
       </div> */}
       <div className="hats-beanies__category">
         <Link to="/" className="hats-beanies__category-img">
-          <img src="" alt="monitor-category" />
+          <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F08%2Fsupreme-fall-winter-2018-hats-tw.jpg?w=960&cbr=1&q=90&fit=max" alt="monitor-category" />
         </Link>
       </div>
       <div className="hats-beanies__sub-heading">

@@ -74,7 +74,7 @@ function Apparel() {
       </div> */}
       <div className="apparel__category">
         <Link to="/" className="apparel__category-img">
-          <img src="" alt="monitor-category" />
+          <img src="https://pbs.twimg.com/media/DnY4D1QWwAAtySO.jpg" alt="monitor-category" />
         </Link>
       </div>
       <div className="apparel__sub-heading">

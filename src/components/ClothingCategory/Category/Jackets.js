@@ -74,7 +74,7 @@ function Jackets() {
       </div> */}
       <div className="jackets__category">
         <Link to="/" className="jackets__category-img">
-          <img src="" alt="monitor-category" />
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-winter-coat-index-1603989326.jpg" alt="monitor-category" />
         </Link>
       </div>
       <div className="jackets__sub-heading">

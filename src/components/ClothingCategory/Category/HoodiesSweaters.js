@@ -74,7 +74,7 @@ function HoodiesSweaters() {
       </div> */}
       <div className="hoodies-sweaters__category">
         <Link to="/" className="hoodies-sweaters__category-img">
-          <img src="" alt="monitor-category" />
+          <img src="https://hmg-prod-io.hearstapps.com/images/hoodies-unisex-1524081405.jpg?crop=2000,1000,x0,y0,safe&width=1200&auto=webp" alt="monitor-category" />
         </Link>
       </div>
       <div className="hoodies-sweaters__sub-heading">
