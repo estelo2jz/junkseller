@@ -9,8 +9,10 @@ function Footer() {
         <div className="footer__box">
           <h5>Categories</h5>
           <ul>
-            <Link to="/electronics&computers"><p>Electronics & Computers</p></Link>
-            <Link to="/clothing&jewelry"><p>Clothing & Jewelry</p></Link>
+            <Link to="/electronics"><p>Electronics</p></Link>
+            <Link to="/computers"><p>Computers</p></Link>
+            <Link to="/clothing"><p>Clothing</p></Link>
+            <Link to="/jewelry"><p>Jewelry</p></Link>
             {/* <Link to="/smarthome"><p>SmartHome</p></Link>
             <Link to="/homegardentools"><p>Home, Garden & Tools</p></Link>
             <Link to="/petsupplies"><p>Pet Supplies</p></Link>
@@ -107,7 +109,7 @@ function Footer() {
       {/* <hr /> */}
       <div class="footer__bottom">
         <p>All right reserved by &copy;JUNKSELLER 2020 </p>
-        <div>Icons made by <a href="" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        {/* <div>Icons made by <a href="" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
       </div>
     </footer>
   )

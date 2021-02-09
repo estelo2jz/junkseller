@@ -4,18 +4,18 @@ import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../JewelryStyles/JewelryNecklace.scss';
 
-import Chain1 from './JewelryImg/chainz/chain1/chain1.jpg'
-import Chain2 from './JewelryImg/chainz/chain2/chain1.jpg'
-import Chain3 from './JewelryImg/chainz/chain3/chain1.jpg'
-import Chain4 from './JewelryImg/chainz/chain4/chain1.jpg'
-import Chain5 from './JewelryImg/chainz/chain5/chain1.jpg'
-import Chain6 from './JewelryImg/chainz/chain6/chain1.jpg'
-import Chain7 from './JewelryImg/chainz/chain7/chain1.jpg'
-import Chain8 from './JewelryImg/chainz/chain8/chain1.jpg'
-import Chain9 from './JewelryImg/chainz/chain9/chain1.jpg'
-import Chain10 from './JewelryImg/chainz/chain10/chain1.jpg'
-import Chain11 from './JewelryImg/chainz/chain11/chain1.jpg'
-import Chain12 from './JewelryImg/chainz/chain12/chain1.jpg'
+// import Chain1 from './JewelryImg/chainz/chain1/chain1.jpg'
+// import Chain2 from './JewelryImg/chainz/chain2/chain1.jpg'
+// import Chain3 from './JewelryImg/chainz/chain3/chain1.jpg'
+// import Chain4 from './JewelryImg/chainz/chain4/chain1.jpg'
+// import Chain5 from './JewelryImg/chainz/chain5/chain1.jpg'
+// import Chain6 from './JewelryImg/chainz/chain6/chain1.jpg'
+// import Chain7 from './JewelryImg/chainz/chain7/chain1.jpg'
+// import Chain8 from './JewelryImg/chainz/chain8/chain1.jpg'
+// import Chain9 from './JewelryImg/chainz/chain9/chain1.jpg'
+// import Chain10 from './JewelryImg/chainz/chain10/chain1.jpg'
+// import Chain11 from './JewelryImg/chainz/chain11/chain1.jpg'
+// import Chain12 from './JewelryImg/chainz/chain12/chain1.jpg'
 
 function NecklaceTemplate({ id, title, image, price, nameID, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -80,7 +80,7 @@ function Necklace() {
       </div> */}
       <div className="necklace__category">
         <Link to="/" className="necklace__category-img">
-          <img src="" alt="monitor-category" />
+          <img src="https://www.icebox.com/unsafe/800x300/icebox-jewelry.s3.amazonaws.com/categories/ICEBOX_Header_Necklaces_1.jpg" alt="monitor-category" />
         </Link>
       </div>
       <div className="necklace__sub-heading">

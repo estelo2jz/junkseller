@@ -4,20 +4,20 @@ import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../JewelryStyles/JewelryEarrings.scss';
 
-import Grillz1 from './JewelryImg/grills/grill1/grill1.jpg';
-import Grillz2 from './JewelryImg/grills/grill2/grill1.jpg';
-import Grillz3 from './JewelryImg/grills/grill3/grill1.jpg';
-import Grillz4 from './JewelryImg/grills/grill4/grill1.jpg';
-import Grillz5 from './JewelryImg/grills/grill5/grill1.jpg';
-import Grillz6 from './JewelryImg/grills/grill6/grill1.jpg';
-import Grillz7 from './JewelryImg/grills/grill7/grill1.jpg';
-import Grillz8 from './JewelryImg/grills/grill8/grill1.jpg';
-import Grillz9 from './JewelryImg/grills/grill9/grill1.jpg';
-import Grillz10 from './JewelryImg/grills/grill10/grill1.jpg';
-import Grillz11 from './JewelryImg/grills/grill11/grill1.jpg';
-import Grillz12 from './JewelryImg/grills/grill12/grill1.jpg';
-import Grillz13 from './JewelryImg/grills/grill13/grill1.jpg';
-import Grillz14 from './JewelryImg/grills/grill14/grill1.jpg';
+// import Grillz1 from './JewelryImg/grills/grill1/grill1.jpg';
+// import Grillz2 from './JewelryImg/grills/grill2/grill1.jpg';
+// import Grillz3 from './JewelryImg/grills/grill3/grill1.jpg';
+// import Grillz4 from './JewelryImg/grills/grill4/grill1.jpg';
+// import Grillz5 from './JewelryImg/grills/grill5/grill1.jpg';
+// import Grillz6 from './JewelryImg/grills/grill6/grill1.jpg';
+// import Grillz7 from './JewelryImg/grills/grill7/grill1.jpg';
+// import Grillz8 from './JewelryImg/grills/grill8/grill1.jpg';
+// import Grillz9 from './JewelryImg/grills/grill9/grill1.jpg';
+// import Grillz10 from './JewelryImg/grills/grill10/grill1.jpg';
+// import Grillz11 from './JewelryImg/grills/grill11/grill1.jpg';
+// import Grillz12 from './JewelryImg/grills/grill12/grill1.jpg';
+// import Grillz13 from './JewelryImg/grills/grill13/grill1.jpg';
+// import Grillz14 from './JewelryImg/grills/grill14/grill1.jpg';
 
 
 function EarringsTemplate({ id, title, image, price, rating, nameID,rateNumber, listPrice }) {
@@ -95,7 +95,7 @@ function Earrings() {
       </div> */}
       <div className="earrings__category">
         <Link to="/" className="earrings__category-img">
-          <img src="" alt="monitor-category" />
+          <img src="https://www.icebox.com/unsafe/800x300/icebox-jewelry.s3.amazonaws.com/categories/ICEBOX_Header_Necklaces_1.jpg" alt="monitor-category" />
         </Link>
       </div>
       <div className="earrings__sub-heading">

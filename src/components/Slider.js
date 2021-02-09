@@ -47,10 +47,10 @@ function Slider() {
       descTwo="Appliances"
       descThree="Bath"
       descFour="Sewing"
-      descOneImg={""}
-      descTwoImg={""}
-      descThreeImg={""}
-      descFourImg={""}
+      descOneImg={"https://img.ltwebstatic.com/images3_pi/2020/06/22/159278947463d4527e11cdfca1fcb83cf623bcf08f_thumbnail_900x.webp"}
+      descTwoImg={"https://cdn.shopify.com/s/files/1/0739/3265/products/classiccurve_1080x.jpg?v=1580582631"}
+      descThreeImg={"https://cdn.shopify.com/s/files/1/0866/4890/products/115_1024x1024.jpg?v=1559539042"}
+      descFourImg={"https://icdn6.themanual.com/image/themanual/threadless-graphic-tshirt-brand-for-men-416x416.jpg"}
       descPathOne="/clothing/apparel"
       descPathTwo="/clothing/"
       descPathThree="/clothing/"
@@ -58,7 +58,7 @@ function Slider() {
     />,
     <HomeSlider 
       src={ComputerLogo}
-      title="Jewelry & Premium Jewelries" 
+      title="Jewelries" 
       descOne="Pet Profiles"
       descTwo="Dog Food"
       descThree="Aquatic Pets"

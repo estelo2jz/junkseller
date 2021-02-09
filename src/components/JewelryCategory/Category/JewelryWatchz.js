@@ -4,25 +4,25 @@ import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../JewelryStyles/JewelryWatchz.scss';
 
-import Watchz1 from './JewelryImg/watchz/watch1/watch1.jpg'
-import Watchz2 from './JewelryImg/watchz/watch2/watch1.jpg'
-import Watchz3 from './JewelryImg/watchz/watch3/watch1.jpg'
-import Watchz4 from './JewelryImg/watchz/watch4/watch1.jpg'
-import Watchz5 from './JewelryImg/watchz/watch5/watch1.jpg'
-import Watchz6 from './JewelryImg/watchz/watch6/watch1.jpg'
-import Watchz7 from './JewelryImg/watchz/watch7/watch1.jpg'
-import Watchz8 from './JewelryImg/watchz/watch8/watch1.jpg'
-import Watchz9 from './JewelryImg/watchz/watch9/watch1.jpg'
-import Watchz10 from './JewelryImg/watchz/watch10/watch1.jpg'
-import Watchz11 from './JewelryImg/watchz/watch11/watch1.jpg'
-import Watchz12 from './JewelryImg/watchz/watch12/watch1.jpg'
-import Watchz13 from './JewelryImg/watchz/watch13/watch1.jpg'
-import Watchz14 from './JewelryImg/watchz/watch14/watch1.jpg'
-import Watchz15 from './JewelryImg/watchz/watch15/watch1.jpg'
-import Watchz16 from './JewelryImg/watchz/watch16/watch1.jpg'
-import Watchz17 from './JewelryImg/watchz/watch17/watch1.jpg'
-import Watchz18 from './JewelryImg/watchz/watch18/watch1.jpg'
-import Watchz19 from './JewelryImg/watchz/watch19/watch1.jpg'
+// import Watchz1 from './JewelryImg/watchz/watch1/watch1.jpg'
+// import Watchz2 from './JewelryImg/watchz/watch2/watch1.jpg'
+// import Watchz3 from './JewelryImg/watchz/watch3/watch1.jpg'
+// import Watchz4 from './JewelryImg/watchz/watch4/watch1.jpg'
+// import Watchz5 from './JewelryImg/watchz/watch5/watch1.jpg'
+// import Watchz6 from './JewelryImg/watchz/watch6/watch1.jpg'
+// import Watchz7 from './JewelryImg/watchz/watch7/watch1.jpg'
+// import Watchz8 from './JewelryImg/watchz/watch8/watch1.jpg'
+// import Watchz9 from './JewelryImg/watchz/watch9/watch1.jpg'
+// import Watchz10 from './JewelryImg/watchz/watch10/watch1.jpg'
+// import Watchz11 from './JewelryImg/watchz/watch11/watch1.jpg'
+// import Watchz12 from './JewelryImg/watchz/watch12/watch1.jpg'
+// import Watchz13 from './JewelryImg/watchz/watch13/watch1.jpg'
+// import Watchz14 from './JewelryImg/watchz/watch14/watch1.jpg'
+// import Watchz15 from './JewelryImg/watchz/watch15/watch1.jpg'
+// import Watchz16 from './JewelryImg/watchz/watch16/watch1.jpg'
+// import Watchz17 from './JewelryImg/watchz/watch17/watch1.jpg'
+// import Watchz18 from './JewelryImg/watchz/watch18/watch1.jpg'
+// import Watchz19 from './JewelryImg/watchz/watch19/watch1.jpg'
 
 
 function WatchzTemplate({ id, title, image, price, nameID,rating, rateNumber, listPrice }) {
@@ -100,7 +100,7 @@ function Watchz() {
       </div> */}
       <div className="watchz__category">
         <Link to="/" className="watchz__category-img">
-          <img src="" alt="monitor-category" />
+          <img src="https://www.icebox.com/unsafe/800x300/icebox-jewelry.s3.amazonaws.com/categories/ICEBOX_Header_Necklaces_1.jpg" alt="monitor-category" />
         </Link>
       </div>
       <div className="watchz__sub-heading">

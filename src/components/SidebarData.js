@@ -33,7 +33,7 @@ export const SidebarData = [
     
   },
   {
-    title: "Jewelry & Premium Jewelries",
+    title: "Jewelries",
     path: "/jewelry",
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text",

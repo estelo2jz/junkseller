@@ -96,7 +96,7 @@ function PremiumJewelryTemplate({ id, title, image, price, nameID, rating, rateN
       <div className="premium-jewelry-template__info">
         <div className="premium-jewelry-template__price">
           <span>
-            <p>$</p>
+            <p>$ </p>
             <p>{price}</p>
           </span>
           <div className="premium-jewelry-template__id">
@@ -104,9 +104,6 @@ function PremiumJewelryTemplate({ id, title, image, price, nameID, rating, rateN
               {nameID}
             </p>
           </div>
-          <span>
-            <p>{listPrice}</p>
-          </span>
         </div>
         <div className="premium-jewelry-template__title">
           <p>{title}</p>
@@ -132,7 +129,7 @@ function PremiumJewelry() {
       </div> */}
       <div className="premium-jewelry__category">
         <Link to="/" className="premium-jewelry__category-img">
-          <img src="" alt="monitor-category" />
+          <img src="https://www.icebox.com/unsafe/800x300/icebox-jewelry.s3.amazonaws.com/categories/ICEBOX_Header_Necklaces_1.jpg" alt="monitor-category" />
         </Link>
       </div>
       <div className="premium-jewelry__sub-heading">

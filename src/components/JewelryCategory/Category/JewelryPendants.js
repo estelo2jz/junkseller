@@ -4,21 +4,21 @@ import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../JewelryStyles/JewelryPendantz.scss';
 
-import Pendantz1 from './JewelryImg/pendantz/pendantz1.jpg';
-import Pendantz2 from './JewelryImg/pendantz/pendantz2.jpg';
-import Pendantz3 from './JewelryImg/pendantz/pendantz3.jpg';
-import Pendantz4 from './JewelryImg/pendantz/pendantz4.jpg';
-import Pendantz5 from './JewelryImg/pendantz/pendantz5.jpg';
-import Pendantz6 from './JewelryImg/pendantz/pendantz6.jpg';
-import Pendantz7 from './JewelryImg/pendantz/pendantz7.jpg';
-import Pendantz8 from './JewelryImg/pendantz/pendantz8.jpg';
-import Pendantz9 from './JewelryImg/pendantz/pendantz9.jpg';
-import Pendantz10 from './JewelryImg/pendantz/pendantz10.jpg';
-import Pendantz11 from './JewelryImg/pendantz/pendantz11.jpg';
-import Pendantz12 from './JewelryImg/pendantz/pendantz12.jpg';
-import Pendantz13 from './JewelryImg/pendantz/pendantz13.jpg';
-import Pendantz14 from './JewelryImg/pendantz/pendantz14.jpg';
-import Pendantz15 from './JewelryImg/pendantz/pendantz15.jpg';
+// import Pendantz1 from './JewelryImg/pendantz/pendantz1.jpg';
+// import Pendantz2 from './JewelryImg/pendantz/pendantz2.jpg';
+// import Pendantz3 from './JewelryImg/pendantz/pendantz3.jpg';
+// import Pendantz4 from './JewelryImg/pendantz/pendantz4.jpg';
+// import Pendantz5 from './JewelryImg/pendantz/pendantz5.jpg';
+// import Pendantz6 from './JewelryImg/pendantz/pendantz6.jpg';
+// import Pendantz7 from './JewelryImg/pendantz/pendantz7.jpg';
+// import Pendantz8 from './JewelryImg/pendantz/pendantz8.jpg';
+// import Pendantz9 from './JewelryImg/pendantz/pendantz9.jpg';
+// import Pendantz10 from './JewelryImg/pendantz/pendantz10.jpg';
+// import Pendantz11 from './JewelryImg/pendantz/pendantz11.jpg';
+// import Pendantz12 from './JewelryImg/pendantz/pendantz12.jpg';
+// import Pendantz13 from './JewelryImg/pendantz/pendantz13.jpg';
+// import Pendantz14 from './JewelryImg/pendantz/pendantz14.jpg';
+// import Pendantz15 from './JewelryImg/pendantz/pendantz15.jpg';
 
 
 function PendantzTemplate({ id, title, image, price, nameID, rating, rateNumber, listPrice }) {
@@ -96,7 +96,7 @@ function Pendantz() {
       </div> */}
       <div className="pendantz__category">
         <Link to="/" className="pendantz__category-img">
-          <img src="" alt="monitor-category" />
+          <img src="https://www.icebox.com/unsafe/800x300/icebox-jewelry.s3.amazonaws.com/categories/ICEBOX_Header_Necklaces_1.jpg" alt="monitor-category" />
         </Link>
       </div>
       <div className="pendantz__sub-heading">

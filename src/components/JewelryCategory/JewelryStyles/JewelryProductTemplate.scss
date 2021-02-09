@@ -1,0 +1,121 @@
+.jewelry-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  max-height: 300px;
+  min-width: 200px;
+  width: 100%;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.jewelry-product__info {
+  height: 80px;
+  // margin-bottom: 15px;
+}
+.jewelry-product__title p {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.jewelry-product__price {
+  margin-top: 5px;
+}
+.jewelry-product__rating {
+  display: flex;
+  span {
+    font-size: 0.7em;
+    padding: 0;
+    margin: 5px 0px;
+    margin-left: 3px;
+  }
+}
+.jewelry-product__image {
+  img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+}
+.jewelry-product > img {
+}
+.jewelry-product > button {
+  background-color: #f0ca4b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px;
+}
+
+.wrapper{
+  height: 60px;
+  width: 55vw;
+  background: #fff;
+  line-height: 60px;
+  border-radius: 50px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+}
+.wrapper nav{
+  position: relative;
+  display: flex;
+}
+.wrapper nav label{
+  flex: 1;
+  width: 100%;
+  z-index: 1;
+  cursor: pointer;
+}
+.wrapper nav label a{
+  position: relative;
+  z-index: -1;
+  color: #1d1f20;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.6s ease;
+}
+.wrapper nav #home:checked ~ label.home a,
+.wrapper nav #inbox:checked ~ label.inbox a,
+.wrapper nav #contact:checked ~ label.contact a,
+.wrapper nav #heart:checked ~ label.heart a,
+.wrapper nav #about:checked ~ label.about a{
+  color: #fff;
+}
+.wrapper nav label a i{
+  font-size: 25px;
+  margin: 0 7px;
+}
+.wrapper nav .tab{
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper nav #inbox:checked ~ .tab{
+  left: 20%;
+}
+.wrapper nav #contact:checked ~ .tab{
+  left: 40%;
+}
+.wrapper nav #heart:checked ~ .tab{
+  left: 60%;
+}
+.wrapper nav #about:checked ~ .tab{
+  left: 80%;
+}
+.wrapper nav input{
+  display: none;
+}

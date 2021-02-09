@@ -71,7 +71,7 @@ function App() {
             <NavBar />
             <Home />
           </Route>
-          <Route path="/electronics&computers" 
+          <Route path="/electronics" 
             exact
             component={Electronics}
           >
