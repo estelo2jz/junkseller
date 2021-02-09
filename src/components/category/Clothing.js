@@ -1,7 +1,7 @@
 import React from 'react';
 import { uuid } from 'uuidv4';
 import ClothingProductTemplate from '../ClothingCategory/Category/ClothingProductTemplate';
-import ClothingJewelryMenu from '../JewelryCategory/JewelryMenu';
+import ClothingMenu from '../ClothingCategory/ClothingMenu';
 import '../../styles/Computer.scss';
 
 function Clothing() {
@@ -9,11 +9,14 @@ function Clothing() {
     <div className="products__base">
       <div className="computer__container">
         <div className="computer__container-heading">
-          <ClothingJewelryMenu
-            category0="Apperal"
-            category1="CLothing"
-            category2="Clothing"
-            category3="Clothing"
+          <ClothingMenu
+            category0="Shirts & Tees"
+            category1="Pants & Jeans"
+            category2="Hoodies & Sweaters"
+            category3="Jackets"
+            category4="Hats & Beanies"
+            category5="Backpacks"
+            category6="Socks"
           />
         </div>
         <div className="computer__container-flex-grid">

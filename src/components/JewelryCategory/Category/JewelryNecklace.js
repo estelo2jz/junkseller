@@ -200,6 +200,118 @@ function Necklace() {
           image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
           nameID={'JDN090517'}
         />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
+        <NecklaceTemplate
+          id={uuid()}
+          title="DIAMOND STAR CHAIN"
+          price={128.00}
+          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
+          nameID={'JDN090517'}
+        />
       </div>
     </div>
   )

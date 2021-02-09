@@ -43,6 +43,12 @@ import ComputerSoftware from './components/ComputerCategory/Category/Software';
 
 // Apparel Components
 import ClothingApparel from './components/ClothingCategory/Category/Apparel';
+import ClothingPantsJeans from './components/ClothingCategory/Category/PantsJeans';
+import ClothingHoodiesSweaters from './components/ClothingCategory/Category/HoodiesSweaters';
+import ClothingJackets from './components/ClothingCategory/Category/Jackets';
+import ClothingHatsBeanies from './components/ClothingCategory/Category/HatsBeanies';
+import ClothingBackpacks from './components/ClothingCategory/Category/Backpacks';
+import ClothingSocks from './components/ClothingCategory/Category/Socks';
 
 // Jewelry Components
 import JewelryNecklace from './components/JewelryCategory/Category/JewelryNecklace';
@@ -387,15 +393,96 @@ function App() {
             <NavBar />
             <Clothing />
           </Route>
-          <Route path="/clothing/apparel" exact component={ClothingApparel}>
+          <Route path="/clothing/shirts&tees" exact component={ClothingApparel}>
             <NavBar />
             <ClothingMenu
-              category0="Apperal"
-              category1="CLothing"
-              category2="Clothing"
-              category3="Clothing"
+              category0="Shirts & Tees"
+              category1="Pants & Jeans"
+              category2="Hoodies & Sweaters"
+              category3="Jackets"
+              category4="Hats & Beanies"
+              category5="Backpacks"
+              category6="Socks"
             />
             <ClothingApparel />
+          </Route>
+          <Route path="/clothing/pants&jeans" exact component={ClothingPantsJeans}>
+            <NavBar />
+            <ClothingMenu
+              category0="Shirts & Tees"
+              category1="Pants & Jeans"
+              category2="Hoodies & Sweaters"
+              category3="Jackets"
+              category4="Hats & Beanies"
+              category5="Backpacks"
+              category6="Socks"
+            />
+            <ClothingPantsJeans />
+          </Route>
+          <Route path="/clothing/hoodies&sweaters" exact component={ClothingHoodiesSweaters}>
+            <NavBar />
+            <ClothingMenu
+              category0="Shirts & Tees"
+              category1="Pants & Jeans"
+              category2="Hoodies & Sweaters"
+              category3="Jackets"
+              category4="Hats & Beanies"
+              category5="Backpacks"
+              category6="Socks"
+            />
+            <ClothingHoodiesSweaters />
+          </Route>
+          <Route path="/clothing/jackets" exact component={ClothingJackets}>
+            <NavBar />
+            <ClothingMenu
+              category0="Shirts & Tees"
+              category1="Pants & Jeans"
+              category2="Hoodies & Sweaters"
+              category3="Jackets"
+              category4="Hats & Beanies"
+              category5="Backpacks"
+              category6="Socks"
+            />
+            <ClothingJackets />
+          </Route>
+          <Route path="/clothing/hats&beanies" exact component={ClothingHatsBeanies}>
+            <NavBar />
+            <ClothingMenu
+              category0="Shirts & Tees"
+              category1="Pants & Jeans"
+              category2="Hoodies & Sweaters"
+              category3="Jackets"
+              category4="Hats & Beanies"
+              category5="Backpacks"
+              category6="Socks"
+            />
+            <ClothingHatsBeanies />
+          </Route>
+          <Route path="/clothing/backpacks" exact component={ClothingBackpacks}>
+            <NavBar />
+            <ClothingMenu
+              category0="Shirts & Tees"
+              category1="Pants & Jeans"
+              category2="Hoodies & Sweaters"
+              category3="Jackets"
+              category4="Hats & Beanies"
+              category5="Backpacks"
+              category6="Socks"
+            />
+            <ClothingBackpacks />
+          </Route>
+          <Route path="/clothing/socks" exact component={ClothingSocks}>
+            <NavBar />
+            <ClothingMenu
+              category0="Shirts & Tees"
+              category1="Pants & Jeans"
+              category2="Hoodies & Sweaters"
+              category3="Jackets"
+              category4="Hats & Beanies"
+              category5="Backpacks"
+              category6="Socks"
+            />
+            <ClothingSocks />
           </Route>
 
 
@@ -460,7 +547,7 @@ function App() {
             <PremiumJewelry />
           </Route>
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

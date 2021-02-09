@@ -1,4 +1,4 @@
-.premium-jewelry-template__container {
+.pants-jeans-template__container {
   text-decoration: none;
   display: flex;
   // flex-wrap: wrap;
@@ -14,7 +14,7 @@
   // background-color: red;
   // cursor: pointer;
   border: 1px solid rgb(243, 240, 241);
-  .premium-jewelry-template__info {
+  .pants-jeans-template__info {
     overflow: hidden;
     // height: 50%;
     height: 80px;
@@ -25,7 +25,7 @@
     font-weight: 500;
     
   }
-  .premium-jewelry-template__img {
+  .pants-jeans-template__img {
     
     display: flex;
     justify-content: center;
@@ -48,10 +48,13 @@
       // margin: 10px;
     }
   }
-  .premium-jewelry-template__price {
+  .pants-jeans-template__price {
     // font-size: 0.8em;
-    padding: 5px 0px;
-    margin-left: 10px;
+    // margin-left: 10px;
+    // padding: 10px 10px;
+    padding-left: 10px;
+    height: 40px;
+    // background-color: red;
     
     span {
       margin: 0;
@@ -69,7 +72,7 @@
       font-size: 0.8em;
       
     }
-    .premium-jewelry-template__id {
+    .pants-jeans-template__id {
       font-size: 0.7em;
       padding: 5px 0px;
       // margin-left: 5px;
@@ -83,40 +86,27 @@
       }
     }
   }
-  .premium-jewelry-template__title {
+  .pants-jeans-template__title {
     font-size: 0.8em;
     padding: 2px 2px;
+    // padding: 0px 10px;
     // margin-left: 12px;
     width: 100%;
+    height: 40px;
+    // background-color: red;
 
     p {
-      margin-left: 10px;
+      padding: 0px 10px;
+      // margin-left: 10px;
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
-      -webkit-line-clamp: 1; /* number of lines to show */
+      -webkit-line-clamp: 2; /* number of lines to show */
       -webkit-box-orient: vertical;
     }
 
   }
-  .premium-jewelry-template__rating {
-    font-size: 0.7em;
-    padding: 5px 0px;
-    margin-left: 10px;
-    display: flex;
-    // justify-content: center;
-    p:nth-child(1) {
-      padding: 0;
-      margin: 0;
-      align-items: center;
-      display: flex;
-    }
-    p:nth-child(2) {
-      // font-size: 0.9em;
-    }
-
-  }
-  .premium-jewelry-template__btn {
+  .pants-jeans-template__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,14 +121,14 @@
   }
 }
 
-.premium-jewelry__container {
+.pants-jeans__container {
   // background-color: rgb(122, 128, 0);
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   // align-items: center;
-  .premium-jewelry__heading {
+  .pants-jeans__heading {
     margin-left: 30px;
     padding: 20px 0px;
     p {
@@ -149,7 +139,7 @@
       font-size: 0.8em;
     }
   }
-  .premium-jewelry__sub-heading {
+  .pants-jeans__sub-heading {
     background-color: #000000;
     // height: 20vh;
     // padding: 20px 0px;
@@ -173,21 +163,21 @@
       // text-decoration: underline;
     }
   }
-  .premium-jewelry__ads-one {
+  .pants-jeans__ads-one {
     width: 100%;
     padding: 20px 0px;
     img {
       width: 100%;
     }
   }
-  .premium-jewelry__category {
+  .pants-jeans__category {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
     // background-color: black;
-    .premium-jewelry__category-img {
+    .pants-jeans__category-img {
       display: flex;
       justify-content: center;
       width: 100%;
@@ -203,7 +193,7 @@
 
     }
   }
-  .premium-jewelry__product-container {
+  .pants-jeans__product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -212,7 +202,7 @@
     // padding: 10px 0px;
     padding: 100px 0px;
 
-    .premium-jewelry__lightning-container {
+    .pants-jeans__lightning-container {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -225,7 +215,7 @@
       cursor: pointer;
       margin: 2px;
       
-      .premium-jewelry__lightning-img {
+      .pants-jeans__lightning-img {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -240,7 +230,7 @@
           // height: 100%;
         }
       }
-      .premium-jewelry__lightning-info {
+      .pants-jeans__lightning-info {
       background-color: rgb(243, 240, 241);
       ul {
         p:nth-child(1) {
@@ -266,7 +256,7 @@
     }
   }
 }
-.premium-jewelry-template__container:hover {
+.pants-jeans-template__container:hover {
   border: 1px solid lightgray;
   transition: all 0.3s ease;
 }

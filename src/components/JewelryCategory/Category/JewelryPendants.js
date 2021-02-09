@@ -188,6 +188,90 @@ function Pendantz() {
           price={25000}
           image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
         />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
+        <PendantzTemplate
+          id={uuid()}
+          nameID={"Nazareth"}
+          title="Jesus Of Nazareth Pendant 14k Yellow Gold"
+          price={25000}
+          image={"https://d1251d0o0760fi.cloudfront.net/catalog/product/u/n/unique-10k-gold-sneaker-shoe-diamond-pendant-for-men-113ct-by-luxurman_mainye.jpg"}
+        />
       </div>
     </div>
   )
