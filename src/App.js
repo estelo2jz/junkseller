@@ -460,7 +460,7 @@ function App() {
             <PremiumJewelry />
           </Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

@@ -100,7 +100,7 @@ function Watchz() {
       </div> */}
       <div className="watchz__category">
         <Link to="/" className="watchz__category-img">
-          <img src="https://www.icebox.com/unsafe/800x300/icebox-jewelry.s3.amazonaws.com/categories/ICEBOX_Header_Necklaces_1.jpg" alt="monitor-category" />
+          <img src="https://media.gq.com/photos/5e8c9a7cc21b8b00087a00f1/3:2/w_1686,h_1124,c_limit/watches-fix.jpg" alt="monitor-category" />
         </Link>
       </div>
       <div className="watchz__sub-heading">
