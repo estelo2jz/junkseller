@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
-import '../ClothingJewelryStyles/Apperal.scss';
+import '../ComputerStyles/Networking.scss';
 
-function ApperalTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+function NetworkingTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -24,12 +24,12 @@ function ApperalTemplate({ id, title, image, price, rating, rateNumber, listPric
     })
   };
   return (
-    <div className="apperal-template__container">
-      <div className="apperal-template__img">
-        <img src={image} alt="apperal-product-img" />
+    <div className="networking-template__container">
+      <div className="networking-template__img">
+        <img src={image} alt="computer-components-product-img" />
       </div>
-      <div className="apperal-template__info">
-        <div className="apperal-template__price">
+      <div className="networking-template__info">
+        <div className="networking-template__price">
           <span>
             <p>$</p>
             <p>{price}</p>
@@ -38,10 +38,10 @@ function ApperalTemplate({ id, title, image, price, rating, rateNumber, listPric
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="apperal-template__title">
+        <div className="networking-template__title">
           <p>{title}</p>
         </div>
-        <div className="apperal-template__rating">
+        <div className="networking-template__rating">
           <p>
             {
               Array(rating)
@@ -54,7 +54,7 @@ function ApperalTemplate({ id, title, image, price, rating, rateNumber, listPric
           <p>{rateNumber}</p>
         </div>
       </div>
-      <div className="apperal-template__btn">
+      <div className="networking-template__btn">
         <button onClick={addToBasket}>Add to basket</button>
       </div>
     </div>
@@ -63,26 +63,26 @@ function ApperalTemplate({ id, title, image, price, rating, rateNumber, listPric
 
 
 
-function Apperal() {
+function Networking() {
   return (
-    <div className="apperal__container">
-      <div className="apperal__heading">
-        <p>Accessories</p>
+    <div className="networking__container">
+      <div className="networking__heading">
+        <p>Networking</p>
       </div>
-      {/* <div className="apperal__ads-one">
+      {/* <div className="networking__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="apperal__category">
-        <Link to="/" className="apperal__category-img">
+      <div className="networking__category">
+        <Link to="/" className="networking__category-img">
           <img src="" alt="monitor-category" />
         </Link>
       </div>
-      <div className="apperal__sub-heading">
+      <div className="networking__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
-      <div className="apperal__product-container">
-        <ApperalTemplate
+      <div className="networking__product-container">
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={118.69}
@@ -91,7 +91,7 @@ function Apperal() {
           listPrice={""}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={198.99}
@@ -100,7 +100,7 @@ function Apperal() {
           listPrice={"209.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={549.99}
@@ -109,7 +109,7 @@ function Apperal() {
           listPrice={"759.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={124.99}
@@ -119,12 +119,12 @@ function Apperal() {
           image=""
         />
       </div>
-      <div className="apperal__sub-heading">
+      <div className="networking__sub-heading">
         <p>Hot new releases</p>
         <p>See more</p>
       </div>
-      <div className="apperal__product-container">
-        <ApperalTemplate
+      <div className="networking__product-container">
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={199.99}
@@ -133,7 +133,7 @@ function Apperal() {
           listPrice={"299.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={340.99}
@@ -142,7 +142,7 @@ function Apperal() {
           listPrice={""}
           image=" "
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={329.99}
@@ -151,7 +151,7 @@ function Apperal() {
           listPrice={"449.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={1944.99}
@@ -161,12 +161,12 @@ function Apperal() {
           image=""
         />
       </div>
-      <div className="apperal__sub-heading">
+      <div className="networking__sub-heading">
         <p>Under $25</p>
         <p>See more</p>
       </div>
-      <div className="apperal__product-container">
-        <ApperalTemplate
+      <div className="networking__product-container">
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={24.88}
@@ -175,7 +175,7 @@ function Apperal() {
           listPrice={"35.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={21.32}
@@ -184,7 +184,7 @@ function Apperal() {
           listPrice={"30.89"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={11.99}
@@ -193,7 +193,7 @@ function Apperal() {
           listPrice={"15.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={24.99}
@@ -203,12 +203,12 @@ function Apperal() {
           image=""
         />
       </div>
-      <div className="apperal__sub-heading">
+      <div className="networking__sub-heading">
         <p>Best Sellers</p>
         <p>See more</p>
       </div>
-      <div className="apperal__product-container">
-        <ApperalTemplate
+      <div className="networking__product-container">
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={139.99}
@@ -217,7 +217,7 @@ function Apperal() {
           listPrice={"209.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={119.99}
@@ -226,7 +226,7 @@ function Apperal() {
           listPrice={"259.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={129.99}
@@ -235,7 +235,7 @@ function Apperal() {
           listPrice={"209.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={89.99}
@@ -245,16 +245,16 @@ function Apperal() {
           image=""
         />
       </div>
-      <div className="apperal__sub-heading">
+      <div className="networking__sub-heading">
         <p>Lightning deals</p>
         {/* <p>See more</p> */}
       </div>
-      <div className="apperal__product-container">
-        <div className="apperal__lightning-container">
-          <div className="apperal__lightning-img">
+      <div className="networking__product-container">
+        <div className="networking__lightning-container">
+          <div className="networking__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="apperal__lightning-info">
+          <div className="networking__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 03:42:28</p>
@@ -263,11 +263,11 @@ function Apperal() {
             </p>
           </div>
         </div>
-        <div className="apperal__lightning-container">
-          <div className="apperal__lightning-img">
+        <div className="networking__lightning-container">
+          <div className="networking__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="apperal__lightning-info">
+          <div className="networking__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 01:12:08</p>
@@ -276,11 +276,11 @@ function Apperal() {
             </p>
           </div>
         </div>
-        <div className="apperal__lightning-container">
-          <div className="apperal__lightning-img">
+        <div className="networking__lightning-container">
+          <div className="networking__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="apperal__lightning-info">
+          <div className="networking__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 09:53:31</p>
@@ -289,11 +289,11 @@ function Apperal() {
             </p>
           </div>
         </div>
-        <div className="apperal__lightning-container">
-          <div className="apperal__lightning-img">
+        <div className="networking__lightning-container">
+          <div className="networking__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="apperal__lightning-info">
+          <div className="networking__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 10:15:45</p>
@@ -303,12 +303,12 @@ function Apperal() {
           </div>
         </div>
       </div>
-      <div className="apperal__sub-heading">
+      <div className="networking__sub-heading">
         <p>Most wished for</p>
         <p>See more</p>
       </div>
-      <div className="apperal__product-container">
-        <ApperalTemplate
+      <div className="networking__product-container">
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={179.99}
@@ -317,7 +317,7 @@ function Apperal() {
           listPrice={""}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={379.99}
@@ -326,7 +326,7 @@ function Apperal() {
           listPrice={""}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={188.98}
@@ -335,7 +335,7 @@ function Apperal() {
           listPrice={"269.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={278.99}
@@ -345,12 +345,12 @@ function Apperal() {
           image=""
         />
       </div>
-      <div className="apperal__sub-heading">
+      <div className="networking__sub-heading">
         <p>Most gifted</p>
         <p>See more</p>
       </div>
-      <div className="apperal__product-container">
-        <ApperalTemplate
+      <div className="networking__product-container">
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={299.99}
@@ -359,7 +359,7 @@ function Apperal() {
           listPrice={"449.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={349.99}
@@ -368,7 +368,7 @@ function Apperal() {
           listPrice={"369.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={129.99}
@@ -377,7 +377,7 @@ function Apperal() {
           listPrice={"369.99"}
           image=""
         />
-        <ApperalTemplate
+        <NetworkingTemplate
           id={uuid()}
           title=""
           price={79.97}
@@ -391,4 +391,4 @@ function Apperal() {
   )
 }
 
-export default Apperal;
+export default Networking;

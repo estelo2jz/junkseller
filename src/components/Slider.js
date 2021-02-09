@@ -5,28 +5,20 @@ import './slider.scss';
 import ElectronicsLogo from './logo/categoryLogos/plug.svg';
 import ComputerLogo from './logo/categoryLogos/desktop.svg';
 
-import ElectricLogo1 from './logo/subLogos/tv.svg';
-import ElectricLogo2 from './logo/subLogos/ecamera.svg';
-import ElectricLogo3 from './logo/subLogos/ewatch.svg';
-import ElectricLogo4 from './logo/subLogos/egames.svg';
-import ComputerLogo1 from './logo/subLogos/ccomputers.svg';
-import ComputerLogo2 from './logo/subLogos/cgpu.svg';
-import ComputerLogo3 from './logo/subLogos/charddrives.svg';
-import ComputerLogo4 from './logo/subLogos/cprinters.svg';
 
 function Slider() {
   let sliderArr = [
     <HomeSlider 
       src={ElectronicsLogo} 
-      title="Electronics & Computers" 
+      title="Electronics" 
       descOne = "TVs"
       descTwo="Cameras"
       descThree="Wearable Technology"
       descFour="Video Games"
-      descOneImg= {ElectricLogo1}
-      descTwoImg={ElectricLogo2}
-      descThreeImg={ElectricLogo3}
-      descFourImg={ElectricLogo4}
+      descOneImg= {""}
+      descTwoImg={""}
+      descThreeImg={""}
+      descFourImg={""}
       descPathOne= "/electronics/tvvideo"
       descPathTwo="/electronics/cameraphotovideo"
       descPathThree="/electronics/wearabletechnology"
@@ -34,52 +26,52 @@ function Slider() {
     />,
     <HomeSlider 
       src={ComputerLogo} 
-      title="Clothing & Jewelry"  
+      title="Computers"  
       descOne="Computers"
       descTwo="Components"
       descThree="Hard Drives"
       descFour="Printers"
-      descOneImg={ComputerLogo1}
-      descTwoImg={ComputerLogo2}
-      descThreeImg={ComputerLogo3}
-      descFourImg={ComputerLogo4}
-      descPathOne= "/computers/computercomponents"
-      descPathTwo="/computers/computercomponents"
-      descPathThree="/computers/computercomponents"
-      descPathFour="/computers/computercomponents"
+      descOneImg={""}
+      descTwoImg={""}
+      descThreeImg={""}
+      descFourImg={""}
+      descPathOne= "/computers/monitors"
+      descPathTwo="/computers/networking"
+      descPathThree="/computers/parts&components"
+      descPathFour="/computers/accessories"
     />,
-    // <HomeSlider 
-    //   src={HomeGardenToolsLogo} 
-    //   title="Home, Garden & Tools" 
-    //   descOne="Decor"
-    //   descTwo="Appliances"
-    //   descThree="Bath"
-    //   descFour="Sewing"
-    //   descOneImg={HomeGardenToolsLogo1}
-    //   descTwoImg={HomeGardenToolsLogo2}
-    //   descThreeImg={HomeGardenToolsLogo3}
-    //   descFourImg={HomeGardenToolsLogo4}
-    //   descPathOne = ""
-    //   descPathTwo = ""
-    //   descPathThree = ""
-    //   descPathFour = ""
-    // />,
-    // <HomeSlider 
-    //   src={PetSuppliesLogo} 
-    //   title="Pet Supplies" 
-    //   descOne="Pet Profiles"
-    //   descTwo="Dog Food"
-    //   descThree="Aquatic Pets"
-    //   descFour="Birds"
-    //   descOneImg={PetSuppliesLogo1}
-    //   descTwoImg={PetSuppliesLogo2}
-    //   descThreeImg={PetSuppliesLogo3}
-    //   descFourImg={PetSuppliesLogo4} 
-    //   descPathOne=""
-    //   descPathTwo=""
-    //   descPathThree=""
-    //   descPathFour=""
-    // />,
+    <HomeSlider 
+      src={ComputerLogo} 
+      title="Clothing" 
+      descOne="Decor"
+      descTwo="Appliances"
+      descThree="Bath"
+      descFour="Sewing"
+      descOneImg={""}
+      descTwoImg={""}
+      descThreeImg={""}
+      descFourImg={""}
+      descPathOne="/clothing/apparel"
+      descPathTwo="/clothing/"
+      descPathThree="/clothing/"
+      descPathFour="/clothing/"
+    />,
+    <HomeSlider 
+      src={ComputerLogo}
+      title="Jewelry & Premium Jewelries" 
+      descOne="Pet Profiles"
+      descTwo="Dog Food"
+      descThree="Aquatic Pets"
+      descFour="Birds"
+      descOneImg={""}
+      descTwoImg={""}
+      descThreeImg={""}
+      descFourImg={""} 
+      descPathOne= "/jewelry/diamonds&chains"
+      descPathTwo="/jewelry/diamonds&grills"
+      descPathThree="/jewelry/diamonds&watchs"
+      descPathFour="/jewelry/diamonds&pendants"
+    />,
     // <HomeSlider 
     //   src={OutdoorsLogo} 
     //   title="Outdoors" 

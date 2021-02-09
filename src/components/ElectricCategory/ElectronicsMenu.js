@@ -83,48 +83,6 @@ function ElectronicsMenu(props) {
             </label>
           </Link>
         </div>
-        <div className="electronics-menu-items">
-          <Link className="category-twelve" to="/electronics/computertablet">
-            <label>
-              {props.category11}
-            </label>
-          </Link>
-        </div>
-        <div className="electronics-menu-items">
-          <Link className="category-13" to="/electronics/monitors">
-            <label>
-              {props.category12}
-            </label>
-          </Link>
-        </div>
-        <div className="electronics-menu-items">
-          <Link className="category-14" to="/electronics/networking">
-            <label>
-              {props.category14}
-            </label>
-          </Link>
-        </div>
-        <div className="electronics-menu-items">
-          <Link className="category-15" to="/electronics/drivesstorage">
-            <label>
-              {props.category15}
-            </label>
-          </Link>
-        </div>
-        <div className="electronics-menu-items">
-          <Link className="category-16" to="/electronics/computercomponents">
-            <label>
-              {props.category16}
-            </label>
-          </Link>
-        </div>
-        <div className="electronics-menu-items">
-          <Link className="category-18" to="/electronics/software">
-            <label>
-              {props.category17}
-            </label>
-          </Link>
-        </div>
       </div>
   )
 }

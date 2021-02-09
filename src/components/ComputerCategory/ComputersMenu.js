@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import './ComputerMenu.scss';
 
 
-function ElectronicsMenu(props) {
+function ComputersMenu(props) {
   return (
     <div className="computer-menu">
       <div className="computer-menu-items">
-        <Link to="/computers/computertablet">
+        <Link to="/computers/tablet">
           <span>
             {props.category0}
           </span>
@@ -21,7 +21,7 @@ function ElectronicsMenu(props) {
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/computers/computeraccessories">
+        <Link to="/computers/accessories">
           <span>
             {props.category2}
           </span>
@@ -35,23 +35,16 @@ function ElectronicsMenu(props) {
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/computers/drivesstorage">
+        <Link to="/computers/harddrives&storage">
           <span>
             {props.category4}
           </span>
         </Link>
       </div>
       <div className="computer-menu-items">
-        <Link to="/computers/computercomponents">
+        <Link to="/computers/parts&components">
           <span>
             {props.category5}
-          </span>
-        </Link>
-      </div>
-      <div className="computer-menu-items">
-        <Link to="/computers/printersink">
-          <span>
-            {props.category6}
           </span>
         </Link>
       </div>
@@ -62,22 +55,8 @@ function ElectronicsMenu(props) {
           </span>
         </Link>
       </div>
-      <div className="computer-menu-items">
-        <Link to="/computers/officeschool">
-          <span>
-            {props.category8}
-          </span>
-        </Link>
-      </div>
-      <div className="computer-menu-items">
-        <Link to="/computers/trade">
-          <span>
-            {props.category9}
-          </span>
-        </Link>
-      </div>
     </div>
   )
 }
 
-export default ElectronicsMenu;
+export default ComputersMenu;

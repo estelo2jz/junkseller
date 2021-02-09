@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
-import '../ElectronicStyles/DrivesStorage.scss';
+import '../ComputerStyles/ComputerAccessories.scss';
 
-function DrivesStorageTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -24,12 +24,12 @@ function DrivesStorageTemplate({ id, title, image, price, rating, rateNumber, li
     })
   };
   return (
-    <div className="drives-storage-template__container">
-      <div className="drives-storage-template__img">
-        <img src={image} alt="computer-components-product-img" />
+    <div className="computer-accessories-template__container">
+      <div className="computer-accessories-template__img">
+        <img src={image} alt="computer-accessories-product-img" />
       </div>
-      <div className="drives-storage-template__info">
-        <div className="drives-storage-template__price">
+      <div className="computer-accessories-template__info">
+        <div className="computer-accessories-template__price">
           <span>
             <p>$</p>
             <p>{price}</p>
@@ -38,10 +38,10 @@ function DrivesStorageTemplate({ id, title, image, price, rating, rateNumber, li
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="drives-storage-template__title">
+        <div className="computer-accessories-template__title">
           <p>{title}</p>
         </div>
-        <div className="drives-storage-template__rating">
+        <div className="computer-accessories-template__rating">
           <p>
             {
               Array(rating)
@@ -54,7 +54,7 @@ function DrivesStorageTemplate({ id, title, image, price, rating, rateNumber, li
           <p>{rateNumber}</p>
         </div>
       </div>
-      <div className="drives-storage-template__btn">
+      <div className="computer-accessories-template__btn">
         <button onClick={addToBasket}>Add to basket</button>
       </div>
     </div>
@@ -63,26 +63,26 @@ function DrivesStorageTemplate({ id, title, image, price, rating, rateNumber, li
 
 
 
-function DrivesStorage() {
+function ComputerAccessories() {
   return (
-    <div className="drives-storage__container">
-      <div className="drives-storage__heading">
-        <p>Hard Drives & Storage</p>
+    <div className="computer-accessories__container">
+      <div className="computer-accessories__heading">
+        <p>Accessories</p>
       </div>
-      {/* <div className="drives-storage__ads-one">
-        <img src="" alt="ads-image" />
+      {/* <div className="computer-accessories__ads-one">
+        <img src="" />
       </div> */}
-      <div className="drives-storage__category">
-        <Link to="/" className="drives-storage__category-img">
+      <div className="computer-accessories__category">
+        <Link to="/" className="computer-accessories__category-img">
           <img src="" alt="monitor-category" />
         </Link>
       </div>
-      <div className="drives-storage__sub-heading">
+      <div className="computer-accessories__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
-      <div className="drives-storage__product-container">
-        <DrivesStorageTemplate
+      <div className="computer-accessories__product-container">
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={118.69}
@@ -91,7 +91,7 @@ function DrivesStorage() {
           listPrice={""}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={198.99}
@@ -100,7 +100,7 @@ function DrivesStorage() {
           listPrice={"209.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={549.99}
@@ -109,7 +109,7 @@ function DrivesStorage() {
           listPrice={"759.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={124.99}
@@ -119,12 +119,12 @@ function DrivesStorage() {
           image=""
         />
       </div>
-      <div className="drives-storage__sub-heading">
+      <div className="computer-accessories__sub-heading">
         <p>Hot new releases</p>
         <p>See more</p>
       </div>
-      <div className="drives-storage__product-container">
-        <DrivesStorageTemplate
+      <div className="computer-accessories__product-container">
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={199.99}
@@ -133,7 +133,7 @@ function DrivesStorage() {
           listPrice={"299.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={340.99}
@@ -142,7 +142,7 @@ function DrivesStorage() {
           listPrice={""}
           image=" "
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={329.99}
@@ -151,7 +151,7 @@ function DrivesStorage() {
           listPrice={"449.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={1944.99}
@@ -161,12 +161,12 @@ function DrivesStorage() {
           image=""
         />
       </div>
-      <div className="drives-storage__sub-heading">
+      <div className="computer-accessories__sub-heading">
         <p>Under $25</p>
         <p>See more</p>
       </div>
-      <div className="drives-storage__product-container">
-        <DrivesStorageTemplate
+      <div className="computer-accessories__product-container">
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={24.88}
@@ -175,7 +175,7 @@ function DrivesStorage() {
           listPrice={"35.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={21.32}
@@ -184,7 +184,7 @@ function DrivesStorage() {
           listPrice={"30.89"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={11.99}
@@ -193,7 +193,7 @@ function DrivesStorage() {
           listPrice={"15.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={24.99}
@@ -203,12 +203,12 @@ function DrivesStorage() {
           image=""
         />
       </div>
-      <div className="drives-storage__sub-heading">
+      <div className="computer-accessories__sub-heading">
         <p>Best Sellers</p>
         <p>See more</p>
       </div>
-      <div className="drives-storage__product-container">
-        <DrivesStorageTemplate
+      <div className="computer-accessories__product-container">
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={139.99}
@@ -217,7 +217,7 @@ function DrivesStorage() {
           listPrice={"209.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={119.99}
@@ -226,7 +226,7 @@ function DrivesStorage() {
           listPrice={"259.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={129.99}
@@ -235,7 +235,7 @@ function DrivesStorage() {
           listPrice={"209.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={89.99}
@@ -245,16 +245,16 @@ function DrivesStorage() {
           image=""
         />
       </div>
-      <div className="drives-storage__sub-heading">
+      <div className="computer-accessories__sub-heading">
         <p>Lightning deals</p>
         {/* <p>See more</p> */}
       </div>
-      <div className="drives-storage__product-container">
-        <div className="drives-storage__lightning-container">
-          <div className="drives-storage__lightning-img">
+      <div className="computer-accessories__product-container">
+        <div className="computer-accessories__lightning-container">
+          <div className="computer-accessories__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="drives-storage__lightning-info">
+          <div className="computer-accessories__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 03:42:28</p>
@@ -263,11 +263,11 @@ function DrivesStorage() {
             </p>
           </div>
         </div>
-        <div className="drives-storage__lightning-container">
-          <div className="drives-storage__lightning-img">
+        <div className="computer-accessories__lightning-container">
+          <div className="computer-accessories__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="drives-storage__lightning-info">
+          <div className="computer-accessories__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 01:12:08</p>
@@ -276,11 +276,11 @@ function DrivesStorage() {
             </p>
           </div>
         </div>
-        <div className="drives-storage__lightning-container">
-          <div className="drives-storage__lightning-img">
+        <div className="computer-accessories__lightning-container">
+          <div className="computer-accessories__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="drives-storage__lightning-info">
+          <div className="computer-accessories__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 09:53:31</p>
@@ -289,11 +289,11 @@ function DrivesStorage() {
             </p>
           </div>
         </div>
-        <div className="drives-storage__lightning-container">
-          <div className="drives-storage__lightning-img">
+        <div className="computer-accessories__lightning-container">
+          <div className="computer-accessories__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="drives-storage__lightning-info">
+          <div className="computer-accessories__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 10:15:45</p>
@@ -303,12 +303,12 @@ function DrivesStorage() {
           </div>
         </div>
       </div>
-      <div className="drives-storage__sub-heading">
+      <div className="computer-accessories__sub-heading">
         <p>Most wished for</p>
         <p>See more</p>
       </div>
-      <div className="drives-storage__product-container">
-        <DrivesStorageTemplate
+      <div className="computer-accessories__product-container">
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={179.99}
@@ -317,7 +317,7 @@ function DrivesStorage() {
           listPrice={""}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={379.99}
@@ -326,7 +326,7 @@ function DrivesStorage() {
           listPrice={""}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={188.98}
@@ -335,7 +335,7 @@ function DrivesStorage() {
           listPrice={"269.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={278.99}
@@ -345,12 +345,12 @@ function DrivesStorage() {
           image=""
         />
       </div>
-      <div className="drives-storage__sub-heading">
+      <div className="computer-accessories__sub-heading">
         <p>Most gifted</p>
         <p>See more</p>
       </div>
-      <div className="drives-storage__product-container">
-        <DrivesStorageTemplate
+      <div className="computer-accessories__product-container">
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={299.99}
@@ -359,7 +359,7 @@ function DrivesStorage() {
           listPrice={"449.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={349.99}
@@ -368,7 +368,7 @@ function DrivesStorage() {
           listPrice={"369.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={129.99}
@@ -377,7 +377,7 @@ function DrivesStorage() {
           listPrice={"369.99"}
           image=""
         />
-        <DrivesStorageTemplate
+        <ComputerAccessoriesTemplate
           id={uuid()}
           title=""
           price={79.97}
@@ -391,4 +391,4 @@ function DrivesStorage() {
   )
 }
 
-export default DrivesStorage;
+export default ComputerAccessories;

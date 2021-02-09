@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
-import '../ElectronicStyles/PrintersInk.scss';
+import '../ComputerStyles/ComputerComponents.scss';
 
-function PrintersInkTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+function ComputerComponentsTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -24,12 +24,12 @@ function PrintersInkTemplate({ id, title, image, price, rating, rateNumber, list
     })
   };
   return (
-    <div className="printers-ink-template__container">
-      <div className="printers-ink-template__img">
+    <div className="computer-components-template__container">
+      <div className="computer-components-template__img">
         <img src={image} alt="computer-components-product-img" />
       </div>
-      <div className="printers-ink-template__info">
-        <div className="printers-ink-template__price">
+      <div className="computer-components-template__info">
+        <div className="computer-components-template__price">
           <span>
             <p>$</p>
             <p>{price}</p>
@@ -38,10 +38,10 @@ function PrintersInkTemplate({ id, title, image, price, rating, rateNumber, list
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="printers-ink-template__title">
+        <div className="computer-components-template__title">
           <p>{title}</p>
         </div>
-        <div className="printers-ink-template__rating">
+        <div className="computer-components-template__rating">
           <p>
             {
               Array(rating)
@@ -54,7 +54,7 @@ function PrintersInkTemplate({ id, title, image, price, rating, rateNumber, list
           <p>{rateNumber}</p>
         </div>
       </div>
-      <div className="printers-ink-template__btn">
+      <div className="computer-components-template__btn">
         <button onClick={addToBasket}>Add to basket</button>
       </div>
     </div>
@@ -63,26 +63,26 @@ function PrintersInkTemplate({ id, title, image, price, rating, rateNumber, list
 
 
 
-function PrintersInk() {
+function ComputerComponents() {
   return (
-    <div className="printers-ink__container">
-      <div className="printers-ink__heading">
-        <p>Printers & Ink</p>
+    <div className="computer-components__container">
+      <div className="computer-components__heading">
+        <p>Components</p>
       </div>
-      {/* <div className="printers-ink__ads-one">
+      {/* <div className="computer-components__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="printers-ink__category">
-        <Link to="/" className="printers-ink__category-img">
+      <div className="computer-components__category">
+        <Link to="/" className="computer-components__category-img">
           <img src="" alt="monitor-category" />
         </Link>
       </div>
-      <div className="printers-ink__sub-heading">
+      <div className="computer-components__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
-      <div className="printers-ink__product-container">
-        <PrintersInkTemplate
+      <div className="computer-components__product-container">
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={118.69}
@@ -91,7 +91,7 @@ function PrintersInk() {
           listPrice={""}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={198.99}
@@ -100,7 +100,7 @@ function PrintersInk() {
           listPrice={"209.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={549.99}
@@ -109,7 +109,7 @@ function PrintersInk() {
           listPrice={"759.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={124.99}
@@ -119,12 +119,12 @@ function PrintersInk() {
           image=""
         />
       </div>
-      <div className="printers-ink__sub-heading">
+      <div className="computer-components__sub-heading">
         <p>Hot new releases</p>
         <p>See more</p>
       </div>
-      <div className="printers-ink__product-container">
-        <PrintersInkTemplate
+      <div className="computer-components__product-container">
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={199.99}
@@ -133,7 +133,7 @@ function PrintersInk() {
           listPrice={"299.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={340.99}
@@ -142,7 +142,7 @@ function PrintersInk() {
           listPrice={""}
           image=" "
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={329.99}
@@ -151,7 +151,7 @@ function PrintersInk() {
           listPrice={"449.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={1944.99}
@@ -161,12 +161,12 @@ function PrintersInk() {
           image=""
         />
       </div>
-      <div className="printers-ink__sub-heading">
+      <div className="computer-components__sub-heading">
         <p>Under $25</p>
         <p>See more</p>
       </div>
-      <div className="printers-ink__product-container">
-        <PrintersInkTemplate
+      <div className="computer-components__product-container">
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={24.88}
@@ -175,7 +175,7 @@ function PrintersInk() {
           listPrice={"35.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={21.32}
@@ -184,7 +184,7 @@ function PrintersInk() {
           listPrice={"30.89"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={11.99}
@@ -193,7 +193,7 @@ function PrintersInk() {
           listPrice={"15.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={24.99}
@@ -203,12 +203,12 @@ function PrintersInk() {
           image=""
         />
       </div>
-      <div className="printers-ink__sub-heading">
+      <div className="computer-components__sub-heading">
         <p>Best Sellers</p>
         <p>See more</p>
       </div>
-      <div className="printers-ink__product-container">
-        <PrintersInkTemplate
+      <div className="computer-components__product-container">
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={139.99}
@@ -217,7 +217,7 @@ function PrintersInk() {
           listPrice={"209.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={119.99}
@@ -226,7 +226,7 @@ function PrintersInk() {
           listPrice={"259.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={129.99}
@@ -235,7 +235,7 @@ function PrintersInk() {
           listPrice={"209.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={89.99}
@@ -245,16 +245,16 @@ function PrintersInk() {
           image=""
         />
       </div>
-      <div className="printers-ink__sub-heading">
+      <div className="computer-components__sub-heading">
         <p>Lightning deals</p>
         {/* <p>See more</p> */}
       </div>
-      <div className="printers-ink__product-container">
-        <div className="printers-ink__lightning-container">
-          <div className="printers-ink__lightning-img">
+      <div className="computer-components__product-container">
+        <div className="computer-components__lightning-container">
+          <div className="computer-components__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="printers-ink__lightning-info">
+          <div className="computer-components__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 03:42:28</p>
@@ -263,11 +263,11 @@ function PrintersInk() {
             </p>
           </div>
         </div>
-        <div className="printers-ink__lightning-container">
-          <div className="printers-ink__lightning-img">
+        <div className="computer-components__lightning-container">
+          <div className="computer-components__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="printers-ink__lightning-info">
+          <div className="computer-components__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 01:12:08</p>
@@ -276,11 +276,11 @@ function PrintersInk() {
             </p>
           </div>
         </div>
-        <div className="printers-ink__lightning-container">
-          <div className="printers-ink__lightning-img">
+        <div className="computer-components__lightning-container">
+          <div className="computer-components__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="printers-ink__lightning-info">
+          <div className="computer-components__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 09:53:31</p>
@@ -289,11 +289,11 @@ function PrintersInk() {
             </p>
           </div>
         </div>
-        <div className="printers-ink__lightning-container">
-          <div className="printers-ink__lightning-img">
+        <div className="computer-components__lightning-container">
+          <div className="computer-components__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="printers-ink__lightning-info">
+          <div className="computer-components__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 10:15:45</p>
@@ -303,12 +303,12 @@ function PrintersInk() {
           </div>
         </div>
       </div>
-      <div className="printers-ink__sub-heading">
+      <div className="computer-components__sub-heading">
         <p>Most wished for</p>
         <p>See more</p>
       </div>
-      <div className="printers-ink__product-container">
-        <PrintersInkTemplate
+      <div className="computer-components__product-container">
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={179.99}
@@ -317,7 +317,7 @@ function PrintersInk() {
           listPrice={""}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={379.99}
@@ -326,7 +326,7 @@ function PrintersInk() {
           listPrice={""}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={188.98}
@@ -335,7 +335,7 @@ function PrintersInk() {
           listPrice={"269.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={278.99}
@@ -345,12 +345,12 @@ function PrintersInk() {
           image=""
         />
       </div>
-      <div className="printers-ink__sub-heading">
+      <div className="computer-components__sub-heading">
         <p>Most gifted</p>
         <p>See more</p>
       </div>
-      <div className="printers-ink__product-container">
-        <PrintersInkTemplate
+      <div className="computer-components__product-container">
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={299.99}
@@ -359,7 +359,7 @@ function PrintersInk() {
           listPrice={"449.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={349.99}
@@ -368,7 +368,7 @@ function PrintersInk() {
           listPrice={"369.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={129.99}
@@ -377,7 +377,7 @@ function PrintersInk() {
           listPrice={"369.99"}
           image=""
         />
-        <PrintersInkTemplate
+        <ComputerComponentsTemplate
           id={uuid()}
           title=""
           price={79.97}
@@ -391,4 +391,4 @@ function PrintersInk() {
   )
 }
 
-export default PrintersInk;
+export default ComputerComponents;

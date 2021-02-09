@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
-import '../ElectronicStyles/OfficeSchool.scss';
+import '../ComputerStyles/Software.scss';
 
-function OfficeSchoolTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
+function SoftwareTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -24,12 +24,12 @@ function OfficeSchoolTemplate({ id, title, image, price, rating, rateNumber, lis
     })
   };
   return (
-    <div className="office-school-template__container">
-      <div className="office-school-template__img">
+    <div className="software-template__container">
+      <div className="software-template__img">
         <img src={image} alt="computer-components-product-img" />
       </div>
-      <div className="office-school-template__info">
-        <div className="office-school-template__price">
+      <div className="software-template__info">
+        <div className="software-template__price">
           <span>
             <p>$</p>
             <p>{price}</p>
@@ -38,10 +38,10 @@ function OfficeSchoolTemplate({ id, title, image, price, rating, rateNumber, lis
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="office-school-template__title">
+        <div className="software-template__title">
           <p>{title}</p>
         </div>
-        <div className="office-school-template__rating">
+        <div className="software-template__rating">
           <p>
             {
               Array(rating)
@@ -54,7 +54,7 @@ function OfficeSchoolTemplate({ id, title, image, price, rating, rateNumber, lis
           <p>{rateNumber}</p>
         </div>
       </div>
-      <div className="office-school-template__btn">
+      <div className="software-template__btn">
         <button onClick={addToBasket}>Add to basket</button>
       </div>
     </div>
@@ -63,26 +63,26 @@ function OfficeSchoolTemplate({ id, title, image, price, rating, rateNumber, lis
 
 
 
-function OfficeSchool() {
+function Software() {
   return (
-    <div className="office-school__container">
-      <div className="office-school__heading">
-        <p>Office & School Supplies</p>
+    <div className="software__container">
+      <div className="software__heading">
+        <p>Software</p>
       </div>
-      {/* <div className="office-school__ads-one">
+      {/* <div className="software__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="office-school__category">
-        <Link to="/" className="office-school__category-img">
+      <div className="software__category">
+        <Link to="/" className="software__category-img">
           <img src="" alt="monitor-category" />
         </Link>
       </div>
-      <div className="office-school__sub-heading">
+      <div className="software__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
-      <div className="office-school__product-container">
-        <OfficeSchoolTemplate
+      <div className="software__product-container">
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={118.69}
@@ -91,7 +91,7 @@ function OfficeSchool() {
           listPrice={""}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={198.99}
@@ -100,7 +100,7 @@ function OfficeSchool() {
           listPrice={"209.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={549.99}
@@ -109,7 +109,7 @@ function OfficeSchool() {
           listPrice={"759.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={124.99}
@@ -119,12 +119,12 @@ function OfficeSchool() {
           image=""
         />
       </div>
-      <div className="office-school__sub-heading">
+      <div className="software__sub-heading">
         <p>Hot new releases</p>
         <p>See more</p>
       </div>
-      <div className="office-school__product-container">
-        <OfficeSchoolTemplate
+      <div className="software__product-container">
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={199.99}
@@ -133,7 +133,7 @@ function OfficeSchool() {
           listPrice={"299.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={340.99}
@@ -142,7 +142,7 @@ function OfficeSchool() {
           listPrice={""}
           image=" "
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={329.99}
@@ -151,7 +151,7 @@ function OfficeSchool() {
           listPrice={"449.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={1944.99}
@@ -161,12 +161,12 @@ function OfficeSchool() {
           image=""
         />
       </div>
-      <div className="office-school__sub-heading">
+      <div className="software__sub-heading">
         <p>Under $25</p>
         <p>See more</p>
       </div>
-      <div className="office-school__product-container">
-        <OfficeSchoolTemplate
+      <div className="software__product-container">
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={24.88}
@@ -175,7 +175,7 @@ function OfficeSchool() {
           listPrice={"35.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={21.32}
@@ -184,7 +184,7 @@ function OfficeSchool() {
           listPrice={"30.89"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={11.99}
@@ -193,7 +193,7 @@ function OfficeSchool() {
           listPrice={"15.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={24.99}
@@ -203,12 +203,12 @@ function OfficeSchool() {
           image=""
         />
       </div>
-      <div className="office-school__sub-heading">
+      <div className="software__sub-heading">
         <p>Best Sellers</p>
         <p>See more</p>
       </div>
-      <div className="office-school__product-container">
-        <OfficeSchoolTemplate
+      <div className="software__product-container">
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={139.99}
@@ -217,7 +217,7 @@ function OfficeSchool() {
           listPrice={"209.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={119.99}
@@ -226,7 +226,7 @@ function OfficeSchool() {
           listPrice={"259.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={129.99}
@@ -235,7 +235,7 @@ function OfficeSchool() {
           listPrice={"209.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={89.99}
@@ -245,16 +245,16 @@ function OfficeSchool() {
           image=""
         />
       </div>
-      <div className="office-school__sub-heading">
+      <div className="software__sub-heading">
         <p>Lightning deals</p>
         {/* <p>See more</p> */}
       </div>
-      <div className="office-school__product-container">
-        <div className="office-school__lightning-container">
-          <div className="office-school__lightning-img">
+      <div className="software__product-container">
+        <div className="software__lightning-container">
+          <div className="software__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="office-school__lightning-info">
+          <div className="software__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 03:42:28</p>
@@ -263,11 +263,11 @@ function OfficeSchool() {
             </p>
           </div>
         </div>
-        <div className="office-school__lightning-container">
-          <div className="office-school__lightning-img">
+        <div className="software__lightning-container">
+          <div className="software__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="office-school__lightning-info">
+          <div className="software__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 01:12:08</p>
@@ -276,11 +276,11 @@ function OfficeSchool() {
             </p>
           </div>
         </div>
-        <div className="office-school__lightning-container">
-          <div className="office-school__lightning-img">
+        <div className="software__lightning-container">
+          <div className="software__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="office-school__lightning-info">
+          <div className="software__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 09:53:31</p>
@@ -289,11 +289,11 @@ function OfficeSchool() {
             </p>
           </div>
         </div>
-        <div className="office-school__lightning-container">
-          <div className="office-school__lightning-img">
+        <div className="software__lightning-container">
+          <div className="software__lightning-img">
             <img src="" alt="lightning-deals-img" />
           </div>
-          <div className="office-school__lightning-info">
+          <div className="software__lightning-info">
             <ul>
               <p>Upcoming Deal</p>
               <p>Starts for you in 10:15:45</p>
@@ -303,12 +303,12 @@ function OfficeSchool() {
           </div>
         </div>
       </div>
-      <div className="office-school__sub-heading">
+      <div className="software__sub-heading">
         <p>Most wished for</p>
         <p>See more</p>
       </div>
-      <div className="office-school__product-container">
-        <OfficeSchoolTemplate
+      <div className="software__product-container">
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={179.99}
@@ -317,7 +317,7 @@ function OfficeSchool() {
           listPrice={""}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={379.99}
@@ -326,7 +326,7 @@ function OfficeSchool() {
           listPrice={""}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={188.98}
@@ -335,7 +335,7 @@ function OfficeSchool() {
           listPrice={"269.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={278.99}
@@ -345,12 +345,12 @@ function OfficeSchool() {
           image=""
         />
       </div>
-      <div className="office-school__sub-heading">
+      <div className="software__sub-heading">
         <p>Most gifted</p>
         <p>See more</p>
       </div>
-      <div className="office-school__product-container">
-        <OfficeSchoolTemplate
+      <div className="software__product-container">
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={299.99}
@@ -359,7 +359,7 @@ function OfficeSchool() {
           listPrice={"449.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={349.99}
@@ -368,7 +368,7 @@ function OfficeSchool() {
           listPrice={"369.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={129.99}
@@ -377,7 +377,7 @@ function OfficeSchool() {
           listPrice={"369.99"}
           image=""
         />
-        <OfficeSchoolTemplate
+        <SoftwareTemplate
           id={uuid()}
           title=""
           price={79.97}
@@ -391,4 +391,4 @@ function OfficeSchool() {
   )
 }
 
-export default OfficeSchool;
+export default Software;

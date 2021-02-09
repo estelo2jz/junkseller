@@ -1,4 +1,4 @@
-.pendantz-template__container {
+.necklace-template__container {
   text-decoration: none;
   display: flex;
   // flex-wrap: wrap;
@@ -8,15 +8,16 @@
   text-align: left;
   width: 300px;
   height: 100%;
-  margin: 3px;
+  margin: 2px;
   max-width: 48%;
   // max-height: 100%;
   // background-color: red;
   // cursor: pointer;
-  .pendantz-template__info {
+  border: 1px solid rgb(243, 240, 241);
+  .necklace-template__info {
     overflow: hidden;
     // height: 50%;
-    height: 100px;
+    height: 80px;
     width: 100%;
     z-index: 1;
     padding-top: 1px;
@@ -24,7 +25,7 @@
     font-weight: 500;
     
   }
-  .pendantz-template__img {
+  .necklace-template__img {
     
     display: flex;
     justify-content: center;
@@ -47,7 +48,7 @@
       // margin: 10px;
     }
   }
-  .pendantz-template__price {
+  .necklace-template__price {
     // font-size: 0.8em;
     padding: 5px 0px;
     margin-left: 10px;
@@ -68,23 +69,26 @@
       font-size: 0.8em;
       
     }
-    .pendantz-template__id {
+    .necklace-template__id {
       font-size: 0.7em;
       padding: 5px 0px;
       // margin-left: 5px;
+      width: 100%;
       p {
         display: flex;
         align-items: center;
-        justify-content: center;
-        background-color: rgb(204, 200, 200);
-        width: 65px
+        // justify-content: center;
+        // background-color: rgb(204, 200, 200);
+        // width: 65px
       }
     }
   }
-  .pendantz-template__title {
+  .necklace-template__title {
     font-size: 0.8em;
     padding: 2px 2px;
     // margin-left: 12px;
+    width: 100%;
+
     p {
       margin-left: 10px;
       overflow: hidden;
@@ -95,7 +99,7 @@
     }
 
   }
-  .pendantz-template__rating {
+  .necklace-template__rating {
     font-size: 0.7em;
     padding: 5px 0px;
     margin-left: 10px;
@@ -112,7 +116,7 @@
     }
 
   }
-  .pendantz-template__btn {
+  .necklace-template__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,14 +131,14 @@
   }
 }
 
-.pendantz__container {
+.necklace__container {
   // background-color: rgb(122, 128, 0);
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   // align-items: center;
-  .pendantz__heading {
+  .necklace__heading {
     margin-left: 30px;
     padding: 20px 0px;
     p {
@@ -145,7 +149,7 @@
       font-size: 0.8em;
     }
   }
-  .pendantz__sub-heading {
+  .necklace__sub-heading {
     background-color: #82c7dc;
     // height: 20vh;
     // padding: 20px 0px;
@@ -167,20 +171,20 @@
       text-decoration: underline;
     }
   }
-  .pendantz__ads-one {
+  .necklace__ads-one {
     width: 100%;
     padding: 20px 0px;
     img {
       width: 100%;
     }
   }
-  .pendantz__category {
+  .necklace__category {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
-    .pendantz__category-img {
+    .necklace__category-img {
       display: flex;
       justify-content: center;
       width: 300px;
@@ -196,15 +200,16 @@
 
     }
   }
-  .pendantz__product-container {
+  .necklace__product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100%;
+    // padding: 10px 0px;
     padding: 40px 0px;
 
-    .pendantz__lightning-container {
+    .necklace__lightning-container {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -217,7 +222,7 @@
       cursor: pointer;
       margin: 2px;
       
-      .pendantz__lightning-img {
+      .necklace__lightning-img {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -232,7 +237,7 @@
           // height: 100%;
         }
       }
-      .pendantz__lightning-info {
+      .necklace__lightning-info {
       background-color: rgb(243, 240, 241);
       ul {
         p:nth-child(1) {
@@ -258,7 +263,7 @@
     }
   }
 }
-// .pendantz-template__container:hover {
-//   background: rgba(255, 255, 255, 0.2);
-//   transition: all 0.3s ease;
-// }
+.necklace-template__container:hover {
+  border: 1px solid lightgray;
+  transition: all 0.3s ease;
+}

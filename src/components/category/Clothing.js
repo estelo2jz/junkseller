@@ -1,20 +1,19 @@
 import React from 'react';
 import { uuid } from 'uuidv4';
 import ElectronicsProductTemplate from '../ElectricCategory/Category/ElectronicsProductTemplate';
-import ClothingJewelryMenu from '../ClothingJewelryCategory/ClothingJewelryMenu';
+import ClothingJewelryMenu from '../JewelryCategory/JewelryMenu';
 import '../../styles/Computer.scss';
 
-function ClothingJewelry() {
+function Clothing() {
   return (
     <div className="products__base">
       <div className="computer__container">
         <div className="computer__container-heading">
-          <ClothingJewelryMenu 
-              category0="Apperal" 
-              category1="Chainz"
-              category2="Watchz"
-              category3="Grillz"
-              category4="Pendantz"
+          <ClothingJewelryMenu
+            category0="Apperal"
+            category1="CLothing"
+            category2="Clothing"
+            category3="Clothing"
           />
         </div>
         <div className="computer__container-flex-grid">
@@ -84,4 +83,4 @@ function ClothingJewelry() {
   )
 }
 
-export default ClothingJewelry;
+export default Clothing;

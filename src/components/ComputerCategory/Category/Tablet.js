@@ -1,9 +1,9 @@
 import React from 'react';
 import { uuid } from 'uuidv4';
 import { Link } from 'react-router-dom';
-import '../ElectronicStyles/ComputerTablet.scss';
-import '../ElectronicStyles/ComputerTabletTemplate.scss';
-import '../ElectronicStyles/Upcoming.scss';
+import '../ComputerStyles/ComputerTablet.scss';
+import '../ComputerStyles/ComputerTabletTemplate.scss';
+import '../ComputerStyles/Upcoming.scss';
 import { useStateValue } from '../../StateProvider';
 
 function ComputerTabletTemplate({ id, title, image, price, rating, rateNumber, soldBy, listPrice }) {

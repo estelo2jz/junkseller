@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
-import '../ClothingJewelryStyles/JewelryWatchz.scss';
+import '../JewelryStyles/JewelryWatchz.scss';
 
 import Watchz1 from './JewelryImg/watchz/watch1/watch1.jpg'
 import Watchz2 from './JewelryImg/watchz/watch2/watch1.jpg'
@@ -93,7 +93,7 @@ function Watchz() {
   return (
     <div className="watchz__container">
       <div className="watchz__heading">
-        <p>Watchz</p>
+        <p>Watch's</p>
       </div>
       {/* <div className="watchz__ads-one">
         <img src="" alt="ads-image" />
@@ -108,138 +108,89 @@ function Watchz() {
         <p>See more</p>
       </div>
       <div className="watchz__product-container">
-      <WatchzTemplate
+        <WatchzTemplate
           id={uuid()}
           nameID = {"CW0001"}
           title="Custom Watch 0001"
           price={38000}
-          image={Watchz1}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0002"}
-          title="Custom Watch 0002"
-          price={12000}
-          image={Watchz2}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0003"}
-          title="Custom Watch 0003"
-          price={27000}
-          image={Watchz3}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0004"}
-          title="Custom Watch 0004"
-          price={24000}
-          image={Watchz4}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0005"}
-          title="Custom Watch 0005"
-          price={9000}
-          image={Watchz5}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0006"}
-          title="Custom Watch 0006"
-          price={12000}
-          image={Watchz6}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0007"}
-          title="Custom Watch 0007"
-          price={15000}
-          image={Watchz7}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0008"}
-          title="Custom Watch 0008"
-          price={25000}
-          image={Watchz8}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0009"}
-          title="Custom Watch 0009"
-          price={9000}
-          image={Watchz9}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0010"}
-          title="Custom Watch 0010"
-          price={22990}
-          image={Watchz10}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0011"}
-          title="Custom Watch 0011"
-          price={26400}
-          image={Watchz11}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
-          nameID = {"CW0012"}
-          title="Custom Watch 0012"
-          price={22990}
-          image={Watchz12}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          nameID = {"CW0013"}
-          title="Custom Watch 0013"
-          price={18500}
-          image={Watchz13}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          nameID = {"CW0014"}
-          title="Custom Watch 0014"
-          price={29990}
-          image={Watchz14}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          nameID = {"CW0015"}
-          title="Custom Watch 0015"
-          price={16940}
-          image={Watchz15}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          nameID = {"CW0016"}
-          title="Custom Watch 0016"
-          price={18600}
-          image={Watchz16}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          nameID = {"CW0017"}
-          title="Custom Watch 0017"
-          price={18000}
-          image={Watchz17}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          nameID = {"CW0018"}
-          title="Custom Watch 0018"
-          price={19800}
-          image={Watchz18}
-        />
-        <WatchzTemplate
-          id={uuid()}
-          nameID = {"CW0019"}
-          title="Custom Watch 0019"
-          price={22500}
-          image={Watchz19}
+          nameID={"CW0001"}
+          title="Custom Watch 0001"
+          price={38000}
+          image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
       </div>
     </div>

@@ -12,15 +12,29 @@ export const SidebarData = [
 
   // },
   {
-    title: "Electronics & Computers",
-    path: "/electronics&computers",
+    title: "Electronics",
+    path: "/electronics",
     icon: <IoIcons.IoIosPaper />,
     cName: "nav-text",
 
   },
   {
-    title: "Clothing & Jewelry",
-    path: "/clothing&jewelry",
+    title: "Computers",
+    path: "/computers",
+    icon: <FaIcons.FaCartPlus />,
+    cName: "nav-text",
+
+  },
+  {
+    title: "Clothing",
+    path: "/clothing",
+    icon: <IoIcons.IoIosPaper />,
+    cName: "nav-text",
+    
+  },
+  {
+    title: "Jewelry & Premium Jewelries",
+    path: "/jewelry",
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text",
 

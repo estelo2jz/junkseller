@@ -1,4 +1,4 @@
-.grillz-template__container {
+.earrings-template__container {
   text-decoration: none;
   display: flex;
   // flex-wrap: wrap;
@@ -14,7 +14,7 @@
   // background-color: red;
   // cursor: pointer;
   border: 1px solid rgb(243, 240, 241);
-  .grillz-template__info {
+  .earrings-template__info {
     overflow: hidden;
     // height: 50%;
     height: 80px;
@@ -25,7 +25,7 @@
     font-weight: 500;
     
   }
-  .grillz-template__img {
+  .earrings-template__img {
     
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@
       // margin: 10px;
     }
   }
-  .grillz-template__price {
+  .earrings-template__price {
     // font-size: 0.8em;
     padding: 5px 0px;
     margin-left: 10px;
@@ -69,7 +69,7 @@
       font-size: 0.8em;
       
     }
-    .grillz-template__id {
+    .earrings-template__id {
       font-size: 0.7em;
       padding: 5px 0px;
       // margin-left: 5px;
@@ -83,7 +83,7 @@
       }
     }
   }
-  .grillz-template__title {
+  .earrings-template__title {
     font-size: 0.8em;
     padding: 2px 2px;
     // margin-left: 12px;
@@ -99,7 +99,7 @@
     }
 
   }
-  .grillz-template__rating {
+  .earrings-template__rating {
     font-size: 0.7em;
     padding: 5px 0px;
     margin-left: 10px;
@@ -116,7 +116,7 @@
     }
 
   }
-  .grillz-template__btn {
+  .earrings-template__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,14 +131,14 @@
   }
 }
 
-.grillz__container {
+.earrings__container {
   // background-color: rgb(122, 128, 0);
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   // align-items: center;
-  .grillz__heading {
+  .earrings__heading {
     margin-left: 30px;
     padding: 20px 0px;
     p {
@@ -149,7 +149,7 @@
       font-size: 0.8em;
     }
   }
-  .grillz__sub-heading {
+  .earrings__sub-heading {
     background-color: #82c7dc;
     // height: 20vh;
     // padding: 20px 0px;
@@ -171,20 +171,20 @@
       text-decoration: underline;
     }
   }
-  .grillz__ads-one {
+  .earrings__ads-one {
     width: 100%;
     padding: 20px 0px;
     img {
       width: 100%;
     }
   }
-  .grillz__category {
+  .earrings__category {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
-    .grillz__category-img {
+    .earrings__category-img {
       display: flex;
       justify-content: center;
       width: 300px;
@@ -200,7 +200,7 @@
 
     }
   }
-  .grillz__product-container {
+  .earrings__product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -209,7 +209,7 @@
     // padding: 10px 0px;
     padding: 40px 0px;
 
-    .grillz__lightning-container {
+    .earrings__lightning-container {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -222,7 +222,7 @@
       cursor: pointer;
       margin: 2px;
       
-      .grillz__lightning-img {
+      .earrings__lightning-img {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -237,7 +237,7 @@
           // height: 100%;
         }
       }
-      .grillz__lightning-info {
+      .earrings__lightning-info {
       background-color: rgb(243, 240, 241);
       ul {
         p:nth-child(1) {
@@ -263,7 +263,7 @@
     }
   }
 }
-.grillz-template__container:hover {
+.earrings-template__container:hover {
   border: 1px solid lightgray;
   transition: all 0.3s ease;
 }

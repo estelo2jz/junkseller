@@ -10,10 +10,14 @@ import Footer from './components/Footer';
 import Checkout from './components/Checkout';
 
 import Electronics from './components/category/Electronics';
-import ClothingJewelry from './components/category/ClothingJewelry';
+import Computers from './components/category/Computers';
+import Clothing from './components/category/Clothing';
+import Jewelry from './components/category/Jewelry';
 
 import ElectronicsMenu from './components/ElectricCategory/ElectronicsMenu';
-import ClothingJewelryMenu from './components/ClothingJewelryCategory/ClothingJewelryMenu';
+import ComputersMenu from './components/ComputerCategory/ComputersMenu';
+import ClothingMenu from './components/ClothingCategory/ClothingMenu';
+import JewelryMenu from './components/JewelryCategory/JewelryMenu';
 
 // ELECTRONICS & COMPUTERS CATEGORY
 import TVVideo from './components/ElectricCategory/Category/TVVideo';
@@ -27,21 +31,25 @@ import CarElectronics from './components/ElectricCategory/Category/CarElectronic
 import MusicalInstruments from './components/ElectricCategory/Category/MusicalInstruments';
 import WearableTechnology from './components/ElectricCategory/Category/WearableTechnology';
 import ElectronicsBase from './components/ElectricCategory/Category/ElectronicsBase';
-import ComputerTablet from './components/ElectricCategory/Category/ComputerTablet';
-import ComputerAccessories from './components/ElectricCategory/Category/ComputerAccessories';
-import ComputerComponents from './components/ElectricCategory/Category/ComputerComponents';
-import DrivesStorage from './components/ElectricCategory/Category/DrivesStorage';
-import Monitors from './components/ElectricCategory/Category/Monitors';
-import Networking from './components/ElectricCategory/Category/Networking';
-import Software from './components/ElectricCategory/Category/Software';
 
+// Computer Components
+import ComputerTablet from './components/ComputerCategory/Category/Tablet';
+import ComputerMonitors from './components/ComputerCategory/Category/Monitors';
+import ComputerAccessories from './components/ComputerCategory/Category/Accessories';
+import ComputerNetworking from './components/ComputerCategory/Category/Networking';
+import ComputerHardDrivesStorage from './components/ComputerCategory/Category/DrivesStorage';
+import ComputerPartsComponents from './components/ComputerCategory/Category/PartsComponents';
+import ComputerSoftware from './components/ComputerCategory/Category/Software';
 
-// 
-import ClothingJewelryApperal from './components/ClothingJewelryCategory/Category/Apperal';
-import ClothingJewelryChainz from './components/ClothingJewelryCategory/Category/JewelryChainz';
-import ClothingJewelryGrillz from './components/ClothingJewelryCategory/Category/JewelryGrillz';
-import ClothingJewelryWatchz from './components/ClothingJewelryCategory/Category/JewelryWatchz';
-import ClothingJewelryPendantz from './components/ClothingJewelryCategory/Category/JewelryPendantz';
+// Apparel Components
+import ClothingApparel from './components/ClothingCategory/Category/Apparel';
+
+// Jewelry Components
+import JewelryNecklace from './components/JewelryCategory/Category/JewelryNecklace';
+import JewelryEarrings from './components/JewelryCategory/Category/JewelryEarrings';
+import JewelryWatchz from './components/JewelryCategory/Category/JewelryWatchz';
+import JewelryPendant from './components/JewelryCategory/Category/JewelryPendants';
+import PremiumJewelry from './components/JewelryCategory/Category/PremiumJewelry';
 
 function App() {
   return (
@@ -84,13 +92,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <TVVideo />
           </Route>
@@ -108,13 +109,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <HomeAudioTheater />
           </Route>
@@ -132,13 +126,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <CameraPhotoVideo />
           </Route>
@@ -156,13 +143,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <CellPhone />
           </Route>
@@ -180,13 +160,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <Headphones />
           </Route>
@@ -204,13 +177,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <VideoGames />
           </Route>
@@ -228,13 +194,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <BluetoothWireless />
           </Route>
@@ -252,13 +211,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <CarElectronics />
           </Route>
@@ -276,13 +228,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <MusicalInstruments />
           </Route>
@@ -300,13 +245,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <CameraPhotoVideo />
           </Route>
@@ -324,13 +262,6 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <WearableTechnology />
           </Route>
@@ -348,268 +279,185 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
             />
             <ElectronicsBase />
-          </Route>
-          <Route path="/electronics/computertablet" exact component={ComputerTablet}>
-            <NavBar />
-            <ElectronicsMenu
-              category0="TV & Video"
-              category1="Home Audio & Theater"
-              category2="Camera, Photo & Video"
-              category3="Cell Phones & Accessories"
-              category4="Headphones"
-              category5="Video Games"
-              category6="Bluetooth & Wireless"
-              category7="Car Electronics"
-              category8="Musical Instruments"
-              category9="Wearable Technology"
-              category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Printers & Ink"
-              category17="Software"
-              category19="Office & School Supllies"
-              category20="Trade In Your Electronics"
-            />
-            <ComputerTablet />
-          </Route>
-          <Route path="/electronics/computeraccessories" exact component={ComputerAccessories}>
-            <NavBar />
-            <ElectronicsMenu
-              category0="TV & Video"
-              category1="Home Audio & Theater"
-              category2="Camera, Photo & Video"
-              category3="Cell Phones & Accessories"
-              category4="Headphones"
-              category5="Video Games"
-              category6="Bluetooth & Wireless"
-              category7="Car Electronics"
-              category8="Musical Instruments"
-              category9="Wearable Technology"
-              category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Printers & Ink"
-              category17="Software"
-              category19="Office & School Supllies"
-              category20="Trade In Your Electronics"
-            />
-            <ComputerAccessories />
-          </Route>
-          <Route path="/electronics/computercomponents" exact component={ComputerComponents}>
-            <NavBar />
-            <ElectronicsMenu
-              category0="TV & Video"
-              category1="Home Audio & Theater"
-              category2="Camera, Photo & Video"
-              category3="Cell Phones & Accessories"
-              category4="Headphones"
-              category5="Video Games"
-              category6="Bluetooth & Wireless"
-              category7="Car Electronics"
-              category8="Musical Instruments"
-              category9="Wearable Technology"
-              category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Printers & Ink"
-              category17="Software"
-              category19="Office & School Supllies"
-              category20="Trade In Your Electronics"
-            />
-            <ComputerComponents />
-          </Route>
-          <Route path="/electronics/drivesstorage" exact component={DrivesStorage}>
-            <NavBar />
-            <ElectronicsMenu
-              category0="TV & Video"
-              category1="Home Audio & Theater"
-              category2="Camera, Photo & Video"
-              category3="Cell Phones & Accessories"
-              category4="Headphones"
-              category5="Video Games"
-              category6="Bluetooth & Wireless"
-              category7="Car Electronics"
-              category8="Musical Instruments"
-              category9="Wearable Technology"
-              category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Printers & Ink"
-              category17="Software"
-              category19="Office & School Supllies"
-              category20="Trade In Your Electronics"
-            />
-            <DrivesStorage />
-          </Route>
-          <Route path="/electronics/monitors" exact component={Monitors}>
-            <NavBar />
-            <ElectronicsMenu
-              category0="TV & Video"
-              category1="Home Audio & Theater"
-              category2="Camera, Photo & Video"
-              category3="Cell Phones & Accessories"
-              category4="Headphones"
-              category5="Video Games"
-              category6="Bluetooth & Wireless"
-              category7="Car Electronics"
-              category8="Musical Instruments"
-              category9="Wearable Technology"
-              category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Printers & Ink"
-              category17="Software"
-              category19="Office & School Supllies"
-              category20="Trade In Your Electronics"
-            />
-            <Monitors />
-          </Route>
-          <Route path="/electronics/networking" exact component={Networking}>
-            <NavBar />
-            <ElectronicsMenu
-              category0="TV & Video"
-              category1="Home Audio & Theater"
-              category2="Camera, Photo & Video"
-              category3="Cell Phones & Accessories"
-              category4="Headphones"
-              category5="Video Games"
-              category6="Bluetooth & Wireless"
-              category7="Car Electronics"
-              category8="Musical Instruments"
-              category9="Wearable Technology"
-              category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Printers & Ink"
-              category17="Software"
-              category19="Office & School Supllies"
-              category20="Trade In Your Electronics"
-            />
-            <Networking />
-          </Route>
-          <Route path="/electronics/software" exact component={Software}>
-            <NavBar />
-            <ElectronicsMenu
-              category0="TV & Video"
-              category1="Home Audio & Theater"
-              category2="Camera, Photo & Video"
-              category3="Cell Phones & Accessories"
-              category4="Headphones"
-              category5="Video Games"
-              category6="Bluetooth & Wireless"
-              category7="Car Electronics"
-              category8="Musical Instruments"
-              category9="Wearable Technology"
-              category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Printers & Ink"
-              category17="Software"
-              category19="Office & School Supllies"
-              category20="Trade In Your Electronics"
-            />
-            <Software />
           </Route>
           
 
 
+          <Route path="/computers" exact component={Computers}>
+            <NavBar />
+            <Computers></Computers>
+          </Route>
+          <Route path="/computers/tablet" exact component={ComputerTablet}>
+            <NavBar />
+            <ComputersMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Hard Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Software"
+            />
+            <ComputerTablet />
+          </Route>
+          <Route path="/computers/monitors" exact component={ComputerMonitors}>
+            <NavBar />
+            <ComputersMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Hard Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Software"
+            />
+            <ComputerMonitors />
+          </Route>
+          <Route path="/computers/accessories" exact component={ComputerAccessories}>
+            <NavBar />
+            <ComputersMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Hard Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Software"
+            />
+            <ComputerAccessories />
+          </Route>
+          <Route path="/computers/networking" exact component={ComputerNetworking}>
+            <NavBar />
+            <ComputersMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Hard Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Software"
+            />
+            <ComputerNetworking />
+          </Route>
+          <Route path="/computers/harddrives&storage" exact component={ComputerHardDrivesStorage}>
+            <NavBar />
+            <ComputersMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Hard Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Software"
+            />
+            <ComputerHardDrivesStorage />
+          </Route>
+          <Route path="/computers/parts&components" exact component={ComputerPartsComponents}>
+            <NavBar />
+            <ComputersMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Hard Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Software"
+            />
+            <ComputerPartsComponents />
+          </Route>
+          <Route path="/computers/software" exact component={ComputerSoftware}>
+            <NavBar />
+            <ComputersMenu
+              category0="Computers, Tablets & PC"
+              category1="Monitors"
+              category2="Accessories"
+              category3="Networking"
+              category4="Hard Drives & Storage"
+              category5="Computer Parts & Components"
+              category6="Software"
+            />
+            <ComputerSoftware />
+          </Route>
 
-          {/* Clothing & Jewelry COMPONENTS */}
-          <Route path="/clothing&jewelry" exact component={ClothingJewelry}>
+
+          {/* Clothing COMPONENTS */}
+          <Route path="/clothing" exact component={Clothing}>
             <NavBar />
-            <ClothingJewelry />
+            <Clothing />
           </Route>
-          <Route path="/clothing&jewelry/apperal" exact component={ClothingJewelryApperal}>
+          <Route path="/clothing/apparel" exact component={ClothingApparel}>
             <NavBar />
-            <ClothingJewelryMenu
+            <ClothingMenu
               category0="Apperal"
-              category1="Chainz"
-              category2="Watchz"
-              category3="Grillz"
-              category4="Pendantz"
+              category1="CLothing"
+              category2="Clothing"
+              category3="Clothing"
             />
-            <ClothingJewelryApperal />
+            <ClothingApparel />
           </Route>
-          <Route path="/clothing&jewelry/chainz" exact component={ClothingJewelryChainz}>
+
+
+          {/* Jewelry COMPONENTS */}
+          <Route path="/jewelry" exact component={Jewelry}>
             <NavBar />
-            <ClothingJewelryMenu
-              category0="Apperal"
-              category1="Chainz"
-              category2="Watchz"
-              category3="Grillz"
-              category4="Pendantz"
-            />
-            <ClothingJewelryChainz />
+            <Jewelry />
           </Route>
-          <Route path="/clothing&jewelry/watchz" exact component={ClothingJewelryWatchz}>
+          <Route path="/jewelry/necklaces" exact component={JewelryNecklace}>
             <NavBar />
-            <ClothingJewelryMenu
-              category0="Apperal"
-              category1="Chainz"
-              category2="Watchz"
-              category3="Grillz"
-              category4="Pendantz"
+            <JewelryMenu
+              category0="Necklace's"
+              category1="Watch's"
+              category2="Earring's"
+              category3="Pendant's"
+              category4="Premium Jewelries"
             />
-            <ClothingJewelryWatchz />
+            <JewelryNecklace />
           </Route>
-          <Route path="/clothing&jewelry/grillz" exact component={ClothingJewelryGrillz}>
+          <Route path="/jewelry/watchs" exact component={JewelryWatchz}>
             <NavBar />
-            <ClothingJewelryMenu
-              category0="Apperal"
-              category1="Chainz"
-              category2="Watchz"
-              category3="Grillz"
-              category4="Pendantz"
+            <JewelryMenu
+              category0="Necklace's"
+              category1="Watch's"
+              category2="Earring's"
+              category3="Pendant's"
+              category4="Premium Jewelries"
             />
-            <ClothingJewelryGrillz />
+            <JewelryWatchz />
           </Route>
-          <Route path="/clothing&jewelry/pendantz" exact component={ClothingJewelryPendantz}>
+          <Route path="/jewelry/earrings" exact component={JewelryEarrings}>
             <NavBar />
-            <ClothingJewelryMenu
-              category0="Apperal"
-              category1="Chainz"
-              category2="Watchz"
-              category3="Grillz"
-              category4="Pendantz"
+            <JewelryMenu
+              category0="Necklace's"
+              category1="Watch's"
+              category2="Earring's"
+              category3="Pendant's"
+              category4="Premium Jewelries"
             />
-            <ClothingJewelryPendantz />
+            <JewelryEarrings />
+          </Route>
+          <Route path="/jewelry/pendants" exact component={JewelryPendant}>
+            <NavBar />
+            <JewelryMenu
+              category0="Necklace's"
+              category1="Watch's"
+              category2="Earring's"
+              category3="Pendant's"
+              category4="Premium Jewelries"
+            />
+            <JewelryPendant />
+          </Route>
+          <Route path="/jewelry/premiumjewelries" exact component={PremiumJewelry}>
+            <NavBar />
+            <JewelryMenu
+              category0="Necklace's"
+              category1="Watch's"
+              category2="Earring's"
+              category3="Pendant's"
+              category4="Premium Jewelries"
+            />
+            <PremiumJewelry />
           </Route>
         </Switch>
         <Footer />
