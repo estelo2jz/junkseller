@@ -176,7 +176,7 @@ function Networking() {
           rateNumber={"567"}
           rating={4}
           listPrice={""}
-          image=" "
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
