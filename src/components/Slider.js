@@ -48,13 +48,13 @@ function Slider() {
       descThree="Bath"
       descFour="Sewing"
       descOneImg={"https://img.ltwebstatic.com/images3_pi/2020/06/22/159278947463d4527e11cdfca1fcb83cf623bcf08f_thumbnail_900x.webp"}
-      descTwoImg={"https://images.ctfassets.net/od02wyo8cgm5/3EfoQCOVEYhdsiLUv3t2O9/23b02d79f25e28186b6704d9eabb5aca/cloud_x-fw20-white_black-m-g1.png"}
+      descTwoImg={"https://herschel.com/content/dam/herschel/products/10007/10007-00055-OS_01.jpg.sthumbnails.1000.1250.jpg"}
       descThreeImg={"https://cdn.shopify.com/s/files/1/0866/4890/products/115_1024x1024.jpg?v=1559539042"}
       descFourImg={"https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Porous-Walker-Shark-Attack-Blue-Speckled-Beanie-_337872-front-US.jpg"}
-      descPathOne="/clothing/apparel"
-      descPathTwo="/clothing/"
-      descPathThree="/clothing/"
-      descPathFour="/clothing/"
+      descPathOne="/clothing/hoodies&sweaters"
+      descPathTwo="/clothing/backpacks"
+      descPathThree="/clothing/shirts&tees"
+      descPathFour="/clothing/hats&beanies"
     />,
     <HomeSlider 
       src={ComputerLogo}
@@ -67,10 +67,10 @@ function Slider() {
       descTwoImg={"https://cdn.shopify.com/s/files/1/0057/0189/4257/products/9mmGold_1500x.jpg?v=1585111232"}
       descThreeImg={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw50b22d25/images/products/L213.1L.531_fr.jpg?sw=1660&sh=1660"}
       descFourImg={"https://cdn11.bigcommerce.com/s-f813d/images/stencil/1280x1280/products/9017/26667/N0765__44700.1497665219.jpg?c=2"} 
-      descPathOne= "/jewelry/diamonds&chains"
-      descPathTwo="/jewelry/diamonds&grills"
-      descPathThree="/jewelry/diamonds&watchs"
-      descPathFour="/jewelry/diamonds&pendants"
+      descPathOne= "/jewelry/necklaces"
+      descPathTwo="/jewelry/earrings"
+      descPathThree="/jewelry/watchs"
+      descPathFour="/jewelry/pendants"
     />,
     // <HomeSlider 
     //   src={OutdoorsLogo} 

@@ -64,11 +64,8 @@ function Clothing() {
               image="https://images-na.ssl-images-amazon.com/images/I/711tUVoZkbL._AC_UL1249_.jpg"
             />
           </div>
-          <div className="computer__container-3-grid">
+          <div className="clothing__container">
           </div>
-        </div>
-        <div>
-          
         </div>
       </div>
     </div>

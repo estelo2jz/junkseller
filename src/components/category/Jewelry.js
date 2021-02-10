@@ -1,5 +1,6 @@
 import React from 'react';
 import { uuid } from 'uuidv4';
+import { Link } from 'react-router-dom';
 import JewelryProductTemplate from '../JewelryCategory/Category/JewelryProductTemplate';
 import ClothingJewelryMenu from '../JewelryCategory/JewelryMenu';
 import '../../styles/Computer.scss';
@@ -73,7 +74,45 @@ function ClothingJewelry() {
               image="https://www.icebox.com/unsafe/800x600/icebox-jewelry.s3.amazonaws.com/products/dd0b6638ea3f949ceb9ae1abc1e3e6ff.jpg"
             />
           </div>
-          <div className="computer__container-3-grid">
+          <div className="jewelry__container">
+            <Link to="/jewelry/necklaces" className="jewelry__link-header" >
+              <p>Necklaces</p>
+            </Link>
+            <div className="jewelry__product-container">
+              <div className="jewelry__info-header" >
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+          <div className="jewelry__container">
+            <Link to="/jewelry/watchs" className="jewelry__link-header" >
+              <p>Watchs</p>
+            </Link>
+            <div className="jewelry__product-container">
+              <div className="jewelry__info-header" >
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+          <div className="jewelry__container">
+            <Link to="/jewelry/pendants" className="jewelry__link-header" >
+              <p>Pendants</p>
+            </Link>
+            <div className="jewelry__product-container">
+              <div className="jewelry__info-header" >
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+          <div className="jewelry__container">
+            <Link to="/jewelry/earrings" className="jewelry__link-header" >
+              <p>Earrings</p>
+            </Link>
+            <div className="jewelry__product-container">
+              <div className="jewelry__info-header" >
+                <p>hello</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
