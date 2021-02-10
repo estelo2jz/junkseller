@@ -38,9 +38,6 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="computer-accessories-template__title">
-          <p>{title}</p>
-        </div>
         <div className="computer-accessories-template__rating">
           <p>
             {
@@ -52,6 +49,9 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
             }
           </p>
           <p>{rateNumber}</p>
+        </div>
+        <div className="computer-accessories-template__title">
+          <p>{title}</p>
         </div>
       </div>
       <div className="computer-accessories-template__btn">
@@ -72,11 +72,11 @@ function ComputerAccessories() {
       {/* <div className="computer-accessories__ads-one">
         <img src="" />
       </div> */}
-      <div className="computer-accessories__category">
+      {/* <div className="computer-accessories__category">
         <Link to="/" className="computer-accessories__category-img">
           <img src="" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="computer-accessories__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
@@ -84,12 +84,12 @@ function ComputerAccessories() {
       <div className="computer-accessories__product-container">
         <ComputerAccessoriesTemplate
           id={uuid()}
-          title=""
-          price={118.69}
+          title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
+          price={129.99}
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -98,7 +98,7 @@ function ComputerAccessories() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -107,7 +107,7 @@ function ComputerAccessories() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -116,7 +116,7 @@ function ComputerAccessories() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -125,7 +125,7 @@ function ComputerAccessories() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -134,7 +134,7 @@ function ComputerAccessories() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -143,7 +143,7 @@ function ComputerAccessories() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -152,7 +152,7 @@ function ComputerAccessories() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
 
       </div>
@@ -168,7 +168,7 @@ function ComputerAccessories() {
           rateNumber={"313,962"}
           rating={5}
           listPrice={"299.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -186,7 +186,7 @@ function ComputerAccessories() {
           rateNumber={"1,886"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -195,7 +195,7 @@ function ComputerAccessories() {
           rateNumber={"1,988"}
           rating={4}
           listPrice="2349.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -204,7 +204,7 @@ function ComputerAccessories() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -213,7 +213,7 @@ function ComputerAccessories() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -222,7 +222,7 @@ function ComputerAccessories() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -231,7 +231,7 @@ function ComputerAccessories() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
 
       </div>
@@ -247,7 +247,7 @@ function ComputerAccessories() {
           rateNumber={"771"}
           rating={4}
           listPrice={"35.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -256,7 +256,7 @@ function ComputerAccessories() {
           rateNumber={"71"}
           rating={5}
           listPrice={"30.89"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -265,7 +265,7 @@ function ComputerAccessories() {
           rateNumber={"128"}
           rating={4}
           listPrice={"15.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -274,7 +274,7 @@ function ComputerAccessories() {
           rateNumber={"1,988"}
           rating={5}
           listPrice="34.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -283,7 +283,7 @@ function ComputerAccessories() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -292,7 +292,7 @@ function ComputerAccessories() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -301,7 +301,7 @@ function ComputerAccessories() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -310,7 +310,7 @@ function ComputerAccessories() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
 
       </div>
@@ -326,7 +326,7 @@ function ComputerAccessories() {
           rateNumber={"1,432"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -335,7 +335,7 @@ function ComputerAccessories() {
           rateNumber={"11,712"}
           rating={4}
           listPrice={"259.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -344,7 +344,7 @@ function ComputerAccessories() {
           rateNumber={"3,586"}
           rating={4}
           listPrice={"209.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -353,7 +353,7 @@ function ComputerAccessories() {
           rateNumber={"9,656"}
           rating={4}
           listPrice="99.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -362,7 +362,7 @@ function ComputerAccessories() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -371,7 +371,7 @@ function ComputerAccessories() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -380,7 +380,7 @@ function ComputerAccessories() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -389,7 +389,7 @@ function ComputerAccessories() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
 
       </div>
@@ -463,7 +463,7 @@ function ComputerAccessories() {
           rateNumber={"791"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -472,7 +472,7 @@ function ComputerAccessories() {
           rateNumber={"6,475"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -481,7 +481,7 @@ function ComputerAccessories() {
           rateNumber={"7,520"}
           rating={5}
           listPrice={"269.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -490,7 +490,7 @@ function ComputerAccessories() {
           rateNumber={"5,432"}
           rating={4}
           listPrice="269.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -499,7 +499,7 @@ function ComputerAccessories() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -508,7 +508,7 @@ function ComputerAccessories() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -517,7 +517,7 @@ function ComputerAccessories() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -526,7 +526,7 @@ function ComputerAccessories() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
 
       </div>
@@ -542,7 +542,7 @@ function ComputerAccessories() {
           rateNumber={"444"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -551,7 +551,7 @@ function ComputerAccessories() {
           rateNumber={"1,249"}
           rating={4}
           listPrice={"369.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -560,7 +560,7 @@ function ComputerAccessories() {
           rateNumber={"12,101"}
           rating={4}
           listPrice={"369.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -569,7 +569,7 @@ function ComputerAccessories() {
           rateNumber={"12,190"}
           rating={4}
           listPrice="369.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -578,7 +578,7 @@ function ComputerAccessories() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -587,7 +587,7 @@ function ComputerAccessories() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -596,7 +596,7 @@ function ComputerAccessories() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
         <ComputerAccessoriesTemplate
           id={uuid()}
@@ -605,7 +605,7 @@ function ComputerAccessories() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
 
       </div>

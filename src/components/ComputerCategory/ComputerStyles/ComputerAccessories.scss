@@ -17,7 +17,7 @@
   .computer-accessories-template__info {
     overflow: hidden;
     // height: 50%;
-    height: 80px;
+    height: 110px;
     width: 100%;
     z-index: 1;
     padding-top: 1px;
@@ -50,8 +50,9 @@
   }
   .computer-accessories-template__price {
     // font-size: 0.8em;
-    padding: 5px 0px;
+    padding: 3px 0px;
     margin-left: 10px;
+    height: 40px;
     
     span {
       margin: 0;
@@ -88,13 +89,16 @@
     padding: 2px 2px;
     // margin-left: 12px;
     width: 100%;
+    // background-color: red;
+    height: 35px;
 
     p {
-      margin-left: 10px;
+      // margin-left: 10px;
+      padding: 0px 10px;
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
-      -webkit-line-clamp: 1; /* number of lines to show */
+      -webkit-line-clamp: 2; /* number of lines to show */
       -webkit-box-orient: vertical;
     }
 

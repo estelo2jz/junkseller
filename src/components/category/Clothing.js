@@ -29,9 +29,9 @@ function Clothing() {
             />
             <ClothingProductTemplate
               id={uuid()}
-              title="Access Cargo Pants Beige"
+              title="Men Letter Embroidery Ripped Jeans"
               price={44.99}
-              image="https://www.lafuma.com/media/catalog/product/cache/18/image/9df78eab33525d08d6e5fb8d27136e95/l/f/lfv11318-2768-pantalon-homme-access-cargo-pants-m-beige_1.jpg"
+              image="https://op2.0ps.us/original/opplanet-black-diamond-sharp-end-womens-snow-shell-pants-black-extra-small-aphu53015xsm1-main"
             />
             <ClothingProductTemplate
               id={uuid()}

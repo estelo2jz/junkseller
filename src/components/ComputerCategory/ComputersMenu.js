@@ -48,13 +48,6 @@ function ComputersMenu(props) {
           </span>
         </Link>
       </div>
-      <div className="computer-menu-items">
-        <Link to="/computers/software">
-          <span>
-            {props.category6}
-          </span>
-        </Link>
-      </div>
     </div>
   )
 }

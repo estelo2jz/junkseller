@@ -18,7 +18,6 @@ function Computers() {
             category3="Networking"
             category4="Hard Drives & Storage"
             category5="Computer Parts & Components"
-            category6="Software"
           />
         </div>
         <div className="electronics__container-flex-grid">

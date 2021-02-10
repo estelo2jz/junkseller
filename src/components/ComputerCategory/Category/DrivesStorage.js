@@ -72,11 +72,11 @@ function DrivesStorage() {
       {/* <div className="drives-storage__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="drives-storage__category">
+      {/* <div className="drives-storage__category">
         <Link to="/" className="drives-storage__category-img">
           <img src="" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="drives-storage__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
@@ -84,12 +84,12 @@ function DrivesStorage() {
       <div className="drives-storage__product-container">
         <DrivesStorageTemplate
           id={uuid()}
-          title=""
+          title="Samsung 860 PRO MZ-76P2T0E - solid state drive - 2 TB - SATA 6Gb/s"
           price={118.69}
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -98,7 +98,7 @@ function DrivesStorage() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -107,7 +107,7 @@ function DrivesStorage() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -116,7 +116,7 @@ function DrivesStorage() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -125,7 +125,7 @@ function DrivesStorage() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -134,7 +134,7 @@ function DrivesStorage() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -143,7 +143,7 @@ function DrivesStorage() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -152,7 +152,7 @@ function DrivesStorage() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
       </div>
       <div className="drives-storage__sub-heading">
@@ -167,7 +167,7 @@ function DrivesStorage() {
           rateNumber={"313,962"}
           rating={5}
           listPrice={"299.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -185,7 +185,7 @@ function DrivesStorage() {
           rateNumber={"1,886"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -194,7 +194,7 @@ function DrivesStorage() {
           rateNumber={"1,988"}
           rating={4}
           listPrice="2349.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -203,7 +203,7 @@ function DrivesStorage() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -212,7 +212,7 @@ function DrivesStorage() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -221,7 +221,7 @@ function DrivesStorage() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -230,7 +230,7 @@ function DrivesStorage() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
       </div>
       <div className="drives-storage__sub-heading">
@@ -245,7 +245,7 @@ function DrivesStorage() {
           rateNumber={"771"}
           rating={4}
           listPrice={"35.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -254,7 +254,7 @@ function DrivesStorage() {
           rateNumber={"71"}
           rating={5}
           listPrice={"30.89"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -263,7 +263,7 @@ function DrivesStorage() {
           rateNumber={"128"}
           rating={4}
           listPrice={"15.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -272,7 +272,7 @@ function DrivesStorage() {
           rateNumber={"1,988"}
           rating={5}
           listPrice="34.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -281,7 +281,7 @@ function DrivesStorage() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -290,7 +290,7 @@ function DrivesStorage() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -299,7 +299,7 @@ function DrivesStorage() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -308,7 +308,7 @@ function DrivesStorage() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
       </div>
       <div className="drives-storage__sub-heading">
@@ -323,7 +323,7 @@ function DrivesStorage() {
           rateNumber={"1,432"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -332,7 +332,7 @@ function DrivesStorage() {
           rateNumber={"11,712"}
           rating={4}
           listPrice={"259.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -341,7 +341,7 @@ function DrivesStorage() {
           rateNumber={"3,586"}
           rating={4}
           listPrice={"209.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -350,7 +350,7 @@ function DrivesStorage() {
           rateNumber={"9,656"}
           rating={4}
           listPrice="99.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -359,7 +359,7 @@ function DrivesStorage() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -368,7 +368,7 @@ function DrivesStorage() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -377,7 +377,7 @@ function DrivesStorage() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -386,7 +386,7 @@ function DrivesStorage() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
       </div>
       <div className="drives-storage__sub-heading">
@@ -459,7 +459,7 @@ function DrivesStorage() {
           rateNumber={"791"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -468,7 +468,7 @@ function DrivesStorage() {
           rateNumber={"6,475"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -477,7 +477,7 @@ function DrivesStorage() {
           rateNumber={"7,520"}
           rating={5}
           listPrice={"269.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -486,7 +486,7 @@ function DrivesStorage() {
           rateNumber={"5,432"}
           rating={4}
           listPrice="269.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -495,7 +495,7 @@ function DrivesStorage() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -504,7 +504,7 @@ function DrivesStorage() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -513,7 +513,7 @@ function DrivesStorage() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -522,7 +522,7 @@ function DrivesStorage() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
       </div>
       <div className="drives-storage__sub-heading">
@@ -537,7 +537,7 @@ function DrivesStorage() {
           rateNumber={"444"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -546,7 +546,7 @@ function DrivesStorage() {
           rateNumber={"1,249"}
           rating={4}
           listPrice={"369.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -555,7 +555,7 @@ function DrivesStorage() {
           rateNumber={"12,101"}
           rating={4}
           listPrice={"369.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -564,7 +564,7 @@ function DrivesStorage() {
           rateNumber={"12,190"}
           rating={4}
           listPrice="369.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -573,7 +573,7 @@ function DrivesStorage() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -582,7 +582,7 @@ function DrivesStorage() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -591,7 +591,7 @@ function DrivesStorage() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
         <DrivesStorageTemplate
           id={uuid()}
@@ -600,7 +600,7 @@ function DrivesStorage() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
       </div>
     </div>

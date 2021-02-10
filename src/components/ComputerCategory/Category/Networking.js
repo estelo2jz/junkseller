@@ -38,9 +38,6 @@ function NetworkingTemplate({ id, title, image, price, rating, rateNumber, listP
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="networking-template__title">
-          <p>{title}</p>
-        </div>
         <div className="networking-template__rating">
           <p>
             {
@@ -52,6 +49,9 @@ function NetworkingTemplate({ id, title, image, price, rating, rateNumber, listP
             }
           </p>
           <p>{rateNumber}</p>
+        </div>
+        <div className="networking-template__title">
+          <p>{title}</p>
         </div>
       </div>
       <div className="networking-template__btn">
@@ -72,11 +72,11 @@ function Networking() {
       {/* <div className="networking__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="networking__category">
+      {/* <div className="networking__category">
         <Link to="/" className="networking__category-img">
           <img src="" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="networking__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
@@ -84,12 +84,12 @@ function Networking() {
       <div className="networking__product-container">
         <NetworkingTemplate
           id={uuid()}
-          title=""
-          price={118.69}
+          title="Linksys MR8300 Mesh Wi-Fi Router"
+          price={255.79}
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -98,7 +98,7 @@ function Networking() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -107,7 +107,7 @@ function Networking() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -116,7 +116,7 @@ function Networking() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -125,7 +125,7 @@ function Networking() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -134,7 +134,7 @@ function Networking() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -143,7 +143,7 @@ function Networking() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -152,7 +152,7 @@ function Networking() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
       </div>
       <div className="networking__sub-heading">
@@ -167,7 +167,7 @@ function Networking() {
           rateNumber={"313,962"}
           rating={5}
           listPrice={"299.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -185,7 +185,7 @@ function Networking() {
           rateNumber={"1,886"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -194,7 +194,7 @@ function Networking() {
           rateNumber={"1,988"}
           rating={4}
           listPrice="2349.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -203,7 +203,7 @@ function Networking() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -212,7 +212,7 @@ function Networking() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -221,7 +221,7 @@ function Networking() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -230,7 +230,7 @@ function Networking() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
       </div>
       <div className="networking__sub-heading">
@@ -245,7 +245,7 @@ function Networking() {
           rateNumber={"771"}
           rating={4}
           listPrice={"35.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -254,7 +254,7 @@ function Networking() {
           rateNumber={"71"}
           rating={5}
           listPrice={"30.89"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -263,7 +263,7 @@ function Networking() {
           rateNumber={"128"}
           rating={4}
           listPrice={"15.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -272,7 +272,7 @@ function Networking() {
           rateNumber={"1,988"}
           rating={5}
           listPrice="34.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -281,7 +281,7 @@ function Networking() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -290,7 +290,7 @@ function Networking() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -299,7 +299,7 @@ function Networking() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -308,7 +308,7 @@ function Networking() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
       </div>
       <div className="networking__sub-heading">
@@ -323,7 +323,7 @@ function Networking() {
           rateNumber={"1,432"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -332,7 +332,7 @@ function Networking() {
           rateNumber={"11,712"}
           rating={4}
           listPrice={"259.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -341,7 +341,7 @@ function Networking() {
           rateNumber={"3,586"}
           rating={4}
           listPrice={"209.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -350,7 +350,7 @@ function Networking() {
           rateNumber={"9,656"}
           rating={4}
           listPrice="99.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -359,7 +359,7 @@ function Networking() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -368,7 +368,7 @@ function Networking() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -377,7 +377,7 @@ function Networking() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -386,7 +386,7 @@ function Networking() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
       </div>
       <div className="networking__sub-heading">
@@ -459,7 +459,7 @@ function Networking() {
           rateNumber={"791"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -468,7 +468,7 @@ function Networking() {
           rateNumber={"6,475"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -477,7 +477,7 @@ function Networking() {
           rateNumber={"7,520"}
           rating={5}
           listPrice={"269.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -486,7 +486,7 @@ function Networking() {
           rateNumber={"5,432"}
           rating={4}
           listPrice="269.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -495,7 +495,7 @@ function Networking() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -504,7 +504,7 @@ function Networking() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -513,7 +513,7 @@ function Networking() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -522,7 +522,7 @@ function Networking() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
       </div>
       <div className="networking__sub-heading">
@@ -537,7 +537,7 @@ function Networking() {
           rateNumber={"444"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -546,7 +546,7 @@ function Networking() {
           rateNumber={"1,249"}
           rating={4}
           listPrice={"369.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -555,7 +555,7 @@ function Networking() {
           rateNumber={"12,101"}
           rating={4}
           listPrice={"369.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -564,7 +564,7 @@ function Networking() {
           rateNumber={"12,190"}
           rating={4}
           listPrice="369.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -573,7 +573,7 @@ function Networking() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -582,7 +582,7 @@ function Networking() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -591,7 +591,7 @@ function Networking() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
         <NetworkingTemplate
           id={uuid()}
@@ -600,7 +600,7 @@ function Networking() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
       </div>
     </div>

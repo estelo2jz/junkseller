@@ -38,9 +38,6 @@ function ComputerComponentsTemplate({ id, title, image, price, rating, rateNumbe
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="computer-components-template__title">
-          <p>{title}</p>
-        </div>
         <div className="computer-components-template__rating">
           <p>
             {
@@ -52,6 +49,9 @@ function ComputerComponentsTemplate({ id, title, image, price, rating, rateNumbe
             }
           </p>
           <p>{rateNumber}</p>
+        </div>
+        <div className="computer-components-template__title">
+          <p>{title}</p>
         </div>
       </div>
       <div className="computer-components-template__btn">
@@ -72,11 +72,11 @@ function ComputerComponents() {
       {/* <div className="computer-components__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="computer-components__category">
+      {/* <div className="computer-components__category">
         <Link to="/" className="computer-components__category-img">
           <img src="" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="computer-components__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
@@ -84,12 +84,12 @@ function ComputerComponents() {
       <div className="computer-components__product-container">
         <ComputerComponentsTemplate
           id={uuid()}
-          title=""
-          price={118.69}
+          title="Nvidia GeForce RTX 2080 Ti"
+          price={499.99}
           rateNumber={"8,576"}
           rating={5}
-          listPrice={""}
-          image=""
+          listPrice={"799.99"}
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -98,7 +98,7 @@ function ComputerComponents() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -107,7 +107,7 @@ function ComputerComponents() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -116,7 +116,7 @@ function ComputerComponents() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -125,7 +125,7 @@ function ComputerComponents() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -134,7 +134,7 @@ function ComputerComponents() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -143,7 +143,7 @@ function ComputerComponents() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -152,7 +152,7 @@ function ComputerComponents() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
       </div>
       <div className="computer-components__sub-heading">
@@ -167,7 +167,7 @@ function ComputerComponents() {
           rateNumber={"313,962"}
           rating={5}
           listPrice={"299.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -176,7 +176,7 @@ function ComputerComponents() {
           rateNumber={"567"}
           rating={4}
           listPrice={""}
-          image=" "
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png "
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -185,7 +185,7 @@ function ComputerComponents() {
           rateNumber={"1,886"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -194,7 +194,7 @@ function ComputerComponents() {
           rateNumber={"1,988"}
           rating={4}
           listPrice="2349.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -203,7 +203,7 @@ function ComputerComponents() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -212,7 +212,7 @@ function ComputerComponents() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -221,7 +221,7 @@ function ComputerComponents() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -230,7 +230,7 @@ function ComputerComponents() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
       </div>
       <div className="computer-components__sub-heading">
@@ -245,7 +245,7 @@ function ComputerComponents() {
           rateNumber={"771"}
           rating={4}
           listPrice={"35.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -254,7 +254,7 @@ function ComputerComponents() {
           rateNumber={"71"}
           rating={5}
           listPrice={"30.89"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -263,7 +263,7 @@ function ComputerComponents() {
           rateNumber={"128"}
           rating={4}
           listPrice={"15.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -272,7 +272,7 @@ function ComputerComponents() {
           rateNumber={"1,988"}
           rating={5}
           listPrice="34.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -281,7 +281,7 @@ function ComputerComponents() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -290,7 +290,7 @@ function ComputerComponents() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -299,7 +299,7 @@ function ComputerComponents() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -308,7 +308,7 @@ function ComputerComponents() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
       </div>
       <div className="computer-components__sub-heading">
@@ -323,7 +323,7 @@ function ComputerComponents() {
           rateNumber={"1,432"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -332,7 +332,7 @@ function ComputerComponents() {
           rateNumber={"11,712"}
           rating={4}
           listPrice={"259.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -341,7 +341,7 @@ function ComputerComponents() {
           rateNumber={"3,586"}
           rating={4}
           listPrice={"209.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -350,7 +350,7 @@ function ComputerComponents() {
           rateNumber={"9,656"}
           rating={4}
           listPrice="99.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -359,7 +359,7 @@ function ComputerComponents() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -368,7 +368,7 @@ function ComputerComponents() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -377,7 +377,7 @@ function ComputerComponents() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -386,7 +386,7 @@ function ComputerComponents() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
       </div>
       <div className="computer-components__sub-heading">
@@ -459,7 +459,7 @@ function ComputerComponents() {
           rateNumber={"791"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -468,7 +468,7 @@ function ComputerComponents() {
           rateNumber={"6,475"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -477,7 +477,7 @@ function ComputerComponents() {
           rateNumber={"7,520"}
           rating={5}
           listPrice={"269.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -486,7 +486,7 @@ function ComputerComponents() {
           rateNumber={"5,432"}
           rating={4}
           listPrice="269.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -495,7 +495,7 @@ function ComputerComponents() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -504,7 +504,7 @@ function ComputerComponents() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -513,7 +513,7 @@ function ComputerComponents() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -522,7 +522,7 @@ function ComputerComponents() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
       </div>
       <div className="computer-components__sub-heading">
@@ -537,7 +537,7 @@ function ComputerComponents() {
           rateNumber={"444"}
           rating={4}
           listPrice={"449.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -546,7 +546,7 @@ function ComputerComponents() {
           rateNumber={"1,249"}
           rating={4}
           listPrice={"369.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -555,7 +555,7 @@ function ComputerComponents() {
           rateNumber={"12,101"}
           rating={4}
           listPrice={"369.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -564,7 +564,7 @@ function ComputerComponents() {
           rateNumber={"12,190"}
           rating={4}
           listPrice="369.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -573,7 +573,7 @@ function ComputerComponents() {
           rateNumber={"8,576"}
           rating={5}
           listPrice={""}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -582,7 +582,7 @@ function ComputerComponents() {
           rateNumber={"3,873"}
           rating={5}
           listPrice={"209.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -591,7 +591,7 @@ function ComputerComponents() {
           rateNumber={"1,997"}
           rating={4}
           listPrice={"759.99"}
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
         <ComputerComponentsTemplate
           id={uuid()}
@@ -600,7 +600,7 @@ function ComputerComponents() {
           rateNumber={"19,140"}
           rating={4}
           listPrice="239.99"
-          image=""
+          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
         />
       </div>
     </div>

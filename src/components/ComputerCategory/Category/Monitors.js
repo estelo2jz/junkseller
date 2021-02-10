@@ -38,9 +38,6 @@ function MonitorsTemplate({ id, title, image, price, rating, rateNumber, listPri
             <p>{listPrice}</p>
           </span>
         </div>
-        <div className="monitor-template__title">
-          <p>{title}</p>
-        </div>
         <div className="monitor-template__rating">
           <p>
             {
@@ -52,6 +49,9 @@ function MonitorsTemplate({ id, title, image, price, rating, rateNumber, listPri
             }
           </p>
           <p>{rateNumber}</p>
+        </div>
+        <div className="monitor-template__title">
+          <p>{title}</p>
         </div>
       </div>
         <div className="monitor-template__btn">

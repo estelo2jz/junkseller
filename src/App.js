@@ -304,7 +304,6 @@ function App() {
               category3="Networking"
               category4="Hard Drives & Storage"
               category5="Computer Parts & Components"
-              category6="Software"
             />
             <ComputerTablet />
           </Route>
@@ -317,7 +316,6 @@ function App() {
               category3="Networking"
               category4="Hard Drives & Storage"
               category5="Computer Parts & Components"
-              category6="Software"
             />
             <ComputerMonitors />
           </Route>
@@ -330,7 +328,6 @@ function App() {
               category3="Networking"
               category4="Hard Drives & Storage"
               category5="Computer Parts & Components"
-              category6="Software"
             />
             <ComputerAccessories />
           </Route>
@@ -343,7 +340,6 @@ function App() {
               category3="Networking"
               category4="Hard Drives & Storage"
               category5="Computer Parts & Components"
-              category6="Software"
             />
             <ComputerNetworking />
           </Route>
@@ -356,7 +352,6 @@ function App() {
               category3="Networking"
               category4="Hard Drives & Storage"
               category5="Computer Parts & Components"
-              category6="Software"
             />
             <ComputerHardDrivesStorage />
           </Route>
@@ -369,7 +364,6 @@ function App() {
               category3="Networking"
               category4="Hard Drives & Storage"
               category5="Computer Parts & Components"
-              category6="Software"
             />
             <ComputerPartsComponents />
           </Route>
@@ -382,7 +376,6 @@ function App() {
               category3="Networking"
               category4="Hard Drives & Storage"
               category5="Computer Parts & Components"
-              category6="Software"
             />
             <ComputerSoftware />
           </Route>

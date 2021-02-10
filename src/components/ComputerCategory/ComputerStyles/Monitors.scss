@@ -22,7 +22,6 @@
     z-index: 1;
     padding-top: 1px;
     background-color: rgb(243, 240, 241);
-    
   }
   .monitor-template__img {
     
@@ -49,7 +48,7 @@
   }
   .monitor-template__price {
     // font-size: 0.8em;
-    padding: 5px 0px;
+    padding: 3px 0px;
     margin-left: 10px;
     // background-color: red;
     height: 40px;
@@ -74,8 +73,11 @@
   .monitor-template__title {
     font-size: 0.8em;
     padding: 2px 2px;
+    // background-color: red;
+    height: 35px;
     p {
-      margin-left: 10px;
+      // margin-left: 10px;
+      padding: 0px 10px;
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
