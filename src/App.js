@@ -535,7 +535,7 @@ function App() {
             />
             <JewelryPendant />
           </Route>
-          <Route path="/jewelry/premiumjewelries" exact component={PremiumJewelry}>
+          {/* <Route path="/jewelry/premiumjewelries" exact component={PremiumJewelry}>
             <NavBar />
             <JewelryMenu
               category0="Necklace's"
@@ -545,7 +545,7 @@ function App() {
               category4="Premium Jewelries"
             />
             <PremiumJewelry />
-          </Route>
+          </Route> */}
         </Switch>
         <Footer />
       </div>

@@ -72,11 +72,11 @@ function PantsJeans() {
       {/* <div className="pants-jeans__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="pants-jeans__category">
+      {/* <div className="pants-jeans__category">
         <Link to="/" className="pants-jeans__category-img">
           <img src="https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=width:2400,fit:crop/output=quality:70/compress/https://process.fs.grailed.com/o0kVgpwXTIOvYLSreGBs" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="pants-jeans__sub-heading">
         <p>Top rated</p>
         <p>See more</p>

@@ -90,227 +90,227 @@ function Necklace() {
       <div className="necklace__product-container">
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
         <NecklaceTemplate
           id={uuid()}
-          title="DIAMOND STAR CHAIN"
-          price={128.00}
-          image={"https://cdn.onecklace.com/products/2250/gold_plated_product_2250_1_450.jpeg"}
-          nameID={'JDN090517'}
+          title="Mini Diamond Vertical Bar Necklace"
+          price={"128.00"}
+          image={"https://bnsec.bluenile.com/bluenile/is/image/bluenile/-diamond-vertical-bar-necklace-in-14k-white-gold-/73287_main?$phab_detailmain$"}
+          nameID={'14k White Gold'}
         />
       </div>
     </div>

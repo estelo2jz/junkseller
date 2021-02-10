@@ -72,11 +72,11 @@ function Jackets() {
       {/* <div className="jackets__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="jackets__category">
+      {/* <div className="jackets__category">
         <Link to="/" className="jackets__category-img">
           <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-winter-coat-index-1603989326.jpg" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="jackets__sub-heading">
         <p>Top rated</p>
         <p>See more</p>

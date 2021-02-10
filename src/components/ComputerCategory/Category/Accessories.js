@@ -118,6 +118,43 @@ function ComputerAccessories() {
           listPrice="239.99"
           image=""
         />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
+
       </div>
       <div className="computer-accessories__sub-heading">
         <p>Hot new releases</p>
@@ -160,6 +197,43 @@ function ComputerAccessories() {
           listPrice="2349.99"
           image=""
         />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
+
       </div>
       <div className="computer-accessories__sub-heading">
         <p>Under $25</p>
@@ -202,6 +276,43 @@ function ComputerAccessories() {
           listPrice="34.99"
           image=""
         />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
+
       </div>
       <div className="computer-accessories__sub-heading">
         <p>Best Sellers</p>
@@ -244,6 +355,43 @@ function ComputerAccessories() {
           listPrice="99.99"
           image=""
         />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
+
       </div>
       <div className="computer-accessories__sub-heading">
         <p>Lightning deals</p>
@@ -344,6 +492,43 @@ function ComputerAccessories() {
           listPrice="269.99"
           image=""
         />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
+
       </div>
       <div className="computer-accessories__sub-heading">
         <p>Most gifted</p>
@@ -386,6 +571,43 @@ function ComputerAccessories() {
           listPrice="369.99"
           image=""
         />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerAccessoriesTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
+
       </div>
     </div>
   )

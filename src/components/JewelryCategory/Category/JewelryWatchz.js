@@ -112,168 +112,168 @@ function Watchz() {
           id={uuid()}
           nameID = {"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="Custom Watch 0001"
-          price={38000}
+          price={"700.50"}
           image={"https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSBlue_Brown_1000x.jpg?v=1611165666"}
         />
       </div>

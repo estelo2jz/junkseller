@@ -34,13 +34,6 @@ function ElectronicsMenu(props) {
           </span>
         </Link>
       </div>
-      <div className="jewelry-menu-items">
-        <Link to="/jewelry/premiumjewelries">
-          <span>
-            {props.category4}
-          </span>
-        </Link>
-      </div>
     </div>
   )
 }

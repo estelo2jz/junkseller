@@ -72,11 +72,11 @@ function Apparel() {
       {/* <div className="apparel__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="apparel__category">
+      {/* <div className="apparel__category">
         <Link to="/" className="apparel__category-img">
           <img src="https://pbs.twimg.com/media/DnY4D1QWwAAtySO.jpg" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="apparel__sub-heading">
         <p>Top rated</p>
         <p>See more</p>

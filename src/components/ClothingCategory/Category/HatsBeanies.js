@@ -72,11 +72,11 @@ function HatsBeanies() {
       {/* <div className="hats-beanies__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="hats-beanies__category">
+      {/* <div className="hats-beanies__category">
         <Link to="/" className="hats-beanies__category-img">
           <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F08%2Fsupreme-fall-winter-2018-hats-tw.jpg?w=960&cbr=1&q=90&fit=max" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="hats-beanies__sub-heading">
         <p>Top rated</p>
         <p>See more</p>

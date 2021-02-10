@@ -14,7 +14,6 @@ function ClothingJewelry() {
             category1="Watch's"
             category3="Earring's"
             category2="Pendants"
-            category4="Premium Jewelries"
           />
         </div>
         <div className="computer__container-flex-grid">

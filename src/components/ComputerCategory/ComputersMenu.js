@@ -51,7 +51,7 @@ function ComputersMenu(props) {
       <div className="computer-menu-items">
         <Link to="/computers/software">
           <span>
-            {props.category7}
+            {props.category6}
           </span>
         </Link>
       </div>

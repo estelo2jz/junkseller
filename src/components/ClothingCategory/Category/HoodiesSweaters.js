@@ -72,11 +72,11 @@ function HoodiesSweaters() {
       {/* <div className="hoodies-sweaters__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="hoodies-sweaters__category">
+      {/* <div className="hoodies-sweaters__category">
         <Link to="/" className="hoodies-sweaters__category-img">
           <img src="https://hmg-prod-io.hearstapps.com/images/hoodies-unisex-1524081405.jpg?crop=2000,1000,x0,y0,safe&width=1200&auto=webp" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="hoodies-sweaters__sub-heading">
         <p>Top rated</p>
         <p>See more</p>

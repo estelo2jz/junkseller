@@ -67,7 +67,7 @@ function ComputerComponents() {
   return (
     <div className="computer-components__container">
       <div className="computer-components__heading">
-        <p>Components</p>
+        <p>Computer Parts & Components</p>
       </div>
       {/* <div className="computer-components__ads-one">
         <img src="" alt="ads-image" />
@@ -82,6 +82,42 @@ function ComputerComponents() {
         <p>See more</p>
       </div>
       <div className="computer-components__product-container">
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
         <ComputerComponentsTemplate
           id={uuid()}
           title=""
@@ -160,6 +196,42 @@ function ComputerComponents() {
           listPrice="2349.99"
           image=""
         />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
       </div>
       <div className="computer-components__sub-heading">
         <p>Under $25</p>
@@ -202,6 +274,42 @@ function ComputerComponents() {
           listPrice="34.99"
           image=""
         />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
       </div>
       <div className="computer-components__sub-heading">
         <p>Best Sellers</p>
@@ -242,6 +350,42 @@ function ComputerComponents() {
           rateNumber={"9,656"}
           rating={4}
           listPrice="99.99"
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
           image=""
         />
       </div>
@@ -344,6 +488,42 @@ function ComputerComponents() {
           listPrice="269.99"
           image=""
         />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
+          image=""
+        />
       </div>
       <div className="computer-components__sub-heading">
         <p>Most gifted</p>
@@ -384,6 +564,42 @@ function ComputerComponents() {
           rateNumber={"12,190"}
           rating={4}
           listPrice="369.99"
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={118.69}
+          rateNumber={"8,576"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={198.99}
+          rateNumber={"3,873"}
+          rating={5}
+          listPrice={"209.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={549.99}
+          rateNumber={"1,997"}
+          rating={4}
+          listPrice={"759.99"}
+          image=""
+        />
+        <ComputerComponentsTemplate
+          id={uuid()}
+          title=""
+          price={124.99}
+          rateNumber={"19,140"}
+          rating={4}
+          listPrice="239.99"
           image=""
         />
       </div>

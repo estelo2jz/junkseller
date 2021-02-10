@@ -107,169 +107,169 @@ function Earrings() {
           id={uuid()}
           nameID= {"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
         <EarringsTemplate
           id={uuid()}
           nameID={"S505"}
           title="INVISIBLE SET EMERALD"
-          price={4000}
-          image={"https://www.jessicamccormack.com/media/catalog/product/cache/ce5b8d8d6d6ae23687b53f806bfffa6d/j/e/jessica_mccormack_signature_0.90ct_diamond_gypset_hoop_earrings_wg_1.jpg"}
+          price={165.99}
+          image={"https://pics.angara.com/catalog/product/s/e/se1092rd-rg-aaa-4_3.jpg"}
         />
       </div>
     </div>

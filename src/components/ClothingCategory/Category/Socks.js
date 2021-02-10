@@ -72,11 +72,11 @@ function Socks() {
       {/* <div className="socks__ads-one">
         <img src="" alt="ads-image" />
       </div> */}
-      <div className="socks__category">
+      {/* <div className="socks__category">
         <Link to="/" className="socks__category-img">
           <img src="https://images-na.ssl-images-amazon.com/images/I/8180QyEZIlL._AC_UL1500_.jpg" alt="monitor-category" />
         </Link>
-      </div>
+      </div> */}
       <div className="socks__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
