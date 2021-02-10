@@ -10,6 +10,7 @@
   height: 100%;
   margin: 2px;
   max-width: 48%;
+  overflow: hidden;
   // max-height: 100%;
   // background-color: red;
   // cursor: pointer;
@@ -23,6 +24,7 @@
     padding-top: 1px;
     background-color: rgb(243, 240, 241);
     font-weight: 500;
+    overflow: hidden;
     
   }
   .computer-components-template__img {
@@ -37,7 +39,7 @@
     height: 200px;
     // margin: 50px; will not do anything
     padding: 0;
-
+    overflow: hidden;
     margin: 0;
 
     img {

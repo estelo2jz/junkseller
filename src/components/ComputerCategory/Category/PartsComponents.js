@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/ComputerComponents.scss';
+import StarRateIcon from '@material-ui/icons/StarRate';
 
 function ComputerComponentsTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
