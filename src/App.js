@@ -1382,7 +1382,7 @@ function App() {
             />
             <AllHandmade />
           </Route>
-          <Route path="/handmade/allhandmade" exact component={AllHandmade}>
+          <Route path="/handmade/kitchen&dining" exact component={AllHandmade}>
             <NavBar />
             <HandmadeMenu 
               category0="All Handmade" 
@@ -1428,7 +1428,7 @@ function App() {
             />
             <AllHandmade />
           </Route>
-          <Route path="/handmade/allhandmade" exact component={AllHandmade}>
+          <Route path="/handmade/furniture" exact component={AllHandmade}>
             <NavBar />
             <HandmadeMenu 
               category0="All Handmade" 
@@ -1451,7 +1451,7 @@ function App() {
             />
             <AllHandmade />
           </Route>
-          <Route path="/handmade/allhandmade" exact component={AllHandmade}>
+          <Route path="/handmade/baby" exact component={AllHandmade}>
             <NavBar />
             <HandmadeMenu 
               category0="All Handmade" 
@@ -1474,7 +1474,7 @@ function App() {
             />
             <AllHandmade />
           </Route>
-          <Route path="/handmade/allhandmade" exact component={AllHandmade}>
+          <Route path="/handmade/sellon" exact component={AllHandmade}>
             <NavBar />
             <HandmadeMenu 
               category0="All Handmade" 
