@@ -6,7 +6,7 @@ import Home from './components/Home';
 import NavBar from './components/NavBar';
 import NewNav from './components/SidebarData';
 import Header from './components/Header';
-import Footer from './components/Footer';
+import { FooterContainer } from './components/containers/Footer';
 import Checkout from './components/Checkout';
 
 import Electronics from './components/category/Electronics';
@@ -540,7 +540,7 @@ function App() {
             <PremiumJewelry />
           </Route> */}
         </Switch>
-        <Footer />
+        <FooterContainer />
       </div>
     </Router>
   );
