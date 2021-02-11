@@ -14,7 +14,7 @@ function OutdoorsMenu(props) {
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/outdoors/campinghiking">
+        <Link to="/outdoors/camping&hiking">
           <span>
             {props.category1}
           </span>
@@ -35,7 +35,7 @@ function OutdoorsMenu(props) {
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/outdoors/skates">
+        <Link to="/outdoors/scooters&skates&skateboards">
           <span>
             {props.category4}
           </span>
@@ -56,7 +56,7 @@ function OutdoorsMenu(props) {
         </Link>
       </div>
       <div className="outdoors-menu-items">
-        <Link to="/outdoors/outdooraccessories">
+        <Link to="/outdoors/accessories">
           <span>
             {props.category7}
           </span>

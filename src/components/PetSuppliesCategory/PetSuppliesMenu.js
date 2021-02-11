@@ -7,56 +7,56 @@ function PetSuppliesMenu(props) {
   return (
     <div className="pet-supplies-menu">
       <div className="pet-supplies-menu-items">
-        <Link to="/petsupplies/petprofiles">
+        <Link to="/pet&supplies/petprofiles">
           <span>
             {props.category0}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/petsupplies/dogsupplies">
+        <Link to="/pet&supplies/dogsupplies">
           <span>
             {props.category1}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/petsupplies/dogfood">
+        <Link to="/pet&supplies/dogfood">
           <span>
             {props.category2}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/petsupplies/catsupplies">
+        <Link to="/pet&supplies/catsupplies">
           <span>
             {props.category3}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/petsupplies/catfood">
+        <Link to="/pet&supplies/catfood">
           <span>
             {props.category4}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/petsupplies/fishaquatic">
+        <Link to="/pet&supplies/fish&aquatic">
           <span>
             {props.category5}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/petsupplies/smallanimals">
+        <Link to="/pet&supplies/smallanimals">
           <span>
             {props.category6}
           </span>
         </Link>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/petsupplies/birds">
+        <Link to="/pet&supplies/birds">
           <span>
             {props.category7}
           </span>
