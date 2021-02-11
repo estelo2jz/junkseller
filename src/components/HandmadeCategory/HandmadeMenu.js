@@ -56,7 +56,7 @@ function HandmadeMenu(props) {
         </Link>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/beautygrooming">
+        <Link to="/handmade/beauty&grooming">
           <span>
             {props.category7}
           </span>

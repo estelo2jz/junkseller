@@ -7,49 +7,49 @@ function BeautyHealth(props) {
   return (
     <div className="beauty-health-menu">
       <div className="beauty-health-menu-items">
-        <Link to="/beautyhealth/allbeauty">
+        <Link to="/beauty&health/allbeauty">
           <span>
             {props.category0}
           </span>
         </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <Link to="/beautyhealth/premiumbeauty">
+        <Link to="/beauty&health/premiumbeauty">
           <span>
             {props.category1}
           </span>
         </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <Link to="/beautyhealth/skincare">
+        <Link to="/beauty&health/skincare">
           <span>
             {props.category2}
           </span>
         </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <Link to="/beautyhealth/salonspa">
+        <Link to="/beauty&health/salon&spa">
           <span>
             {props.category3}
           </span>
         </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <Link to="/beautyhealth/mensgrooming">
+        <Link to="/beauty&health/mensgrooming">
           <span>
             {props.category4}
           </span>
         </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <Link to="/beautyhealth/healthhousehold">
+        <Link to="/beauty&health/health&household&baby">
           <span>
             {props.category5}
           </span>
         </Link>
       </div>
       <div className="beauty-health-menu-items">
-        <Link to="/beautyhealth/vitaminsdiet">
+        <Link to="/beauty&health/vitamins&diet">
           <span>
             {props.category6}
           </span>
