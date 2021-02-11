@@ -112,7 +112,7 @@ function Watchz() {
           id={uuid()}
           nameID = {"CW0001"}
           title="CLASSIC WHITE BLACK"
-          price={"95.50"}
+          price={95.50}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw50b22d25/images/products/L213.1L.531_fr.jpg?sw=1660&sh=1660"}
           rating={5}
         />
@@ -120,7 +120,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="AT"
-          price={"95.95"}
+          price={95.95}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw391787c4/images/products/28000014_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -128,7 +128,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="VICTOR"
-          price={"175.00"}
+          price={175.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dwcbd1668a/images/products/28000123_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -136,7 +136,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="GRIZZLY BROWN"
-          price={"115.00"}
+          price={115.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dwb307ba2b/images/products/28000085_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -144,7 +144,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="ECLIPSE"
-          price={"150.50"}
+          price={150.50}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dwaa602db2/images/products/MV01-G2_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -152,7 +152,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="WHITE SMOKE"
-          price={"95.50"}
+          price={95.50}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dwc322a78f/images/products/28000107_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -160,7 +160,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="STARLIGHT BLACK"
-          price={"195.00"}
+          price={195.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dwc5eb2dbf/images/products/BT01-BB_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -168,7 +168,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="OPAR"
-          price={"155.00"}
+          price={155.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dwf27bce52/images/products/MR01-BLUS_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -176,7 +176,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="DIABLO"
-          price={"155.55"}
+          price={155.55}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw0f54e9e0/images/products/28000125_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -184,7 +184,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="RED SEA"
-          price={"152.00"}
+          price={152.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw3943e027/images/products/28000073_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -192,7 +192,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="GHOST"
-          price={"140.00"}
+          price={140.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dwbb5d9d74/images/products/MR01-RGGR_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -200,7 +200,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="BALTIC BLUE"
-          price={"145.00"}
+          price={145.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw61e94c11/images/products/28000076_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -208,15 +208,15 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="BOURBON ROSE"
-          price={"300."}
-          image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw9be2cbd4/images/products/AU01-DB_fr.jpg?sw=512&sh=512"}
+          price={300.00}
+          mage={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw9be2cbd4/images/products/AU01-DB_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
         <WatchzTemplate
           id={uuid()}
           nameID={"CW0001"}
           title="SEPIA"
-          price={"150.00"}
+          price={150.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw14c6608c/images/products/28000084_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -224,7 +224,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="MASON"
-          price={"125.25"}
+          price={125.25}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw53b1acdb/images/products/MF03-GGR_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -232,7 +232,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="AQUA"
-          price={"130.00"}
+          price={130.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw40d447aa/images/products/28000079_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -240,7 +240,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="ELOISE"
-          price={"160.60"}
+          price={160.60}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw75bd942b/images/products/28000062_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -248,7 +248,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="MALIBU MARBLE"
-          price={"160.00"}
+          price={160.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dwbd857552/images/products/MB01-RGMA_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -256,7 +256,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="BELAMAR"
-          price={"115.00"}
+          price={115.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw919ad61b/images/products/MA01-SNU2_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -264,7 +264,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="HAYDEN"
-          price={"125.00"}
+          price={125.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw921efbdb/images/products/MF03-RG_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -272,7 +272,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="FIGUEROA"
-          price={"115.00"}
+          price={115.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw59109dbd/images/products/MB01-RGNA_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -280,7 +280,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="LYNX"
-          price={"116.00"}
+          price={116.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw872af7f3/images/products/FC01-DR_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -288,7 +288,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="THIRTEEN"
-          price={"98.00"}
+          price={98.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dwced3d176/images/products/TC01-GW_fr.jpg?sw=512&sh=512"}
           rating={5}
         />
@@ -296,7 +296,7 @@ function Watchz() {
           id={uuid()}
           nameID={"CW0001"}
           title="BUNRT POPPY"
-          price={"112.00"}
+          price={112.00}
           image={"https://www.mvmt.com/dw/image/v2/BDKZ_PRD/on/demandware.static/-/Sites-mgi-master/default/dw3d204a0d/images/products/FR01-GOR_fr.jpg?sw=512&sh=512"}
           rating={5}
         />

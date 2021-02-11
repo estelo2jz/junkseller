@@ -13,9 +13,30 @@ import Electronics from './components/category/Electronics';
 import Computers from './components/category/Computers';
 import Clothing from './components/category/Clothing';
 import Jewelry from './components/category/Jewelry';
+import AutomotiveIndustrial from './components/category/AutomotiveIndustrial';
+import BeautyHealth from './components/category/BeautyHealth';
+import FoodGrocery from './components/category/FoodGrocery';
+import Handmade from './components/category/Handmade';
+import HomeGardenTools from './components/category/HomeGardenTools';
+import Outdoors from './components/category/Outdoors';
+import PetSupplies from './components/category/PetSupplies';
+import SmartHome from './components/category/SmartHome';
+import Sports from './components/category/Sports';
+import ToysKidsBaby from './components/category/ToysKidsBaby';
+
 
 import ElectronicsMenu from './components/ElectricCategory/ElectronicsMenu';
 import ComputersMenu from './components/ComputerCategory/ComputersMenu';
+import AutomotiveMenu from './components/AutomotiveCategory/AutomotiveMenu';
+import BeautyHealthMenu from './components/BeautyHealthCategory/BeautyHealthMenu';
+import FoodGroceryMenu from './components/FoodGroceryCategory/FoodGroceryMenu';
+import HandmadeMenu from './components/HandmadeCategory/HandmadeMenu';
+import HomeGardenToolsMenu from './components/HomeGardenToolsCategory/HomeGardenToolsMenu';
+import OutdoorMenu from './components/OutdoorsCategory/OutdoorsMenu';
+import PetSuppliesMenu from './components/PetSuppliesCategory/PetSuppliesMenu';
+import SmartHomeMenu from './components/SmartHomeCategory/SmartHomeMenu';
+import SportMenu from './components/SportsCategory/SportsMenu';
+import ToysKidsBabyMenu from './components/ToysKidsBabyCategory/ToysKidsBabyMenu';
 import ClothingMenu from './components/ClothingCategory/ClothingMenu';
 import JewelryMenu from './components/JewelryCategory/JewelryMenu';
 
@@ -40,6 +61,9 @@ import ComputerNetworking from './components/ComputerCategory/Category/Networkin
 import ComputerHardDrivesStorage from './components/ComputerCategory/Category/DrivesStorage';
 import ComputerPartsComponents from './components/ComputerCategory/Category/PartsComponents';
 import ComputerSoftware from './components/ComputerCategory/Category/Software';
+
+
+
 
 // Apparel Components
 import ClothingApparel from './components/ClothingCategory/Category/Apparel';
@@ -379,6 +403,74 @@ function App() {
             />
             <ComputerSoftware />
           </Route>
+
+
+
+          <Route path="/beauty&health" exact component={BeautyHealth}>
+            <NavBar />
+            <BeautyHealth />
+          </Route>
+          <Route path="/food&grocery" exact component={FoodGrocery}>
+            <NavBar />
+            <FoodGrocery />
+          </Route>
+          <Route path="/home&garden&tools" exact component={HomeGardenTools}>
+            <NavBar />
+            <HomeGardenTools />
+          </Route>
+          <Route path="/handmade" exact component={Handmade}>
+            <NavBar />
+            <Handmade />
+          </Route>
+          <Route path="/outdoors" exact component={Outdoors}>
+            <NavBar />
+            <Outdoors />
+          </Route>
+          <Route path="/pet&supplies" exact component={PetSupplies}>
+            <NavBar />
+            <PetSupplies />
+          </Route>
+          <Route path="/smarthome" exact component={SmartHome}>
+            <NavBar />
+            <SmartHome />
+          </Route>
+          <Route path="/toys&kids&baby" exact component={ToysKidsBaby}>
+            <NavBar />
+            <ToysKidsBaby />
+          </Route>
+          <Route path="/sports" exact component={Sports}>
+            <NavBar />
+            <Sports />
+          </Route>
+          <Route path="/automotive&industrial" exact component={AutomotiveIndustrial}>
+            <NavBar />
+            <AutomotiveIndustrial />
+          </Route>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
           {/* Clothing COMPONENTS */}

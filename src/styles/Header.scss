@@ -52,7 +52,7 @@
 }
 
 .nav-menu {
-  background-color: #7cbccf;
+  background-color: #000000;
   width: 180px;
   height: 100vh;
   display: flex-start;
@@ -94,19 +94,21 @@
   width: 95%;
   height: 100%;
   display: flex-start;
+  font-weight: 600;
   align-items: center;
   /* padding: 10px 0px; */
   margin-left: 3px;
-  // border-radius: 3px;
-  background-color: #82c7dc;
+  border-radius: 3px;
+  background-color: #fdfdfd;
+
 }
 
 .nav-text a:hover {
   // background-color: #ffffff;
   // color: black;
-  background-color: #7cbccf;
+  // background-color: #7cbccf;
   border: 1px solid rgb(243, 240, 241);
-  color: white;
+  color: rgb(0, 0, 0);
   transition: all 0.3s ease;
   // border: white;
 }
@@ -128,7 +130,7 @@
 }
 
 .navbar-toggle {
-  background-color: #7cbccf;
+  background-color: #000000;
   width: 100%;
   height: 50px;
   display: flex;
