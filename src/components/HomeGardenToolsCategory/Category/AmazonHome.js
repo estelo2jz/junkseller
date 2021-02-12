@@ -1,13 +1,15 @@
 import React from 'react';
 // import '../HomeGardenStyles/AmazonHome.scss';
 import ComingSoon from '../../ComingSoon';
+import Building from '../../Building'; 
 
 function AmazonHome() {
   return (
     //  className="amazon-home__container"
     <div>
-      <p>Amazon Home</p>
-<ComingSoon />
+      <p>Home</p>
+      <Building />
+      <ComingSoon />
     </div>
   )
 }

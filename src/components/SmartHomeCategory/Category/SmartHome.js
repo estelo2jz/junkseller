@@ -1,10 +1,12 @@
 import React from 'react';
 import ComingSoon from '../../ComingSoon';
+import Building from '../../Building'; 
 
 function SmartHomeMain() {
   return (
     <div>
-      <h3>smart home</h3>
+      <Building />
+      <ComingSoon />
       <ComingSoon />
     </div>
   )

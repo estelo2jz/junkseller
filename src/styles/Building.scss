@@ -1,0 +1,12 @@
+.building__container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .building__info {
+    p {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,11 +1,12 @@
 import React from 'react';
 import ComingSoon from '../../ComingSoon';
+import Building from '../../Building'; 
 
 function SmartLocks() {
   return (
     <div>
-      
-<ComingSoon />
+      <Building />
+      <ComingSoon />
     </div>
   )
 }

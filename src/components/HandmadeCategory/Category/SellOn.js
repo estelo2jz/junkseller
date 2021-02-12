@@ -1,11 +1,12 @@
 import React from 'react';
 import ComingSoon from '../../ComingSoon';
+import Building from '../../Building';
 
 function SellOn() {
   return (
     <div>
-<ComingSoon />
-      
+      <Building />
+      <ComingSoon />
     </div>
   )
 }

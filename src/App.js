@@ -69,6 +69,7 @@ import MensGrooming from './components/BeautyHealthCategory/Category/MensGroomin
 import PremiumBeauty from './components/BeautyHealthCategory/Category/PremiumBeauty';
 import SalonSpa from './components/BeautyHealthCategory/Category/SalonSpa';
 import VitaminsDiet from './components/BeautyHealthCategory/Category/VitaminsDiet';
+import SkinCare from './components/BeautyHealthCategory/Category/SkinCare';
 
 // Food & Grocery Components
 import Fresh from './components/FoodGroceryCategory/Category/Fresh';
@@ -112,7 +113,7 @@ import SellOn from './components/HandmadeCategory/Category/SellOn';
 import StationaryParty from './components/HandmadeCategory/Category/StationaryParty';
 import ToysGames from './components/HandmadeCategory/Category/ToysGames';
 import Wedding from './components/HandmadeCategory/Category/Wedding';
-
+import HandmadeKitchenDining from './components/HandmadeCategory/Category/KitchenDining';
 
 // Outdoors Components
 import AllOutdoor from './components/OutdoorsCategory/Category/AllOutdoor';
@@ -561,7 +562,7 @@ function App() {
             />
             <PremiumBeauty />
           </Route>
-          <Route path="/beauty&health/skincare" exact component={SkipNext}>
+          <Route path="/beauty&health/skincare" exact component={SkinCare}>
             <NavBar />
             <BeautyHealthMenu 
               category0="All Beauty" 
@@ -572,7 +573,7 @@ function App() {
               category5="Health, Household & Baby"
               category6="Vitamins & Dietary Supplements"
             />
-            <SkipNext />
+            <SkinCare />
           </Route>
           <Route path="/beauty&health/allbeauty" exact component={AllBeauty}>
             <NavBar />
@@ -1430,7 +1431,7 @@ function App() {
             />
             <Artwork />
           </Route>
-          <Route path="/handmade/kitchen&dining" exact component={KitchenDining}>
+          <Route path="/handmade/kitchen&dining" exact component={HandmadeKitchenDining}>
             <NavBar />
             <HandmadeMenu 
               category0="All Handmade" 
@@ -1451,7 +1452,7 @@ function App() {
               category15="Baby"
               category16="Sell on JunkSeller"
             />
-            <KitchenDining />
+            <HandmadeKitchenDining />
           </Route>
           <Route path="/handmade/allhandmade" exact component={AllHandmade}>
             <NavBar />
@@ -2538,32 +2539,6 @@ function App() {
             <Garage />
           </Route>
           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           {/* Clothing COMPONENTS */}
           <Route path="/clothing" exact component={Clothing}>
             <NavBar />
@@ -2663,12 +2638,31 @@ function App() {
 
 
           {/* Jewelry COMPONENTS */}
-          <Route path="/jewelry" exact component={Jewelry}>
+          <Route path="/handmade/jewelry" exact component={Jewelry}>
             <NavBar />
             <Jewelry />
           </Route>
-          <Route path="/jewelry/necklaces" exact component={JewelryNecklace}>
+          <Route path="/handmade/jewelry/necklaces" exact component={JewelryNecklace}>
             <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationay & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
             <JewelryMenu
               category0="Necklace's"
               category1="Watch's"
@@ -2678,8 +2672,27 @@ function App() {
             />
             <JewelryNecklace />
           </Route>
-          <Route path="/jewelry/watchs" exact component={JewelryWatchz}>
+          <Route path="/handmade/jewelry/watchs" exact component={JewelryWatchz}>
             <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationay & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
             <JewelryMenu
               category0="Necklace's"
               category1="Watch's"
@@ -2689,8 +2702,27 @@ function App() {
             />
             <JewelryWatchz />
           </Route>
-          <Route path="/jewelry/earrings" exact component={JewelryEarrings}>
+          <Route path="/handmade/jewelry/earrings" exact component={JewelryEarrings}>
             <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationay & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
             <JewelryMenu
               category0="Necklace's"
               category1="Watch's"
@@ -2700,8 +2732,27 @@ function App() {
             />
             <JewelryEarrings />
           </Route>
-          <Route path="/jewelry/pendants" exact component={JewelryPendant}>
+          <Route path="/handmade/jewelry/pendants" exact component={JewelryPendant}>
             <NavBar />
+            <HandmadeMenu 
+              category0="All Handmade" 
+              category1="Gifts"
+              category2="Jewerly"
+              category3="Home & Kitchen"
+              category4="Wedding"
+              category5="Clothing & Shoes"
+              category6="Handbags & Accessories"
+              category7="Beauty & Grooming"
+              category8="Stationay & Party Supplies"
+              category9="Toys & Games"
+              category10="Pet Supplies"
+              category11="Home Decor"
+              category12="Artwork"
+              category13="Kitchen & Dining"
+              category14="Furniture"
+              category15="Baby"
+              category16="Sell on JunkSeller"
+            />
             <JewelryMenu
               category0="Necklace's"
               category1="Watch's"

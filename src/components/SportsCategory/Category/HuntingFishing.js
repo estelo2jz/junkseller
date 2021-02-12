@@ -1,11 +1,12 @@
 import React from 'react';
 import ComingSoon from '../../ComingSoon';
+import Building from '../../Building'; 
 
 function HuntingFishing() {
   return (
     <div>
-<ComingSoon />
-      
+      <Building />
+      <ComingSoon />
     </div>
   )
 }

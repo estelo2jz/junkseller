@@ -1,10 +1,12 @@
 import React from 'react';
 import ComingSoon from '../../ComingSoon';
+import Building from '../../Building'; 
 
 function Pet() {
   return (
     <div>
-      <ComingSoon />      
+      <Building />
+      <ComingSoon />  
     </div>
   )
 }

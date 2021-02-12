@@ -6,9 +6,10 @@ import '../styles/ComingSoon.scss';
 function ComingSoon() {
   return (
     <div className="coming-soon__container">
-      <div className="coming-soon__inner">
-        <h3>Currently building this page!</h3>
-        <p>explore our categories.</p>
+      <div className="coming-soon__category-heading">
+        <p>explore</p>
+        <p>our</p>
+        <p>products</p>
       </div>
       <div className="coming-soon-card-container">
           <div className="coming-soon__outer">
