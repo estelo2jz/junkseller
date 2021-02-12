@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import '../styles/Home.scss';
 import Product from './Product';
 import Slider from './Slider';
+import ComingSoon from './ComingSoon';
 
 
 function Home() {
   return (
     <div className="home__container">
+      <ComingSoon />
       {/* <Slider /> */}
       {/* <div>
         <h1>Shop By Department </h1>

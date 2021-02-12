@@ -18,7 +18,7 @@ function SmartHome() {
               category5="New Smart Devices"
               category6="Heating and Cooling"
               category7="Detectors and Sensors"
-              category8="Home Entertaiment"
+              category8="Home Entertainment"
               category9="Pet"
               category10="Voice Assistants and Hubs"
               category11="Kitchen"

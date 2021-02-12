@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { ComingSoonData } from './ComingSooonData';
 import '../styles/ComingSoon.scss';
 
 function ComingSoon() {
@@ -6,7 +8,26 @@ function ComingSoon() {
     <div className="coming-soon__container">
       <div className="coming-soon__inner">
         <h3>Currently building this page!</h3>
+        <p>explore our categories.</p>
       </div>
+      <div className="coming-soon-card-container">
+          <div className="coming-soon__outer">
+            {ComingSoonData.map((item, index) => {
+              return (
+                <div key={index} className="coming-soon__container">
+                  <Link to={item.path} className="coming-soon__link" >
+                    <div className="coming-soon__img">
+                      <img src={item.image} alt="coming-soon" />
+                    </div>
+                    <div className="coming-soon__title">
+                        <p>{item.title}</p>
+                    </div>
+                  </Link>
+                </div>
+              );
+            })}
+          </div>
+        </div>
     </div>
   )
 }
