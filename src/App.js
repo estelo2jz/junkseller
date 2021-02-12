@@ -1,6 +1,7 @@
 import './App.css';
 import './styles/main.scss';
 
+import ScrollToTop from './components/ScrollToTop';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
@@ -210,6 +211,7 @@ import { SkipNext } from '@material-ui/icons';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Switch>
           <Route path="/checkout">
