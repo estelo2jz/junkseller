@@ -1,7 +1,11 @@
 .home-decor__container {
-  background-color: rgb(87, 175, 69);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .home-decor__history-path {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    p {
+      padding: 10px 5px;
+      font-size: 0.8em;
+    }
+  }
 }

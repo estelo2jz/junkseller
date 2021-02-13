@@ -1,7 +1,11 @@
 .outdoor-accessories__container {
-  background-color: rgb(69, 159, 175);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .outdoor-accessories__history-path {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    p {
+      padding: 10px 5px;
+      font-size: 0.8em;
+    }
+  }
 }

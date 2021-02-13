@@ -1,7 +1,11 @@
 .cycling__container {
-  background-color: rgb(175, 69, 161);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .cycling__history-path {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    p {
+      padding: 10px 5px;
+      font-size: 0.8em;
+    }
+  }
 }
