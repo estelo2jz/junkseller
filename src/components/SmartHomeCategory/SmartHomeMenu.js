@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './SmartHomeMenu.scss';
 
 
@@ -7,109 +7,214 @@ function SmartHomeMenu(props) {
   return (
     <div className="smart-home-menu">
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/smarthome">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/smarthome">
           <span>
             {props.category0}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/smarthomelighting">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/smarthomelighting">
           <span>
             {props.category1}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/smartlocks&entry">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/smartlocks&entry">
           <span>
             {props.category2}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/securitycameras&systems">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/securitycameras&systems">
           <span>
             {props.category3}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/plugs&outlets">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/plugs&outlets">
           <span>
             {props.category4}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/newsmartdevices">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/newsmartdevices">
           <span>
             {props.category5}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/heating&cooling">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/heating&cooling">
           <span>
             {props.category6}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/detectors&sensors">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/detectors&sensors">
           <span>
             {props.category7}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/homeentertainment">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/homeentertainment">
           <span>
             {props.category8}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/pet">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/pet">
           <span>
             {props.category9}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/voiceassistants&hubs">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/voiceassistants&hubs">
           <span>
             {props.category10}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/kitchen">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/kitchen">
           <span>
             {props.category11}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/vacuum&mops">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/vacuum&mops">
           <span>
             {props.category12}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/lawn&garden">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/lawn&garden">
           <span>
             {props.category13}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="smart-home-menu-items">
-        <Link to="/smarthome/wifi&networking">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/smarthome/wifi&networking">
           <span>
             {props.category14}
           </span>
-        </Link>
+        </NavLink>
       </div>
     </div>
   )

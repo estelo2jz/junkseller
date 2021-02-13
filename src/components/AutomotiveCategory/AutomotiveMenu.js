@@ -1,65 +1,121 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './AutomotiveMenu.scss';
 
 function AutomotiveMenu(props) {
   return (
     <div className="automotive-menu">
       <div className="automotive-menu-items">
-        <Link to="/automotive&industrial/parts&accessories">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/automotive&industrial/parts&accessories">
           <span>
             {props.category0}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="automotive-menu-items">
-        <Link to="/automotive&industrial/tools&equipment">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/automotive&industrial/tools&equipment">
           <span>
             {props.category1}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="automotive-menu-items">
-        <Link to="/automotive&industrial/carelectronics&gps">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/automotive&industrial/carelectronics&gps">
           <span>
             {props.category2}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="automotive-menu-items">
-        <Link to="/automotive&industrial/tires&wheels">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/automotive&industrial/tires&wheels">
           <span>
             {props.category3}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="automotive-menu-items">
-        <Link to="/automotive&industrial/motorcycle&powersports">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/automotive&industrial/motorcycle&powersports">
           <span>
             {props.category4}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="automotive-menu-items">
-        <Link to="/automotive&industrial/rvpart&accessories">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/automotive&industrial/rvpart&accessories">
           <span>
             {props.category5}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="automotive-menu-items">
-        <Link to="/automotive&industrial/vehicles">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/automotive&industrial/vehicles">
           <span>
             {props.category6}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="automotive-menu-items">
-        <Link to="/automotive&industrial/yourgarage">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/automotive&industrial/yourgarage">
           <span>
             {props.category7}
           </span>
-        </Link>
+        </NavLink>
       </div>
     </div>
   )

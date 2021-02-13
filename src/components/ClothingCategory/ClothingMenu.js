@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './ClothingMenu.scss';
 
 
@@ -7,53 +7,102 @@ function ElectronicsMenu(props) {
   return (
     <div className="clothing-menu">
       <div className="clothing-menu-items">
-        <Link to="/clothing/shirts&tees">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/clothing/shirts&tees">
           <span>
             {props.category0}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="clothing-menu-items">
-        <Link to="/clothing/pants&jeans">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/clothing/pants&jeans">
           <span>
             {props.category1}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="clothing-menu-items">
-        <Link to="/clothing/hoodies&sweaters">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/clothing/hoodies&sweaters">
           <span>
             {props.category2}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="clothing-menu-items">
-        <Link to="/clothing/jackets">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/clothing/jackets">
           <span>
             {props.category3}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="clothing-menu-items">
-        <Link to="/clothing/hats&beanies">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/clothing/hats&beanies">
           <span>
             {props.category4}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="clothing-menu-items">
-        <Link to="/clothing/backpacks">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/clothing/backpacks">
           <span>
             {props.category5}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="clothing-menu-items">
-        <Link to="/clothing/socks">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/clothing/socks">
           <span>
             {props.category6}
           </span>
-        </Link>
+        </NavLink>
       </div>
     </div>
   )

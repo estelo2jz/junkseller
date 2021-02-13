@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './PetSuppliesMenu.scss';
 
 
@@ -7,60 +7,116 @@ function PetSuppliesMenu(props) {
   return (
     <div className="pet-supplies-menu">
       <div className="pet-supplies-menu-items">
-        <Link to="/pet&supplies/petprofiles">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/pet&supplies/petprofiles">
           <span>
             {props.category0}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/pet&supplies/dogsupplies">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/pet&supplies/dogsupplies">
           <span>
             {props.category1}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/pet&supplies/dogfood">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/pet&supplies/dogfood">
           <span>
             {props.category2}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/pet&supplies/catsupplies">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/pet&supplies/catsupplies">
           <span>
             {props.category3}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/pet&supplies/catfood">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/pet&supplies/catfood">
           <span>
             {props.category4}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/pet&supplies/fish&aquatic">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/pet&supplies/fish&aquatic">
           <span>
             {props.category5}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/pet&supplies/smallanimals">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/pet&supplies/smallanimals">
           <span>
             {props.category6}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="pet-supplies-menu-items">
-        <Link to="/pet&supplies/birds">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/pet&supplies/birds">
           <span>
             {props.category7}
           </span>
-        </Link>
+        </NavLink>
       </div>
     </div>
   )

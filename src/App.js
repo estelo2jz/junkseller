@@ -1136,7 +1136,7 @@ function App() {
           </Route>
           <Route path="/handmade/allhandmade" exact component={AllHandmade}>
             <NavBar />
-            <HandmadeMenu 
+            <HandmadeMenu
               category0="All Handmade" 
               category1="Gifts"
               category2="Jewerly"

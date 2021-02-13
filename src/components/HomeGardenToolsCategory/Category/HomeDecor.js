@@ -1,12 +1,21 @@
 import React from 'react';
-// import '../HomeGardenStyles/HomeDecor.scss';
+import { Link } from 'react-router-dom';
+import '../HomeGardenStyles/HomeDecor.scss';
 import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
 
 function HomeDecor() {
   return (
     <div className="home-decor__container">
-      <p>Home Decor</p>
+      <div className="home-decor__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/home&garden&tools">
+          <p>
+            /home&garden&tools
+          </p>
+        </Link>
+        <p>/homedecor</p>
+      </div>
       <Building />
       <ComingSoon />
     </div>

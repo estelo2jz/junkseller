@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './FoodGroceryMenu.scss';
 
 
@@ -7,32 +7,60 @@ function FoodGroceryMenu(props) {
   return (
     <div className="food-grocery-menu">
       <div className="food-grocery-menu-items">
-        <Link to="/food&grocery/grocery&gourmet">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/food&grocery/grocery&gourmet">
           <span>
             {props.category0}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="food-grocery-menu-items">
-        <Link to="/food&grocery/fresh">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/food&grocery/fresh">
           <span>
             {props.category1}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="food-grocery-menu-items">
-        <Link to="/food&grocery/wholefoods">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/food&grocery/wholefoods">
           <span>
             {props.category2}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="food-grocery-menu-items">
-        <Link to="/food&grocery/pantry">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/food&grocery/pantry">
           <span>
             {props.category3}
           </span>
-        </Link>
+        </NavLink>
       </div>
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './HandmadeMenu.scss';
 
 
@@ -7,123 +7,243 @@ function HandmadeMenu(props) {
   return (
     <div className="handmade-menu">
       <div className="handmade-menu-items">
-        <Link to="/handmade/allhandmade">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+         to="/handmade/allhandmade">
           <span>
             {props.category0}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/gifts">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/gifts">
           <span>
             {props.category1}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/jewelry">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/jewelry">
           <span>
             {props.category2}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/home&kitchen">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/home&kitchen">
           <span>
             {props.category3}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/wedding">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/wedding">
           <span>
             {props.category4}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/clothing&shoes">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/clothing&shoes">
           <span>
             {props.category5}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/handbags&accessories">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/handbags&accessories">
           <span>
             {props.category6}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/beauty&grooming">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px",
+            borderRadius: "3px"
+          }}
+          to="/handmade/beauty&grooming">
           <span>
             {props.category7}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/stationary&partysupplies">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/stationary&partysupplies">
           <span>
             {props.category8}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/toys&games">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/toys&games">
           <span>
             {props.category9}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/petsupplies">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/petsupplies">
           <span>
             {props.category10}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/homedecor">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/homedecor">
           <span>
             {props.category11}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/artwork">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/artwork">
           <span>
             {props.category12}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/kitchen&dining">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/kitchen&dining">
           <span>
             {props.category13}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/furniture">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/furniture">
           <span>
             {props.category14}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/baby">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/baby">
           <span>
             {props.category15}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="handmade-menu-items">
-        <Link to="/handmade/sellon">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/handmade/sellon">
           <span>
             {props.category16}
           </span>
-        </Link>
+        </NavLink>
       </div>
     </div>
   )

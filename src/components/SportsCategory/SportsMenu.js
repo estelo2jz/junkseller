@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './SportsMenu.scss';
 
 
@@ -7,67 +7,130 @@ function SportsMenu(props) {
   return (
     <div className="sports-menu">
       <div className="sports-menu-items">
-        <Link to="/sports/athleticclothing">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/sports/athleticclothing">
           <span>
             {props.category0}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="sports-menu-items">
-        <Link to="/sports/exercise&fitness">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/sports/exercise&fitness">
           <span>
             {props.category1}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="sports-menu-items">
-        <Link to="/sports/hunting&fishing">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/sports/hunting&fishing">
           <span>
             {props.category2}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="sports-menu-items">
-        <Link to="/sports/golf">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/sports/golf">
           <span>
             {props.category3}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="sports-menu-items">
-        <Link to="/sports/fanshop">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/sports/fanshop">
           <span>
             {props.category4}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="sports-menu-items">
-        <Link to="/sports/leisure&game">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/sports/leisure&game">
           <span>
             {props.category5}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="sports-menu-items">
-        <Link to="/sports/sports&collectibles">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/sports/sports&collectibles">
           <span>
             {props.category6}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="sports-menu-items">
-        <Link to="/sports/allsports&fitness">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/sports/allsports&fitness">
           <span>
             {props.category7}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="sports-menu-items">
-        <Link to="/sports/newgearinnovations">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/sports/newgearinnovations">
           <span>
             {props.category8}
           </span>
-        </Link>
+        </NavLink>
       </div>
     </div>
   )
