@@ -7,7 +7,7 @@ import Building from '../../Building';
 function AllBeauty() {
   return (
     <div className="all-beauty__container">
-      <div className="all-beauty__container">
+      <div className="all-beauty__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/beauty&health">
           <p>
@@ -16,16 +16,7 @@ function AllBeauty() {
         </Link>
         <p>/allbeauty</p>
       </div>
-      <div className="all-beauty__inner">
-        <Building />
-      </div>
-      <div className="all-beauty__category-container">
-        {/* <div className="all-beauty__category-heading">
-          <p>explore</p>
-          <p>our</p>
-          <p>products</p>
-        </div> */}
-      </div>
+      <Building />
       <ComingSoon />
     </div>
   )

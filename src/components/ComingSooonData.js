@@ -35,7 +35,7 @@ export const ComingSoonData = [
     title: "Cycling",
   },
   {
-    image: "https://lh3.googleusercontent.com/proxy/cUvOe-o5AItC1je4dDUY45yDPc7T3PCVovJoLz78iKMngvEJJbuA_3zuRJh2U3OEPYJHG20kqNYVq43mU_Lj620Gx2RTvqmxwDo1172AGH_3BQ16ojuQJeSIt09XCw",
+    image: "https://steamuserimages-a.akamaihd.net/ugc/910171724106264140/6C0368B88306D98DAC4E3DA273B0C5ED74A2151D/",
     path: "/automotive&industrial/vehicles",
     title: "Vehicles",
   },
