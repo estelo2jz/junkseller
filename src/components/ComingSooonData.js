@@ -219,7 +219,7 @@ export const ComingSoonData = [
     title: "Skin Care",
   },
   {
-    image: "https://lh3.googleusercontent.com/proxy/TcVoGPlt2zqBlpPymYUNUZdLdAhyXyAqO5xFp7PCDXK-gtJg4D_VUJ1G2fREQdka32-RfxxkQTTjFBYbAX1yFuXmsLzuK-DHqN_Fu2h0fA0dweg_yAfgQVeMagf8Wd6Ycy3NhVL5rO-LnG8zH3KWHc_lv3TxHUHi_bP4t2nQj5FWMvhj_U4_PwxfmnPIocMMrPsrmJe8Ly5t3H4QpDSlGQ",
+    image: "https://www.thestreet.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY4NjUwMjgxNjM1NTU0OTUx/10-absolutely-worthless-pieces-of-sports-memorabilia.png",
     path: "/sports/sports&collectibles",
     title: "Sport & Collectibles",
   },
@@ -244,7 +244,7 @@ export const ComingSoonData = [
     title: "Climbing",
   },
   {
-    image: "https://lh3.googleusercontent.com/proxy/n8yhOMmBpeWOj8zNfmYm_pWX6v3SWGHotBzSFe53BRADLadprvN-_tl8HIbb8e3r-1KPGGY8Q3ujyuTlsMp8MK-wWdoqe88nmkPZQmbkaXHv-u9tIA",
+    image: "https://cdn.theatlantic.com/thumbor/MXXlPAAYdTDLD-6MHynw8wCb7og=/8x353:6016x3732/720x405/media/img/mt/2019/06/GettyImages_926168548/original.jpg",
     path: "/handmade/beauty&grooming",
     title: "Beauty & Grooming",
   },
