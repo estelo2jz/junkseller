@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './HomeGardenToolsMenu.scss';
 
 
@@ -7,130 +7,256 @@ function HomeGardenMenu(props) {
   return (
     <div className="home-garden-tools-menu">
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/home">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/home">
           <span>
             {props.category0}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/appliances">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/appliances">
           <span>
             {props.category1}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/arts&crafts">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/arts&crafts">
           <span>
             {props.category2}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/bed&bath">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/bed&bath">
           <span>
             {props.category3}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/collective&fineart">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/collective&fineart">
           <span>
             {props.category4}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/discover">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/discover">
           <span>
             {props.category5}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/events&partysupplies">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/events&partysupplies">
           <span>
             {props.category6}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/exploreshowroom">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/exploreshowroom">
           <span>
             {props.category7}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/fineart">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/fineart">
           <span>
             {props.category8}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/furniture">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/furniture">
           <span>
             {props.category9}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/garden&outdoor">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/garden&outdoor">
           <span>
             {props.category10}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/homedecor">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/homedecor">
           <span>
             {props.category11}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/kitchen&dining">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/kitchen&dining">
           <span>
             {props.category12}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/lighting">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/lighting">
           <span>
             {props.category13}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/mattresses">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/mattresses">
           <span>
             {props.category14}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/petsupplies">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/petsupplies">
           <span>
             {props.category15}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/shoproom">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/shoproom">
           <span>
             {props.category16}
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="home-garden-tools-menu-items">
-        <Link to="/home&garden&tools/storage&organization">
+        <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+          to="/home&garden&tools/storage&organization">
           <span>
             {props.category17}
           </span>
-        </Link>
+        </NavLink>
       </div>
     </div>
   )

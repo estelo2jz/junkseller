@@ -6,7 +6,7 @@ function Baby() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

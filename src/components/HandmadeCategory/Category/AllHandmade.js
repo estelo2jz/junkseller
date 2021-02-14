@@ -17,7 +17,7 @@ function AllHandmade() {
         <p>/allhandmade</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

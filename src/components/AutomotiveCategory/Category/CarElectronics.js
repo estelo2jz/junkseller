@@ -6,7 +6,7 @@ function CarElectronics() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

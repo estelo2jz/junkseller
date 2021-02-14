@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './JewelryMenu.scss';
 
 
@@ -7,32 +7,60 @@ function ElectronicsMenu(props) {
   return (
       <div className="jewelry-menu">
         <div className="jewelry-menu-items">
-          <Link to="/handmade/jewelry/necklaces">
+          <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+            to="/handmade/jewelry/necklaces">
             <span>
               {props.category0}
             </span>
-          </Link>
+          </NavLink>
         </div>
         <div className="jewelry-menu-items">
-          <Link to="/handmade/jewelry/watchs">
+          <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+            to="/handmade/jewelry/watchs">
             <span>
               {props.category1}
             </span>
-          </Link>
+          </NavLink>
         </div>
         <div className="jewelry-menu-items">
-          <Link to="/handmade/jewelry/earrings">
+          <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+            to="/handmade/jewelry/earrings">
             <span>
               {props.category2}
             </span>
-          </Link>
+          </NavLink>
         </div>
         <div className="jewelry-menu-items">
-          <Link to="/handmade/jewelry/pendants">
+          <NavLink 
+          activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "black",
+            borderRadius: "3px"
+          }}
+            to="/handmade/jewelry/pendants">
             <span>
               {props.category3}
             </span>
-          </Link>
+          </NavLink>
         </div>
       </div>
   )

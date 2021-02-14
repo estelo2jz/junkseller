@@ -6,7 +6,7 @@ function MotorcyclePowerSports() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

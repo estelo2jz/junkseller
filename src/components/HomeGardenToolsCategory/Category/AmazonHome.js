@@ -17,7 +17,7 @@ function AmazonHome() {
         <p>/home</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

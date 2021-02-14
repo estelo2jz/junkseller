@@ -17,7 +17,7 @@ function BeautyGrooming() {
         <p>/beauty&grooming</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

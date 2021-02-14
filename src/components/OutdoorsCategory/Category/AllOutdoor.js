@@ -8,7 +8,7 @@ function AllOutdoor() {
     <div className="all-outdoor__container">
       <h1>All Outdoor Recreation</h1>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

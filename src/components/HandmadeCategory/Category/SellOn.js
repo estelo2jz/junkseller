@@ -17,7 +17,7 @@ function SellOn() {
         <p>/sellon</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

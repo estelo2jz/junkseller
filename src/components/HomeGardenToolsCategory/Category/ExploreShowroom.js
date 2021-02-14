@@ -17,7 +17,7 @@ function ExploreShowroom() {
         <p>/exploreshowroom</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

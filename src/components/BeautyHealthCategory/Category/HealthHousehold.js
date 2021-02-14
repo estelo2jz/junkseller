@@ -17,7 +17,7 @@ function HealthHousehold() {
         <p>/health&household&baby</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

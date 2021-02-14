@@ -17,7 +17,7 @@ function Baby() {
         <p>/baby</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

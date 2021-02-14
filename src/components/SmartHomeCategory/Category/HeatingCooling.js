@@ -6,7 +6,7 @@ function HeatingCooling() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

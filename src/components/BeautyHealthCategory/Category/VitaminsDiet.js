@@ -17,7 +17,7 @@ function VitaminsDiet() {
         <p>/vitamins&diet</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

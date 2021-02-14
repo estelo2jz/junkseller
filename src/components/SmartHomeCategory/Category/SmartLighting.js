@@ -6,7 +6,7 @@ function SmartLighting() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

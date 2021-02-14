@@ -6,7 +6,7 @@ function SecurityCameras() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -7,7 +7,7 @@ function CatSupplies() {
   return (
     <div className="cat-supplies__container">
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

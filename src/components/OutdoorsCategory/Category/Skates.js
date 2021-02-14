@@ -8,7 +8,7 @@ function Skates() {
     <div className="outdoor-skates__container">
       <h1>Scooters, Skates & Skateboards</h1>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -17,7 +17,7 @@ function WholeFoods() {
         <p>/wholefoods</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

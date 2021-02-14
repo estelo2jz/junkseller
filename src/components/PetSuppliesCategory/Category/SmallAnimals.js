@@ -7,7 +7,7 @@ function SmallAnimals() {
   return (
     <div className="small-animals__container">
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

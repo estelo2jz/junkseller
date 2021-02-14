@@ -8,7 +8,7 @@ function OutdoorClothing() {
     <div className="outdoor-clothing__container">
       <h1>Outdoor Clothing</h1>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

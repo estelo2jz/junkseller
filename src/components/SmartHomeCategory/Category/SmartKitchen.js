@@ -6,7 +6,7 @@ function SmartKitchen() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

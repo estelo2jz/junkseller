@@ -7,7 +7,7 @@ function PetProfiles() {
   return (
     <div className="pet-profiles__container">
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

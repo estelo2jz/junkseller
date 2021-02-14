@@ -17,7 +17,7 @@ function GardenOutdoor() {
         <p>/garden&outdoor</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -17,7 +17,7 @@ function CollectiveFineArt() {
         <p>/collective&fineart</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -6,8 +6,8 @@ function SmartHomeMain() {
   return (
     <div>
       <Building />
-      <ComingSoon />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
+      {/* <ComingSoon /> */}
     </div>
   )
 }

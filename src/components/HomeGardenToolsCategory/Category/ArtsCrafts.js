@@ -17,7 +17,7 @@ function ArtsCrafts() {
         <p>/artscrafts&sewing</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

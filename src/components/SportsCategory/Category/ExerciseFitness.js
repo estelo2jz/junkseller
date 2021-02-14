@@ -6,7 +6,7 @@ function ExerciseFitness() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

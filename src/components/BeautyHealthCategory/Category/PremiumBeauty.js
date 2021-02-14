@@ -17,7 +17,7 @@ function PremiumBeauty() {
         <p>/premiumbeauty</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

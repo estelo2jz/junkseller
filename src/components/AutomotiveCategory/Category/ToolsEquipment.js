@@ -6,7 +6,7 @@ function ToolsEquipment() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -6,7 +6,7 @@ function WifiNetworking() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -7,7 +7,7 @@ function DetectorsSensors() {
     <div>
       <p>dectecting</p>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

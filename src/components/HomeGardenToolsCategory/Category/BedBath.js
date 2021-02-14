@@ -17,7 +17,7 @@ function BedBath() {
         <p>/bed&bath</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -17,7 +17,7 @@ function StorageOrganization() {
         <p>/storage&organization</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

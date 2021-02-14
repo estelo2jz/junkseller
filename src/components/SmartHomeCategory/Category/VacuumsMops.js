@@ -6,7 +6,7 @@ function VacuumsMops() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

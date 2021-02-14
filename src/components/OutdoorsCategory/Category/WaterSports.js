@@ -8,7 +8,7 @@ function WaterSports() {
     <div className="water-sports__container">
       <h1>Water Sports</h1>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

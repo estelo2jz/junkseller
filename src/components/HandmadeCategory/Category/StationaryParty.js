@@ -17,7 +17,7 @@ function StationaryParty() {
         <p>/stationary&partysupplies</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

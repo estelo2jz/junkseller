@@ -17,7 +17,7 @@ function FineArt() {
         <p>/fineart</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

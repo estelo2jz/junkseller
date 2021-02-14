@@ -6,7 +6,7 @@ function PlugsOutlet() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

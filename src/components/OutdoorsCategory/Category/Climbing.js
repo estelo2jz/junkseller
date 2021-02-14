@@ -8,7 +8,7 @@ function Climbing() {
     <div className="climbing__container">
       <h1>Climbing</h1>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

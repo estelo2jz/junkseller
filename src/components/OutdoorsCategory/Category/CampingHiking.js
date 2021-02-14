@@ -8,7 +8,7 @@ function CampingHiking() {
     <div className="camping-hiking__container">
       <h1>Camping & Hiking</h1>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

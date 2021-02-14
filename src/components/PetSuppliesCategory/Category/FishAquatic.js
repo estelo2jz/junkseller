@@ -7,7 +7,7 @@ function FishAquatic() {
   return (
     <div className="fish-aquatic__container">
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

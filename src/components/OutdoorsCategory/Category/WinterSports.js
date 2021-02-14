@@ -8,7 +8,7 @@ function WinterSports() {
     <div className="winter-sports__container">
       <h1>Winter Sports</h1>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

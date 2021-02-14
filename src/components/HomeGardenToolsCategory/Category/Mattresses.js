@@ -17,7 +17,7 @@ function Mattresses() {
         <p>/mattresses</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

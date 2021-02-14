@@ -17,7 +17,7 @@ function GroceryGourmet() {
         <p>/grocery&gourmet</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -390,11 +390,210 @@ function ComputerTablet() {
             </div>
             <div className="tabs-template__outer-container">
               <div className="tabs-template__container">
-
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="NETGEAR Nighthawk Smart Wi-Fi Router, R6700 - AC1750 Wireless Speed Up to 1750 Mbps | Up to 1500 Sq Ft Coverage & 25 Devices | 4 x 1G Ethernet and 1 x 3"
+                  price={76.49}
+                  rateNumber={"66,695"}
+                  rating={5}
+                  listPrice="$23.50 (24% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/61FA9BbugzL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link AC1750 Smart WiFi Router (Archer A7) - Dual Band Gigabit Wireless Internet Router for Home, Works with Alexa, VPN Server, Parental Control and QoS"
+                  price={56.99}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$59.99 (5% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/51R2a9p-vNL._AC_SL1000_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link Deco Mesh WiFi System(Deco M5) –Up to 5,500 sq. ft. Whole Home Coverage and 100+ Devices,WiFi Router/Extender Replacement, Parental"
+                  price={149.99}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$182.99 (21% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/611EW6z8sZL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="NETGEAR 8-Port Gigabit Ethernet Unmanaged Switch (GS308) - Home Network Hub, Office Ethernet Splitter, Plug-and-Play, Fanless Metal Housing, Desktop or Wall"
+                  price={17.99}
+                  rateNumber={"167,320"}
+                  rating={5}
+                  listPrice="$27.99 (36% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/71Ik6OnO2OL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link AC1200 Gigabit WiFi Router (Archer A6) - 5GHz Gigabit Dual Band MU-MIMO Wireless Internet Router, Supports Beamforming, Guest WiFi and AP mode, Long..."
+                  price={42.99}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$49.99 (14% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/61vPhw-7BxL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link AX1800 Dual-Band Wi-Fi 6 Smart Router Archer AX21, Works with Alexa – A Certified for Humans Device"
+                  price={99.99}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$129.99 (23% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/61O4qvVY6XL._AC_SL1492_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="Powlaken for Surface Pro Charger 65W, Compatible with Surface Pro 3/4/5/6/7 Power Supply Adapter, Compatible for Both Microsoft Surface Book Laptop/Tablet,..."
+                  price={22.36}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$26.95 (17% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/61zBs%2B1yERL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link Deco Mesh WiFi System (Deco S4) – Up to 5,500 Sq.ft. Coverage, WiFi Router and Extender Replacement, Gigabit Ports, Seamless Roaming, Parental..."
+                  price={134.99}
+                  rateNumber={"167,320"}
+                  rating={5}
+                  listPrice="$149.99 (10% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/71GGwvCrW1L._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="NETGEAR Nighthawk Cable Modem Wi-Fi Router Combo C7000-Compatible with Cable Providers Including Xfinity by Comcast, Spectrum, Cox for Cable Plans Up to 400 Mbps | AC1900 Wi-Fi Speed | DOCSIS 3.0"
+                  price={169.99}
+                  rateNumber={"167,320"}
+                  rating={5}
+                  listPrice="$209.99 (19% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/71AWauXOUOL._AC_SL1350_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="USB C Hub Adapter for MacBook Pro 13 15 16 inch 2020 2019 2018 2017 2016,with Thunderbolt 3 5K 60HZ, 4K HDMI,100W PD, 2 USB 3.0 and SD TF Card Readers, Multiport Dongle for MacBook Air 2020 2019 2018"
+                  price={25.49}
+                  rateNumber={"167,320"}
+                  rating={5}
+                  listPrice="$36.99 (31% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/71ijB54TBwL._AC_SL1500_.jpg"
+                />
               </div>
             </div>
             <div className="tabs-template__outer-container">
               <div className="tabs-template__container">
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="NETGEAR Nighthawk Smart Wi-Fi Router, R6700 - AC1750 Wireless Speed Up to 1750 Mbps | Up to 1500 Sq Ft Coverage & 25 Devices | 4 x 1G Ethernet and 1 x 3"
+                  price={76.49}
+                  rateNumber={"66,695"}
+                  rating={5}
+                  listPrice="$23.50 (24% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/61FA9BbugzL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link AC1750 Smart WiFi Router (Archer A7) - Dual Band Gigabit Wireless Internet Router for Home, Works with Alexa, VPN Server, Parental Control and QoS"
+                  price={56.99}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$59.99 (5% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/51R2a9p-vNL._AC_SL1000_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link Deco Mesh WiFi System(Deco M5) –Up to 5,500 sq. ft. Whole Home Coverage and 100+ Devices,WiFi Router/Extender Replacement, Parental"
+                  price={149.99}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$182.99 (21% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/611EW6z8sZL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="NETGEAR 8-Port Gigabit Ethernet Unmanaged Switch (GS308) - Home Network Hub, Office Ethernet Splitter, Plug-and-Play, Fanless Metal Housing, Desktop or Wall"
+                  price={17.99}
+                  rateNumber={"167,320"}
+                  rating={5}
+                  listPrice="$27.99 (36% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/71Ik6OnO2OL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link AC1200 Gigabit WiFi Router (Archer A6) - 5GHz Gigabit Dual Band MU-MIMO Wireless Internet Router, Supports Beamforming, Guest WiFi and AP mode, Long..."
+                  price={42.99}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$49.99 (14% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/61vPhw-7BxL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link AX1800 Dual-Band Wi-Fi 6 Smart Router Archer AX21, Works with Alexa – A Certified for Humans Device"
+                  price={99.99}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$129.99 (23% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/61O4qvVY6XL._AC_SL1492_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="Powlaken for Surface Pro Charger 65W, Compatible with Surface Pro 3/4/5/6/7 Power Supply Adapter, Compatible for Both Microsoft Surface Book Laptop/Tablet,..."
+                  price={22.36}
+                  rateNumber={"167,320"}
+                  rating={4}
+                  listPrice="$26.95 (17% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/61zBs%2B1yERL._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="TP-Link Deco Mesh WiFi System (Deco S4) – Up to 5,500 Sq.ft. Coverage, WiFi Router and Extender Replacement, Gigabit Ports, Seamless Roaming, Parental..."
+                  price={134.99}
+                  rateNumber={"167,320"}
+                  rating={5}
+                  listPrice="$149.99 (10% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/71GGwvCrW1L._AC_SL1500_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="NETGEAR Nighthawk Cable Modem Wi-Fi Router Combo C7000-Compatible with Cable Providers Including Xfinity by Comcast, Spectrum, Cox for Cable Plans Up to 400 Mbps | AC1900 Wi-Fi Speed | DOCSIS 3.0"
+                  price={169.99}
+                  rateNumber={"167,320"}
+                  rating={5}
+                  listPrice="$209.99 (19% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/71AWauXOUOL._AC_SL1350_.jpg"
+                />
+                <ComputerTabletTemplate
+                  id={uuid()}
+                  title="USB C Hub Adapter for MacBook Pro 13 15 16 inch 2020 2019 2018 2017 2016,with Thunderbolt 3 5K 60HZ, 4K HDMI,100W PD, 2 USB 3.0 and SD TF Card Readers, Multiport Dongle for MacBook Air 2020 2019 2018"
+                  price={25.49}
+                  rateNumber={"167,320"}
+                  rating={5}
+                  listPrice="$36.99 (31% off)"
+                  soldBy="Ships from and sold by JunkSeller."
+                  image="https://images-na.ssl-images-amazon.com/images/I/71ijB54TBwL._AC_SL1500_.jpg"
+                />
               </div>
             </div>
           </div>

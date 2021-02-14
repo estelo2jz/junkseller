@@ -17,7 +17,7 @@ function Discover() {
         <p>/discover</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

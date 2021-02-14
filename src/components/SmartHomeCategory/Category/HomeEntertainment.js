@@ -6,7 +6,7 @@ function HomeEntertainment() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

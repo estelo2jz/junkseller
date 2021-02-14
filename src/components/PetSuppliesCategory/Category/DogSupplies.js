@@ -7,7 +7,7 @@ function DogSupplies() {
   return (
     <div className="dog-supplies__container">
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

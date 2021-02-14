@@ -17,7 +17,7 @@ function EventsParty() {
         <p>/evetns&partysupplies</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

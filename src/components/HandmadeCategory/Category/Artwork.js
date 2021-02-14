@@ -17,7 +17,7 @@ function Artwork() {
         <p>/artwork</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

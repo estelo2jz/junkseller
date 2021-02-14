@@ -7,7 +7,7 @@ function Birds() {
   return (
     <div className="birds__container">
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

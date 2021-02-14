@@ -6,7 +6,7 @@ function KidsBirthdays() {
   return (
     <div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

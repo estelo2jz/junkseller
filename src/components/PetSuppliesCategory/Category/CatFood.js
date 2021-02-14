@@ -7,7 +7,7 @@ function CatFood() {
   return (
     <div className="cat-food__container">
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

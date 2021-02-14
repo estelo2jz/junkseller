@@ -17,7 +17,7 @@ function ShopRoom() {
         <p>/shopbyroom</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

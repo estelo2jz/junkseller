@@ -8,7 +8,7 @@ function Cycling() {
     <div className="cycling__container">
       <h1>Cycling</h1>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

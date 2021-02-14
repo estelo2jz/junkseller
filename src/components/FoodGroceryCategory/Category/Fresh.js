@@ -17,7 +17,7 @@ function Fresh() {
         <p>/fresh</p>
       </div>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }

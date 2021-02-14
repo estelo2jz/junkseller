@@ -7,7 +7,7 @@ function OutdoorAccessories() {
     <div>
       <h1>Accessories</h1>
       <Building />
-      <ComingSoon />
+      {/* <ComingSoon /> */}
     </div>
   )
 }
