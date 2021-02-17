@@ -6,7 +6,7 @@ import './HandmadeMenu.scss';
 function HandmadeMenu(props) {
   return (
     <div className="handmade-menu">
-      <div className="handmade-menu-items">
+      {/* <div className="handmade-menu-items">
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
@@ -244,7 +244,7 @@ function HandmadeMenu(props) {
             {props.category16}
           </span>
         </NavLink>
-      </div>
+      </div> */}
     </div>
   )
 }
