@@ -64,16 +64,83 @@ function Jewelry() {
           <p>Watches</p>
         </div>
       </div>
-      <div>
+      <div className="jewelry__products">
         <JewelryProductTemplate
           id={uuid()}
-          productImage={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
           title= "14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
           brandName = "GraceCode"
           rating = {4}
-          rateNum = {"4,667"}
+          rateNumber = {"4,667"}
+          shipping = {"Free Shipping"}
           price = {"14.99"}
           arrivalEst = {"Thursday, Feb 5 25"}
+        />
+        <JewelryProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping = {"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <JewelryProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping = {"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <JewelryProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping = {"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <JewelryProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping = {"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <JewelryProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping = {"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <JewelryProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping = {"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
         />
       </div>
 
