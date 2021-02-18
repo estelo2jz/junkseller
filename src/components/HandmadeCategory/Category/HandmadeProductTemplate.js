@@ -1,5 +1,5 @@
 import React from 'react';
-import '../HandmadeStyles/JewelryProductTemplate.scss';
+import '../HandmadeStyles/HandmadeProductTemplate.scss';
 import { useStateValue } from '../../StateProvider';
 
 function JewelryProductTemplate({id, title, image, price, rating, rateNumber, shipping, brandName, arrivalEst}) {
@@ -21,16 +21,16 @@ function JewelryProductTemplate({id, title, image, price, rating, rateNumber, sh
     })
   };
   return (
-    <div className="jewelry-product-template">
-      <div id={id} className="jewelry-product-template__container">
-        <div className="jewelry-product-template__img">
-          <img src={image} alt="jewelry-product" />
+    <div className="handmade-template">
+      <div id={id} className="handmade-template__container">
+        <div className="handmade-template__img">
+          <img src={image} alt="handmade" />
         </div>
-        <div className="jewelry-product-template__title">
+        <div className="handmade-template__title">
           <p>{title}</p>
           <p>by {brandName}</p>
         </div>
-        <div className="jewelry-product-template__rating">
+        <div className="handmade-template__rating">
           {
             Array(rating)
               .fill()
@@ -40,15 +40,16 @@ function JewelryProductTemplate({id, title, image, price, rating, rateNumber, sh
           }
           <p className="rating-rate">{rateNumber}</p>
         </div>
-        <div className="jewelry-product-template__price">
+        <div className="handmade-template__price">
+          <p>$</p>
           <p>{price}</p>
-          <p>& {shipping}</p>
+          <p>{shipping}</p>
         </div>
-        <div className="jewelry-product-template__arrival">
+        <div className="handmade-template__arrival">
           <p>{arrivalEst}</p>
           <p>Details</p>
         </div>
-        <div className="jewelry-product-template__btn">
+        <div className="handmade-template__btn">
           <button onClick={addToBasket}>Add to basket</button>
         </div>
       </div>

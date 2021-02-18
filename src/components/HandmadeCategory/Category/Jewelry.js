@@ -2,11 +2,20 @@ import React from 'react';
 import { uuid } from 'uuidv4';
 import { Link } from 'react-router-dom';
 import '../HandmadeStyles/JewelryTwo.scss';
-import JewelryProductTemplate from './JewelryProductTemplate';
+import HandmadeProductTemplate from './HandmadeProductTemplate';
 
 function Jewelry() {
   return (
     <div className="jewelry__container">
+      <div className="jewelry__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/handmade">
+          <p>
+            /handmade
+          </p>
+        </Link>
+        <p>/jewelry</p>
+      </div>
       <div className="jewelry__heading">
         <p>Jewelry</p>
         <p>Crafted by Artisans to show your style and celebrate any occasion.</p>
@@ -65,7 +74,7 @@ function Jewelry() {
         </div>
       </div>
       <div className="jewelry__products">
-        <JewelryProductTemplate
+        <HandmadeProductTemplate
           id={uuid()}
           image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
           title= "14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
@@ -76,7 +85,7 @@ function Jewelry() {
           price = {"14.99"}
           arrivalEst = {"Thursday, Feb 5 25"}
         />
-        <JewelryProductTemplate
+        <HandmadeProductTemplate
           id={uuid()}
           image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
           title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
@@ -87,7 +96,7 @@ function Jewelry() {
           price={"14.99"}
           arrivalEst={"Thursday, Feb 5 25"}
         />
-        <JewelryProductTemplate
+        <HandmadeProductTemplate
           id={uuid()}
           image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
           title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
@@ -98,7 +107,7 @@ function Jewelry() {
           price={"14.99"}
           arrivalEst={"Thursday, Feb 5 25"}
         />
-        <JewelryProductTemplate
+        <HandmadeProductTemplate
           id={uuid()}
           image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
           title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
@@ -109,7 +118,7 @@ function Jewelry() {
           price={"14.99"}
           arrivalEst={"Thursday, Feb 5 25"}
         />
-        <JewelryProductTemplate
+        <HandmadeProductTemplate
           id={uuid()}
           image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
           title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
@@ -120,7 +129,7 @@ function Jewelry() {
           price={"14.99"}
           arrivalEst={"Thursday, Feb 5 25"}
         />
-        <JewelryProductTemplate
+        <HandmadeProductTemplate
           id={uuid()}
           image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
           title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
@@ -131,7 +140,7 @@ function Jewelry() {
           price={"14.99"}
           arrivalEst={"Thursday, Feb 5 25"}
         />
-        <JewelryProductTemplate
+        <HandmadeProductTemplate
           id={uuid()}
           image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
           title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
