@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../HandmadeStyles/Gifts.scss';
-import ComingSoon from '../../ComingSoon';
-import Building from '../../Building';
 
 function Gifts() {
   return (
@@ -16,8 +14,67 @@ function Gifts() {
         </Link>
         <p>/gifts</p>
       </div>
-      <Building />
-      {/* <ComingSoon /> */}
+      <div className="gifts__section">
+        <div className="gifts__section-heading">
+          <p>Handmade Gift Shop</p>
+        </div>
+        <div className="ads">
+          <img src="https://images-na.ssl-images-amazon.com/images/G/01/handmade/2018/GiftPage/Evergreen/DEC/Desktop_BB._CB460215227_.jpg" alt="ads" />
+        </div>
+        <div className="gifts__occasion-heading">
+          <p>Shop of an occasion</p>
+        </div>
+        <div className="gifts__section-category">
+          <div className="gifts__section-links">
+            <Link to="/handmade/gifts" className="gifts__section-link">
+              <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/Q2Flip/sbc_weddingengagement_B07MBQYSN2._CB464687712_.jpg" alt="gifts" />
+            </Link>
+            <p>Weeding & Engagement</p>
+          </div>
+          <div className="gifts__section-links">
+            <Link to="/handmade/gifts" className="gifts__section-link">
+              <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/Misc/GBO_Housewarming_420x420._CB439422739_.jpg" alt="gifts" />
+            </Link>
+            <p>Housewarming</p>
+          </div>
+          <div className="gifts__section-links">
+            <Link to="/handmade/gifts" className="gifts__section-link">
+              <img src="https://m.media-amazon.com/images/G/01/handmade/2019/Gateway/US_GW_QC_Baby_Nursing_420x420._CB440696745_.jpg" alt="gifts" />
+            </Link>
+            <p>Baby Shower</p>
+          </div>
+          <div className="gifts__section-links">
+            <Link to="/handmade/gifts" className="gifts__section-link">
+              <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/Misc/GBO_Birthday_420x420._CB439422034_.jpg" alt="gifts" />
+            </Link>
+            <p>Birthday</p>
+          </div>
+          <div className="gifts__section-links">
+            <Link to="/handmade/gifts" className="gifts__section-link">
+              <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/GiftsByOccasion/hnd_gbo_anniversary._CB437916558_.jpg" alt="gifts" />
+            </Link>
+            <p>Anniversary</p>
+          </div>
+          <div className="gifts__section-links">
+            <Link to="/handmade/gifts" className="gifts__section-link">
+              <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/GiftsByOccasion/hnd_gbo_barbatmitzvah._CB437917370_.jpg" alt="gifts" />
+            </Link>
+            <p>Bar & Bat Mitzvah</p>
+          </div>
+          <div className="gifts__section-links">
+            <Link to="/handmade/gifts" className="gifts__section-link">
+              <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/GiftsByOccasion/hnd_gbo_thankyou._CB437919076_.jpg" alt="gifts" />
+            </Link>
+            <p>Thank you</p>
+          </div>
+          <div className="gifts__section-links">
+            <Link to="/handmade/gifts" className="gifts__section-link">
+              <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/GiftsByOccasion/hnd_gbo_newpet2._CB437919157_.jpg" alt="gifts" />
+            </Link>
+            <p>New Pet</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

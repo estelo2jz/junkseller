@@ -115,6 +115,7 @@ import StationaryParty from './components/HandmadeCategory/Category/StationaryPa
 import ToysGames from './components/HandmadeCategory/Category/ToysGames';
 import Wedding from './components/HandmadeCategory/Category/Wedding';
 import HandmadeKitchenDining from './components/HandmadeCategory/Category/KitchenDining';
+import HandmadeJewelry from './components/HandmadeCategory/Category/Jewelry';
 
 // Outdoors Components
 import AllOutdoor from './components/OutdoorsCategory/Category/AllOutdoor';
@@ -1180,7 +1181,7 @@ function App() {
             />
             <Gifts />
           </Route>
-          <Route path="/handmade/jewelry" exact component={Jewelry}>
+          <Route path="/handmade/jewelry" exact component={HandmadeJewelry}>
             <NavBar />
             <HandmadeMenu 
               category0="All Handmade" 
@@ -1201,7 +1202,7 @@ function App() {
               category15="Baby"
               category16="Sell on JunkSeller"
             />
-            <Jewelry />
+            <HandmadeJewelry />
           </Route>
           <Route path="/handmade/home&kitchen" exact component={HomeKitchen}>
             <NavBar />

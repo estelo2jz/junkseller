@@ -8,4 +8,63 @@
       font-size: 0.8em;
     }
   }
+  .gifts__section {
+    display: flex;
+    flex-direction: column;
+    .gifts__section-heading {
+      display: flex;
+      width: 100%;
+      p {
+        padding: 20px 0px;
+        font-size: 1.5rem;
+        margin-left: 30px;
+      }
+    }
+    .gifts__occasion-heading {
+      // margin: 0px 10px;
+      display: flex;
+      width: 100%;
+      border-top: 2px solid rgb(172, 170, 170);
+      p {
+        padding: 20px 0px;
+        font-size: 1.5rem;
+        margin-left: 30px;
+      }
+    }
+    .ads {
+      padding-bottom: 20px;
+      img {
+        width: 100%;
+      }
+    }
+
+    .gifts__section-category {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 100%;
+        grid-row-gap: 20px;
+        padding-bottom: 40px;
+        .gifts__section-links {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          margin: 10px;
+          .gifts__section-link {
+            overflow: hidden;
+          }
+          p {
+            font-weight: 700;
+            font-size: 1.3rem;
+            width: 100%;
+          }
+          img {
+            width: 300px;
+            min-width: 40%;
+          }
+        }
+    }
+  }
 }

@@ -1,0 +1,65 @@
+.jewelry__container {
+  // background-color: red;
+  .jewelry__heading {
+    max-width: 100%;
+    padding: 0px 30px;
+    p:nth-child(1) {
+      font-weight: 600;
+      font-size: 1.4rem;
+    }
+    p:nth-child(2) {
+      color: rgb(148, 145, 145);
+      font-size: .9rem;
+    }
+    p {
+      width: 100%;
+      font-size: 1rem;
+      padding: 20px 0px;
+    }
+  }
+  .jewelry__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .jewelry__section-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    // min-width: 600px;
+    .jewelry__section-links {
+      overflow: hidden;
+      // background-color: green;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin: 10px;
+      .jewelry__section-link {
+        img {
+          width: 300px;
+          // max-width: 40%;
+        }
+
+      }
+      p {
+        font-weight: 600;
+        width: 100%;
+        font-size: 1.2em;
+        padding: 10px 10px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+  .jewelry__collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 600px;
+    }
+  }
+}
