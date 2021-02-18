@@ -1,6 +1,8 @@
 import React from 'react';
+import { uuid } from 'uuidv4';
 import { Link } from 'react-router-dom';
 import '../HandmadeStyles/JewelryTwo.scss';
+import JewelryProductTemplate from './JewelryProductTemplate';
 
 function Jewelry() {
   return (
@@ -62,14 +64,19 @@ function Jewelry() {
           <p>Watches</p>
         </div>
       </div>
-      {/* <div  className="jewelry__collections">
-          <div className="jewelry__left">
-            <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2019/img/Handmade/StorefrontMerch/XCM_Manual_1169853_Jewelry_Celestial_finds_Collection_Q2_960x560_Handmade_XCM_Manual_1169853_us_handmade_geometric_celestial_finds_960x560_1557831717_jpg.jpg" alt="celestial" />
-          </div>
-        <div className="jewelry__right">
-            <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2019/img/Handmade/StorefrontMerch/XCM_Manual_1169852_Jewelry_geometric_Styles_Collection_Q2_960x560_Handmade_XCM_Manual_1169852_us_handmade_geometric_jewelry_960x560_1557123084_jpg.jpg" alt="goemetric" />
-          </div>
-      </div> */}
+      <div>
+        <JewelryProductTemplate
+          id={uuid()}
+          productImage={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title= "14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName = "GraceCode"
+          rating = {4}
+          rateNum = {"4,667"}
+          price = {"14.99"}
+          arrivalEst = {"Thursday, Feb 5 25"}
+        />
+      </div>
+
     </div>
   )
 }
