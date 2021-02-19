@@ -151,6 +151,83 @@ function Jewelry() {
           price={"14.99"}
           arrivalEst={"Thursday, Feb 5 25"}
         />
+        <HandmadeProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping={"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <HandmadeProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping={"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <HandmadeProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping={"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <HandmadeProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping={"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <HandmadeProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping={"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <HandmadeProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping={"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
+        <HandmadeProductTemplate
+          id={uuid()}
+          image={"https://images-na.ssl-images-amazon.com/images/I/41x7lRBCfmL.jpg"}
+          title="14K Gold Filled Small Hoop Earrings for Cartilage Nose, Tiny Thin 7mm Piercing Hoop Ring 22 Gauge"
+          brandName="GraceCode"
+          rating={4}
+          rateNumber={"4,667"}
+          shipping={"Free Shipping"}
+          price={"14.99"}
+          arrivalEst={"Thursday, Feb 5 25"}
+        />
       </div>
 
     </div>

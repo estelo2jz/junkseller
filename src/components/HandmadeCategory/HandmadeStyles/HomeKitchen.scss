@@ -8,4 +8,61 @@
       font-size: 0.8em;
     }
   }
+  .home-kitchen__section {
+    .home-kitchen__heading {
+      max-width: 100%;
+      padding: 0px 30px;
+      p:nth-child(1) {
+        font-weight: 600;
+        font-size: 1.4rem;
+     }
+      p:nth-child(2) {
+        color: rgb(148, 145, 145);
+        font-size: .9rem;
+      }
+      p {
+        width: 100%;
+        font-size: 1rem;
+        padding: 20px 0px;
+      }
+    }
+    .home-kitchen__header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0px;
+    }
+    .home-kitchen__section-outer {
+      // width: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .home-kitchen__section-categories {
+        padding: 40px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 900px;
+        justify-content: center;
+        gap: 10px;
+  
+        .home-kitchen__links {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 2px solid black;
+          color: black;
+          width: 200px;
+          height: 60px;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+        .home-kitchen__links:hover {
+          background-color: black;
+          transition: all 0.3s;
+          color: white;
+        }
+      }
+    }
+  }
 }

@@ -18,35 +18,38 @@ function HomeKitchen() {
           <p>Home & Kitchen</p>
           <p>Unique, handcrafted home decor, artwork, kitchen accessories & more.</p>
         </div>
-        <div>
+        <div className="home-kitchen__header">
           <p>Shop by Category</p>
         </div>
-        <div>
-          <Link to="/handmade/home&kitchen" className="home-kitchen__links">
-            <p>home decor</p>
-          </Link>
-          <Link to="/handmade/home&kitchen" className="home-kitchen__links">
-            <p>artwork</p>
-          </Link>
-          <Link to="/handmade/home&kitchen" className="home-kitchen__links">
-            <p>kitchen & dining</p>
-          </Link>
-          <Link to="/handmade/home&kitchen" className="home-kitchen__links">
-            <p>furniture</p>
-          </Link>
-          <Link to="/handmade/home&kitchen" className="home-kitchen__links">
-            <p>lighting</p>
-          </Link>
-          <Link to="/handmade/home&kitchen" className="home-kitchen__links">
-            <p>bath</p>
-          </Link>
-          <Link to="/handmade/home&kitchen" className="home-kitchen__links">
-            <p>pet bowls & feeders</p>
-          </Link>
-          <Link to="/handmade/home&kitchen" className="home-kitchen__links">
-            <p>bedding</p>
-          </Link>
+        <div className="home-kitchen__section-outer">
+          <div className="home-kitchen__section-categories">
+            <Link to="/handmade/home&kitchen" className="home-kitchen__links">
+              <p>home decor</p>
+            </Link>
+            <Link to="/handmade/home&kitchen" className="home-kitchen__links">
+              <p>artwork</p>
+            </Link>
+            <Link to="/handmade/home&kitchen" className="home-kitchen__links">
+              <p>kitchen & dining</p>
+            </Link>
+            <Link to="/handmade/home&kitchen" className="home-kitchen__links">
+              <p>furniture</p>
+            </Link>
+            <Link to="/handmade/home&kitchen" className="home-kitchen__links">
+              <p>lighting</p>
+            </Link>
+            <Link to="/handmade/home&kitchen" className="home-kitchen__links">
+              <p>bath</p>
+            </Link>
+            <Link to="/handmade/home&kitchen" className="home-kitchen__links">
+              <p>pet bowls & feeders</p>
+            </Link>
+            <Link to="/handmade/home&kitchen" className="home-kitchen__links">
+              <p>bedding</p>
+            </Link>
+          </div>
         </div>
+
       </div>
     </div>
   )
