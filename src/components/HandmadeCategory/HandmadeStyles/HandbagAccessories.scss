@@ -8,4 +8,34 @@
       font-size: 0.8em;
     }
   }
+  .handbag-accessories__heading {
+    max-width: 100%;
+    padding: 0px 30px;
+    p:nth-child(1) {
+      font-weight: 600;
+      font-size: 1.4rem;
+   }
+    p:nth-child(2) {
+      color: rgb(148, 145, 145);
+      font-size: .9rem;
+    }
+    p {
+      width: 100%;
+      font-size: 1rem;
+      padding: 20px 0px;
+    }
+  }
+  .handbag-accessories__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .handbag-accessories__section-outer {
+  }
+  .handbag-accessories__products {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    padding: 40px 10px;
+  }
 }

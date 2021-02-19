@@ -89,7 +89,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -100,7 +100,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -111,7 +111,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -122,7 +122,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -133,7 +133,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -144,7 +144,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -155,7 +155,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -166,7 +166,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -177,7 +177,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -188,7 +188,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -199,7 +199,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -210,7 +210,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -221,7 +221,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
             id={uuid()}
@@ -232,7 +232,7 @@ function Wedding() {
             rateNumber={"792"}
             shipping={"Free Shipping"}
             price={"22.99"}
-            arrivalEst={"Thursday, Feb 12"}
+            arrivalEst={"Tuesday, Feb 12"}
           />
         </div>
       </div>

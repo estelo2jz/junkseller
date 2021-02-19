@@ -77,7 +77,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -88,7 +88,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -99,7 +99,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -110,7 +110,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -121,7 +121,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -132,7 +132,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -143,7 +143,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -154,7 +154,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -165,7 +165,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -176,7 +176,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -187,7 +187,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -198,7 +198,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -209,7 +209,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -220,7 +220,7 @@ function ClothingShoes() {
           rateNumber={"792"}
           shipping={"Free Shipping"}
           price={"13.99"}
-          arrivalEst={"Thursday, Feb 18"}
+          arrivalEst={"Monday, Feb 18"}
         />
       </div>
     </div>
