@@ -1,6 +1,9 @@
 import React from 'react';
+import { uuid } from 'uuidv4';
 import { Link } from 'react-router-dom';
 import '../HandmadeStyles/HomeKitchen.scss';
+import HandmadeProductTemplate from './HandmadeProductTemplate';
+
 function HomeKitchen() {
   return (
     <div className="home-kitchen__container">
@@ -49,7 +52,165 @@ function HomeKitchen() {
             </Link>
           </div>
         </div>
-
+        <div className="home-kitchen__header">
+          <p>Featured Collections</p>
+        </div>
+        <div className="home-kitchen__products">
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+          <HandmadeProductTemplate
+            id={uuid()}
+            image={"https://images-na.ssl-images-amazon.com/images/I/41-glSugekL.jpg"}
+            title="The Original BenShot Bullet Rocks Glass with Real 0.308 Bullet Made in the USA"
+            brandName="BenShot USA"
+            rating={5}
+            rateNumber={"792"}
+            shipping={"Free Shipping"}
+            price={"22.99"}
+            arrivalEst={"Thursday, Feb 12"}
+          />
+        </div>
       </div>
     </div>
   )

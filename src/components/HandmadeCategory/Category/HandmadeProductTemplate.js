@@ -1,6 +1,7 @@
 import React from 'react';
 import '../HandmadeStyles/HandmadeProductTemplate.scss';
 import { useStateValue } from '../../StateProvider';
+import HandmadeProductTemplate from './HandmadeProductTemplate';
 
 function JewelryProductTemplate({id, title, image, price, rating, rateNumber, shipping, brandName, arrivalEst}) {
   const [{ basket }, dispatch] = useStateValue();

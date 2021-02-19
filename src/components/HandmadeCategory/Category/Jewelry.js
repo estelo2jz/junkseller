@@ -83,7 +83,7 @@ function Jewelry() {
           rateNumber = {"4,667"}
           shipping = {"Free Shipping"}
           price = {"14.99"}
-          arrivalEst = {"Thursday, Feb 5 25"}
+          arrivalEst = {"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -94,7 +94,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -105,7 +105,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -116,7 +116,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -127,7 +127,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -138,7 +138,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -149,7 +149,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -160,7 +160,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -171,7 +171,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -182,7 +182,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -193,7 +193,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -204,7 +204,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -215,7 +215,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
           id={uuid()}
@@ -226,7 +226,7 @@ function Jewelry() {
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
           price={"14.99"}
-          arrivalEst={"Thursday, Feb 5 25"}
+          arrivalEst={"Thursday, Feb 25"}
         />
       </div>
 

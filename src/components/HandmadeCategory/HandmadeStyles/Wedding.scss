@@ -8,4 +8,59 @@
       font-size: 0.8em;
     }
   }
+  .wedding__section {
+    .wedding__heading {
+      max-width: 100%;
+      padding: 0px 30px;
+      p:nth-child(1) {
+        font-weight: 600;
+        font-size: 1.4rem;
+     }
+      p:nth-child(2) {
+        color: rgb(148, 145, 145);
+        font-size: .9rem;
+      }
+      p {
+        width: 100%;
+        font-size: 1rem;
+        padding: 20px 0px;
+      }
+    }
+    .wedding__header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0px;
+    }
+  }
+  .wedding__section-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // min-width: 900px;
+    // width: 100%;
+    .wedding__section-category {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      grid-row-gap: 10px;
+      // min-width: 700px;
+      .wedding__section-links {
+        margin: 5px;
+        img {
+          width: 220px;
+        }
+        p {
+          font-size: 0.8rem;
+        }
+
+      }
+    }
+  }
+  .wedding__products {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    padding: 40px 10px;
+  }
 }
