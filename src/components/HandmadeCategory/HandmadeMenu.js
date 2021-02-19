@@ -10,8 +10,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
          to="/handmade/allhandmade">
@@ -24,8 +24,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/gifts">
@@ -38,8 +38,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/jewelry">
@@ -52,8 +52,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/home&kitchen">
@@ -66,8 +66,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/wedding">
@@ -80,8 +80,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/clothing&shoes">
@@ -94,8 +94,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/handbags&accessories">
@@ -108,8 +108,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px",
             borderRadius: "3px"
           }}
@@ -123,8 +123,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/stationary&partysupplies">
@@ -137,8 +137,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/toys&games">
@@ -151,8 +151,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/petsupplies">
@@ -165,8 +165,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/homedecor">
@@ -179,8 +179,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/artwork">
@@ -193,8 +193,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/kitchen&dining">
@@ -207,8 +207,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/furniture">
@@ -221,8 +221,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/baby">
@@ -235,8 +235,8 @@ function HandmadeMenu(props) {
         <NavLink 
           activeStyle={{
             fontWeight: "bold",
-            color: "white",
-            backgroundColor: "black",
+            color: "black",
+            backgroundColor: "white",
             borderRadius: "3px"
           }}
           to="/handmade/sellon">

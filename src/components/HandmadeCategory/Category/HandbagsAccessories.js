@@ -25,29 +25,32 @@ function HandbagsAccessories() {
       </div>
       <div className="handbag-accessories__section-outer">
         <div className="handbag-accessories__section-links">
-          <Link to="/handbags&accessories">
+          <Link to="/handmade/handbags&accessories">
             <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/Q2Flip/sbc_bags_B07MPSLV1N._CB464710730_.jpg" alt="handbag-accessories" />
           </Link>
           <p>Cross-body Bags</p>
         </div>
         <div className="handbag-accessories__section-links">
-          <Link to="/handbags&accessories">
+          <Link to="/handmade/handbags&accessories">
             <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/Q2Flip/sbc_totes_B07BWF7966.jpg" alt="handbag-accessories" />
           </Link>
           <p>Totes</p>
         </div>
         <div className="handbag-accessories__section-links">
-          <Link to="/handbags&accessories">
+          <Link to="/handmade/handbags&accessories">
             <img src="https://m.media-amazon.com/images/G/01/handmade/StorefrontMerch/Q2Flip/sbc_wallet_clutches_B07DGGP68K._CB463561182_.jpg" alt="handbag-accessories" />
           </Link>
           <p>Wallets & Clutches</p>
         </div>
         <div className="handbag-accessories__section-links">
-          <Link to="/handbags&accessories">
+          <Link to="/handmade/handbags&accessories">
             <img src="https://images-na.ssl-images-amazon.com/images/I/91Uh4o-JXxL._SL1500_.jpg" alt="handbag-accessories" />
           </Link>
           <p>Backpacks</p>
         </div>
+      </div>
+      <div className="handbag-accessories__header">
+          <p>Collections we love</p>
       </div>
       <div className="handbag-accessories__products">
         <HandmadeProductTemplate
