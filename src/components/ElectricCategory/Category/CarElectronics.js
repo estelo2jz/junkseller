@@ -1,11 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
-import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
+// import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/CarElectronics.scss';
 
 function CarElectronics() {
   return (
         <div className="car-electronics__container">
+      <div className="car-electronics__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/carelectronics</p>
+      </div>
           <div className="car-electronics__heading">
             <h1>Car Electronics</h1>
           </div>

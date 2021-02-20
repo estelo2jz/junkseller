@@ -1,10 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
 import '../ElectronicStyles/ElectronicsBase.scss';
 
 function ElectronicsBase() {
   return (
     <div className="electronics-base__container">
+      <div className="electronics-base__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/electronics</p>
+      </div>
       <div className="electronics-base__heading">
         <h1>Electronics</h1>
       </div>

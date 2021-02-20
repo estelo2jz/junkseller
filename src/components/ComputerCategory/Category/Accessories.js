@@ -66,6 +66,15 @@ function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumb
 function ComputerAccessories() {
   return (
     <div className="computer-accessories__container">
+      <div className="computer-accessories__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/computers">
+          <p>
+            /computers
+          </p>
+        </Link>
+        <p>/accessories</p>
+      </div>
       <div className="computer-accessories__heading">
         <p>Accessories</p>
       </div>

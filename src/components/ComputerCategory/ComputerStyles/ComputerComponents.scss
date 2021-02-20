@@ -1,5 +1,4 @@
 .computer-components-template__container {
-  padding: 70px 0px;
   text-decoration: none;
   display: flex;
   // flex-wrap: wrap;
@@ -146,6 +145,17 @@
   justify-content: center;
   flex-direction: column;
   // align-items: center;
+  padding: 70px 0px;
+  .computer-components__history-path {
+    display: flex;
+    width: 100%;
+    // justify-content: center;
+    align-items: center;
+    p {
+      padding: 10px 5px;
+      font-size: 0.8em;
+    }
+  }
   .computer-components__heading {
     margin-left: 30px;
     padding: 20px 0px;

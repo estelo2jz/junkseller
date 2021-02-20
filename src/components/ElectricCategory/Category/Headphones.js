@@ -1,9 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../ElectronicStyles/Headphones.scss';
 
 function Headphones() {
   return (
     <div className="headphones__container">
+      <div className="headphones__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/headphones</p>
+      </div>
       <div className="headphones__heading">
         <h1>Headphones</h1>
       </div>

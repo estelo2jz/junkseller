@@ -1,11 +1,21 @@
 import React from 'react';
-import ElectronicsProductTemplate from './ElectronicsProductTemplate';
-import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
+import { Link } from 'react-router-dom';
+// import ElectronicsProductTemplate from './ElectronicsProductTemplate';
+// import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/BluetoothWireless.scss';
 
 function BluetoothWireless() {
   return (
     <div className="bluetooth-wireless__container">
+      <div className="bluetooth-wireless__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/bluetooth&wireless</p>
+      </div>
       <div className="bluetooth-wireless__heading">
         <h1>Bluetooth & Wireless</h1>
       </div>

@@ -1,11 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
-import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
+// import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/VideoGames.scss';
 
 function VideoGames() {
   return (
     <div className="video-games__container">
+      <div className="video-games__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/videogames</p>
+      </div>
       <div className="video-games__heading">
         <h1>Video Games</h1>
       </div>

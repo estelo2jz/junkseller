@@ -1,9 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../ElectronicStyles/MusicalInstruments.scss';
 
 function MusicalInstruments() {
   return (
     <div className="musical-instruments__container">
+      <div className="musical-instruments__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/musicalinstruments</p>
+      </div>
         <div className="musical-instruments__heading">
           <h1>Musical Instruments</h1>
         </div>

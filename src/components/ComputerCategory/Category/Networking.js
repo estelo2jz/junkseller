@@ -66,6 +66,15 @@ function NetworkingTemplate({ id, title, image, price, rating, rateNumber, listP
 function Networking() {
   return (
     <div className="networking__container">
+      <div className="networking__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/computers">
+          <p>
+            /computers
+          </p>
+        </Link>
+        <p>/networking</p>
+      </div>
       <div className="networking__heading">
         <p>Networking</p>
       </div>

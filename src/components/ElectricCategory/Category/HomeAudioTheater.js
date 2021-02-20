@@ -1,11 +1,21 @@
 import React from 'react';
-import ElectronicsProductTemplate from './ElectronicsProductTemplate';
-import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
+import { Link } from 'react-router-dom';
+// import ElectronicsProductTemplate from './ElectronicsProductTemplate';
+// import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/HomeAudioTheater.scss';
 
 function HomeAudioTheater() {
   return (
     <div className="home-audio-theater__container">
+      <div className="home-audio-theater__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/homeaudiotheater</p>
+      </div>
       <div className="home-audio-theater__heading">
         <h2>Home Audio Theater</h2>
       </div>

@@ -1,11 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
-import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
+// import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/WearableTechnology.scss';
 
 function WearableTechnology() {
   return (
     <div className="wearable-technology__container">
+      <div className="wearable-technology__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/wearabletechnology</p>
+      </div>
       <div className="wearable-technology__heading">
         <h1>Wearable Technology</h1>
       </div>

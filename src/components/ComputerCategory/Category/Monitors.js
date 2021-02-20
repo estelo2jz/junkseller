@@ -66,6 +66,15 @@ function MonitorsTemplate({ id, title, image, price, rating, rateNumber, listPri
 function Monitors() {
   return (
     <div className="monitors__container">
+      <div className="monitors__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/computers">
+          <p>
+            /computers
+          </p>
+        </Link>
+        <p>/monitors</p>
+      </div>
       <div className="monitors__heading">
         <p>Monitors</p>
         <p>

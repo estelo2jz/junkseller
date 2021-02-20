@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
 import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
@@ -7,6 +8,15 @@ import '../ElectronicStyles/TVVideo.scss';
 function TVVideo() {
   return (
     <div className="tv-video__container">
+      <div className="tv-video__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/tv&video</p>
+      </div>
       <div className="tv-video__heading">
         <h1>TV & Video</h1>
       </div>

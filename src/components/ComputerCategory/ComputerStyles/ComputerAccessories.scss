@@ -1,5 +1,4 @@
 .computer-accessories-template__container {
-  padding: 70px 0px;
   text-decoration: none;
   display: flex;
   // flex-wrap: wrap;
@@ -12,10 +11,6 @@
   margin: 2px;
   max-width: 48%;
   overflow: hidden;
-
-  // max-height: 100%;
-  // background-color: red;
-  // cursor: pointer;
   border: 1px solid rgb(243, 240, 241);
   .computer-accessories-template__info {
     overflow: hidden;
@@ -146,6 +141,17 @@
   justify-content: center;
   flex-direction: column;
   // align-items: center;
+  padding: 70px 0px;
+  .computer-accessories__history-path {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    width: 100%;
+    p {
+      padding: 10px 5px;
+      font-size: 0.8em;
+    }
+  }
   .computer-accessories__heading {
     margin-left: 30px;
     padding: 20px 0px;

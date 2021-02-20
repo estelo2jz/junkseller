@@ -1,12 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
-import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
+// import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/CameraPhotoVideo.scss';
 
 function CameraPhotoVideo() {
   return (
     <div className="camera-photo-video__container">
+      <div className="camera-photo-video__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/electronics">
+          <p>
+            /electronics
+          </p>
+        </Link>
+        <p>/camera&photo&video</p>
+      </div>
       <div className="camera-photo-video__heading">
         <h1>Camera, Photo & Video</h1>
       </div>

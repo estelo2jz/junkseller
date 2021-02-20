@@ -87,6 +87,15 @@ function Upccoming({upImage, upTitle, upTime}) {
 function ComputerTablet() {
   return (
     <div className="computer-tablet__container">
+      <div className="computer-tablet__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/computers">
+          <p>
+            /computers
+          </p>
+        </Link>
+        <p>/computers&tablets&PC</p>
+      </div>
       <div className="computer-tablet__category">
         <Link to="#" className="computer-tablet__category-item">
           <div className="computer-tablet__category-heading">

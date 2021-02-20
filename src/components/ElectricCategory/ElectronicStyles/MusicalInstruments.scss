@@ -5,7 +5,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 40px;
+  padding: 70px 0px;
+  .musical-instruments__history-path {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    width: 100%;
+    p {
+      padding: 10px 5px;
+      font-size: 0.8em;
+    }
+  }
   .musical-instruments__heading {
     text-align: left;
     width: 100%;

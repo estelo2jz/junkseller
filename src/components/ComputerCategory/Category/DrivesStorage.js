@@ -66,6 +66,15 @@ function DrivesStorageTemplate({ id, title, image, price, rating, rateNumber, li
 function DrivesStorage() {
   return (
     <div className="drives-storage__container">
+      <div className="drives-storage__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/computers">
+          <p>
+            /computers
+          </p>
+        </Link>
+        <p>/harddrives&storage</p>
+      </div>
       <div className="drives-storage__heading">
         <p>Hard Drives & Storage</p>
       </div>
