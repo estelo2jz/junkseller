@@ -5,6 +5,7 @@ import ScrollToTop from './components/ScrollToTop';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
+import NavBarSubBars from './components/NavBarSubBars';
 import NewNav from './components/SidebarData';
 import Header from './components/Header';
 // import { FooterContainer } from './components/containers/Footer';
