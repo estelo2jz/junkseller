@@ -8,6 +8,7 @@ import { ReactComponent as ArrowIcon } from './icons/arrow.svg';
 import { ReactComponent as BoltIcon } from './icons/bolt.svg';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import MenuIcon from '@material-ui/icons/Menu';
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
@@ -22,10 +23,10 @@ function App() {
   const [sidebar, setSidebar] = useState(false);
   return (
     <Navbar>
-      <NavItem icon={<CaretIcon />}>
-        <DropdownMenu></DropdownMenu>
-      </NavItem>
       <div className="navbar__flex">
+        <NavItem icon={<MenuIcon />}>
+          <DropdownMenu></DropdownMenu>
+        </NavItem>
         <div className="navbar__header">
           <Link to="/"><p>Junk Seller</p></Link>
         </div>
@@ -59,7 +60,7 @@ function NavItem(props) {
 
   return (
     <li className="nav-item">
-      <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
+      <a href="#" onClick={() => setOpen(!open)}>
         {props.icon}
       </a>
 
