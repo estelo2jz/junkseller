@@ -242,7 +242,7 @@ function App() {
           <Route path="/electronics/tvvideo" exact component={TVVideo}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -254,13 +254,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <TVVideo />
           </Route>
           <Route path="/electronics/homeaudiotheater" exact component={HomeAudioTheater}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -272,13 +272,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <HomeAudioTheater />
           </Route>
           <Route path="/electronics/cameraphotovideo" exact component={CameraPhotoVideo}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -290,13 +290,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <CameraPhotoVideo />
           </Route>
           <Route path="/electronics/cellphones" exact component={CellPhone}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -308,13 +308,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <CellPhone />
           </Route>
           <Route path="/electronics/headphones" exact component={Headphones}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -326,13 +326,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <Headphones />
           </Route>
           <Route path="/electronics/VideoGames" exact component={VideoGames}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -344,13 +344,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <VideoGames />
           </Route>
           <Route path="/electronics/bluetoothwireless" exact component={BluetoothWireless}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -362,13 +362,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <BluetoothWireless />
           </Route>
           <Route path="/electronics/carelectronics" exact component={CarElectronics}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
               category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -380,13 +380,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <CarElectronics />
           </Route>
           <Route path="/electronics/musicalinstruments" exact component={MusicalInstruments}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -398,13 +398,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <MusicalInstruments />
           </Route>
           <Route path="/electronics/cameraphotovideo" exact component={CameraPhotoVideo}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -416,13 +416,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <CameraPhotoVideo />
           </Route>
           <Route path="/electronics/wearabletechnology" exact component={WearableTechnology}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -434,13 +434,13 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <WearableTechnology />
           </Route>
           <Route path="/electronics/electronicsbase" exact component={ElectronicsBase}>
             {/* <NavBar /> */}
             <NavBarSubBars />
-            <ElectronicsMenu
+            {/* <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
@@ -452,7 +452,7 @@ function App() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-            />
+            /> */}
             <ElectronicsBase />
           </Route>
           
