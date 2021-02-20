@@ -7,6 +7,7 @@ import { ReactComponent as ChevronIcon } from './icons/chevron.svg';
 import { ReactComponent as ArrowIcon } from './icons/arrow.svg';
 import { ReactComponent as BoltIcon } from './icons/bolt.svg';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
@@ -186,11 +187,18 @@ function DropdownMenu() {
         unmountOnExit
         onEnter={calcHeight}>
         <div className="menu">
-          <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
+            <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
+              <ArrowBackIcon />
+            </DropdownItem>
+          {/* <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Electronics</h2>
-          </DropdownItem>
+          </DropdownItem> */}
             <Link to="/electronics">
-              <DropdownItem>Home</DropdownItem>
+              <DropdownItem>
+                <div className="menu-category-heading">
+                  <p>Electronics</p>
+                </div>
+              </DropdownItem>
             </Link>
             <Link to="/electronics/tvvideo">
             {/* <DropdownItem leftIcon={<BoltIcon />}> */}
@@ -239,8 +247,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Computers</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/computers">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Computers</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/computers">
             <DropdownItem>Computers, Tablets & PC</DropdownItem>
           </Link>
@@ -269,8 +284,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Beauty & Health</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/beauty&health">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Beauty & Health</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/beauty&health">
             <DropdownItem>All Beauty</DropdownItem>
           </Link>
@@ -302,8 +324,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Food & Grocery</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/food&grocery">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Food & Grocery</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/food&grocery">
             <DropdownItem>Grocery & Gourmet</DropdownItem>
           </Link>
@@ -326,8 +355,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Home, Garden & Tools</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/home&garden&tools">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Home, Garden & Tools</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/home&garden&tools">
             <DropdownItem>Home</DropdownItem>
           </Link>
@@ -392,8 +428,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Handmade</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/handmade">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Handmade</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/handmade">
             <DropdownItem>All Handmade</DropdownItem>
           </Link>
@@ -455,8 +498,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Outdoors</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/outdoors">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Outdoors</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/outdoors">
             <DropdownItem>Outdoor Clothing</DropdownItem>
           </Link>
@@ -494,8 +544,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Pet Supplies</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/pet&supplies">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Pet & Supplies</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/pet&supplies">
             <DropdownItem>Pet Profiles</DropdownItem>
           </Link>
@@ -530,8 +587,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Smart Home</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/smarthome">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Smart Home</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/smarthome">
             <DropdownItem>Smart Home</DropdownItem>
           </Link>
@@ -587,8 +651,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Toys, Kids & Baby</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/toys&kids&baby">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Toys, Kids & Baby</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/toys&kids&baby">
             <DropdownItem>Toys & Games</DropdownItem>
           </Link>
@@ -623,8 +694,15 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Sports</h2>
+            <ArrowBackIcon />
           </DropdownItem>
+          <Link to="/sports">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Sports</p>
+              </div>
+            </DropdownItem>
+          </Link>
           <Link to="/sports">
             <DropdownItem>Athletic Clothing</DropdownItem>
           </Link>
@@ -662,33 +740,37 @@ function DropdownMenu() {
         onEnter={calcHeight}>
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Automotive & Industrial</h2>
+            <ArrowBackIcon />
           </DropdownItem>
-          <Link to="/automotive&industrialy">
-            <DropdownItem></DropdownItem>
+          <Link to="/automotive&industrial">
+            <DropdownItem>
+              <div className="menu-category-heading">
+                <p>Automotive & Industrial</p>
+              </div>
+            </DropdownItem>
           </Link>
-          <Link to="/automotive&industrialy">
+          <Link to="/automotive&industrial">
             <DropdownItem>Automotive Parts & Accessories</DropdownItem>
           </Link>
-          <Link to="/automotive&industrialy">
+          <Link to="/automotive&industrial">
             <DropdownItem>Automotive Tools & Equipment</DropdownItem>
           </Link>
-          <Link to="/automotive&industrialy">
+          <Link to="/automotive&industrial">
             <DropdownItem>Car/Vehicle Electronics & GPS</DropdownItem>
           </Link>
-          <Link to="/automotive&industrialy">
+          <Link to="/automotive&industrial">
             <DropdownItem>Tires & Wheel</DropdownItem>
           </Link>
-          <Link to="/automotive&industrialy">
+          <Link to="/automotive&industrial">
             <DropdownItem>Motorcycle & PowerSports</DropdownItem>
           </Link>
-          <Link to="/automotive&industrialy">
+          <Link to="/automotive&industrial">
             <DropdownItem>RV Parts & Accessories</DropdownItem>
           </Link>
-          <Link to="/automotive&industrialy">
+          <Link to="/automotive&industrial">
             <DropdownItem>Vehicles</DropdownItem>
           </Link>
-          <Link to="/automotive&industrialy">
+          <Link to="/automotive&industrial">
             <DropdownItem>Your Garage</DropdownItem>
           </Link>
         </div>
