@@ -93,7 +93,6 @@ function DropdownMenu() {
 
   return (
     <div className="dropdown" style={{ height: menuHeight }} ref={dropdownRef}>
-
       <CSSTransition
         in={activeMenu === 'main'}
         timeout={500}
@@ -101,6 +100,9 @@ function DropdownMenu() {
         unmountOnExit
         onEnter={calcHeight}>
         <div className="menu">
+          <div className="menu__department">
+            <p>Shop By Department</p>
+          </div>
           <DropdownItem
             leftIcon="🦧"
             rightIcon={<ChevronIcon />}
