@@ -86,7 +86,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -97,7 +97,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -108,7 +108,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -119,7 +119,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -130,7 +130,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -141,7 +141,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -152,7 +152,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -163,7 +163,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -174,7 +174,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -185,7 +185,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -196,7 +196,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -207,7 +207,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -218,7 +218,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -229,7 +229,7 @@ function ToysGames() {
           rating={4}
           rateNumber={"844"}
           shipping={"Free Shipping"}
-          price={"17.99"}
+          price={17.99}
           arrivalEst={"Tuesday, Mar 1"}
         />
       </div>

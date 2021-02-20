@@ -74,7 +74,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -85,7 +85,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -96,7 +96,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -107,7 +107,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -118,7 +118,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -129,7 +129,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -140,7 +140,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -151,7 +151,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -162,7 +162,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -173,7 +173,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -184,7 +184,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -195,7 +195,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -206,7 +206,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
         <HandmadeProductTemplate
@@ -217,7 +217,7 @@ function StationaryParty() {
           rating={4}
           rateNumber={"511"}
           shipping={"Free Shipping"}
-          price={"8.95"}
+          price={8.95}
           arrivalEst={"Saturday, Apr 11"}
         />
       </div>

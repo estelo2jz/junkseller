@@ -62,7 +62,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -73,7 +73,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -84,7 +84,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -95,7 +95,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -106,7 +106,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -117,7 +117,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -128,7 +128,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -139,7 +139,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -150,7 +150,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -161,7 +161,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -172,7 +172,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -183,7 +183,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -194,7 +194,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -205,7 +205,7 @@ function Furniture() {
           rating={4}
           rateNumber={"104"}
           shipping={"+ $4.99 shipping"}
-          price={"299.00"}
+          price={299.99}
           arrivalEst={"Friday, Mar 1"}
         />
       </div>

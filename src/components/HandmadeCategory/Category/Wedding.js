@@ -88,7 +88,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -99,7 +99,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -110,7 +110,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -121,7 +121,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -132,7 +132,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -143,7 +143,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -154,7 +154,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -165,7 +165,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -176,7 +176,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -187,7 +187,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -198,7 +198,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -209,7 +209,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -220,7 +220,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -231,7 +231,7 @@ function Wedding() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Tuesday, Feb 12"}
           />
         </div>

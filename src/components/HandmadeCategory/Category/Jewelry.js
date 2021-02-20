@@ -82,7 +82,7 @@ function Jewelry() {
           rating = {4}
           rateNumber = {"4,667"}
           shipping = {"Free Shipping"}
-          price = {"14.99"}
+          price = {14.99}
           arrivalEst = {"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -93,7 +93,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -104,7 +104,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -115,7 +115,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -126,7 +126,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -137,7 +137,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -148,7 +148,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping = {"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -159,7 +159,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -170,7 +170,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -181,7 +181,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -192,7 +192,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -203,7 +203,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -214,7 +214,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
         <HandmadeProductTemplate
@@ -225,7 +225,7 @@ function Jewelry() {
           rating={4}
           rateNumber={"4,667"}
           shipping={"Free Shipping"}
-          price={"14.99"}
+          price={14.99}
           arrivalEst={"Thursday, Feb 25"}
         />
       </div>

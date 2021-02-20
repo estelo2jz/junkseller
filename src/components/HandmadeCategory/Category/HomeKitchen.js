@@ -64,7 +64,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -75,7 +75,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -86,7 +86,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -97,7 +97,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -108,7 +108,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -119,7 +119,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -130,7 +130,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -141,7 +141,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -152,7 +152,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -163,7 +163,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -174,7 +174,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -185,7 +185,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -196,7 +196,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
           <HandmadeProductTemplate
@@ -207,7 +207,7 @@ function HomeKitchen() {
             rating={5}
             rateNumber={"792"}
             shipping={"Free Shipping"}
-            price={"22.99"}
+            price={22.99}
             arrivalEst={"Thursday, Feb 12"}
           />
         </div>

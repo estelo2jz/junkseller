@@ -76,7 +76,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -87,7 +87,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -98,7 +98,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -109,7 +109,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -120,7 +120,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -131,7 +131,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -142,7 +142,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -153,7 +153,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -164,7 +164,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -175,7 +175,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -186,7 +186,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -197,7 +197,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -208,7 +208,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
         <HandmadeProductTemplate
@@ -219,7 +219,7 @@ function ClothingShoes() {
           rating={4}
           rateNumber={"792"}
           shipping={"Free Shipping"}
-          price={"13.99"}
+          price={13.95}
           arrivalEst={"Monday, Feb 18"}
         />
       </div>

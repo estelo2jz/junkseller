@@ -61,7 +61,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -72,7 +72,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -83,7 +83,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -94,7 +94,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -105,7 +105,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -116,7 +116,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -127,7 +127,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -138,7 +138,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -149,7 +149,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -160,7 +160,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -171,7 +171,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -182,7 +182,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -193,7 +193,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
         <HandmadeProductTemplate
@@ -204,7 +204,7 @@ function HandbagsAccessories() {
           rating={5}
           rateNumber={"1,456"}
           shipping={"Free Shipping"}
-          price={"26.66"}
+          price={26.66}
           arrivalEst={"Friday, Mar 1"}
         />
       </div>
