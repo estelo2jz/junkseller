@@ -109,7 +109,7 @@ a {
 .dropdown {
   position: absolute;
   top: 67px;
-  width: 300px;
+  width: 280px;
   transform: translateX(41%);
   background-color: var(--bg);
   border: var(--border);
@@ -121,6 +121,11 @@ a {
 
 .menu {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 0.2rem 0rem;
   .menu__department {
     display: flex;
     justify-content: center;
@@ -139,7 +144,10 @@ a {
     width: 100%;
     font-size: 1.2rem;
     font-weight: 600;
+    color: white;
+    // margin: 10px 0px;
     p {
+      // padding: 50px 0px;
       
     }
   }
@@ -151,7 +159,8 @@ a {
   align-items: center;
   border-radius: var(--border-radius);
   transition: background var(--speed);
-  padding: 0.5rem;
+  // padding: 0.3rem;
+  padding: 0.2rem 0.5rem;
 }
 
 .menu-item .icon-button {

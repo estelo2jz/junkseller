@@ -256,22 +256,22 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/computers">
+          <Link to="/computers/tablet">
             <DropdownItem>Computers, Tablets & PC</DropdownItem>
           </Link>
-          <Link to="/computers">
+          <Link to="/computers/monitors">
             <DropdownItem>Monitors</DropdownItem>
           </Link>
-          <Link to="/computers">
+          <Link to="/computers/accessories">
             <DropdownItem>Accessories</DropdownItem>
           </Link>
-          <Link to="/computers">
+          <Link to="/computers/networking">
             <DropdownItem>Networking</DropdownItem>
           </Link>
-          <Link to="/computers">
+          <Link to="/computers/harddrives&storage">
             <DropdownItem>Hard Drives & Storage</DropdownItem>
           </Link>
-          <Link to="/computers">
+          <Link to="/computers/parts&components">
             <DropdownItem>Computer Parts & Components</DropdownItem>
           </Link>
         </div>
@@ -293,25 +293,25 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/beauty&health">
+          <Link to="/beauty&health/allbeauty">
             <DropdownItem>All Beauty</DropdownItem>
           </Link>
-          <Link to="/beauty&health">
+          <Link to="/beauty&health/premiumbeauty">
             <DropdownItem>Premium Beauty</DropdownItem>
           </Link>
-          <Link to="/beauty&health">
+          <Link to="/beauty&health/skincare">
             <DropdownItem>Professional Skin Care</DropdownItem>
           </Link>
-          <Link to="/beauty&health">
+          <Link to="/beauty&health/salon&spa">
             <DropdownItem>Salonn Spa</DropdownItem>
           </Link>
-          <Link to="/beauty&health">
+          <Link to="/beauty&health/mensgrooming">
             <DropdownItem>Men's Grooming</DropdownItem>
           </Link>
-          <Link to="/beauty&health">
+          <Link to="/beauty&health/health&household&baby">
             <DropdownItem>Health, Household & Baby</DropdownItem>
           </Link>
-          <Link to="/beauty&health">
+          <Link to="/beauty&health/vitamins&diet">
             <DropdownItem>Vitamins & Dietary Supplements</DropdownItem>
           </Link>
         </div>
@@ -333,16 +333,16 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/food&grocery">
+          <Link to="/food&grocery/grocery&gourmet">
             <DropdownItem>Grocery & Gourmet</DropdownItem>
           </Link>
-          <Link to="/food&grocery">
+          <Link to="/food&grocery/fresh">
             <DropdownItem>Fresh</DropdownItem>
           </Link>
-          <Link to="/food&grocery">
+          <Link to="/food&grocery/wholefoods">
             <DropdownItem>Whole Foods</DropdownItem>
           </Link>
-          <Link to="/food&grocery">
+          <Link to="/food&grocery/pantry">
             <DropdownItem>Pantry</DropdownItem>
           </Link>
         </div>
@@ -364,58 +364,58 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/home">
             <DropdownItem>Home</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/appliances">
             <DropdownItem>Appliances</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/arts&crafts">
             <DropdownItem>Arts Crafts & Sewing</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/bed&bath">
             <DropdownItem>Bed & Bath</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/collective&fineart">
             <DropdownItem>Collective & Fine Art</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/discover">
             <DropdownItem>Discover</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/events&partysupplies">
             <DropdownItem>Events & Party Supplies</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/exploreshowroom">
             <DropdownItem>Explore Showroom</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/fineart">
             <DropdownItem>Fine Art</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/furniture">
             <DropdownItem>Furniture</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/garden&outdoor">
             <DropdownItem>Garden & Outdoor</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/homedecor">
             <DropdownItem>Home Decor</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/kitchen&dining">
             <DropdownItem>Kitchen & Dining</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/lighting">
             <DropdownItem>Lighting</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/mattresses">
             <DropdownItem>Mattresses</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/petsupplies">
             <DropdownItem>Pet Supplies</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/shoproom">
             <DropdownItem>Shop by Room</DropdownItem>
           </Link>
-          <Link to="/home&garden&tools">
+          <Link to="/home&garden&tools/storage&organization">
             <DropdownItem>Storage & Organization</DropdownItem>
           </Link>
         </div>
@@ -437,55 +437,55 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/allhandmade">
             <DropdownItem>All Handmade</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/gifts">
             <DropdownItem>Gifts</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/jewelry">
             <DropdownItem>Jewelry</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/home&kitchen">
             <DropdownItem>Home & Kitchen</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/wedding">
             <DropdownItem>Wedding</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/clothing&shoes">
             <DropdownItem>Clothing & Shoes</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/handbags&accessories">
             <DropdownItem>Handbags & Accessories</DropdownItem>
           </Link>          
-          <Link to="/handmade">
+          <Link to="/handmade/beauty&grooming">
             <DropdownItem>Beauty & Grooming</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/stationary&partysupplies">
             <DropdownItem>Stationary & Party Supplies</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/toys&games">
             <DropdownItem>Toys & Games</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/petsupplies">
             <DropdownItem>Pet Suppleis</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/homedecor">
             <DropdownItem>Home Decor</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/artwork">
             <DropdownItem>Artwork</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/kitchen&dining">
             <DropdownItem>Kitchen & Dining</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/furniture">
             <DropdownItem>Furniture</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/baby">
             <DropdownItem>Baby</DropdownItem>
           </Link>
-          <Link to="/handmade">
+          <Link to="/handmade/sellon">
             <DropdownItem>Sell on JunkSeller</DropdownItem>
           </Link>
         </div>
@@ -507,31 +507,31 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/outdoors">
+          <Link to="/outdoors/outdoorclothing">
             <DropdownItem>Outdoor Clothing</DropdownItem>
           </Link>
-          <Link to="/outdoors">
+          <Link to="/outdoors/camping&hiking">
             <DropdownItem>Camping & Hiking</DropdownItem>
           </Link>
-          <Link to="/outdoors">
+          <Link to="/outdoors/climbing">
             <DropdownItem>Climbing</DropdownItem>
           </Link>
-          <Link to="/outdoors">
+          <Link to="/outdoors/cycling">
             <DropdownItem>Cycling</DropdownItem>
           </Link>
-          <Link to="/outdoors">
+          <Link to="/outdoors/scooters&skates&skateboards">
             <DropdownItem>Scooters, Skates & Skateboards</DropdownItem>
           </Link>
-          <Link to="/outdoors">
+          <Link to="/outdoors/watersports">
             <DropdownItem>Water Sports</DropdownItem>
           </Link>
-          <Link to="/outdoors">
+          <Link to="/outdoors/wintersports">
             <DropdownItem>Winter Sports</DropdownItem>
           </Link>
-          <Link to="/outdoors">
+          <Link to="/outdoors/accessories">
             <DropdownItem>Accessories</DropdownItem>
           </Link>
-          <Link to="/outdoors">
+          <Link to="/outdoors/alloutdoor">
             <DropdownItem>All Outdoor Recreation</DropdownItem>
           </Link>
         </div>
@@ -553,28 +553,28 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/pet&supplies">
+          <Link to="/pet&supplies/petprofiles">
             <DropdownItem>Pet Profiles</DropdownItem>
           </Link>
-          <Link to="/pet&supplies">
+          <Link to="/pet&supplies/dogsupplies">
             <DropdownItem>Dog Supplies</DropdownItem>
           </Link>
-          <Link to="/pet&supplies">
+          <Link to="/pet&supplies/dogfood">
             <DropdownItem>Dog Food</DropdownItem>
           </Link>
-          <Link to="/pet&supplies">
+          <Link to="/pet&supplies/catsupplies">
             <DropdownItem>Cat Supplies</DropdownItem>
           </Link>
-          <Link to="/pet&supplies">
+          <Link to="/pet&supplies/catfood">
             <DropdownItem>Cat Food</DropdownItem>
           </Link>
-          <Link to="/pet&supplies">
+          <Link to="/pet&supplies/fish&aquatic">
             <DropdownItem>Fish & Aquatic Pets</DropdownItem>
           </Link>
-          <Link to="/pet&supplies">
+          <Link to="/pet&supplies/smallanimals">
             <DropdownItem>Small Animals</DropdownItem>
           </Link>
-          <Link to="/pet&supplies">
+          <Link to="/pet&supplies/birds">
             <DropdownItem>Birds</DropdownItem>
           </Link>
         </div>
@@ -596,49 +596,49 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/smarthome">
             <DropdownItem>Smart Home</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/smarthomelighting">
             <DropdownItem>Smart Home Lighting</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/smartlocks&entry">
             <DropdownItem>Smart Lock and Entry</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/securitycameras&systems">
             <DropdownItem>Security Cameras & Systems</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/plugs&outlets">
             <DropdownItem>Plugs & Outlets</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/newsmartdevices">
             <DropdownItem>New Smart Devices</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/heating&cooling">
             <DropdownItem>Heating & Cooling</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/detectors&sensors">
             <DropdownItem>Detectors & Sensors</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/homeentertainment">
             <DropdownItem>Home Entertainment</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/pet">
             <DropdownItem>Pet</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/voiceassistants&hubs">
             <DropdownItem>Voice Assistants & Hubs</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/kitchen">
             <DropdownItem>Kitchen</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/vacuum&mops">
             <DropdownItem>Vacuums & Mops</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/lawn&garden">
             <DropdownItem>Lawn & Garden</DropdownItem>
           </Link>
-          <Link to="/smarthome">
+          <Link to="/smarthome/wifi&networking">
             <DropdownItem>WiFi & Networking</DropdownItem>
           </Link>
         </div>
@@ -660,28 +660,28 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/toys&kids&baby">
+          <Link to="/toys&kids&baby/toys&games">
             <DropdownItem>Toys & Games</DropdownItem>
           </Link>
-          <Link to="/toys&kids&baby">
+          <Link to="/toys&kids&baby/baby/">
             <DropdownItem>Baby</DropdownItem>
           </Link>
-          <Link to="/toys&kids&baby">
+          <Link to="/toys&kids&baby/diapering">
             <DropdownItem>Diapering</DropdownItem>
           </Link>
-          <Link to="/toys&kids&baby">
+          <Link to="/toys&kids&baby/videogamekids">
             <DropdownItem>Video Game for Kids</DropdownItem>
           </Link>
-          <Link to="/toys&kids&baby">
+          <Link to="/toys&kids&baby/family">
             <DropdownItem>Family</DropdownItem>
           </Link>
-          <Link to="/toys&kids&baby">
+          <Link to="/toys&kids&baby/teen">
             <DropdownItem>Teen</DropdownItem>
           </Link>
-          <Link to="/toys&kids&baby">
+          <Link to="/toys&kids&baby/babyregistry">
             <DropdownItem>Baby Registry</DropdownItem>
           </Link>
-          <Link to="/toys&kids&baby">
+          <Link to="/toys&kids&baby/kidsbirthdays">
             <DropdownItem>Kids Birthdays</DropdownItem>
           </Link>
         </div>
@@ -703,31 +703,31 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/sports">
+          <Link to="/sports/athleticclothing">
             <DropdownItem>Athletic Clothing</DropdownItem>
           </Link>
-          <Link to="/sports">
+          <Link to="/sports/exercise&fitness">
             <DropdownItem>Exercise & Fitness</DropdownItem>
           </Link>
-          <Link to="/sports">
+          <Link to="/sports/hunting&fishing">
             <DropdownItem>Hunting & Fishing</DropdownItem>
           </Link>
-          <Link to="/sports">
+          <Link to="/sports/golf">
             <DropdownItem>Golf</DropdownItem>
           </Link>
-          <Link to="/sports">
+          <Link to="/sports/fanshop">
             <DropdownItem>Fan Shop</DropdownItem>
           </Link>
-          <Link to="/sports">
+          <Link to="/sports/leisure&game">
             <DropdownItem>Leisure Sports & Game Room</DropdownItem>
           </Link>
-          <Link to="/sports">
+          <Link to="/sports/sports&collectibles">
             <DropdownItem>Sports & Collectibles</DropdownItem>
           </Link>
-          <Link to="/sports">
+          <Link to="/sports/allsports&fitness">
             <DropdownItem>All Sports & Fitness</DropdownItem>
           </Link>
-          <Link to="/sports">
+          <Link to="/sports/newgearinnovations">
             <DropdownItem>New Gear Innovations</DropdownItem>
           </Link>
         </div>
@@ -749,28 +749,28 @@ function DropdownMenu() {
               </div>
             </DropdownItem>
           </Link>
-          <Link to="/automotive&industrial">
+          <Link to="/automotive&industrial/parts&accessories">
             <DropdownItem>Automotive Parts & Accessories</DropdownItem>
           </Link>
-          <Link to="/automotive&industrial">
+          <Link to="/automotive&industrial/tools&equipment">
             <DropdownItem>Automotive Tools & Equipment</DropdownItem>
           </Link>
-          <Link to="/automotive&industrial">
+          <Link to="/automotive&industrial/carelectronics&gps">
             <DropdownItem>Car/Vehicle Electronics & GPS</DropdownItem>
           </Link>
-          <Link to="/automotive&industrial">
+          <Link to="/automotive&industrial/tires&wheels">
             <DropdownItem>Tires & Wheel</DropdownItem>
           </Link>
-          <Link to="/automotive&industrial">
+          <Link to="/automotive&industrial/motorcycle&powersports">
             <DropdownItem>Motorcycle & PowerSports</DropdownItem>
           </Link>
-          <Link to="/automotive&industrial">
+          <Link to="/automotive&industrial/rvpart&accessories">
             <DropdownItem>RV Parts & Accessories</DropdownItem>
           </Link>
-          <Link to="/automotive&industrial">
+          <Link to="/automotive&industrial/vehicles">
             <DropdownItem>Vehicles</DropdownItem>
           </Link>
-          <Link to="/automotive&industrial">
+          <Link to="/automotive&industrial/yourgarage">
             <DropdownItem>Your Garage</DropdownItem>
           </Link>
         </div>
