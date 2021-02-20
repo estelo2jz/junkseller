@@ -1,6 +1,14 @@
 .outdoor-skates__container {
   padding: 70px 0px;
-
+  .outdoor-skates__history-path {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    p {
+      padding: 10px 5px;
+      font-size: 0.8em;
+    }
+  }
   .outdoor-skates__history-path {
     display: flex;
     // justify-content: center;

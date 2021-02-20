@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
+import '../SportsStyles/AthleticClothing.scss';
+import { Link } from 'react-router-dom';
 
 function AthleticClothing() {
   return (
-    <div>
+  <div className="athletic-clothing__container">
+    <div className="athletic-clothing__history-path">
+      {/* <p>you are in :</p> */}
+      <Link to="/sports">
+        <p>
+          /sports
+            </p>
+      </Link>
+      <p>/athletic-clothing</p>
+    </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

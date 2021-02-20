@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
+import '../ToysKidsBabyStyle/Baby.scss';
+import { Link} from 'react-router-dom';
 
 function Baby() {
   return (
-    <div>
+    <div className="baby__container">
+        <div className="baby__history-path">
+          {/* <p>you are in :</p> */}
+          <Link to="/toys&kids&baby">
+            <p>
+              /toys&kids&baby
+            </p>
+          </Link>
+          <p>/baby</p>
+        </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building';
+import '../AutomotiveStyles/ToolsEquipment.scss';
+import { Link } from 'react-router-dom';
 
 function ToolsEquipment() {
   return (
-    <div>
+  <div className="tools-equipment__container">
+    <div className="tools-equipment__history-path">
+      {/* <p>you are in :</p> */}
+      <Link to="/automotive&industrial">
+        <p>
+          /automotive&industrial
+            </p>
+      </Link>
+      <p>/tools&equipment</p>
+    </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
+import '../SmartHomeStyles/VoiceAssistants.scss';
+import { Link } from 'react-router-dom';
 
 function VoiceAssistants() {
   return (
-    <div>
+  <div className="voice-assistants__container">
+    <div className="voice-assistants__history-path">
+      {/* <p>you are in :</p> */}
+      <Link to="/smarthome">
+        <p>
+          /smarthome
+          </p>
+      </Link>
+      <p>/voiceassistants&hubs</p>
+    </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

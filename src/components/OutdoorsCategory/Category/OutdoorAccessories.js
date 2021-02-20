@@ -1,13 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
+import { Link} from 'react-router-dom';
+import '../OutdoorsStyles/OutdoorAccessories.scss';
 import Building from '../../Building'; 
 
 function OutdoorAccessories() {
   return (
-    <div>
-      <h1>Accessories</h1>
+    <div className="outdoor-accessories__container">
+      <div className="outdoor-accessories__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/outdoors">
+          <p>
+            /outdoors
+          </p>
+        </Link>
+        <p>/accessories</p>
+      </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

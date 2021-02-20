@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
+import '../SmartHomeStyles/SmartVacuums.scss';
+import { Link } from 'react-router-dom';
 
 function SmartVacuums() {
   return (
-    <div>
+  <div className="smart-vacuums__container">
+    <div className="smart-vacuums__history-path">
+      {/* <p>you are in :</p> */}
+      <Link to="/smarthome">
+        <p>
+          /smarthome
+          </p>
+      </Link>
+      <p>/vacuums&mops</p>
+    </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

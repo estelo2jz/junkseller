@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
+import '../SportsStyles/golf.scss';
+import { Link } from 'react-router-dom';
 
 function Golf() {
   return (
-    <div>
+  <div className="golf__container">
+    <div className="golf__history-path">
+      {/* <p>you are in :</p> */}
+      <Link to="/sports">
+        <p>
+          /sports
+            </p>
+      </Link>
+      <p>/golf</p>
+    </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

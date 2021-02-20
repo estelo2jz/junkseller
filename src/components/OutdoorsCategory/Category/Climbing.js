@@ -1,14 +1,21 @@
 import React from 'react';
-// import '../OutdoorsStyles/Climbing.scss';
-import ComingSoon from '../../ComingSoon';
+import '../OutdoorsStyles/Climbing.scss';
+import { Link} from 'react-router-dom';
 import Building from '../../Building'; 
 
 function Climbing() {
   return (
     <div className="climbing__container">
-      <h1>Climbing</h1>
+      <div className="climbing__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/outdoors">
+          <p>
+            /outdoors
+          </p>
+        </Link>
+        <p>/climbing</p>
+      </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -1,12 +1,20 @@
 import React from 'react';
-// import '../OutdoorsStyles/AllOutdoor.scss';
-import ComingSoon from '../../ComingSoon';
+import { Link } from 'react-router-dom';
+import '../OutdoorsStyles/AllOutdoor.scss';
 import Building from '../../Building'; 
 
 function AllOutdoor() {
   return (
     <div className="all-outdoor__container">
-      <h1>All Outdoor Recreation</h1>
+      <div className="all-outdoor__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/outdoors">
+          <p>
+            /outdoors
+          </p>
+        </Link>
+        <p>/alloutdoor</p>
+      </div>
       <Building />
       {/* <ComingSoon /> */}
     </div>

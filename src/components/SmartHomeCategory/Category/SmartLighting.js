@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
+import '../SmartHomeStyles/SmartLighting.scss';
+import { Link } from 'react-router-dom';
 
 function SmartLighting() {
   return (
-    <div>
+  <div className="smart-lighting__container">
+    <div className="smart-lighting__history-path">
+      {/* <p>you are in :</p> */}
+      <Link to="/smarthome">
+        <p>
+          /smarthome
+          </p>
+      </Link>
+      <p>/smartlighting</p>
+    </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

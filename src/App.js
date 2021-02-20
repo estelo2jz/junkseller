@@ -149,10 +149,8 @@ import PlugsOutlet from './components/SmartHomeCategory/Category/PlugsOutlet';
 import SecurityCameras from './components/SmartHomeCategory/Category/SecurityCameras';
 import SmartDevices from './components/SmartHomeCategory/Category/SmartDevices';
 import SmartHome2 from './components/SmartHomeCategory/Category/SmartHome';
-import SmartKitchen from './components/SmartHomeCategory/Category/SmartKitchen';
 import SmartLighting from './components/SmartHomeCategory/Category/SmartLighting';
 import SmartLock from './components/SmartHomeCategory/Category/SmartLocks';
-import SmartPet2 from './components/SmartHomeCategory/Category/SmartPet';
 import SmartVacuums from './components/SmartHomeCategory/Category/SmartVacuums';
 import VoiceAssistants from './components/SmartHomeCategory/Category/VoiceAssistants';
 import WifiNetworking from './components/SmartHomeCategory/Category/WifiNetworking';
@@ -591,10 +589,6 @@ function App() {
             <NavBarSubBars />
             <PetProfiles />
           </Route>
-          <Route path="/pet&supplies/dogsupplies" exact component={PetProfiles}>
-            <NavBarSubBars />
-            <PetProfiles />
-          </Route>
           <Route path="/pet&supplies/dogsupplies" exact component={DogSupplies}>
             <NavBarSubBars />
             <DogSupplies />
@@ -779,17 +773,17 @@ function App() {
             <NavBarSubBars />
             <AutomotiveIndustrial />
           </Route>
-          <Route path="/automotive&industrial/parts&accessories" exact component={AutoCarElectronics}>
+          <Route path="/automotive&industrial/parts&accessories" exact component={PartsAccessories}>
             <NavBarSubBars />
-            <AutoCarElectronics />
+            <PartsAccessories />
           </Route>
           <Route path="/automotive&industrial/tools&equipment" exact component={ToolsEquipment}>
             <NavBarSubBars />
             <ToolsEquipment />
           </Route>
-          <Route path="/automotive&industrial/carelectronics&gps" exact component={PartsAccessories}>
+          <Route path="/automotive&industrial/carelectronics&gps" exact component={AutoCarElectronics}>
             <NavBarSubBars />
-            <PartsAccessories />
+            <AutoCarElectronics />
           </Route>
           <Route path="/automotive&industrial/tires&wheels" exact component={TiresWheel}>
             <NavBarSubBars />

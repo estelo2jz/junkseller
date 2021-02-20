@@ -1,6 +1,14 @@
 .winter-sports__container {
   padding: 70px 0px;
-
+  .winter-sports__history-path {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    p {
+      padding: 10px 5px;
+      font-size: 0.8em;
+    }
+  }
   .winter-sports__history-path {
     display: flex;
     // justify-content: center;

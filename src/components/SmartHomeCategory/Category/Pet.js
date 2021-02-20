@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
+import '../SmartHomeStyles/Pet.scss';
+import { Link} from 'react-router-dom';
 
 function Pet() {
   return (
-    <div>
+    <div className="pet__container">
+      <div className="pet__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/smarthome">
+          <p>
+            /smarthome
+          </p>
+        </Link>
+        <p>/pet</p>
+      </div>
       <Building />
-      {/* <ComingSoon />   */}
     </div>
   )
 }

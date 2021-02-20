@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building';
+import '../AutomotiveStyles/Garage.scss';
+import { Link } from 'react-router-dom';
 
 function Garage() {
   return (
-    <div>
+  <div className="garage__container">
+    <div className="garage__history-path">
+      {/* <p>you are in :</p> */}
+      <Link to="/automotive&industrial">
+        <p>
+          /automotive&industrial
+            </p>
+      </Link>
+      <p>/garage</p>
+    </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

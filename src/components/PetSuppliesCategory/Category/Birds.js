@@ -1,13 +1,21 @@
 import React from 'react';
-// import '../PetSuppliesStyles/Birds.scss';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
+import '../PetSuppliesStyles/Birds.scss';
+import { Link} from 'react-router-dom';
 
 function Birds() {
   return (
     <div className="birds__container">
+      <div className="birds__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/pet&supplies">
+          <p>
+            /pet&supplies
+          </p>
+        </Link>
+        <p>/birds</p>
+      </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -1,12 +1,21 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building'; 
+import '../SmartHomeStyles/SecurityCameras.scss';
+import { Link} from 'react-router-dom';
 
 function SecurityCameras() {
   return (
-    <div>
+    <div className="security-cameras__container">
+      <div className="security-cameras__history-path">
+        {/* <p>you are in :</p> */}
+        <Link to="/smarthome">
+          <p>
+            /smarthome
+          </p>
+        </Link>
+        <p>/securitycameras&systems</p>
+      </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }
