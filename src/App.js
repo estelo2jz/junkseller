@@ -240,7 +240,8 @@ function App() {
             <Electronics></Electronics>
           </Route>
           <Route path="/electronics/tvvideo" exact component={TVVideo}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -257,7 +258,8 @@ function App() {
             <TVVideo />
           </Route>
           <Route path="/electronics/homeaudiotheater" exact component={HomeAudioTheater}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -274,7 +276,8 @@ function App() {
             <HomeAudioTheater />
           </Route>
           <Route path="/electronics/cameraphotovideo" exact component={CameraPhotoVideo}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -291,7 +294,8 @@ function App() {
             <CameraPhotoVideo />
           </Route>
           <Route path="/electronics/cellphones" exact component={CellPhone}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -308,7 +312,8 @@ function App() {
             <CellPhone />
           </Route>
           <Route path="/electronics/headphones" exact component={Headphones}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -325,7 +330,8 @@ function App() {
             <Headphones />
           </Route>
           <Route path="/electronics/VideoGames" exact component={VideoGames}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -342,7 +348,8 @@ function App() {
             <VideoGames />
           </Route>
           <Route path="/electronics/bluetoothwireless" exact component={BluetoothWireless}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -359,7 +366,8 @@ function App() {
             <BluetoothWireless />
           </Route>
           <Route path="/electronics/carelectronics" exact component={CarElectronics}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
               category0="TV & Video"
               category1="Home Audio & Theater"
@@ -376,7 +384,8 @@ function App() {
             <CarElectronics />
           </Route>
           <Route path="/electronics/musicalinstruments" exact component={MusicalInstruments}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -393,7 +402,8 @@ function App() {
             <MusicalInstruments />
           </Route>
           <Route path="/electronics/cameraphotovideo" exact component={CameraPhotoVideo}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -410,7 +420,8 @@ function App() {
             <CameraPhotoVideo />
           </Route>
           <Route path="/electronics/wearabletechnology" exact component={WearableTechnology}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"
@@ -427,7 +438,8 @@ function App() {
             <WearableTechnology />
           </Route>
           <Route path="/electronics/electronicsbase" exact component={ElectronicsBase}>
-            <NavBar />
+            {/* <NavBar /> */}
+            <NavBarSubBars />
             <ElectronicsMenu
                category0="TV & Video"
               category1="Home Audio & Theater"

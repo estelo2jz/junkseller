@@ -6,17 +6,36 @@ import { ReactComponent as CogIcon } from './icons/cog.svg';
 import { ReactComponent as ChevronIcon } from './icons/chevron.svg';
 import { ReactComponent as ArrowIcon } from './icons/arrow.svg';
 import { ReactComponent as BoltIcon } from './icons/bolt.svg';
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
+import { useStateValue } from './StateProvider';
 import '../styles/NavBarSubBars.scss';
 
 function App() {
+  const [{basket}] = useStateValue();
+  console.log(basket);
+
+  const [sidebar, setSidebar] = useState(false);
   return (
     <Navbar>
       <NavItem icon={<CaretIcon />}>
         <DropdownMenu></DropdownMenu>
       </NavItem>
+      <div className="navbar__header">
+        <Link to="/"><p>Junk Seller</p></Link>
+      </div>
+      <div>
+        <Link to="/checkout" className="header__link">
+            <div className="header__optionBasket">
+                <ShoppingBasketIcon />
+                <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
+            </div>
+        </Link>
+      </div>
+
       {/* <NavItem icon={<PlusIcon />} />
       <NavItem icon={<BellIcon />} />
       <NavItem icon={<MessengerIcon />} /> */}
@@ -169,17 +188,61 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Electronics</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>TV & Video</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Home Audio & Theater</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Camera, Photo & Video</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Cell Phones & Accessories</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Headphones</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Video Games</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Bluetooth & Wireless</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Car Electronics</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Musical Instruments</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Wearable Technology</p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p>Electronics</p></DropdownItem>
+            <Link to="/electronics/tvvideo">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                TV & Video
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/homeaudiotheater">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Home Audio & Theater
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/cameraphotovideo">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Camera, Photo & Video
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/cellphones">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Cell Phones & Accessories
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/headphones">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Headphones
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/videogames">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Video Games
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/bluetoothwireless">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Bluetooth & Wireless
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/carelectronics">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Car Electronics
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/musicalinstruments">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Musical Instruments
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/wearabletechnology">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Wearable Technology
+              </DropdownItem>
+            </Link>
+            <Link to="/electronics/electronicsbase">
+              <DropdownItem leftIcon={<BoltIcon />}>
+                Electronics
+              </DropdownItem>
+            </Link>
 
         </div>
       </CSSTransition>
