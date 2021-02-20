@@ -228,6 +228,7 @@ function App() {
           </Route>
           <Route exact path="/">
             {/* <Header /> */}
+            {/* <NavBarSubBars /> */}
             <NavBar />
             <Home />
           </Route>
