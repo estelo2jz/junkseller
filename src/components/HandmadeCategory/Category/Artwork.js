@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import '../HandmadeStyles/ArtWork.scss';
 import HandmadeProductTemplate from './HandmadeProductTemplate';
 
-
 function Artwork() {
   return (
     <div className="art-work__container">
