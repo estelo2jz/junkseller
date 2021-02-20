@@ -6,9 +6,6 @@ import '../ElectronicStyles/HomeAudioTheater.scss';
 function HomeAudioTheater() {
   return (
     <div className="home-audio-theater__container">
-      <div className="home-audio-theater__ads-one">
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Home_Entertainment/XCM_Manual_1296378_1515069_US_us_home_entertainment_categorystorefront_us_en_3593549_3000x600_en_US.jpg"  alt="home-audio-theater" />
-      </div>
       <div className="home-audio-theater__heading">
         <h2>Home Audio Theater</h2>
       </div>

@@ -4,10 +4,6 @@ import '../ElectronicStyles/Headphones.scss';
 function Headphones() {
   return (
     <div className="headphones__container">
-      <div className="headphones__ads-container">
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Consumer_Electronics/XCM_Manual_1301610_1538042_US_GD21_us_ce_storefront_stripes_2362205_us_en_3625898_1500x90_en_US.jpg" alt="headphones" />
-        <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Consumer_Electronics/XCM_Manual_1289002_1489058_US_us_ce_storefront_3568748_3000x600_en_US.jpg" alt="headphones" />
-      </div>
       <div className="headphones__heading">
         <h1>Headphones</h1>
       </div>

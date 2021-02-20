@@ -24,16 +24,18 @@ function App() {
       <NavItem icon={<CaretIcon />}>
         <DropdownMenu></DropdownMenu>
       </NavItem>
-      <div className="navbar__header">
-        <Link to="/"><p>Junk Seller</p></Link>
-      </div>
-      <div>
-        <Link to="/checkout" className="header__link">
-            <div className="header__optionBasket">
-                <ShoppingBasketIcon />
-                <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
-            </div>
-        </Link>
+      <div className="navbar__flex">
+        <div className="navbar__header">
+          <Link to="/"><p>Junk Seller</p></Link>
+        </div>
+        <div>
+          <Link to="/checkout" className="header__link">
+              <div className="header__optionBasket">
+                  <ShoppingBasketIcon />
+                  <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
+              </div>
+          </Link>
+        </div>
       </div>
 
       {/* <NavItem icon={<PlusIcon />} />
@@ -82,9 +84,9 @@ function DropdownMenu() {
   function DropdownItem(props) {
     return (
       <a href="#" className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
-        <span className="icon-button">{props.leftIcon}</span>
+        {/* <span className="icon-button">{props.leftIcon}</span> */}
         {props.children}
-        <span className="icon-right">{props.rightIcon}</span>
+        {/* <span className="icon-right">{props.rightIcon}</span> */}
       </a>
     );
   }
@@ -99,9 +101,6 @@ function DropdownMenu() {
         unmountOnExit
         onEnter={calcHeight}>
         <div className="menu">
-          <div>
-            <p>Junk Seller</p>
-          </div>
           <DropdownItem
             leftIcon="🦧"
             rightIcon={<ChevronIcon />}
@@ -188,60 +187,44 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Electronics</h2>
           </DropdownItem>
+            <Link to="/electronics">
+              <DropdownItem>Home</DropdownItem>
+            </Link>
             <Link to="/electronics/tvvideo">
-              <DropdownItem leftIcon={<BoltIcon />}>
+            {/* <DropdownItem leftIcon={<BoltIcon />}> */}
+              <DropdownItem>
                 TV & Video
               </DropdownItem>
             </Link>
             <Link to="/electronics/homeaudiotheater">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Home Audio & Theater
-              </DropdownItem>
+              <DropdownItem>Home Audio & Theater</DropdownItem>
             </Link>
             <Link to="/electronics/cameraphotovideo">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Camera, Photo & Video
-              </DropdownItem>
+              <DropdownItem>Camera, Photo & Video</DropdownItem>
             </Link>
             <Link to="/electronics/cellphones">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Cell Phones & Accessories
-              </DropdownItem>
+              <DropdownItem>Cell Phones & Accessories</DropdownItem>
             </Link>
             <Link to="/electronics/headphones">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Headphones
-              </DropdownItem>
+              <DropdownItem>Headphones</DropdownItem>
             </Link>
             <Link to="/electronics/videogames">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Video Games
-              </DropdownItem>
+              <DropdownItem>Video Games</DropdownItem>
             </Link>
             <Link to="/electronics/bluetoothwireless">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Bluetooth & Wireless
-              </DropdownItem>
+              <DropdownItem>Bluetooth & Wireless</DropdownItem>
             </Link>
             <Link to="/electronics/carelectronics">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Car Electronics
-              </DropdownItem>
+              <DropdownItem>Car Electronics</DropdownItem>
             </Link>
             <Link to="/electronics/musicalinstruments">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Musical Instruments
-              </DropdownItem>
+              <DropdownItem>Musical Instruments</DropdownItem>
             </Link>
             <Link to="/electronics/wearabletechnology">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Wearable Technology
-              </DropdownItem>
+              <DropdownItem>Wearable Technology</DropdownItem>
             </Link>
             <Link to="/electronics/electronicsbase">
-              <DropdownItem leftIcon={<BoltIcon />}>
-                Electronics
-              </DropdownItem>
+              <DropdownItem>Electronics</DropdownItem>
             </Link>
 
         </div>
@@ -256,23 +239,24 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Computers</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/computers">
+            <DropdownItem>Computers, Tablets & PC</DropdownItem>
+          </Link>
+          <Link to="/computers">
+            <DropdownItem>Monitors</DropdownItem>
+          </Link>
+          <Link to="/computers">
+            <DropdownItem>Accessories</DropdownItem>
+          </Link>
+          <Link to="/computers">
+            <DropdownItem>Networking</DropdownItem>
+          </Link>
+          <Link to="/computers">
+            <DropdownItem>Hard Drives & Storage</DropdownItem>
+          </Link>
+          <Link to="/computers">
+            <DropdownItem>Computer Parts & Components</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -285,23 +269,27 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Beauty & Health</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/beauty&health">
+            <DropdownItem>All Beauty</DropdownItem>
+          </Link>
+          <Link to="/beauty&health">
+            <DropdownItem>Premium Beauty</DropdownItem>
+          </Link>
+          <Link to="/beauty&health">
+            <DropdownItem>Professional Skin Care</DropdownItem>
+          </Link>
+          <Link to="/beauty&health">
+            <DropdownItem>Salonn Spa</DropdownItem>
+          </Link>
+          <Link to="/beauty&health">
+            <DropdownItem>Men's Grooming</DropdownItem>
+          </Link>
+          <Link to="/beauty&health">
+            <DropdownItem>Health, Household & Baby</DropdownItem>
+          </Link>
+          <Link to="/beauty&health">
+            <DropdownItem>Vitamins & Dietary Supplements</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -314,23 +302,18 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Food & Grocery</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/food&grocery">
+            <DropdownItem>Grocery & Gourmet</DropdownItem>
+          </Link>
+          <Link to="/food&grocery">
+            <DropdownItem>Fresh</DropdownItem>
+          </Link>
+          <Link to="/food&grocery">
+            <DropdownItem>Whole Foods</DropdownItem>
+          </Link>
+          <Link to="/food&grocery">
+            <DropdownItem>Pantry</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -343,23 +326,60 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Home, Garden & Tools</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Home</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Appliances</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Arts Crafts & Sewing</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Bed & Bath</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Collective & Fine Art</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Discover</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Events & Party Supplies</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Explore Showroom</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Fine Art</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Furniture</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Garden & Outdoor</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Home Decor</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Kitchen & Dining</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Lighting</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Mattresses</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Pet Supplies</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Shop by Room</DropdownItem>
+          </Link>
+          <Link to="/home&garden&tools">
+            <DropdownItem>Storage & Organization</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -372,23 +392,57 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Handmade</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/handmade">
+            <DropdownItem>All Handmade</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Gifts</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Jewelry</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Home & Kitchen</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Wedding</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Clothing & Shoes</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Handbags & Accessories</DropdownItem>
+          </Link>          
+          <Link to="/handmade">
+            <DropdownItem>Beauty & Grooming</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Stationary & Party Supplies</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Toys & Games</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Pet Suppleis</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Home Decor</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Artwork</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Kitchen & Dining</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Furniture</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Baby</DropdownItem>
+          </Link>
+          <Link to="/handmade">
+            <DropdownItem>Sell on JunkSeller</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -401,23 +455,33 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Outdoors</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/outdoors">
+            <DropdownItem>Outdoor Clothing</DropdownItem>
+          </Link>
+          <Link to="/outdoors">
+            <DropdownItem>Camping & Hiking</DropdownItem>
+          </Link>
+          <Link to="/outdoors">
+            <DropdownItem>Climbing</DropdownItem>
+          </Link>
+          <Link to="/outdoors">
+            <DropdownItem>Cycling</DropdownItem>
+          </Link>
+          <Link to="/outdoors">
+            <DropdownItem>Scooters, Skates & Skateboards</DropdownItem>
+          </Link>
+          <Link to="/outdoors">
+            <DropdownItem>Water Sports</DropdownItem>
+          </Link>
+          <Link to="/outdoors">
+            <DropdownItem>Winter Sports</DropdownItem>
+          </Link>
+          <Link to="/outdoors">
+            <DropdownItem>Accessories</DropdownItem>
+          </Link>
+          <Link to="/outdoors">
+            <DropdownItem>All Outdoor Recreation</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -430,23 +494,30 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Pet Supplies</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/pet&supplies">
+            <DropdownItem>Pet Profiles</DropdownItem>
+          </Link>
+          <Link to="/pet&supplies">
+            <DropdownItem>Dog Supplies</DropdownItem>
+          </Link>
+          <Link to="/pet&supplies">
+            <DropdownItem>Dog Food</DropdownItem>
+          </Link>
+          <Link to="/pet&supplies">
+            <DropdownItem>Cat Supplies</DropdownItem>
+          </Link>
+          <Link to="/pet&supplies">
+            <DropdownItem>Cat Food</DropdownItem>
+          </Link>
+          <Link to="/pet&supplies">
+            <DropdownItem>Fish & Aquatic Pets</DropdownItem>
+          </Link>
+          <Link to="/pet&supplies">
+            <DropdownItem>Small Animals</DropdownItem>
+          </Link>
+          <Link to="/pet&supplies">
+            <DropdownItem>Birds</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -459,23 +530,51 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Smart Home</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/smarthome">
+            <DropdownItem>Smart Home</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Smart Home Lighting</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Smart Lock and Entry</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Security Cameras & Systems</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Plugs & Outlets</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>New Smart Devices</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Heating & Cooling</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Detectors & Sensors</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Home Entertainment</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Pet</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Voice Assistants & Hubs</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Kitchen</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Vacuums & Mops</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>Lawn & Garden</DropdownItem>
+          </Link>
+          <Link to="/smarthome">
+            <DropdownItem>WiFi & Networking</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -488,23 +587,30 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Toys, Kids & Baby</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/toys&kids&baby">
+            <DropdownItem>Toys & Games</DropdownItem>
+          </Link>
+          <Link to="/toys&kids&baby">
+            <DropdownItem>Baby</DropdownItem>
+          </Link>
+          <Link to="/toys&kids&baby">
+            <DropdownItem>Diapering</DropdownItem>
+          </Link>
+          <Link to="/toys&kids&baby">
+            <DropdownItem>Video Game for Kids</DropdownItem>
+          </Link>
+          <Link to="/toys&kids&baby">
+            <DropdownItem>Family</DropdownItem>
+          </Link>
+          <Link to="/toys&kids&baby">
+            <DropdownItem>Teen</DropdownItem>
+          </Link>
+          <Link to="/toys&kids&baby">
+            <DropdownItem>Baby Registry</DropdownItem>
+          </Link>
+          <Link to="/toys&kids&baby">
+            <DropdownItem>Kids Birthdays</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -517,23 +623,33 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Sports</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
+          <Link to="/sports">
+            <DropdownItem>Athletic Clothing</DropdownItem>
+          </Link>
+          <Link to="/sports">
+            <DropdownItem>Exercise & Fitness</DropdownItem>
+          </Link>
+          <Link to="/sports">
+            <DropdownItem>Hunting & Fishing</DropdownItem>
+          </Link>
+          <Link to="/sports">
+            <DropdownItem>Golf</DropdownItem>
+          </Link>
+          <Link to="/sports">
+            <DropdownItem>Fan Shop</DropdownItem>
+          </Link>
+          <Link to="/sports">
+            <DropdownItem>Leisure Sports & Game Room</DropdownItem>
+          </Link>
+          <Link to="/sports">
+            <DropdownItem>Sports & Collectibles</DropdownItem>
+          </Link>
+          <Link to="/sports">
+            <DropdownItem>All Sports & Fitness</DropdownItem>
+          </Link>
+          <Link to="/sports">
+            <DropdownItem>New Gear Innovations</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
       <CSSTransition
@@ -546,91 +662,33 @@ function DropdownMenu() {
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
             <h2>Automotive & Industrial</h2>
           </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-        </div>
-      </CSSTransition>
-      <CSSTransition
-        in={activeMenu === ''}
-        timeout={500}
-        classNames="menu-secondary"
-        unmountOnExit
-        onEnter={calcHeight}>
-        <div className="menu">
-          <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2></h2>
-          </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}><p></p></DropdownItem>
-        </div>
-      </CSSTransition>
-
-
-
-
-
-
-      <CSSTransition
-        in={activeMenu === 'settings'}
-        timeout={500}
-        classNames="menu-secondary"
-        unmountOnExit
-        onEnter={calcHeight}>
-        <div className="menu">
-          <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>My Tutorial</h2>
-          </DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}>HTML</DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}>CSS</DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}>JavaScript</DropdownItem>
-          <DropdownItem leftIcon={<BoltIcon />}>Awesome!</DropdownItem>
-        </div>
-      </CSSTransition>
-
-      <CSSTransition
-        in={activeMenu === 'animals'}
-        timeout={500}
-        classNames="menu-secondary"
-        unmountOnExit
-        onEnter={calcHeight}>
-        <div className="menu">
-          <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>Animals</h2>
-          </DropdownItem>
-          <DropdownItem leftIcon="🦘">Kangaroo</DropdownItem>
-          <DropdownItem leftIcon="🐸">Frog</DropdownItem>
-          <DropdownItem leftIcon="🦋">Horse?</DropdownItem>
-          <DropdownItem leftIcon="🦔">Hedgehog</DropdownItem>
+          <Link to="/automotive&industrialy">
+            <DropdownItem></DropdownItem>
+          </Link>
+          <Link to="/automotive&industrialy">
+            <DropdownItem>Automotive Parts & Accessories</DropdownItem>
+          </Link>
+          <Link to="/automotive&industrialy">
+            <DropdownItem>Automotive Tools & Equipment</DropdownItem>
+          </Link>
+          <Link to="/automotive&industrialy">
+            <DropdownItem>Car/Vehicle Electronics & GPS</DropdownItem>
+          </Link>
+          <Link to="/automotive&industrialy">
+            <DropdownItem>Tires & Wheel</DropdownItem>
+          </Link>
+          <Link to="/automotive&industrialy">
+            <DropdownItem>Motorcycle & PowerSports</DropdownItem>
+          </Link>
+          <Link to="/automotive&industrialy">
+            <DropdownItem>RV Parts & Accessories</DropdownItem>
+          </Link>
+          <Link to="/automotive&industrialy">
+            <DropdownItem>Vehicles</DropdownItem>
+          </Link>
+          <Link to="/automotive&industrialy">
+            <DropdownItem>Your Garage</DropdownItem>
+          </Link>
         </div>
       </CSSTransition>
     </div>

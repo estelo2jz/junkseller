@@ -39,6 +39,7 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 5px 10px;
 }
 
 /* <ul> */
@@ -56,11 +57,17 @@ a {
   align-items: center;
   p {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     padding: 0px 10px;
     color: rgb(255, 255, 255);
   }
   
+}
+.navbar__flex {
+  display: flex;
+  width: 100%;
+  justify-content:space-between;
+  align-items: center;
 }
 
 /* <li> */
@@ -103,7 +110,7 @@ a {
   position: absolute;
   top: 67px;
   width: 300px;
-  transform: translateX(40%);
+  transform: translateX(41%);
   background-color: var(--bg);
   border: var(--border);
   border-radius: var(--border-radius);
@@ -117,7 +124,7 @@ a {
 }
 
 .menu-item {
-  height: 30px;
+  height: 20px;
   display: flex;
   align-items: center;
   border-radius: var(--border-radius);

@@ -4,6 +4,7 @@ import ElectronicsProductTemplate from '../ElectricCategory/Category/Electronics
 // import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import ElectronicsMenu from '../ElectricCategory/ElectronicsMenu';
 import '../../styles/Electronics.scss';
+import NavBarSubBars from '../NavBarSubBars';
 
 function Electronics() {
   return (
@@ -11,7 +12,7 @@ function Electronics() {
       <div className="electronics__container">
         <div className="electronics__container-heading">
           <ElectronicsMenu 
-               category0="TV & Video"
+              category0="TV & Video"
               category1="Home Audio & Theater"
               category2="Camera, Photo & Video"
               category3="Cell Phones & Accessories"
@@ -22,14 +23,6 @@ function Electronics() {
               category8="Musical Instruments"
               category9="Wearable Technology"
               category10="Electronics"
-              category11="Computers, Tablets & PC"
-              category12="Monitors"
-              category13="Accessories"
-              category14="Networking"
-              category15="Hard Drives & Storage"
-              category16="Computer Parts & Components"
-              category17="Software"
-
           />
         </div>
         <div className="electronics__container-flex-grid">
