@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/DrivesStorage.scss';
+import JumpTo from '../../JumpTo';
+
 
 function DrivesStorageTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -66,6 +68,18 @@ function DrivesStorageTemplate({ id, title, image, price, rating, rateNumber, li
 function DrivesStorage() {
   return (
     <div className="drives-storage__container">
+      <JumpTo 
+        path1 = "/computers/accessories"
+        link1 = "/accessories"
+        path2 = "/computers/parts&components"
+        link2 = "/parts&components"
+        path3 = "/computers/tablet"
+        link3 = "/computers&tablets&PC"
+        path4 = "/computers/networking"
+        link4 = "/networking"
+        path5 = "/computers/monitors"
+        link5 = "/monitors"
+      />
       <div className="drives-storage__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/computers">

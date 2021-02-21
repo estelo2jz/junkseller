@@ -7,6 +7,14 @@
   align-items: center;
   overflow: hidden;
   padding: 70px 0px;
+  .computer-tablet__jump-to {
+    display: flex;
+    width: 100%;
+    p {
+      font-size: 1em;
+    }
+
+  }
   .computer-tablet__history-path {
     display: flex;
     // justify-content: center;

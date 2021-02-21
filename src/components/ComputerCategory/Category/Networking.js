@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/Networking.scss';
+import JumpTo from '../../JumpTo';
 
 function NetworkingTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -66,6 +67,18 @@ function NetworkingTemplate({ id, title, image, price, rating, rateNumber, listP
 function Networking() {
   return (
     <div className="networking__container">
+      <JumpTo 
+        path1 = "/computers/harddrives&storage"
+        link1 = "/harddrives&storage"
+        path2 = "/computers/parts&components"
+        link2 = "/parts&components"
+        path3 = "/computers/tablet"
+        link3 = "/computers&tablets&PC"
+        path4 = "/computers/accessories"
+        link4 = "/accessories"
+        path5 = "/computers/monitors"
+        link5 = "/monitors"
+      />
       <div className="networking__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/computers">

@@ -5,6 +5,7 @@ import '../ComputerStyles/ComputerTablet.scss';
 import '../ComputerStyles/ComputerTabletTemplate.scss';
 import '../ComputerStyles/Upcoming.scss';
 import { useStateValue } from '../../StateProvider';
+import JumpTo from '../../JumpTo';
 
 function ComputerTabletTemplate({ id, title, image, price, rating, rateNumber, soldBy, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -87,6 +88,20 @@ function Upccoming({upImage, upTitle, upTime}) {
 function ComputerTablet() {
   return (
     <div className="computer-tablet__container">
+      <div className="computer-tablet__jump-to">
+        <JumpTo 
+          path1 = "/computers/harddrives&storage"
+          link1 = "/harddrives&storage"
+          path2 = "/computers/parts&components"
+          link2 = "/parts&components"
+          path3 = "/computers/accessories"
+          link3 = "/accessories"
+          path4 = "/computers/networking"
+          link4 = "/networking"
+          path5 = "/computers/monitors"
+          link5 = "/monitors"
+        />
+      </div>
       <div className="computer-tablet__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/computers">
