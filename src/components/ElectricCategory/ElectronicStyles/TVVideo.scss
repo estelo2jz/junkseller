@@ -10,13 +10,20 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  .tv-video__jump-to {
+    display: flex;
+    width: 100%;
+    p {
+      font-size: 1em;
+    }
+  }
   .tv-video__history-path {
     display: flex;
     // justify-content: center;
     align-items: center;
     width: 100%;
     p {
-      padding: 10px 5px;
+      padding: 5px 5px;
       font-size: 0.8em;
     }
   }

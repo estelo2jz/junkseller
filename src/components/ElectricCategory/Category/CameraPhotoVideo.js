@@ -4,10 +4,35 @@ import { uuid } from 'uuidv4';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
 // import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/CameraPhotoVideo.scss';
+import JumpTo from '../../JumpTo';
 
 function CameraPhotoVideo() {
   return (
     <div className="camera-photo-video__container">
+      <div className="camera-photo-video__jump-to">
+        <JumpTo 
+          path1 = "/electronics/headphones"
+          link1 = "/headphones"
+          path2 = "/electronics/carelectronics"
+          link2 = "/carelectronics"
+          path3 = "/electronics/tvvideo"
+          link3 = "/ttvideo"
+          path4 = "/electronics/electronicsbase"
+          link4 = "/electronics"
+          path5 = "/electronics/musicalinstruments"
+          link5 = "/musicalinstruments"
+          path6 = "/electronics/bluetoothwireless"
+          link6 = "/bluetooth&wireless"
+          path7 = "/electronics/wearabletechnology"
+          link7 = "/wearabletechnology"
+          path8 = "/electronics/homeaudiotheater"
+          link8 = "/homeaudiotheater"
+          path9 = "/electronics/videogames"
+          link9 = "/videogames"
+          path10 = "/electronics/cellphones"
+          link10 = "/cellphones"
+        />
+      </div>
       <div className="camera-photo-video__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">

@@ -4,10 +4,35 @@ import { uuid } from 'uuidv4';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
 // import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/CellPhone.scss';
+import JumpTo from '../../JumpTo';
 
 function CellPhone() {
   return (
     <div className="cell-phone__container">
+      <div className="cell-phone__jump-to">
+        <JumpTo 
+          path1 = "/electronics/headphones"
+          link1 = "/headphones"
+          path2 = "/electronics/carelectronics"
+          link2 = "/carelectronics"
+          path3 = "/electronics/cameraphotovideo"
+          link3 = "/cameraphotovideo"
+          path4 = "/electronics/electronicsbase"
+          link4 = "/electronics"
+          path5 = "/electronics/musicalinstruments"
+          link5 = "/musicalinstruments"
+          path6 = "/electronics/bluetoothwireless"
+          link6 = "/bluetooth&wireless"
+          path7 = "/electronics/wearabletechnology"
+          link7 = "/wearabletechnology"
+          path8 = "/electronics/homeaudiotheater"
+          link8 = "/homeaudiotheater"
+          path9 = "/electronics/videogames"
+          link9 = "/videogames"
+          path10 = "/electronics/tvvideo"
+          link10 = "/tvvideo"
+        />
+      </div>
       <div className="cell-phone__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">

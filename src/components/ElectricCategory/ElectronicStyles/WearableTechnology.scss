@@ -6,10 +6,16 @@
   background-color: white;
   display: flex;
   padding: 70px 0px;
-  // margin-bottom: 100px;
   align-items: center;
   flex-direction: column;
   position: relative;
+  .wearable-technology__jump-to {
+    display: flex;
+    width: 100%;
+    p {
+      font-size: 1em;
+    }
+  }
   .wearable-technology__history-path {
     display: flex;
     // justify-content: center;

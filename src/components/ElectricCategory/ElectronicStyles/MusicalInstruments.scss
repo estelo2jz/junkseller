@@ -6,6 +6,13 @@
   align-items: center;
   flex-direction: column;
   padding: 70px 0px;
+  .musical-instruments__jump-to {
+    display: flex;
+    width: 100%;
+    p {
+      font-size: 1em;
+    }
+  }
   .musical-instruments__history-path {
     display: flex;
     // justify-content: center;

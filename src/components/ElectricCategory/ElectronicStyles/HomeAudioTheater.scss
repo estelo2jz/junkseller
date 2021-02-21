@@ -6,6 +6,13 @@
   align-items: center;
   padding: 70px 0px;
   position: relative;
+  .home-audio-theater__jump-to {
+    display: flex;
+    width: 100%;
+    p {
+      font-size: 1em;
+    }
+  }
   .home-audio-theater__history-path {
     display: flex;
     // justify-content: center;

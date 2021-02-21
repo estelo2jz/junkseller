@@ -7,6 +7,14 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    .bluetooth-wireless__jump-to {
+      display: flex;
+      width: 100%;
+      p {
+        // padding: 5px 5px;
+        font-size: 1em;
+      }
+    }
   .bluetooth-wireless__history-path {
     display: flex;
     // justify-content: center;

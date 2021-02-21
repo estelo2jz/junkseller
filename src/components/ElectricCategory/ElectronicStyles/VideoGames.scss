@@ -6,10 +6,16 @@
     background-color: white;
     display: flex;
   padding: 70px 0px;
-    // margin-bottom: 100px;
     align-items: center;
     flex-direction: column;
     position: relative;
+    .video-games__jump-to {
+      display: flex;
+      width: 100%;
+      p {
+        font-size: 1em;
+      }
+    }
   .video-games__history-path {
     display: flex;
     // justify-content: center;
