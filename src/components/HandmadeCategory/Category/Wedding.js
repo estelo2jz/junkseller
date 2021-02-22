@@ -3,10 +3,46 @@ import { uuid } from 'uuidv4';
 import { Link } from 'react-router-dom';
 import '../HandmadeStyles/Wedding.scss';
 import HandmadeProductTemplate from './HandmadeProductTemplate';
+import JumpTo from '../../JumpTo';
+
 
 function Wedding() {
   return (
     <div className="wedding__container">
+              <JumpTo 
+          path1 = "/handmade/kitchen&dining"
+          link1 = "/kitchen&dining"
+          path2 = "/handmade/allhandmade"
+          link2 = "/allhandmade"
+          path3 = "/handmade/artwork"
+          link3 = "/artwork"
+          path4 = "/handmade/homedecor"
+          link4 = "/homedecor"
+          path5 = "/handmade/jewelry"
+          link5 = "/jewelry"
+          path6 = "/handmade/handbags&accessories"
+          link6 = "/handbags&accessories"
+          path7 = "/handmade/gifts"
+          link7 = "/gifts"
+          path8 = "/handmade/sellon"
+          link8 = "/sellon"
+          path9 = "/handmade/clothing&shoes"
+          link9 = "/clothing&shoes"
+          path10 = "/handmade/stationary&partysupplies"
+          link10 = "/stationary&partysupplies"
+          path11 = "/handmade/baby"
+          link11 = "/baby"
+          path12 = "/handmade/toys&games"
+          link12 = "/toys&games"
+          path13 = "/handmade/home&kitchen"
+          link13 = "/home&kitchen"
+          path14 = "/handmade/furniture"
+          link14 = "/furniture"
+          path15 = "/handmade/beauty&grooming"
+          link15 = "/beauty&grooming"
+          path16 = "/handmade/petsupplies"
+          link16 = "/petsupplies"
+        />
       <div className="wedding__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/handmade">

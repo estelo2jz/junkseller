@@ -43,7 +43,6 @@ function AmazonHome() {
           link16 = "/events&partysupplies"
           path17 = "/home&garden&tools/lighting"
           link17 = "/lighting"
-          
         />
       <div className="amazon-home__history-path">
         {/* <p>you are in :</p> */}
