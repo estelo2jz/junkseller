@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building';
 import '../BeautyHealthStyles/SkinCare.scss';
 import JumpTo from '../../JumpTo';
@@ -32,7 +31,6 @@ function SkinCare() {
         <p>/skincare</p>
       </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import ComingSoon from '../../ComingSoon';
 import Building from '../../Building';
 import { Link } from 'react-router-dom';
 import '../BeautyHealthStyles/PremiumBeauty.scss';
@@ -32,7 +31,6 @@ function PremiumBeauty() {
         <p>/premiumbeauty</p>
       </div>
       <Building />
-      {/* <ComingSoon /> */}
     </div>
   )
 }
