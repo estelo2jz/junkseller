@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../ElectronicStyles/MusicalInstruments.scss';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function MusicalInstruments() {
   return (
@@ -9,25 +9,25 @@ function MusicalInstruments() {
       <div className="musical-instruments__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
-          link1 = "/headphones"
+          link1 = "headphones"
           path2 = "/electronics/carelectronics"
-          link2 = "/carelectronics"
+          link2 = "car-electronics"
           path3 = "/electronics/cameraphotovideo"
-          link3 = "/cameraphotovideo"
+          link3 = "camera&photo&video"
           path4 = "/electronics/electronicsbase"
-          link4 = "/electronics"
+          link4 = "electronics"
           path5 = "/electronics/tvvideo"
-          link5 = "/tvvideo"
+          link5 = "tv&video"
           path6 = "/electronics/bluetoothwireless"
-          link6 = "/bluetooth&wireless"
+          link6 = "bluetooth&wireless"
           path7 = "/electronics/wearabletechnology"
-          link7 = "/wearabletechnology"
+          link7 = "wearable-technology"
           path8 = "/electronics/homeaudiotheater"
-          link8 = "/homeaudiotheater"
+          link8 = "home&audio&theater"
           path9 = "/electronics/videogames"
-          link9 = "/videogames"
+          link9 = "video-games"
           path10 = "/electronics/cellphones"
-          link10 = "/cellphones"
+          link10 = "cellphones"
         />
       </div>
       <div className="musical-instruments__history-path">

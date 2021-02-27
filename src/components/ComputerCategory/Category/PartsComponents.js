@@ -4,7 +4,7 @@ import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/ComputerComponents.scss';
 import StarRateIcon from '@material-ui/icons/StarRate';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function ComputerComponentsTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -63,22 +63,20 @@ function ComputerComponentsTemplate({ id, title, image, price, rating, rateNumbe
   )
 }
 
-
-
 function ComputerComponents() {
   return (
     <div className="computer-components__container">
       <JumpTo 
         path1 = "/computers/harddrives&storage"
-        link1 = "/harddrives&storage"
+        link1 = "hard-drives&storage"
         path2 = "/computers/accessories"
-        link2 = "/accessories"
+        link2 = "accessories"
         path3 = "/computers/tablet"
-        link3 = "/computers&tablets&PC"
+        link3 = "computers&tablets&PC"
         path4 = "/computers/networking"
-        link4 = "/networking"
+        link4 = "networking"
         path5 = "/computers/monitors"
-        link5 = "/monitors"
+        link5 = "monitors"
       />
       <div className="computer-components__history-path">
         {/* <p>you are in :</p> */}

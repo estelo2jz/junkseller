@@ -2,7 +2,7 @@ import React from 'react';
 import Building from '../../Building'; 
 import '../SportsStyles/FanShop.scss';
 import { Link } from 'react-router-dom';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function FanShop() {
 
@@ -10,21 +10,21 @@ function FanShop() {
   <div className="fan-shop__container">
           <JumpTo 
           path1 = "/sports/allsports&fitness"
-          link1 = "/allsports&fitness"
+          link1 = "all-sports&fitness"
           path2 = "/sports/exercise&fitness"
-          link2 = "/exercise&fitness"
+          link2 = "exercise&fitness"
           path3 = "/sports/sports&collectibles"
-          link3 = "/sports&collectibles"
+          link3 = "sports&collectibles"
           path4 = "/sports/newgearinnovations"
-          link4 = "/newgearinnovations"
+          link4 = "new-gear-innovations"
           path5 = "/sports/athleticclothing"
-          link5 = "/athleticclothing"
+          link5 = "athletic-clothing"
           path6 = "/sports/hunting&fishing"
-          link6 = "/hunting&fishing"
+          link6 = "hunting&fishing"
           path7 = "/sports/golf"
-          link7 = "/golf"
+          link7 = "golf"
           path8 = "/sports/leisure&game"
-          link8 = "/leisure&game"
+          link8 = "leisure&game"
         />
     <div className="fan-shop__history-path">
       {/* <p>you are in :</p> */}

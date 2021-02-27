@@ -3,44 +3,44 @@ import { uuid } from 'uuidv4';
 import { Link } from 'react-router-dom';
 import '../HandmadeStyles/ArtWork.scss';
 import HandmadeProductTemplate from './HandmadeProductTemplate';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function Artwork() {
   return (
     <div className="art-work__container">
               <JumpTo 
           path1 = "/handmade/kitchen&dining"
-          link1 = "/kitchen&dining"
+          link1 = "kitchen&dining"
           path2 = "/handmade/wedding"
-          link2 = "/wedding"
+          link2 = "wedding"
           path3 = "/handmade/allhandmade"
-          link3 = "/allhandmade"
+          link3 = "all-handmade"
           path4 = "/handmade/homedecor"
-          link4 = "/homedecor"
+          link4 = "home-decor"
           path5 = "/handmade/jewelry"
-          link5 = "/jewelry"
+          link5 = "jewelry"
           path6 = "/handmade/handbags&accessories"
-          link6 = "/handbags&accessories"
+          link6 = "handbags&accessories"
           path7 = "/handmade/gifts"
-          link7 = "/gifts"
+          link7 = "gifts"
           path8 = "/handmade/sellon"
-          link8 = "/sellon"
+          link8 = "sell-on"
           path9 = "/handmade/clothing&shoes"
-          link9 = "/clothing&shoes"
+          link9 = "clothing&shoes"
           path10 = "/handmade/stationary&partysupplies"
-          link10 = "/stationary&partysupplies"
+          link10 = "stationary&partysupplies"
           path11 = "/handmade/baby"
-          link11 = "/baby"
+          link11 = "baby"
           path12 = "/handmade/toys&games"
-          link12 = "/toys&games"
+          link12 = "toys&games"
           path13 = "/handmade/home&kitchen"
-          link13 = "/home&kitchen"
+          link13 = "home&kitchen"
           path14 = "/handmade/furniture"
-          link14 = "/furniture"
+          link14 = "furniture"
           path15 = "/handmade/beauty&grooming"
-          link15 = "/beauty&grooming"
+          link15 = "beauty&grooming"
           path16 = "/handmade/petsupplies"
-          link16 = "/petsupplies"
+          link16 = "pet&supplies"
         />
       <div className="art-work__history-path">
         {/* <p>you are in :</p> */}

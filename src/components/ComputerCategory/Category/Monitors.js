@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/Monitors.scss';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 
 function MonitorsTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
@@ -70,15 +70,15 @@ function Monitors() {
     <div className="monitors__container">
       <JumpTo 
         path1 = "/computers/harddrives&storage"
-        link1 = "/harddrives&storage"
+        link1 = "hard-drives&storage"
         path2 = "/computers/parts&components"
-        link2 = "/parts&components"
+        link2 = "parts&components"
         path3 = "/computers/tablet"
-        link3 = "/computers&tablets&PC"
+        link3 = "computers&tablets&PC"
         path4 = "/computers/networking"
-        link4 = "/networking"
+        link4 = "networking"
         path5 = "/computers/accessories"
-        link5 = "/accessories"
+        link5 = "accessories"
       />
       <div className="monitors__history-path">
         {/* <p>you are in :</p> */}

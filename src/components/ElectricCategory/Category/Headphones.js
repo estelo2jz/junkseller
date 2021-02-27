@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../ElectronicStyles/Headphones.scss';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function Headphones() {
   return (
@@ -9,25 +9,25 @@ function Headphones() {
       <div className="headphones__jump-to">
         <JumpTo 
           path1 = "/electronics/tvvideo"
-          link1 = "/tvvideo"
+          link1 = "tv&video"
           path2 = "/electronics/carelectronics"
-          link2 = "/carelectronics"
+          link2 = "car-electronics"
           path3 = "/electronics/cameraphotovideo"
-          link3 = "/cameraphotovideo"
+          link3 = "camera&photo&video"
           path4 = "/electronics/electronicsbase"
-          link4 = "/electronics"
+          link4 = "electronics"
           path5 = "/electronics/musicalinstruments"
-          link5 = "/musicalinstruments"
+          link5 = "musical-instruments"
           path6 = "/electronics/bluetoothwireless"
-          link6 = "/bluetooth&wireless"
+          link6 = "bluetooth&wireless"
           path7 = "/electronics/wearabletechnology"
-          link7 = "/wearabletechnology"
+          link7 = "wearable-technology"
           path8 = "/electronics/homeaudiotheater"
-          link8 = "/homeaudiotheater"
+          link8 = "home&audio&theater"
           path9 = "/electronics/videogames"
-          link9 = "/videogames"
+          link9 = "video-games"
           path10 = "/electronics/cellphones"
-          link10 = "/cellphones"
+          link10 = "cellphones"
         />
       </div>
       <div className="headphones__history-path">

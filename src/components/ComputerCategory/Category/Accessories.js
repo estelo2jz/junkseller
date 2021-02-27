@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/ComputerAccessories.scss';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -69,15 +69,15 @@ function ComputerAccessories() {
     <div className="computer-accessories__container">
       <JumpTo 
         path1 = "/computers/harddrives&storage"
-        link1 = "/harddrives&storage"
+        link1 = "hard-drives&storage"
         path2 = "/computers/parts&components"
-        link2 = "/parts&components"
+        link2 = "parts&components"
         path3 = "/computers/tablet"
-        link3 = "/computers&tablets&PC"
+        link3 = "computers&tablets&PC"
         path4 = "/computers/networking"
-        link4 = "/networking"
+        link4 = "networking"
         path5 = "/computers/monitors"
-        link5 = "/monitors"
+        link5 = "monitors"
       />
       <div className="computer-accessories__history-path">
         {/* <p>you are in :</p> */}

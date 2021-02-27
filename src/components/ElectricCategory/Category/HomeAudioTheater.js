@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // import ElectronicsProductTemplate from './ElectronicsProductTemplate';
 // import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/HomeAudioTheater.scss';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function HomeAudioTheater() {
   return (

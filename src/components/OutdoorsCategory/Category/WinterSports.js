@@ -2,7 +2,7 @@ import React from 'react';
 import '../OutdoorsStyles/WinterSports.scss';
 import { Link} from 'react-router-dom';
 import Building from '../../Building'; 
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 
 function WinterSports() {
@@ -10,21 +10,21 @@ function WinterSports() {
     <div className="winter-sports__container">
           <JumpTo 
         path1 = "/outdoors/accessories"
-        link1 = "/accessories"
+        link1 = "accessories"
         path2 = "/outdoors/climbing"
-        link2 = "/climbing"
+        link2 = "climbing"
         path3 = "/outdoors/watersports"
-        link3 = "/watersports"
+        link3 = "water-sports"
         path4 = "/outdoors/scooters&skates&skateboards"
-        link4 = "/scooters&skates&skateboards"
+        link4 = "scooters&skateboards"
         path5 = "/outdoors/cycling"
-        link5 = "/cycling"
+        link5 = "cycling"
         path6 = "/outdoors/camping&hiking"
-        link6 = "/camping&hiking"
+        link6 = "camping&hiking"
         path7 = "/outdoors/alloutdoor"
-        link7 = "/alloutdoor&recreation"
+        link7 = "all-outdoor&recreation"
         path8 = "/outdoors/outdoorclothing"
-        link8 = "/outdoorclothing"
+        link8 = "outdoor-clothing"
       />
       <div className="winter-sports__history-path">
         {/* <p>you are in :</p> */}

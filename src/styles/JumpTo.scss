@@ -34,13 +34,14 @@
       // border-right: 1px solid black;
       margin: 5px 5px;
       // padding: 5px;
-      color: rgb(126, 125, 125) ;
+      color: rgb(0, 0, 0) ;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: rgba(194, 187, 187, 0.5);
+      // background: rgba(70, 69, 69, 0.5);
       font-size: 1.1rem;
       font-weight: 500;
+      padding: 0px 10px;
     }
     a:active {
       color: rgb(26, 71, 248);

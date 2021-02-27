@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
 // import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/WearableTechnology.scss';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function WearableTechnology() {
   return (
@@ -11,25 +11,25 @@ function WearableTechnology() {
       <div className="wearable-technology__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
-          link1 = "/headphones"
+          link1 = "headphones"
           path2 = "/electronics/carelectronics"
-          link2 = "/carelectronics"
+          link2 = "carelectronics"
           path3 = "/electronics/cameraphotovideo"
-          link3 = "/cameraphotovideo"
+          link3 = "cameraphotovideo"
           path4 = "/electronics/electronicsbase"
-          link4 = "/electronics"
+          link4 = "electronics"
           path5 = "/electronics/musicalinstruments"
-          link5 = "/musicalinstruments"
+          link5 = "musicalinstruments"
           path6 = "/electronics/bluetoothwireless"
-          link6 = "/bluetooth&wireless"
+          link6 = "bluetooth&wireless"
           path7 = "/electronics/tvvideo"
-          link7 = "/tvvideo"
+          link7 = "tvvideo"
           path8 = "/electronics/homeaudiotheater"
-          link8 = "/homeaudiotheater"
+          link8 = "homea&udio&theater"
           path9 = "/electronics/videogames"
-          link9 = "/videogames"
+          link9 = "video&games"
           path10 = "/electronics/cellphones"
-          link10 = "/cellphones"
+          link10 = "cellphones"
         />
       </div>
       <div className="wearable-technology__history-path">

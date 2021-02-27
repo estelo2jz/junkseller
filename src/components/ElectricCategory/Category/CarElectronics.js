@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import ElectronicsProductTemplate from './ElectronicsProductTemplate';
 // import FeaturedCategoryTemplate from './FeaturedCategoryTemplate';
 import '../ElectronicStyles/CarElectronics.scss';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function CarElectronics() {
   return (
@@ -11,25 +11,25 @@ function CarElectronics() {
       <div className="car-electronics__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
-          link1 = "/headphones"
+          link1 = "headphones"
           path2 = "/electronics/tvvideo"
-          link2 = "/tvvideo"
+          link2 = "tv&video"
           path3 = "/electronics/cameraphotovideo"
-          link3 = "/cameraphotovideo"
+          link3 = "camera&photo&video"
           path4 = "/electronics/electronicsbase"
-          link4 = "/electronics"
+          link4 = "electronics"
           path5 = "/electronics/musicalinstruments"
-          link5 = "/musicalinstruments"
+          link5 = "musical-instruments"
           path6 = "/electronics/bluetoothwireless"
-          link6 = "/bluetooth&wireless"
+          link6 = "bluetooth&wireless"
           path7 = "/electronics/wearabletechnology"
-          link7 = "/wearabletechnology"
+          link7 = "wearable-technology"
           path8 = "/electronics/homeaudiotheater"
-          link8 = "/homeaudiotheater"
+          link8 = "home&audio&theater"
           path9 = "/electronics/videogames"
-          link9 = "/videogames"
+          link9 = "video-games"
           path10 = "/electronics/cellphones"
-          link10 = "/cellphones"
+          link10 = "cellphones"
         />
       </div>
       <div className="car-electronics__history-path">

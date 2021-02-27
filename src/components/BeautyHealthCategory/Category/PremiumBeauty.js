@@ -2,24 +2,24 @@ import React from 'react';
 import Building from '../../Building';
 import { Link } from 'react-router-dom';
 import '../BeautyHealthStyles/PremiumBeauty.scss';
-import JumpTo from '../../JumpTo';
+import JumpTo from './JumpTo';
 
 function PremiumBeauty() {
   return (
     <div className="premium-beauty__container">
       <JumpTo 
         path1 = "/beauty&health/salon&spa"
-        link1 = "/salon&spa"
+        link1 = "salon&spa"
         path2 = "/beauty&health/health&household&baby"
-        link2 = "/health&household&baby"
+        link2 = "health&household&baby"
         path3 = "/beauty&health/mensgrooming"
-        link3 = "/mensgrooming"
+        link3 = "mens-grooming"
         path4 = "/beauty&health/skincare"
-        link4 = "/skincare"
+        link4 = "skin-care"
         path5 = "/beauty&health/vitamins&diet"
-        link5 = "/vitamins&diet"
+        link5 = "vitamins&diet"
         path6 = "/beauty&health/allbeauty"
-        link6 = "/allbeauty"
+        link6 = "all-beauty"
       />
       <div className="premium-beauty__history-path">
         {/* <p>you are in :</p> */}
