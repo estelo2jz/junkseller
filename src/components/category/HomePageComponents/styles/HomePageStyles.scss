@@ -1,0 +1,120 @@
+// SQAURE-FEATURED STYLES
+.sqaure-featured__container {
+  // background-color: rgba(255, 255, 255, 0.4);
+  background-color: white;
+  margin: 0.4rem;
+  border-radius: 3px;
+  .sqaure-featured__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    width: 300px;
+    min-height: 300px;
+    img {
+      width: 100%;
+    }
+
+  }
+  .sqaure-featured__title {
+    padding: 10px 10px;
+    p {
+      font-weight: 700;
+      color: black;
+      font-size: clamp(1em, 2vw, 1rem);
+    }
+
+  }
+}
+.sqaure-featured__container:hover {
+  transition: all 0.3s linear;
+}
+
+// MULTI_SQAURE 
+.multi-sqaure__container {
+  .multi-sqaure__box-one {
+    
+  }
+}
+
+// CIRCLE FEATURED
+.circle-featured__container {
+  background-color: white;
+  margin: 0.4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 50%;
+  .circle-featured__img {
+    width: 220px;
+    // min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img {
+      // border-radius: 50%;
+      width: 100px;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+
+      // border-radius: 50%;
+    }
+
+  }
+  .circle-featured__title {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100%;
+    p {
+      color: black;
+      font-weight: 700;
+    }
+
+  }
+}
+
+// FIRST FEATURED PRODUCT
+.first-featured-product__container {
+  background-color: white;
+  padding: 20px;
+  margin: 0.4rem;
+  border-radius: 3px;
+  .first-featured-product__img {
+    width: 220px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img {
+      width: 200px;
+
+    }
+  }
+}
+
+
+// SECIND FEATURED PRODUCT
+.second-featured-product__container {
+  background-color: white;
+  padding: 20px;
+  margin: 0.4rem;
+  border-radius: 3px;
+  .second-featured-product__img {
+    width: 220px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img {
+      width: 200px;
+
+    }
+  }
+}
