@@ -34,6 +34,14 @@
   font-family: 'Poppins', sans-serif;
 }
 .automotive__container-flex-grid {
+  .automotive__heading {
+    padding: 10px 17px;
+    width: 100%;
+    p {
+      font-size: clamp(1.1em, 2vw, 1.5rem);
+      font-weight: 500;
+    }
+  }
   .automotive__container-flex-1 {
     display: flex;
     overflow-x: scroll;

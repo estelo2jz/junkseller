@@ -758,9 +758,6 @@ function Computers() {
               pathFour = ""
             />
           </div>
-          <div className="electronics__container-flex-1">
-
-          </div>
         </div>
       </div>
     </div>
