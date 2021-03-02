@@ -9,6 +9,7 @@ import  SqaureFeatured from './HomePageComponents/SqaureFeatured';
 import  CircleFeaturedCategories from './HomePageComponents/CircleFeaturedCategories';
 import  FirstFeaturedProduct from './HomePageComponents/FirstFeaturedProduct';
 import  SecondFeaturedProduct from './HomePageComponents/SecondFeaturedProduct';
+import  MultiSqaure from './HomePageComponents/MultiSqaure';
 
 function Electronics() {
   return (
@@ -39,6 +40,20 @@ function Electronics() {
               title = "Ear Buds"
               path = "/electronics/headphones"
             />
+            <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/41bK7tuzDWL.jpg"
+              titleOne = "Sewing"
+              pathOne = ""
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/41D2H95PzCL.jpg"
+              titleTwo = "Jewelry"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/51jU6oALyJL.jpg"
+              titleThree = "Face Masks"
+              pathThree = ""
+              imageFour = "https://m.media-amazon.com/images/I/615+lS7GS8L._AC_UY218_.jpg"
+              titleFour = "Tires"
+              pathFour = ""
+            />
             <SqaureFeatured 
               image = "https://images-na.ssl-images-amazon.com/images/I/41LWqoFBfgL.jpg"
               title = "Apple Products"
@@ -53,6 +68,25 @@ function Electronics() {
               image = "https://images-na.ssl-images-amazon.com/images/I/41179QBQAXL.jpg"
               title = "Smart Phones"
               path = "/electronics/cellphones"
+            />
+            <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/71YiS9RWIFL._AC._SR360,460.jpg"
+              titleOne = "Hangers"
+              pathOne = ""
+              imageTwo = "https://m.media-amazon.com/images/I/51WI2H-fueL._AC_UL320_.jpg"
+              titleTwo = "Art"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/41n2u94Z8fL._AC_SX184_.jpg"
+              titleThree = "Bicycles"
+              pathThree = ""
+              imageFour = "https://images-na.ssl-images-amazon.com/images/I/814ounL3HiL._AC._SR360,460.jpg"
+              titleFour = "Supplements"
+              pathFour = ""
+            />
+            <SqaureFeatured 
+              image = "https://m.media-amazon.com/images/I/81eR5VzjExL._AC_UL320_.jpg"
+              title = "DJ Controller"
+              path = "/electronics/videogames"
             />
           </div>
           <div className="electronics__heading">
@@ -319,8 +353,123 @@ function Electronics() {
               path = ""             
              />
           </div>
-          {/* <div className="electronics__container-3-grid">
-          </div> */}
+          <div className="electronics__heading">
+            <p></p>
+          </div>
+          <div className="electronics__container-flex-1">
+            <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/41bK7tuzDWL.jpg"
+              titleOne = "Sewing"
+              pathOne = ""
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/41D2H95PzCL.jpg"
+              titleTwo = "Jewelry"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/51jU6oALyJL.jpg"
+              titleThree = "Face Masks"
+              pathThree = ""
+              imageFour = "https://m.media-amazon.com/images/I/615+lS7GS8L._AC_UY218_.jpg"
+              titleFour = "Tires"
+              pathFour = ""
+            />
+            <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/71YiS9RWIFL._AC._SR360,460.jpg"
+              titleOne = "Hangers"
+              pathOne = ""
+              imageTwo = "https://m.media-amazon.com/images/I/51WI2H-fueL._AC_UL320_.jpg"
+              titleTwo = "Art"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/41n2u94Z8fL._AC_SX184_.jpg"
+              titleThree = "Bicycles"
+              pathThree = ""
+              imageFour = "https://images-na.ssl-images-amazon.com/images/I/814ounL3HiL._AC._SR360,460.jpg"
+              titleFour = "Supplements"
+              pathFour = ""
+            />
+                        <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/41bK7tuzDWL.jpg"
+              titleOne = "Sewing"
+              pathOne = ""
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/41D2H95PzCL.jpg"
+              titleTwo = "Jewelry"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/51jU6oALyJL.jpg"
+              titleThree = "Face Masks"
+              pathThree = ""
+              imageFour = "https://m.media-amazon.com/images/I/615+lS7GS8L._AC_UY218_.jpg"
+              titleFour = "Tires"
+              pathFour = ""
+            />
+            <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/71YiS9RWIFL._AC._SR360,460.jpg"
+              titleOne = "Hangers"
+              pathOne = ""
+              imageTwo = "https://m.media-amazon.com/images/I/51WI2H-fueL._AC_UL320_.jpg"
+              titleTwo = "Art"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/41n2u94Z8fL._AC_SX184_.jpg"
+              titleThree = "Bicycles"
+              pathThree = ""
+              imageFour = "https://images-na.ssl-images-amazon.com/images/I/814ounL3HiL._AC._SR360,460.jpg"
+              titleFour = "Supplements"
+              pathFour = ""
+            />
+                        <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/41bK7tuzDWL.jpg"
+              titleOne = "Sewing"
+              pathOne = ""
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/41D2H95PzCL.jpg"
+              titleTwo = "Jewelry"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/51jU6oALyJL.jpg"
+              titleThree = "Face Masks"
+              pathThree = ""
+              imageFour = "https://m.media-amazon.com/images/I/615+lS7GS8L._AC_UY218_.jpg"
+              titleFour = "Tires"
+              pathFour = ""
+            />
+            <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/71YiS9RWIFL._AC._SR360,460.jpg"
+              titleOne = "Hangers"
+              pathOne = ""
+              imageTwo = "https://m.media-amazon.com/images/I/51WI2H-fueL._AC_UL320_.jpg"
+              titleTwo = "Art"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/41n2u94Z8fL._AC_SX184_.jpg"
+              titleThree = "Bicycles"
+              pathThree = ""
+              imageFour = "https://images-na.ssl-images-amazon.com/images/I/814ounL3HiL._AC._SR360,460.jpg"
+              titleFour = "Supplements"
+              pathFour = ""
+            />
+                        <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/41bK7tuzDWL.jpg"
+              titleOne = "Sewing"
+              pathOne = ""
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/41D2H95PzCL.jpg"
+              titleTwo = "Jewelry"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/51jU6oALyJL.jpg"
+              titleThree = "Face Masks"
+              pathThree = ""
+              imageFour = "https://m.media-amazon.com/images/I/615+lS7GS8L._AC_UY218_.jpg"
+              titleFour = "Tires"
+              pathFour = ""
+            />
+            <MultiSqaure 
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/71YiS9RWIFL._AC._SR360,460.jpg"
+              titleOne = "Hangers"
+              pathOne = ""
+              imageTwo = "https://m.media-amazon.com/images/I/51WI2H-fueL._AC_UL320_.jpg"
+              titleTwo = "Art"
+              pathTwo = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/41n2u94Z8fL._AC_SX184_.jpg"
+              titleThree = "Bicycles"
+              pathThree = ""
+              imageFour = "https://images-na.ssl-images-amazon.com/images/I/814ounL3HiL._AC._SR360,460.jpg"
+              titleFour = "Supplements"
+              pathFour = ""
+            />
+          </div>
         </div>
       </div>
     </div>

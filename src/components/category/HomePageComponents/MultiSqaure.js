@@ -2,41 +2,43 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles/HomePageStyles.scss';
 
-function MultiSqaure() {
+function MultiSqaure({pathOne, pathTwo, pathThree, pathFour, imageOne, titleOne, imageTwo, titleTwo, imageThree, titleThree, imageFour, titleFour}) {
   return (
     <div className="multi-sqaure__container">
-        <div className="multi-sqaure__box-one">
-          <div>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/311EleaXm+L.jpg" alt="multi-sqaure-categories" />
+      <div className="multi-sqaure__helper">
+        <Link to={pathOne} className="multi-sqaure__box-one">
+          <div className="multi-sqaure__img">
+            <img src={imageOne} alt="multi-sqaure-categories" />
           </div>
-          <div>
-            <p>Ear Buds</p>
+          <div className="multi-sqaure__title">
+            <p>{titleOne}</p>
           </div>
-        </div>
-        <div className="multi-sqaure__box-one">
-          <div>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/41q2y264P6L.jpg" alt="multi-sqaure-categories" />
+        </Link>
+        <Link to={pathTwo} className="multi-sqaure__box-one">
+          <div  className="multi-sqaure__img">
+            <img src={imageTwo} alt="multi-sqaure-categories" />
           </div>
-          <div>
-            <p>XBOX</p>
+          <div  className="multi-sqaure__title">
+            <p>{titleTwo}</p>
           </div>
-        </div>
-        <div className="multi-sqaure__box-one">
-          <div>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/41LRXyDut2L.jpg" alt="multi-sqaure-categories" />
+        </Link>
+        <Link to={pathThree} className="multi-sqaure__box-one">
+          <div  className="multi-sqaure__img">
+            <img src={imageThree} alt="multi-sqaure-categories" />
           </div>
-          <div>
-            <p>Tablets</p>
+          <div  className="multi-sqaure__title">
+            <p>{titleThree}</p>
           </div>
-        </div>
-        <div className="multi-sqaure__box-one">
-          <div>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/41179QBQAXL.jpg" alt="multi-sqaure-categories" />
+        </Link>
+        <Link to={pathFour} className="multi-sqaure__box-one">
+          <div  className="multi-sqaure__img">
+            <img src={imageFour} alt="multi-sqaure-categories" />
           </div>
-          <div>
-            <p>Smart Phones</p>
+          <div  className="multi-sqaure__title">
+            <p>{titleFour}</p>
           </div>
-        </div>
+        </Link>
+      </div>
     </div>
   )
 }
