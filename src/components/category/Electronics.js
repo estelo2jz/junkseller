@@ -423,7 +423,7 @@ function Electronics() {
               titleTwo = "Exercise Bands"
               pathTwo = ""
               imageThree = "https://images-na.ssl-images-amazon.com/images/I/817ffl64kgL._AC_SL1500_.jpg"
-              titleThree = "Self-Seal Envelopes"
+              titleThree = "Envelopes"
               pathThree = "Dual Cam"
               imageFour = "https://images-na.ssl-images-amazon.com/images/I/615HV8SnnEL._AC_SL1494_.jpg"
               titleFour = "Tires"
@@ -494,7 +494,7 @@ function Electronics() {
               priceTwo = "79.99"
             />
             <TwoProductTemplate 
-              titleOne = "Samsung Galaxy Tab 4 (7-Inch, Black)"
+              titleOne= "Samsung Galaxy Tab A7 10.4 Wi-Fi 32GB Black (SM-T500NZSAXAR)"
               imageOne = "https://images-na.ssl-images-amazon.com/images/I/718CLDNap6L._AC_SL1500_.jpg"
               pathOne = ""
               priceOne = "114.01"
@@ -596,10 +596,10 @@ function Electronics() {
               priceTwo = "114.05"
             />
             <TwoProductTemplateTwo 
-              titleOne = "OBSBOT Tiny AI-Powered PTZ Webcam, Full HD 1080p Video Conferencing, Recording and Streaming - Black"
-              imageOne = "https://images-na.ssl-images-amazon.com/images/I/61zjh%2BeJ%2BpL._AC_SL1500_.jpg"
+              titleOne= "DJI Phantom 3 Standard Renewed Unit"
+              imageOne= "https://m.media-amazon.com/images/I/31WgYH4shYL._AC_UL480_FMwebp_QL65_.jpg"
               pathOne = ""
-              priceOne = "169.15"
+              priceOne = "599.99"
               titleTwo = "Azio Large Print Keyboard - USB Computer Keyboard with 3 Interchangeable Backlight Colors (KB505U)"
               imageTwo = "https://m.media-amazon.com/images/I/61y1w8KgGjL._AC_UL320_.jpg"
               pathTwo = ""
