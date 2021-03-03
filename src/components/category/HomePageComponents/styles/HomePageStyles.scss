@@ -370,7 +370,8 @@
 .first-featured-product__container {
   background-color: white;
   padding: 20px;
-  margin: 0.4rem;
+  // margin: 0.4rem;
+  border: 1px solid transparent;
   border-radius: 3px;
   .first-featured-product__img {
     width: 220px;
@@ -385,6 +386,10 @@
 
     }
   }
+  &:hover {
+    border: 1px solid lightgray;
+    transition: all 0.3 ease;
+  }
 }
 
 
@@ -392,8 +397,9 @@
 .second-featured-product__container {
   background-color: white;
   padding: 20px;
-  margin: 0.4rem;
+  // margin: 0.4rem;
   border-radius: 3px;
+  border: 1px solid transparent;
   .second-featured-product__img {
     width: 220px;
     min-height: 250px;
@@ -405,5 +411,9 @@
       // width: 200px;
       max-width: 70%;
     }
+  }
+  &:hover {
+    border: 1px solid lightgray;
+    transition: all 0.3 ease;
   }
 }

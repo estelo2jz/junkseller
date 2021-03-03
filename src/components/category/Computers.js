@@ -91,173 +91,128 @@ function Computers() {
           </div>
           <div className="electronics__container-flex-1">
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/41qGljLcoKL._AC_UL320_.jpg"
-               title = "TV"
+               image = "https://www.designfreelogoonline.com/wp-content/uploads/2019/02/00580-Family-01.png"
+               title = "Family"
+               path = "/toys&kids&baby/family"
+             />
+            <CircleFeaturedCategories
+               image = "https://images-na.ssl-images-amazon.com/images/I/41SjEa53NXL.jpg"
+               title = "Events & Party"
                path = ""
              />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71UAtd5yS5L._AC_UL320_.jpg"
+               image = "https://m.media-amazon.com/images/I/71B-oQ1qHLL._AC_UY218_.jpg"
+               title = "Lawn Mowers"
                path = ""
-               title = "Video Recording"
              />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71trCk+mk4L._AC_UL320_.jpg"
+               image = "https://m.media-amazon.com/images/I/91ZIAl67VlL._AC_UL320_.jpg"
+               title = "Plants & Seeds"
                path = ""
-               title = "Smart Watches"
              />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/61fskHmDrrL._AC_UL320_.jpg"
+               image = "https://m.media-amazon.com/images/I/81j27jS95+L._AC_UL320_.jpg"
+               title = "Game Room"
                path = ""
-               title = "Vacuums"
              />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/41JfuLRDgPL.jpg"
+               image = "https://images-na.ssl-images-amazon.com/images/I/41YN1wCSx0L._AC_SX184_.jpg"
+               title = "Voice Assistants"
                path = ""
-               title = "Wedding"
              />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/81BlnTvweVL._AC_SL1500_.jpg"
+               image = "https://m.media-amazon.com/images/I/61Gw2x7RrHL._AC_UL320_.jpg"
+               title = "Sofas"
                path = ""
-               title = "Golf"
              />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71MoE8IyXgL._AC_UL320_.jpg"
+               image = "https://images-na.ssl-images-amazon.com/images/I/81muiNoE-3L._AC._SR360,460.jpg"
+               title = "Fish Food"
                path = ""
-               title = "Climbing"
              />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/61rYD5nAicL._AC_SL1000_.jpg"
+               image = "https://m.media-amazon.com/images/I/71Y9F8tJ8FL._AC_UY218_.jpg"
+               title = "CPUs"
                path = ""
-               title = "Seat Covers"
              />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/81ihFk9rFWL._SL1500_.jpg"
+               image = "https://m.media-amazon.com/images/I/61ie+mpdYPL._QL65_AC_UL640_.jpg"
+               title = "Shoe's"
                path = ""
-               title = "Fragrance"
              />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/412ZMPrA55L.jpg"
+               image = "https://images-na.ssl-images-amazon.com/images/I/41yB0kHGcSL.jpg"
+               title = "Artificial FLower"
                path = ""
-               title = "Smart Thermostat"
              />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/81BIRmPUAgL._AC._SR360,460.jpg"
+               image = "https://images-na.ssl-images-amazon.com/images/I/41Y15o6btZL.jpg"
+               title = "Streaming Media"
                path = ""
-               title = "Internal Components"
-             />
-              <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/51r3ESLbqtL._SX160_QL100_AC_SCLZZZZZZZ_.jpg"
-               path = ""
-               title = "Cutting Board"
              />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/41gSLScWKjL._SX160_QL100_AC_SCLZZZZZZZ_.jpg"
+               image = "https://m.media-amazon.com/images/I/91YFsh7mNqL._AC_UL320_.jpg"
+               title = "Toys"
                path = ""
-               title = "Chef's Knife"
              />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71udD59On2L._AC_UL320_.jpg"
+               image = "https://m.media-amazon.com/images/I/71UsPriKaWL._AC_UL320_.jpg"
+               title = "Mini Speaker's"
                path = ""
-               title = "Binoculars"
-             />
-            <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71s5XKodatL._AC_UL320_.jpg"
-               path = ""
-               title = "Outdoor Knives"
-             />
-            <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/7185Va6NK6L._AC._SR360,460.jpg"
-               path = ""
-               title = "Eye Shadows"
-             />
-            <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/71VRoejpL7L._AC._SR360,460.jpg"
-               path = ""
-               title = "Hair Care"
-             />
-            <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/51Dnfs1ev6L._AC._SR360,460.jpg"
-               path = ""
-               title = "Nail Care"
-             />
-            <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/81sMtJOEYaL._AC._SR360,460.jpg"
-               path = ""
-               title = "Men's Grooming"
-             />
-            <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71Rogdhu44L._AC_UL320_.jpg"
-               path = ""
-               title = "Dog Food"
-             />
-            <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/41qV5ilPqNL.jpg"
-               path = ""
-               title = "Mattresses"
-             />
-            <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71IUiHcXLhL._AC_UY218_.jpg"
-               path = ""
-               title = "Appliances"
-             />
-            <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/514+A0UifTL.jpg"
-               path = ""
-               title = "Diapers"
              />
           </div>
           <div className="electronics__container-flex-1">
             <SqaureFeatured 
-              image = ""
-              title = ""
+              image = "https://m.media-amazon.com/images/I/91MWQtTH4bL._AC_UY218_.jpg"
+              title = "Motherboards"
               path = "/"
             />
             <MultiSqaure 
-              imageOne = ""
-              titleOne = ""
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/51geOOpItVL.jpg"
+              titleOne = "Gaming Monitors"
               pathOne = ""
-              imageTwo = ""
-              titleTwo = ""
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/71c5W9NxN5L._AC._SR360,460.jpg"
+              titleTwo = "2 in 1"
               pathTwo = ""
-              imageThree = ""
-              titleThree = ""
+              imageThree = "https://m.media-amazon.com/images/I/71fVpfx5oiL._AC_UL320_.jpg"
+              titleThree = "Gaming PCs"
               pathThree = ""
-              imageFour = ""
-              titleFour = ""
+              imageFour = "https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_UY218_.jpg"
+              titleFour = "Gaming Mouse"
               pathFour = ""
             />
             <SqaureFeatured 
-              image = ""
-              title = ""
+              image = "https://m.media-amazon.com/images/I/91wc8+M4jtL._AC_UY218_.jpg"
+              title = "Memory"
               path = "/"
             />
             <SqaureFeatured 
-              image = ""
-              title = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/31qAlOX2ydL.jpg"
+              title = "Gaming Laptops"
               path = "/"
             />
             <SqaureFeatured 
-              image = ""
-              title = ""
+              image = "https://m.media-amazon.com/images/I/61LfuUIynRL._AC_UY218_.jpg"
+              title = "Routers"
               path = "/"
             />
             <MultiSqaure 
-              imageOne = ""
-              titleOne = ""
+              imageOne = "https://m.media-amazon.com/images/I/61S1GmNcK-L._AC_UY218_.jpg"
+              titleOne = "Mini PC"
               pathOne = ""
-              imageTwo = ""
-              titleTwo = ""
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/918idkuRlzL._AC_SL1500_.jpg"
+              titleTwo = "Apple iMac"
               pathTwo = ""
-              imageThree = ""
-              titleThree = ""
+              imageThree = "https://images-na.ssl-images-amazon.com/images/I/71dNZ4zZk4L._AC_SL1500_.jpg"
+              titleThree = "Fire Tablet"
               pathThree = ""
-              imageFour = ""
-              titleFour = ""
+              imageFour = "https://m.media-amazon.com/images/I/61lnzTv2a0L._AC_UY218_.jpg"
+              titleFour = "Headset"
               pathFour = ""
             />
             <SqaureFeatured 
-              image = ""
-              title = ""
+              image = "https://m.media-amazon.com/images/I/71PyN--4a6L._AC_UY218_.jpg"
+              title = "GPU's"
               path = "/"
             />
           </div>
@@ -266,59 +221,59 @@ function Computers() {
           </div>
           <div className="electronics__container-flex-1">
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/51I3UjD-Q1L._AC_SX184_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/41dpAMv2H4L._AC_SX184_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/21U7PiRUz7L._AC_SX184_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/41rQ-edna7L._AC_SX184_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/41lTaujYzwL._AC_SX184_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/51lLkh-DRlL._AC_SX184_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/41aDb3t4tHL._AC_SX184_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/91S1PIX+yWL._AC._SR360,460.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/71f0QWSSKOL._AC._SR360,460.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/61lgxCi9b7L._AC._SR360,460.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/61Gm1upecsL._AC_UL200_SR200,200_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/61hFVa5my8L._AC_UL200_SR200,200_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/81ABwgAl-gL._AC_UL200_SR200,200_.jpg"
               path = ""
             />
             <FirstFeaturedProduct 
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/91-WKoE6sTL._AC_UL200_SR200,200_.jpg"
               path = ""
             />
           </div>
@@ -327,168 +282,168 @@ function Computers() {
           </div>
           <div className="electronics__container-flex-1">
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/61LoIGYKmVL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/71WPGXQLcLL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/81SpC-0BjdL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/71HI%2BSmylNL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/914pic6PuAL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/716xtsOgfHL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/91ekP94ki4L._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/81eQIlL8V9L._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/71P3chRzgNL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/718sn7oOcfL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/51%2BfvgO-JwL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/71z7ztyH1LL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
             <SecondFeaturedProduct
-              image = ""
+              image = "https://images-na.ssl-images-amazon.com/images/I/7143lurIrJL._AC_UL200_SR200,200_.jpg"
               path = ""             
              />
           </div>
           <div className="electronics__container-flex-1">
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "ASUS Laptop L210 Ultra Thin Laptop, 11.6” HD Display, Intel Celeron"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/810BY5U9baL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "199.99"
+              titleTwo = "2021 Newest SuperBox S2 PRO with New Powerful 2GB RAM+16GB Quad"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/81+P39WPtML._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "299.99"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/81Zt42ioCgL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "899.46"
+              titleTwo = "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/81ti8lPxEjL._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "19.90"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "Apple iPad Mini (Wi-Fi, 64GB) - Space Gray (Latest Model)"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/71Ha06XS-VL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "384.99"
+              titleTwo = "2020 Apple MacBook Air with Apple M1 Chip (13-inch, 8GB RAM, 256GB"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/71vFKBpKakL._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "999.99"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "NVIDIA SHIELD Android TV Pro 4K HDR Streaming Media Player"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/61rowppY2TL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "199.99"
+              titleTwo = "Vetroo V5 CPU Air Cooler w/ 5 Heat Pipes 120mm PWM Processor Fan Intel"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/711L7ApyL1L._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "34.59"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "Asus Prime Z390-A Motherboard LGA1151 (Intel 8th And 9th Gen) ATX DDR4 DP HDMI M.2 USB 3.1 Gen2 Gigabit LAN"
+              imageOne = "https://m.media-amazon.com/images/I/71OmavzkW8L._AC_UY218_.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "174.98"
+              titleTwo = "Intel Core i9-10850K Desktop Processor 10 Cores up to 5.2 GHz Unlocked LGA1200 (Intel 400 Series chipset) 125W"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/61zpi0MigBL._AC_SL1080_.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "409.99"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "AMD Ryzen 7 2700X Processor with Wraith Prism LED Cooler -"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/61zovsZF-QL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "316.99"
+              titleTwo = "TP-Link AC1750 Smart WiFi Router (Archer A7) -Dual Band Gigabit Wireless"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/51R2a9p-vNL._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "56.99"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "Tablet 10 Inch Android 9.0 3G Phone Tablets with 32GB Storage Dual Sim"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/61NfcHUmxBL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "109.99"
+              titleTwo = "Anker 4-Port USB 3.0 Hub, Ultra-Slim Data USB Hub with 2 ft Extended Cable"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/51scO1VOfIL._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "12.99"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "iBUYPOWER TraceMR 150i Gaming Desktop Computer, Intel Core i3-"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/61imhCrP3HL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "659.99"
+              titleTwo = "Elgato Stream Deck - Live Content Creation Controller with 15"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/710R9YpV9nL._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "149.99"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "ARCTIC MX-4 (4 Grams) - Thermal Compound Paste, Carbon Based High"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/51vSpWaK4IL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "6.89"
+              titleTwo = "Portable Monitor - GTEK 15.6 Inch IPS Full HD 1920x1080 Screen with Protector"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/71nHZHIE6mL._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "132.87"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "Noctua NH-D15 chromax.Black, Dual-Tower CPU Cooler"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/91t48GBv8TL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "99.95"
+              titleTwo = "Foldable Bluetooth Keyboard with Numeric Keypad - Samsers Full Size"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/719B1Za6cSL._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "45.99"
             />
             <TwoProductTemplate 
-              titleOne = ""
-              imageOne = ""
+              titleOne = "Roku Premiere | HD/4K/HDR Streaming Media Player, Simple"
+              imageOne = "https://images-na.ssl-images-amazon.com/images/I/81wHpn6wPLL._AC._SR360,460.jpg"
               pathOne = ""
-              priceOne = ""
-              titleTwo = ""
-              imageTwo = ""
+              priceOne = "34.01"
+              titleTwo = "upHere 5-Pack 120mm Silent Intelligent Control RGB Fan Adjustable"
+              imageTwo = "https://images-na.ssl-images-amazon.com/images/I/71oZZCg585L._AC._SR360,460.jpg"
               pathTwo = ""
-              priceTwo = ""
+              priceTwo = "36.99"
             />
           </div>
           <div className="electronics__container-flex-1">
