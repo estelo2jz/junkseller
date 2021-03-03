@@ -12,7 +12,7 @@
     width: 300px;
     min-height: 300px;
     img {
-      width: 100%;
+      max-width: 70%;
     }
 
   }
@@ -336,7 +336,7 @@
   border-radius: 50%;
   .circle-featured__img {
     width: 220px;
-    // min-height: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,7 +344,7 @@
     img {
       // border-radius: 50%;
       width: 100px;
-      height: 100%;
+      // height: 100%;
       background-position: center;
       background-size: cover;
 
