@@ -43,7 +43,7 @@
       align-items: center;
       grid-gap: 3px;
       .coming-soon__container {
-        border: 2px solid rgb(243, 240, 241);
+        border: 2px solid rgb(0, 0, 0);
         overflow: hidden;
         height: 100px;
         a {
@@ -95,7 +95,7 @@
         }
       }
       .coming-soon__container:hover {
-        border: 2px solid rgb(94, 92, 92);
+        border: 2px solid rgb(255, 255, 255);
         transition: all 0.3s ease;
       }
     }
