@@ -96,121 +96,86 @@ function SmartHome() {
             />    
           </div>
           <div className="smart-home__container-flex-1">
-          <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/41qGljLcoKL._AC_UL320_.jpg"
-               title = "TV"
-               path = ""
-             />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71UAtd5yS5L._AC_UL320_.jpg"
-               path = ""
-               title = "Video Recording"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71trCk+mk4L._AC_UL320_.jpg"
-               path = ""
-               title = "Smart Watches"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/61fskHmDrrL._AC_UL320_.jpg"
-               path = ""
-               title = "Vacuums"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/41JfuLRDgPL.jpg"
-               path = ""
-               title = "Wedding"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/81BlnTvweVL._AC_SL1500_.jpg"
-               path = ""
-               title = "Golf"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71MoE8IyXgL._AC_UL320_.jpg"
-               path = ""
-               title = "Climbing"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/61rYD5nAicL._AC_SL1000_.jpg"
-               path = ""
-               title = "Seat Covers"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/81ihFk9rFWL._SL1500_.jpg"
-               path = ""
-               title = "Fragrance"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/412ZMPrA55L.jpg"
-               path = ""
-               title = "Smart Thermostat"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/81BIRmPUAgL._AC._SR360,460.jpg"
-               path = ""
-               title = "Internal Components"
-             />
-              <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/51r3ESLbqtL._SX160_QL100_AC_SCLZZZZZZZ_.jpg"
-               path = ""
-               title = "Cutting Board"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/41gSLScWKjL._SX160_QL100_AC_SCLZZZZZZZ_.jpg"
-               path = ""
-               title = "Chef's Knife"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71udD59On2L._AC_UL320_.jpg"
-               path = ""
-               title = "Binoculars"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71s5XKodatL._AC_UL320_.jpg"
-               path = ""
-               title = "Outdoor Knives"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/7185Va6NK6L._AC._SR360,460.jpg"
-               path = ""
-               title = "Eye Shadows"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/71VRoejpL7L._AC._SR360,460.jpg"
-               path = ""
-               title = "Hair Care"
-             />
+              image=""
+              title=""
+              path=""
+            />
             <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/51Dnfs1ev6L._AC._SR360,460.jpg"
-               path = ""
-               title = "Nail Care"
-             />
-            <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/81sMtJOEYaL._AC._SR360,460.jpg"
-               path = ""
-               title = "Men's Grooming"
-             />
-            <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71Rogdhu44L._AC_UL320_.jpg"
-               path = ""
-               title = "Dog Food"
-             />
-            <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/41qV5ilPqNL.jpg"
-               path = ""
-               title = "Mattresses"
-             />
-            <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71IUiHcXLhL._AC_UY218_.jpg"
-               path = ""
-               title = "Appliances"
-             />
-            <CircleFeaturedCategories
-               image = "https://images-na.ssl-images-amazon.com/images/I/514+A0UifTL.jpg"
-               path = ""
-               title = "Diapers"
-             />
+              image=""
+              title=""
+              path=""
+            />
           </div>
           <div className="smart-home__container-flex-1">
           <SqaureFeatured 

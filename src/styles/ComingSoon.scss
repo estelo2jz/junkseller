@@ -17,7 +17,7 @@
       font-weight: 700;
       letter-spacing: 0.5em;
       text-transform: uppercase;
-      font-size: 1.2em;
+      font-size: clamp(1em, 1.4vw, 2rem);
     }
   }
   .coming-soon__inner {
@@ -34,13 +34,14 @@
     // justify-content: center;
     // align-items: center;
     // width: 100%;
-    padding: 10px 5px;
+    padding: 3px;
     height: 100%;
+    background-color: black;
     .coming-soon__outer {
       display: grid;
       grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
       align-items: center;
-      grid-gap: 5px;
+      grid-gap: 3px;
       .coming-soon__container {
         border: 2px solid rgb(243, 240, 241);
         overflow: hidden;
