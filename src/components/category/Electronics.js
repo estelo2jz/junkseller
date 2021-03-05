@@ -127,7 +127,7 @@ function Electronics() {
                title = "Golf"
              />
             <CircleFeaturedCategories
-               image = "https://m.media-amazon.com/images/I/71MoE8IyXgL._AC_UL320_.jpg"
+               image= "https://m.media-amazon.com/images/I/71SnuZakSvL._AC_UL480_FMwebp_QL65_.jpg"
                path = ""
                title = "Climbing"
              />
@@ -224,58 +224,72 @@ function Electronics() {
             <FirstFeaturedProduct 
               image = "https://m.media-amazon.com/images/I/81M3J4ERcXL._AC_UL320_.jpg"
               path = ""
+              title= "Sony SRS-XB33 EXTRA BASS Wireless Portable Speaker IP67 Waterproof BLUETOOTH and Built In Mic for Phone Calls, Blue"
             />
             <FirstFeaturedProduct 
-              image = "https://images-na.ssl-images-amazon.com/images/I/81tjLksKixL._AC._SR360,460.jpg"
+              image= "https://m.media-amazon.com/images/I/81f1uMKgHtL._AC_UY327_QL65_.jpg"
               path = ""
+              title="Western Digital 1TB WD Green Internal PC SSD - SATA III 6 Gb/s, N/A, 2.5' /7mm, - WDS100T2G0A4.8 out of 5 stars"
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/319URuG9XdL._AC_SX184_.jpg"
               path = ""
+              title= "Sound Bar, BESTISAN 100 Watt 2.1 Channel Sound Bars for TV with Built in Subwoofer (32 inch, Bluetooth 5.0, 3 Audio Modes, Bass Adjustable, Wall Mountable, Touch Control)"
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/41obmKaaX3L.jpg"
               path = ""
+              title= "Audio-Technica AT-LP60X-BK Fully Automatic Belt-Drive Stereo Turntable, Black, Hi-Fi, 2 Speed, Dust Cover, Anti-Resonance, Die-Cast Aluminum Platter"
             />
             <FirstFeaturedProduct 
               image = "https://m.media-amazon.com/images/I/61tOKIAT23L._AC_UY218_.jpg"
               path = ""
+              title= "VR Headset Virtual Reality Glasses Compatible with iPhone & Android New Goggles for Movies Compatible 5-7inch Soft & Comfortable Adjustable Distance[with Remote] (White)"
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/51fjaSa2jFL._AC_UL160_SR160,160_.jpg"
               path = ""
+              title= "Security Camera Outdoor, 1080P HD Wireless Rechargeable Battery Powered WiFi Home Surveillance Camera with Waterproof, Night Vision, Motion Detection, 2-Way Audio and SD Storage"
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/81DHw4fvsVL._AC_UL160_SR160,160_.jpg"
               path = ""
+              title= "Just Dance 2021 - Xbox Series X / Xbox One"
             />
             <FirstFeaturedProduct 
               image = "https://m.media-amazon.com/images/I/71-iYH5OATL._AC_UL320_.jpg"
               path = ""
+              title= "Sony WH-1000XM4 Wireless Industry Leading Noise Canceling Overhead Headphones with Mic for Phone-Call and Alexa Voice Control, Black"
             />
             <FirstFeaturedProduct 
-              image = "https://m.media-amazon.com/images/I/71ps+JNLnCL._AC_UL320_.jpg"
+              image= "https://m.media-amazon.com/images/I/81Z8NvO2TFL._AC_UY327_FMwebp_QL65_.jpg"
               path = ""
+              title="Acer Nitro 5 Gaming Laptop, 10th Gen Intel Core i5-10300H,NVIDIA GeForce GTX 1650 Ti, 15.6' Full HD IPS 144Hz Display, 8GB DDR4,256GB NVMe SSD,WiFi 6, DTS X Ultra,Backlit Keyboard,AN515-55-59KS"
             />
             <FirstFeaturedProduct 
               image = "https://m.media-amazon.com/images/I/61vB30otClL._AC_UL320_.jpg"
               path = ""
+              title= "HP EliteDesk 800 G2 Desktop Mini Business PC, Intel Quad-Core i5-6500T up to 3.1G,16G DDR4,240G SSD,VGA,DP,Win 10 Pro 64 bit-Multi-Language Support English/Spanish"
             />
             <FirstFeaturedProduct 
-              image = "https://m.media-amazon.com/images/I/91Q8HBHOZaL._AC_UL320_.jpg"
+              image= "https://m.media-amazon.com/images/I/61nndk+9B5L._AC_UY327_FMwebp_QL65_.jpg"
               path = ""
+              title="Alpine iLX-W650 7' Mech-Less Receiver Compatible with Apple CarPlay and Android Auto"
             />
             <FirstFeaturedProduct 
-              image = "https://images-na.ssl-images-amazon.com/images/I/71bvPNBALSL._AC_UL270_SR270,270_.jpg"
+              image= "https://m.media-amazon.com/images/I/51Li9i2lXYL._AC_UY327_FMwebp_QL65_.jpg"
               path = ""
+              title= "Elgato 4K60 Pro MK.2 PCIe Capture Card4K60 HDR10 capture, zero-lag passthrough, ultra-low latency, PS5, PS4 Pro, Xbox Series X/S, Xbox One X, high refresh rate capture"
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/710R9YpV9nL._AC_UL160_SR160,160_.jpg"
               path = ""
+              title= "Elgato Stream Deck Mini - Compact Live Production Controller with 6 Customizable LCD keys, Trigger Actions in OBS Studio, Streamlabs, Twitch, YouTube and More (10GAI9901) , Black"
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/81XeVWWyUUL._AC_UL160_SR160,160_.jpg"
               path = ""
+              title= "Canon PowerShot G7X Mark III Digital 4K Vlogging Camera, Vertical 4K Video Support with Wi-Fi, NFC and 3.0-Inch Touch Tilt LCD, Black"
             />
           </div>
           <div className="electronics__heading">
@@ -284,75 +298,93 @@ function Electronics() {
           <div className="electronics__container-flex-1">
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/61EyqvcmZKL._AC_SL1500_.jpg"
-              path = ""             
+              path = ""
+              title= "NVIDIA GeForce RTX 2070 Super Founders Edition Graphics Card (900-1G180-2515-000)"             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/71XdzM-D9AL._AC_SL1500_.jpg"
-              path = ""             
+              path = ""
+              title= "Brita Longlast UltraMax Water Filter Dispenser, Jet Black, Extra Large 18 Cup, Water Filters, 1 Count"             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/61ilAE60KoL._AC_SL1000_.jpg"
-              path = ""             
+              path = ""
+              title= "Fire TV Stick with Alexa Voice Remote (includes TV controls) | HD streaming device | 2020 release"             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/51HkHPQyqtL._SL1000_.jpg"
-              path = ""             
+              path = ""
+              title= "Westinghouse Lighting 6732800 Burnham One-Light Exterior Wall Lantern on Steel with Honey Art Glass, Oil Rubbed Bronze Finish"             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/51rRIMeMdBL._AC_SL1000_.jpg"
-              path = ""             
+              path = ""
+              title= "USB Wall Charger, Surge Protector, POWRUI 6-Outlet Extender with 2 USB Charging Ports (2.4A Total) and Night Light, 3-Sided Power Strip"             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/71XlG3%2BOEdL._AC_SL1500_.jpg"
-              path = ""             
+              path = ""
+              title= "Treatlife Smart Light Bulbs 4 Pack, Music Sync Color Changing Light Bulb, Works with Alexa, Google Home, A19 Dimmable LED Light Bulb"             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/810-Jbis5CL._AC_SL1500_.jpg"
-              path = ""             
+              path = ""
+              title= "Jensen CMR270 7 inch LED Digital Media Touch Screen Double Din Car Stereo | Push to Talk Assistant | Backup Camera Input | Bluetooth | USB Fast Charging | microSD"             
              />
             <SecondFeaturedProduct
-              image = "https://images-na.ssl-images-amazon.com/images/I/61OE1bPWsJL._AC_SL1000_.jpg"
-              path = ""             
+              image= "https://images-na.ssl-images-amazon.com/images/I/71xyucNM4iL._AC_SL1500_.jpg"
+              path = ""
+              title= "DOG CARE Rechargeable Bark Collar - Dog Bark Collar with Beep Vibration and Auto 7 Levels Shock Modes, LED Indicator, No Bark Collar for Medium Large Dogs, Safe and Humane"             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/71ekWFCunfL._AC_SL1500_.jpg"
-              path = ""             
+              path = ""
+              title= "Kikc Gaming headsets PS4 Stereo Xbox one Headset Wired PC Gaming Headphones with Noise Canceling Mic, Over Ear Gaming Headphones for PC/MAC/PS4/Xbox one/Mobile Devices"             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/71UAtd5yS5L._AC_SL1500_.jpg"
-              path = ""             
+              path = ""
+              title= "GoPro HERO7 White - E-Commerce Packaging - Waterproof Digital Action Camera with Touch Screen 1080p HD Video 10MP Photos Live Streaming Stabilization"             
              />
             <SecondFeaturedProduct
-              image = "https://m.media-amazon.com/images/I/71iCsEpE-xL._AC_UL320_.jpg"
-              path = ""             
+              image = "https://m.media-amazon.com/images/I/71ammbDB5EL._AC_UY327_FMwebp_QL65_.jpg"
+              path = ""
+              title = "New Apple iPad Air (10.9-inch, Wi-Fi, 64GB) - Space Gray (Latest Model, 4th Generation)"             
              />
             <SecondFeaturedProduct
-              image = "https://m.media-amazon.com/images/I/71EDcJ5oK4L._AC_UL320_.jpg"
-              path = ""             
+              image= "https://m.media-amazon.com/images/I/61F0MXKMLwL._AC_UL480_FMwebp_QL65_.jpg"
+              path = ""
+              title= "Sony A8H 55 Inch TV: BRAVIA OLED 4K Ultra HD Smart TV with HDR and Alexa Compatibility - 2020 Model"             
              />
             <SecondFeaturedProduct
               image = "https://m.media-amazon.com/images/I/81rH-UszTXL._AC_UL320_.jpg"
-              path = ""             
+              path = ""
+              title= "HP Desktop Computer, Core 2 Duo 3.0 GHz Processor, 4GB, 160GB, DVD, WiFi Adapter, Windows 10, 19in LCD Monitor Included (Brands may vary) (Renewed)"             
              />
             <SecondFeaturedProduct
               image = "https://m.media-amazon.com/images/I/51scYBN+ThL._AC_UL320_.jpg"
-              path = ""             
+              path = ""
+              title= "Blink Outdoor – wireless, weather-resistant HD security camera with two-year battery life and motion detection – 2 camera kit"             
              />
             <SecondFeaturedProduct
-              image = "https://m.media-amazon.com/images/I/61apD0DBOcL._AC_UL320_.jpg"
-              path = ""             
+              image= "https://m.media-amazon.com/images/I/81-CQm125hL._AC_UY327_FMwebp_QL65_.jpg"
+              path = ""
+              title= "VIZIO 65-Inch M-Series Quantum 4K UHD LED HDR Smart TV with Apple AirPlay and Chromecast Built-in, Dolby Vision, HDR10+, HDMI 2.1, Variable Refresh Rate & AMD FreeSync Gaming"             
              />
             <SecondFeaturedProduct
               image = "https://m.media-amazon.com/images/I/61pWW8yqaZL._AC_UL320_.jpg"
-              path = ""             
+              path = ""
+              title= "Echo Buds – Wireless earbuds with immersive sound, active noise reduction, and Alexa"             
              />
             <SecondFeaturedProduct
               image = "https://m.media-amazon.com/images/I/61V2zcrZcgL._AC_UL320_.jpg"
-              path = ""             
+              path = ""
+              title= "Apple iPad 9.7inch with WiFi 32GB- Space Gray (2017 Model) (Renewed)"             
              />
             <SecondFeaturedProduct
               image = "https://m.media-amazon.com/images/I/6185I2OOlpL._AC_UL320_.jpg"
-              path = ""             
+              path = ""
+              title= "Powerbeats Pro Wireless Earphones - Apple H1 Headphone Chip, Class 1 Bluetooth, 9 Hours of Listening Time, Sweat Resistant Earbuds, Built-in Microphone - Black"             
              />
           </div>
           <div className="electronics__heading">

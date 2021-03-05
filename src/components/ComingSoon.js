@@ -17,9 +17,9 @@ function ComingSoon() {
               return (
                 <div key={index} className="coming-soon__container">
                   <Link to={item.path} className="coming-soon__link" >
-                    <div className="coming-soon__img">
+                    {/* <div className="coming-soon__img">
                       <img src={item.image} alt="coming-soon" />
-                    </div>
+                    </div> */}
                     <div className="coming-soon__title">
                         <p>{item.title}</p>
                     </div>

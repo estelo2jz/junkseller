@@ -223,58 +223,72 @@ function Computers() {
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/51I3UjD-Q1L._AC_SX184_.jpg"
               path = ""
+              title= "Acer SB220Q bi 21.5 Inches Full HD (1920 x 1080) IPS Ultra-Thin Zero Frame Monitor (HDMI & VGA Port), Black"
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/41dpAMv2H4L._AC_SX184_.jpg"
               path = ""
+              title= "iBUYPOWER Gaming PC Computer Desktop Element MR 9320 (Intel i7-10700F 2.9GHz, NVIDIA GTX 1660 Ti 6GB, 16GB DDR4 RAM, 240GB SSD, 1TB HDD, Wi-Fi Ready, Windows 10 Home)"
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/21U7PiRUz7L._AC_SX184_.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/41rQ-edna7L._AC_SX184_.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/41lTaujYzwL._AC_SX184_.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/51lLkh-DRlL._AC_SX184_.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/41aDb3t4tHL._AC_SX184_.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/91S1PIX+yWL._AC._SR360,460.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/71f0QWSSKOL._AC._SR360,460.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/61lgxCi9b7L._AC._SR360,460.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/61Gm1upecsL._AC_UL200_SR200,200_.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/61hFVa5my8L._AC_UL200_SR200,200_.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/81ABwgAl-gL._AC_UL200_SR200,200_.jpg"
               path = ""
+              title = ""
             />
             <FirstFeaturedProduct 
               image = "https://images-na.ssl-images-amazon.com/images/I/91-WKoE6sTL._AC_UL200_SR200,200_.jpg"
               path = ""
+              title = ""
             />
           </div>
           <div className="electronics__heading">
@@ -283,55 +297,68 @@ function Computers() {
           <div className="electronics__container-flex-1">
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/61LoIGYKmVL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/71WPGXQLcLL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/81SpC-0BjdL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/71HI%2BSmylNL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/914pic6PuAL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/716xtsOgfHL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/91ekP94ki4L._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/81eQIlL8V9L._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/71P3chRzgNL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/718sn7oOcfL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/51%2BfvgO-JwL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/71z7ztyH1LL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
             <SecondFeaturedProduct
               image = "https://images-na.ssl-images-amazon.com/images/I/7143lurIrJL._AC_UL200_SR200,200_.jpg"
-              path = ""             
+              path = ""
+              title = ""             
              />
           </div>
           <div className="electronics__container-flex-1">

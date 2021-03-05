@@ -88,7 +88,7 @@ function BluetoothWireless() {
       </div>
       <div className="bluetooth-wireless__heading">
         <h2>Shop by Brand</h2>
-        </div>
+      </div>
       <div className="bluetooth-wireless__brand-category">
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/ce_aa_brandtile_desktop_beats_white_spjain.jpg"  alt="bluetooth-wireless" />
         <img src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Consumer_Electronics/aa/brand-tile/Bose_logo_750x375.jpg"  alt="bluetooth-wireless" />

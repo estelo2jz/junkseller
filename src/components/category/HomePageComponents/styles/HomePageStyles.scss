@@ -1,7 +1,7 @@
 // SQAURE-FEATURED STYLES
 .sqaure-featured__container {
   // background-color: rgba(255, 255, 255, 0.4);
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin: 0.4rem;
   border-radius: 3px;
   .sqaure-featured__img {
@@ -9,8 +9,8 @@
     justify-content: center;
     align-items: center;
     margin: 0.5rem;
-    width: 300px;
-    min-height: 300px;
+    width: 200px;
+    height: 250px; 
     img {
       max-width: 70%;
     }
@@ -326,17 +326,19 @@
 
 // CIRCLE FEATURED
 .circle-featured__container {
-  background-color: white;
+  // background-color: rgb(198, 66, 66);
   margin: 0.4rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  width: 100%;
+  height: 200px;
   border-radius: 50%;
   .circle-featured__img {
-    width: 220px;
-    height: 200px;
+    // width: 100%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -369,12 +371,12 @@
 // FIRST FEATURED PRODUCT
 .first-featured-product__container {
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   // margin: 0.4rem;
   border: 1px solid transparent;
   border-radius: 3px;
   .first-featured-product__img {
-    width: 220px;
+    width: 200px;
     min-height: 250px;
     display: flex;
     justify-content: center;
@@ -384,6 +386,18 @@
       max-width: 70%;
 
 
+    }
+  }
+  .first-featured-product__title {
+    p {
+      font-weight: 500;
+      color: black;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* number of lines to show */
+      -webkit-box-orient: vertical;
+      font-size: clamp(0.8em, 1vw, 0.8rem);
     }
   }
   &:hover {
@@ -396,12 +410,12 @@
 // SECIND FEATURED PRODUCT
 .second-featured-product__container {
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   // margin: 0.4rem;
   border-radius: 3px;
   border: 1px solid transparent;
   .second-featured-product__img {
-    width: 220px;
+    width: 200px;
     min-height: 250px;
     display: flex;
     justify-content: center;
@@ -410,6 +424,18 @@
     img {
       // width: 200px;
       max-width: 70%;
+    }
+  }
+    .second-featured-product__title {
+    p {
+      font-weight: 500;
+      color: black;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* number of lines to show */
+      -webkit-box-orient: vertical;
+      font-size: clamp(0.8em, 1vw, 0.8rem);
     }
   }
   &:hover {
