@@ -28,7 +28,7 @@ function Computers() {
           />
         </div>
         <div className="electronics__container-flex-grid">
-          <div className="electronics__container-flex-1">
+          {/* <div className="electronics__container-flex-1">
             <ElectronicsProductTemplate
               id={uuid()}
               title="Lenovo Legion 5 Gaming Laptop, 15.6' FHD (1920x1080) IPS Screen, AMD Ryzen 7 4800H Processor, 16GB DDR4, 512GB SSD, NVIDIA GTX 1660Ti, Windows 10, 82B1000AUS, Phantom Black"
@@ -85,7 +85,7 @@ function Computers() {
               rating={4}
               image="https://images-na.ssl-images-amazon.com/images/I/513IMp-dM8L._AC_SL1000_.jpg"
             />
-          </div>
+          </div> */}
           <div className="electronics__heading">
             <p>Categories you might want to explore.</p>
           </div>

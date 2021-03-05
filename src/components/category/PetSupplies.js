@@ -28,7 +28,7 @@ function PetSupplies() {
           />
         </div>
         <div className="pet-supplies__container-flex-grid">
-          <div className="pet-supplies__container-flex-1">
+          {/* <div className="pet-supplies__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -85,7 +85,7 @@ function PetSupplies() {
               rating={4}
               image=""
             />    
-          </div>
+          </div> */}
           <div className="pet-supplies__container-flex-1">
             <CircleFeaturedCategories
               image=""

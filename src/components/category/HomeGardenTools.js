@@ -38,7 +38,7 @@ function HomeGardenTools() {
           />
         </div>
         <div className="home-garden-tools__container-flex-grid">
-          <div className="home-garden-tools__container-flex-1">
+          {/* <div className="home-garden-tools__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -95,7 +95,7 @@ function HomeGardenTools() {
               rating={4}
               image=""
             />  
-          </div>
+          </div> */}
           <div className="home-garden-tools__container-flex-1">
             <CircleFeaturedCategories
               image=""

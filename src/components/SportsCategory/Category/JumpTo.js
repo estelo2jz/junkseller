@@ -15,19 +15,25 @@ function JumpTo({
 
   }) {
   return (
-    <div className="sports-sub-nav__container">
+    <div>
       <div  className="sports-sub-nav__header">
         <p>Jump To</p>
       </div>
-      <div  className="sports-sub-nav__links">
-        <Link to={path1}>{link1}</Link>
-        <Link to={path2}>{link2}</Link>
-        <Link to={path3}>{link3}</Link>
-        <Link to={path4}>{link4}</Link>
-        <Link to={path5}>{link5}</Link>
-        <Link to={path6}>{link6}</Link>
-        <Link to={path7}>{link7}</Link>
-        <Link to={path8}>{link8}</Link>
+      <div className="sports-sub-nav__container">
+        <div  className="sports-sub-nav__links">
+          <div className="sports-sub-nav__top">
+            <Link to={path1}>{link1}</Link>
+            <Link to={path2}>{link2}</Link>
+            <Link to={path3}>{link3}</Link>
+            <Link to={path4}>{link4}</Link>
+          </div>
+          <div className="sports-sub-nav__top">
+            <Link to={path5}>{link5}</Link>
+            <Link to={path6}>{link6}</Link>
+            <Link to={path7}>{link7}</Link>
+            <Link to={path8}>{link8}</Link>
+          </div>
+        </div>
       </div>
     </div>
   )

@@ -1,4 +1,6 @@
 .electronics__container {
+background-color: rgb(255, 255, 255);
+
   // background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 .electronics__container-heading {
@@ -34,7 +36,6 @@
   font-family: 'Poppins', sans-serif;
 }
 .electronics__container-flex-grid {
-  background-color: #f9fbfc;
   .electronics__heading {
     padding: 10px 17px;
     width: 100%;

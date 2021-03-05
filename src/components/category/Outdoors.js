@@ -29,7 +29,7 @@ function Outdoors() {
             />
         </div>
         <div className="outdoors__container-flex-grid">
-          <div className="outdoors__container-flex-1">
+          {/* <div className="outdoors__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -86,7 +86,7 @@ function Outdoors() {
               rating={4}
               image=""
             />    
-          </div>
+          </div> */}
           <div className="outdoors__container-flex-1">
             <CircleFeaturedCategories
               image=""

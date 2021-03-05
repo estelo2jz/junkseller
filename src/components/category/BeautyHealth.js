@@ -27,7 +27,7 @@ function BeautyHealth() {
             />
         </div>
         <div className="beauty-health__container-flex-grid">
-          <div className="beauty-health__container-flex-1">
+          {/* <div className="beauty-health__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -84,7 +84,7 @@ function BeautyHealth() {
               rating={4}
               image=""
             />  
-          </div>
+          </div> */}
           <div className="beauty-health__container-flex-1">
             <CircleFeaturedCategories
               image = ""

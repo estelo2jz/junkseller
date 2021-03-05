@@ -37,7 +37,7 @@ function Handmade() {
             />
         </div>
         <div className="handmade__container-flex-grid">
-          <div className="handmade__container-flex-1">
+          {/* <div className="handmade__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -94,7 +94,7 @@ function Handmade() {
               rating={4}
               image=""
             />  
-          </div>
+          </div> */}
           <div className="handmade__container-flex-1">
             <CircleFeaturedCategories
               image=""

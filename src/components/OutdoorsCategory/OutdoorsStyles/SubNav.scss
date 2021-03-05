@@ -1,55 +1,50 @@
+.outdoors-sub-nav__header {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: clamp(0.8em, 1vw, 0.7rem);
+  p {
+    background-color: black;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    text-align: left;
+    font-weight: 700;
+  }
+}
 .outdoors-sub-nav__container {
-  // background-color: red;
-  // display: flex;
-  // flex-direction: column;
   padding: 10px 0px;
   display: flex;
   overflow-x: scroll;
-  .outdoors-sub-nav__header {
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    text-align: left;
-    // width: 50px;
-    p {
-      background-color: black;
-      color: rgb(255, 255, 255);
-      // font-size: 1rem;
-      padding: 10px 5px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 8ch;
-      text-align: left;
-      font-weight: 700;
-    }
-  }
   .outdoors-sub-nav__links {
     padding: 0px 0px;
-    display: flex;
-    // flex-wrap: wrap;
-    // align-items: center;
-    // justify-content: center;
+    display: block;
     a {
-      width: 200px;
-      // border-left: 1px solid black;
-      // border-right: 1px solid black;
+      width: 160px;
       margin: 5px 5px;
-      // padding: 5px;
       color: rgb(0, 0, 0) ;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: rgba(231, 197, 3, 0.4);
-      font-size: 1.1rem;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+      font-size: clamp(0.8em, 1vw, 0.9rem);
       font-weight: 500;
       padding: 5px 10px;
       transition: all 0.3s linear;
     }
     a:hover {
-      background: rgba(231, 197, 3, 0.9);
+      box-shadow: rgba(0, 0, 0, 0.323) 0px 3px 3px 0px;
       transition: all 0.3s linear;
-      color: white;
+    }
+
+    .outdoors-sub-nav__top,
+    .outdoors-sub-nav__bottom {
+      display: flex;
+      // justify-content: center;
+      // align-items: center;
     }
   }
 }

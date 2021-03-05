@@ -30,7 +30,7 @@ function ToysKidsBaby() {
             />
         </div>
         <div className="toys-kids-baby__container-flex-grid">
-          <div className="toys-kids-baby__container-flex-1">
+          {/* <div className="toys-kids-baby__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -87,7 +87,7 @@ function ToysKidsBaby() {
               rating={4}
               image=""
             />   
-          </div>
+          </div> */}
           <div className="toys-kids-baby__container-flex-1">
             <CircleFeaturedCategories
               image=""

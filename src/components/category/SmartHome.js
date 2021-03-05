@@ -37,7 +37,7 @@ function SmartHome() {
           />
         </div>
         <div className="smart-home__container-flex-grid">
-          <div className="smart-home__container-flex-1">
+          {/* <div className="smart-home__container-flex-1">
             <ElectronicsProductTemplate
               id={uuid()}
               title="50Ft LED Strip Lights Music Sync Color Changing RGB LED Strip 44-Key Remote, Sensitive Built-in Mic, App Controlled LED Lights Rope Lights, 5050 RGB LED Light Strip(APP+Remote+Mic+3 Button Switch)"
@@ -94,7 +94,7 @@ function SmartHome() {
               rating={4}
               image="https://images-na.ssl-images-amazon.com/images/I/71XdzM-D9AL._AC_SL1500_.jpg"
             />    
-          </div>
+          </div> */}
           <div className="smart-home__container-flex-1">
             <CircleFeaturedCategories
               image=""

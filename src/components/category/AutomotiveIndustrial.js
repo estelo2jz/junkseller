@@ -28,7 +28,7 @@ function AutomotiveIndustrial() {
             />
         </div>
         <div className="automotive__container-flex-grid">
-          <div className="automotive__container-flex-1">
+          {/* <div className="automotive__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -85,7 +85,7 @@ function AutomotiveIndustrial() {
               rating={4}
               image=""
             />    
-          </div>
+          </div> */}
           <div className="automotive__container-flex-1">
             <CircleFeaturedCategories
               image=""

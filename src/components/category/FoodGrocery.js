@@ -29,7 +29,7 @@ function FoodGrocery() {
             />
         </div>
         <div className="grocery-food__container-flex-grid">
-          <div className="grocery-food__container-flex-1">
+          {/* <div className="grocery-food__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -85,8 +85,8 @@ function FoodGrocery() {
               price={119.99}
               rating={4}
               image=""
-            />  \ 
-          </div>
+            />  
+          </div> */}
           <div className="grocery-food__container-flex-1">
             <CircleFeaturedCategories
               image=""

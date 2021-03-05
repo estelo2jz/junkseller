@@ -29,7 +29,7 @@ function Sports() {
             />
         </div>
         <div className="sports__container-flex-grid">
-          <div className="sports__container-flex-1">
+          {/* <div className="sports__container-flex-1">
             <ElectronicsProductTemplate
               id="123123"
               title=""
@@ -86,7 +86,7 @@ function Sports() {
               rating={4}
               image=""
             />   
-          </div>
+          </div> */}
           <div className="sports__container-flex-1">
             <CircleFeaturedCategories
               image=""

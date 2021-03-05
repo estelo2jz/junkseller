@@ -1,5 +1,7 @@
 .computer__container {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+background-color: rgb(255, 255, 255);
+  
+  // background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 .computer__container-heading {
   display: flex;
@@ -33,7 +35,6 @@
   font-family: 'Poppins', sans-serif;
 }
 .computer__container-flex-grid {
-  background-color: #f9fbfc;
   .computer__heading {
     padding: 10px 17px;
     width: 100%;
