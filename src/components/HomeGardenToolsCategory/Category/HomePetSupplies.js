@@ -13,7 +13,7 @@ function HomePetSupplies() {
           path2 = "/home&garden&tools/home"
           link2 = "home"
           path3 = "/home&garden&tools/collective&fineart"
-          link3 = "collective&fine-art"
+          link3 = "collective-art"
           path4 = "/home&garden&tools/exploreshowroom"
           link4 = "explore-showroom"
           path5 = "/home&garden&tools/fineart"
