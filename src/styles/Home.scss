@@ -4,17 +4,20 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 5px 0px;
   .home-navbar__link {
     max-width: 100%;
     p {
       text-align: left;
-      padding: 0px 10px;
+      padding: 5px 10px;
       display:inline-block;
       color: rgb(255, 255, 255);
       // padding:0px 80px;
       font-size: clamp(0.8em, 2vw, 0.9rem);
+      border: 1px solid transparent;
+      border-radius: 1px;
       &:hover {
-        background-color: red;
+        box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 1px;
       }
     }
 

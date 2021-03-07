@@ -30,11 +30,11 @@ function Home() {
           path = "/"
         />
         <HomeNavbar 
-          title = "Best Sellers" 
+          title = "Best.Sellers" 
           path = "/"
         />
         <HomeNavbar 
-          title = "Today's Deals" 
+          title = "Today's.Deals" 
           path = "/"
         />
         <HomeNavbar 
@@ -42,11 +42,11 @@ function Home() {
           path = "/"
         />
         <HomeNavbar 
-          title = "Customer Service" 
+          title = "Customer.Service" 
           path = "/"
         />
         <HomeNavbar 
-          title = "New Release" 
+          title = "New.Release" 
           path = "/"
         />
         <HomeNavbar 
@@ -58,23 +58,23 @@ function Home() {
           path = "/"
         />
         <HomeNavbar 
-          title = "Kindle Books" 
+          title = "Kindle.Books" 
           path = "/"
         />
         <HomeNavbar 
-          title = "Gifts Cards" 
+          title = "Gifts.Cards" 
           path = "/"
         />
         <HomeNavbar 
-          title = "Find a Gift" 
+          title = "Find.A.Gift" 
           path = "/"
         />
         <HomeNavbar 
-          title = "Toys & Games" 
+          title = "Toys.&.Games" 
           path = "/"
         />
         <HomeNavbar 
-          title = "Amazon Home" 
+          title = "Amazon.Home" 
           path = "/"
         />
         <HomeNavbar 
@@ -90,17 +90,17 @@ function Home() {
           path = "/"
         />
         <HomeNavbar 
-          title = "Video Games" 
+          title = "Video.Games" 
           path = "/"
         />
         <HomeNavbar 
           title = "Coupons" 
           path = "/"
         />        
-        {/* <HomeNavbar 
-          title = "Spruce up for spring" 
+        <HomeNavbar 
+          title = "Spruce.Up.For.Spring" 
           path = "/"
-        /> */}
+        />
       </div>
       <div className="home__featured">
         <OneFeatured 
