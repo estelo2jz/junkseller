@@ -7,9 +7,101 @@ import ComingSoon from './ComingSoon';
 import FullFeatured from './category/HomePageComponents/FullFeaturedTemplate';
 import OneFeatured from './category/HomePageComponents/OneFeaturedTemplate';
 
+
+
+function HomeNavbar({path, title}) {
+  return (
+    <div className="home-navbar__container">
+      <Link  className="home-navbar__link" to={path}>
+        <p>{title}</p>
+      </Link>
+    </div>
+  )
+}
+
+
+
 function Home() {
   return (
     <div className="home__container">
+      <div className="home-nav__container">
+        <HomeNavbar 
+          title = "All" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Best Sellers" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Today's Deals" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Prime" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Customer Service" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "New Release" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Books" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Fashion" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Kindle Books" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Gifts Cards" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Find a Gift" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Toys & Games" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Amazon Home" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Computers" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Pharmacy" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Sell" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Video Games" 
+          path = "/"
+        />
+        <HomeNavbar 
+          title = "Coupons" 
+          path = "/"
+        />        
+        {/* <HomeNavbar 
+          title = "Spruce up for spring" 
+          path = "/"
+        /> */}
+      </div>
       <div className="home__featured">
         <OneFeatured 
           heading = "Shop with coins"

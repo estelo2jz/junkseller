@@ -1,9 +1,40 @@
+.home-navbar__container {
+  // padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .home-navbar__link {
+    max-width: 100%;
+    p {
+      text-align: left;
+      padding: 0px 10px;
+      display:inline-block;
+      color: rgb(255, 255, 255);
+      // padding:0px 80px;
+      font-size: clamp(0.8em, 2vw, 0.9rem);
+      &:hover {
+        background-color: red;
+      }
+    }
+
+  }
+}
+
 .home__container {
   font-family: "Poppins", sans-serif;
   height: 100%;
   margin-top: 50px;
   display: block;
   width: 100%;
+  .home-nav__container {
+   background-color: #232f3e; 
+   width: 100%;
+   display: flex;
+   overflow-x: scroll;
+
+  //  padding: 20px 10px;
+  }
   .home__featured {
     width: 100%;
     // padding: 1em;
