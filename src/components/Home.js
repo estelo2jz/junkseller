@@ -204,14 +204,14 @@ function Home() {
 
 
       </div>
-      <div className="home__featured">
+      <div className="home__featured-two">
         <FullFeatured 
           heading = "Facemasks under $13"
           moreInfo = "Shop adult & child 4-packs"
           imageOne = "https://images-na.ssl-images-amazon.com/images/I/71lCeOGZKGL._AC_UL160_SR160,160_.jpg"
           titleOne = ""
           pathOne = ""
-          imageTwo = "https://m.media-amazon.com/images/I/312ZwtVQh9L._AC_SR160,200_.jpg"
+          imageTwo = "https://m.media-amazon.com/images/I/61hEZhkks0L._AC_UL320_.jpg"
           titleTwo = ""
           pathTwo = ""
           imageThree = "https://images-na.ssl-images-amazon.com/images/I/818ygkiGTuL._AC_UL160_SR160,160_.jpg"
@@ -242,7 +242,7 @@ function Home() {
           moreInfo = "Get set for spring"
           imageOne = "https://images-na.ssl-images-amazon.com/images/I/71QdJKHzYkL._AC_SL1500_.jpg"
           titleOne = ""
-          pathOne = ""
+          pathOne = "/"
           imageTwo = "https://images-na.ssl-images-amazon.com/images/I/717jT5Sn2BL._AC_SL1500_.jpg"
           titleTwo = ""
           pathTwo = ""
@@ -253,6 +253,7 @@ function Home() {
           titleFour = ""
           pathFour = ""
         />
+        
       </div>
       {/* <ComingSoon /> */}
       {/* <Slider /> */}
