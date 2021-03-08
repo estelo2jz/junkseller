@@ -99,7 +99,7 @@ function Networking() {
           <img src="" alt="monitor-category" />
         </Link>
       </div> */}
-      <div className="networking__sub-heading">
+      {/* <div className="networking__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
@@ -176,7 +176,7 @@ function Networking() {
           listPrice="239.99"
           image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
         />
-      </div>
+      </div> */}
     </div>
   )
 }

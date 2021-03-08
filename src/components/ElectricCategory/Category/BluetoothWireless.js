@@ -8,7 +8,6 @@ import JumpTo from './JumpTo';
 function BluetoothWireless() {
   return (
     <div className="bluetooth-wireless__container">
-      <div className="bluetooth-wireless__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
           link1 = "headphones"
@@ -31,7 +30,6 @@ function BluetoothWireless() {
           path10 = "/electronics/cellphones"
           link10 = "cellphones"
         />
-      </div>
       <div className="bluetooth-wireless__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">

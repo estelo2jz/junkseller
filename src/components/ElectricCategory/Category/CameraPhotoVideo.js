@@ -9,7 +9,6 @@ import JumpTo from './JumpTo';
 function CameraPhotoVideo() {
   return (
     <div className="camera-photo-video__container">
-      <div className="camera-photo-video__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
           link1 = "headphones"
@@ -32,7 +31,6 @@ function CameraPhotoVideo() {
           path10 = "/electronics/cellphones"
           link10 = "cellphones"
         />
-      </div>
       <div className="camera-photo-video__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">

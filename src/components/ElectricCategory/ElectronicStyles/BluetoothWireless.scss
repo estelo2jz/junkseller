@@ -1,20 +1,12 @@
 .bluetooth-wireless__container {
     min-height: 100%;
     background-color: white;
-    display: flex;
+    // display: flex;
     padding: 70px 0px;
     // margin-bottom: 100px;
     align-items: center;
     flex-direction: column;
     position: relative;
-    .bluetooth-wireless__jump-to {
-      display: flex;
-      width: 100%;
-      p {
-        // padding: 5px 5px;
-        font-size: 1em;
-      }
-    }
   .bluetooth-wireless__history-path {
     display: flex;
     // justify-content: center;

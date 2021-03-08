@@ -8,7 +8,6 @@ import JumpTo from './JumpTo';
 function HomeAudioTheater() {
   return (
     <div className="home-audio-theater__container">
-      <div className="home-audio-theater__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
           link1 = "headphones"
@@ -31,7 +30,6 @@ function HomeAudioTheater() {
           path10 = "/electronics/cellphones"
           link10 = "cell-phones"
         />
-      </div>
       <div className="home-audio-theater__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">

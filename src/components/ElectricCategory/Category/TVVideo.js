@@ -8,7 +8,6 @@ import JumpTo from './JumpTo';
 function TVVideo() {
   return (
     <div className="tv-video__container">
-      <div className="tv-video__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
           link1 = "headphones"
@@ -31,7 +30,6 @@ function TVVideo() {
           path10 = "/electronics/cellphones"
           link10 = "cellphones"
         />
-      </div>
       <div className="tv-video__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">

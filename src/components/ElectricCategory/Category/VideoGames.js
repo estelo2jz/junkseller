@@ -8,7 +8,6 @@ import JumpTo from './JumpTo';
 function VideoGames() {
   return (
     <div className="video-games__container">
-      <div className="video-games__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
           link1 = "headphones"
@@ -31,7 +30,6 @@ function VideoGames() {
           path10 = "/electronics/cellphones"
           link10 = "cellphones"
         />
-      </div>
       <div className="video-games__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">

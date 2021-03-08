@@ -100,7 +100,7 @@ function DrivesStorage() {
           <img src="" alt="monitor-category" />
         </Link>
       </div> */}
-      <div className="drives-storage__sub-heading">
+      {/* <div className="drives-storage__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
@@ -177,7 +177,7 @@ function DrivesStorage() {
           listPrice="239.99"
           image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
         />
-      </div>
+      </div> */}
     </div>
   )
 }

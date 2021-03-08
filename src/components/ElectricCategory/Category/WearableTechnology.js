@@ -8,7 +8,6 @@ import JumpTo from './JumpTo';
 function WearableTechnology() {
   return (
     <div className="wearable-technology__container">
-      <div className="wearable-technology__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
           link1 = "headphones"
@@ -31,7 +30,6 @@ function WearableTechnology() {
           path10 = "/electronics/cellphones"
           link10 = "cellphones"
         />
-      </div>
       <div className="wearable-technology__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">

@@ -6,7 +6,6 @@ import JumpTo from './JumpTo';
 function MusicalInstruments() {
   return (
     <div className="musical-instruments__container">
-      <div className="musical-instruments__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
           link1 = "headphones"
@@ -29,7 +28,6 @@ function MusicalInstruments() {
           path10 = "/electronics/cellphones"
           link10 = "cellphones"
         />
-      </div>
       <div className="musical-instruments__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">

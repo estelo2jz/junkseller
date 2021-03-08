@@ -99,11 +99,11 @@ function ComputerAccessories() {
           <img src="" alt="monitor-category" />
         </Link>
       </div> */}
-      <div className="computer-accessories__sub-heading">
+      {/* <div className="computer-accessories__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
-      </div>
-      <div className="computer-accessories__product-container">
+      </div> */}
+      {/* <div className="computer-accessories__product-container">
         <ComputerAccessoriesTemplate
           id={uuid()}
           title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
@@ -177,7 +177,7 @@ function ComputerAccessories() {
           image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
         />
 
-      </div>
+      </div> */}
     </div>
   )
 }

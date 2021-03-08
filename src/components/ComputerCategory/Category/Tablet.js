@@ -88,7 +88,6 @@ function Upccoming({upImage, upTitle, upTime}) {
 function ComputerTablet() {
   return (
     <div className="computer-tablet__container">
-      <div className="computer-tablet__jump-to">
         <JumpTo 
           path1 = "/computers/harddrives&storage"
           link1 = "hard-drives&storage"
@@ -101,7 +100,6 @@ function ComputerTablet() {
           path5 = "/computers/monitors"
           link5 = "monitors"
         />
-      </div>
       <div className="computer-tablet__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/computers">

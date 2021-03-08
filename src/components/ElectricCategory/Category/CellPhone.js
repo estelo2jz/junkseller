@@ -9,7 +9,6 @@ import JumpTo from './JumpTo';
 function CellPhone() {
   return (
     <div className="cell-phone__container">
-      <div className="cell-phone__jump-to">
         <JumpTo 
           path1 = "/electronics/headphones"
           link1 = "headphones"
@@ -32,7 +31,6 @@ function CellPhone() {
           path10 = "/electronics/tvvideo"
           link10 = "tv&video"
         />
-      </div>
       <div className="cell-phone__history-path">
         {/* <p>you are in :</p> */}
         <Link to="/electronics">
