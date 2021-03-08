@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 5px 0px;
+  padding: 5px 5px;
   .home-navbar__link {
     max-width: 100%;
     p {
@@ -45,6 +45,7 @@
     /* auto-fit and auto-fill */
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1em;
+    padding: 20px 0px;
 
     // align-items: center;
     // height: auto;
@@ -54,11 +55,62 @@
     // flex-wrap: wrap;
     // padding: 20px 10px;
   }
+  .home__heading {
+    padding: 20px;
+    p {
+      font-size: clamp(1.1em, 2vw, 1.3rem);
+      font-weight: 540;
+      color: #444 !important;
+    }
+  }
+  .home__recommend-one-container {
+    padding: 10px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    .home__recommend-products {
+      width: 100%;
+      display: flex;
+      overflow-x: scroll;
+      padding: 20px 10px;
+    }
+  }
+  .home__recommend-two-container {
+    padding: 10px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    .home__heading-two {
+      align-items: center;
+      display: flex;
+      padding: 20px;
+      p {
+        font-size: clamp(1.1em, 2vw, 1.3rem);
+        font-weight: 540;
+        color: #444 !important;
+      }
+      a {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        font-size: clamp(0.9em, 1vw, 01rem);
+        font-weight:500;
+        color: #007185;
+        padding: 0px 10px;
+        &:hover {
+          color: rgb(255, 94, 0);
+          text-decoration: underline;
+        }
+      }
+    }
+    .home__recommend-products {
+      width: 100%;
+      display: flex;
+      overflow-x: scroll;
+      padding: 20px 10px;
+    }
+  }
   .home__featured-two {
     width: 100%;
     display: flex;
     overflow-x: scroll;
-    padding: 20px 10px;
+    padding: 20px 0px;
 
     // align-items: center;
     // height: auto;
@@ -67,5 +119,13 @@
     // justify-content: center;
     // flex-wrap: wrap;
     // padding: 20px 10px;
+  }
+  .home__featured-three {
+    width: 100%;
+    // padding: 1em;
+    display: grid;
+    /* auto-fit and auto-fill */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
   }
 }
