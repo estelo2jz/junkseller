@@ -16,8 +16,7 @@ function JumpTo({
       {/* <div  className="computers-sub-nav__header">
         <p>Jump To</p>
       </div> */}
-      <div className="computers-sub-nav__outer">
-        <div class="projects">
+        <div className="projects">
           <button className="computers-sub-nav__btn"><ArrowDropDownIcon /><p>Computer Categories</p></button>
           <ul>
               <NavLink  to={path1}>{link1}</NavLink>
@@ -27,7 +26,6 @@ function JumpTo({
               <NavLink  to={path5}>{link5}</NavLink>
           </ul>
         </div>
-      </div>
     </div>
   )
 }
