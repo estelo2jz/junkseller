@@ -1,3 +1,7 @@
 @import './Electronics.scss';
 @import './ProductBase.scss';
 
+html {
+  backdrop: static;
+  keyboard: false;
+}
