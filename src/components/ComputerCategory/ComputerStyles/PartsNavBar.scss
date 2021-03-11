@@ -14,7 +14,7 @@ button {
 .projects ul,
 .products ul {
   margin-top: 10px;
-  // position: absolute;
+  position: relative;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
