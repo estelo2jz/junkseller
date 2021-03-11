@@ -51,7 +51,12 @@
     }
     .computers-sub-nav__ul-one {
       background-color: red;
-      font-size: clamp(0.7em, 1vw, 0.8rem)
+      .computers-sub-nav__ul-one-li {
+        font-size: clamp(0.7em, 1vw, 0.7rem);
+        text-transform: uppercase;
+        
+
+      }
     }
 
   }

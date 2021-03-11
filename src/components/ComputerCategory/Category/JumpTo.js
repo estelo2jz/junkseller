@@ -24,19 +24,19 @@ function JumpTo({
             </div>
             <ul className="computers-sub-nav__ul-one">
               <Link to={path1}>
-                <li>{link1}</li>
+                <li className="computers-sub-nav__ul-one-li">{link1}</li>
               </Link>
               <Link to={path2}>
-                <li>{link2}</li>
+                <li className="computers-sub-nav__ul-one-li">{link2}</li>
               </Link>
               <Link to={path3}>
-                <li>{link3}</li>
+                <li className="computers-sub-nav__ul-one-li">{link3}</li>
               </Link>
               <Link to={path4}>
-                <li>{link4}</li>
+                <li className="computers-sub-nav__ul-one-li">{link4}</li>
               </Link>
               <Link to={path5}>
-                <li>{link5}</li>
+                <li className="computers-sub-nav__ul-one-li">{link5}</li>
               </Link>
             </ul>
           </li>
