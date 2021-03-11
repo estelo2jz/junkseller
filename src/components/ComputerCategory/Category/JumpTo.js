@@ -3,6 +3,7 @@ import * as FaIcons from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import '../ComputerStyles/PartsNavBar.scss';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 function JumpTo({
   path1, link1,
@@ -16,11 +17,16 @@ function JumpTo({
       <div class="computers-sub-nav__wrapper">
         <ul>
           <li>
-            <div className="computers-sub-nav__heading">
-              <ArrowDropDownIcon />
-              <p>
-                Computer Categories
-              </p>
+            <div className="computers-sub-nav__heading-flex">
+              <Link className="computers-sub-nav__back" to="/computers">
+                <ArrowBackIosIcon />
+              </Link>
+              <div className="computers-sub-nav__heading">
+                <p>
+                  Computer
+                </p>
+                <ArrowDropDownIcon />
+              </div>
             </div>
             <ul className="computers-sub-nav__ul-one">
               <Link to={path1}>
@@ -42,19 +48,6 @@ function JumpTo({
           </li>
         </ul>
       </div>
-      {/* <div  className="computers-sub-nav__header">
-        <p>Jump To</p>
-      </div>
-        <div className="projects">
-          <button className="computers-sub-nav__btn"><ArrowDropDownIcon /><p>Computer Categories</p></button>
-          <ul>
-              <NavLink  to={path1}>{link1}</NavLink>
-              <NavLink  to={path2}>{link2}</NavLink>
-              <NavLink  to={path3}>{link3}</NavLink>
-              <NavLink  to={path4}>{link4}</NavLink>
-              <NavLink  to={path5}>{link5}</NavLink>
-          </ul>
-        </div> */}
     </div>
   )
 }

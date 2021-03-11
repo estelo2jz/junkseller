@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../HomeGardenStyles/SubNav.scss';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 function JumpTo({
   path1, link1,
@@ -25,34 +27,79 @@ function JumpTo({
 
   }) {
   return (
-    <div>
-      <div  className="home-garden-tools-sub-nav__header">
-        <p>Jump To</p>
-      </div>
-      <div className="home-garden-tools-sub-nav__container">
-        <div  className="home-garden-tools-sub-nav__links">
-          <div className="home-garden-tools-sub-nav__top">
-            <Link to={path1}>{link1}</Link>
-            <Link to={path2}>{link2}</Link>
-            <Link to={path3}>{link3}</Link>
-            <Link to={path4}>{link4}</Link>
-            <Link to={path5}>{link5}</Link>
-            <Link to={path6}>{link6}</Link>
-            <Link to={path7}>{link7}</Link>
-            <Link to={path8}>{link8}</Link>
-            <Link to={path9}>{link9}</Link>
-          </div>
-          <div className="home-garden-tools-sub-nav__bottom">
-            <Link to={path10}>{link10}</Link>
-            <Link to={path11}>{link11}</Link>
-            <Link to={path12}>{link12}</Link>
-            <Link to={path13}>{link13}</Link>
-            <Link to={path14}>{link14}</Link>
-            <Link to={path15}>{link15}</Link>
-            <Link to={path16}>{link16}</Link>
-            <Link to={path17}>{link17}</Link>
-          </div>
-        </div>
+    <div className="home-garden-tools-sub-nav__container">    
+      <div class="home-garden-tools-sub-nav__wrapper">
+        <ul>
+          <li>
+            <div className="home-garden-tools-sub-nav__heading-flex">
+              <Link className="home-garden-tools-sub-nav__back" to="/home&garden&tools">
+                <ArrowBackIosIcon />
+              </Link>
+              <div className="home-garden-tools-sub-nav__heading">
+                <p>
+                  Home, Garden & Tools
+                </p>
+                <ArrowDropDownIcon />
+              </div>
+            </div>
+            <ul className="home-garden-tools-sub-nav__ul-one">
+              <Link to={path1}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link1}</li>
+              </Link>
+              <Link to={path2}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link2}</li>
+              </Link>
+              <Link to={path3}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link3}</li>
+              </Link>
+              <Link to={path4}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link4}</li>
+              </Link>
+              <Link to={path5}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link5}</li>
+              </Link>
+              <Link to={path6}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link6}</li>
+              </Link>
+              <Link to={path7}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link7}</li>
+              </Link>
+              <Link to={path8}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link8}</li>
+              </Link>
+              <Link to={path9}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link9}</li>
+              </Link>
+              <Link to={path10}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link10}</li>
+              </Link>
+              <Link to={path11}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link11}</li>
+              </Link>
+              <Link to={path12}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link12}</li>
+              </Link>
+              <Link to={path13}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link13}</li>
+              </Link>
+              <Link to={path14}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link14}</li>
+              </Link>
+              <Link to={path15}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link15}</li>
+              </Link>
+              <Link to={path16}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link16}</li>
+              </Link>
+              <Link to={path16}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link16}</li>
+              </Link>
+              <Link to={path17}>
+                <li className="home-garden-tools-sub-nav__ul-one-li">{link17}</li>
+              </Link>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
   )
