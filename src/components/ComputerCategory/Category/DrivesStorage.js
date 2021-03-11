@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
+import ComputerProductTemplate from './ComputerProductTemplate';
 import '../ComputerStyles/DrivesStorage.scss';
 import JumpTo from './JumpTo';
 
@@ -100,84 +101,204 @@ function DrivesStorage() {
           <img src="" alt="monitor-category" />
         </Link>
       </div> */}
-      {/* <div className="drives-storage__sub-heading">
+      <div className="drives-storage__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
       <div className="drives-storage__product-container">
-        <DrivesStorageTemplate
+      <ComputerProductTemplate
           id={uuid()}
-          title="SAMSUNG 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)"
-          price={118.69}
-          rateNumber={"8,576"}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
           rating={5}
           listPrice={""}
-          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
+          image=""
         />
-        <DrivesStorageTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="SAMSUNG 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)"
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
-          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
-        />
-        <DrivesStorageTemplate
-          id={uuid()}
-          title="SAMSUNG 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)"
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
-        />
-        <DrivesStorageTemplate
-          id={uuid()}
-          title="SAMSUNG 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)"
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
-        />
-        <DrivesStorageTemplate
-          id={uuid()}
-          title="SAMSUNG 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)"
-          price={118.69}
-          rateNumber={"8,576"}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
           rating={5}
           listPrice={""}
-          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
+          image=""
         />
-        <DrivesStorageTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="SAMSUNG 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)"
-          price={198.99}
-          rateNumber={"3,873"}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
           rating={5}
-          listPrice={"209.99"}
-          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
+          listPrice={""}
+          image=""
         />
-        <DrivesStorageTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="SAMSUNG 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)"
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
         />
-        <DrivesStorageTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="SAMSUNG 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)"
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image="https://webobjects2.cdw.com/is/image/CDW/4934137?$product-main$"
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
         />
-      </div> */}
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={59.69}
+          rateNumber={"782"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Tue, Mar 30"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+      </div>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import * as FaIcons from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 import '../ComputerStyles/PartsNavBar.scss';
 
 function JumpTo({
@@ -8,26 +9,22 @@ function JumpTo({
   path3, link3,
   path4, link4,
   path5, link5,
-
-
-
   }) {
   return (
-    <div>
-      <div  className="computers-sub-nav__header">
+    <div className="computers-sub-nav__container">
+      {/* <div  className="computers-sub-nav__header">
         <p>Jump To</p>
-      </div>
-      <div className="computers-sub-nav__container">
-        <div  className="computers-sub-nav__links">
-          <div className="computers-sub-nav__top">
-            <Link to={path1}>{link1}</Link>
-            <Link to={path2}>{link2}</Link>
-            <Link to={path3}>{link3}</Link>
-          </div>
-          <div className="computers-sub-nav__bottom">
-            <Link to={path4}>{link4}</Link>
-            <Link to={path5}>{link5}</Link>
-          </div>
+      </div> */}
+      <div className="computers-sub-nav__outer">
+        <div class="projects">
+          <button className="computers-sub-nav__btn"><FaIcons.FaBars /><p>Computer Categories</p></button>
+          <ul>
+              <NavLink  to={path1}>{link1}</NavLink>
+              <NavLink  to={path2}>{link2}</NavLink>
+              <NavLink  to={path3}>{link3}</NavLink>
+              <NavLink  to={path4}>{link4}</NavLink>
+              <NavLink  to={path5}>{link5}</NavLink>
+          </ul>
         </div>
       </div>
     </div>

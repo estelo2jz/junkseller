@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/ComputerComponents.scss';
+import ComputerProductTemplate from './ComputerProductTemplate';
 import StarRateIcon from '@material-ui/icons/StarRate';
 import JumpTo from './JumpTo';
 
@@ -98,84 +99,204 @@ function ComputerComponents() {
           <img src="" alt="monitor-category" />
         </Link>
       </div> */}
-      {/* <div className="computer-components__sub-heading">
+      <div className="computer-components__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
       <div className="computer-components__product-container">
-        <ComputerComponentsTemplate
+      <ComputerProductTemplate
           id={uuid()}
-          title="NVIDIA GeForce RTX 2070 Super Founders Edition Graphics Card (900-1G180-2515-000)"
-          price={499.99}
-          rateNumber={"8,576"}
-          rating={5}
-          listPrice={"799.99"}
-          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
-        />
-        <ComputerComponentsTemplate
-          id={uuid()}
-          title="NVIDIA GeForce RTX 2070 Super Founders Edition Graphics Card (900-1G180-2515-000)"
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
-          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
-        />
-        <ComputerComponentsTemplate
-          id={uuid()}
-          title="NVIDIA GeForce RTX 2070 Super Founders Edition Graphics Card (900-1G180-2515-000)"
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
-        />
-        <ComputerComponentsTemplate
-          id={uuid()}
-          title="NVIDIA GeForce RTX 2070 Super Founders Edition Graphics Card (900-1G180-2515-000)"
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
-        />
-        <ComputerComponentsTemplate
-          id={uuid()}
-          title="NVIDIA GeForce RTX 2070 Super Founders Edition Graphics Card (900-1G180-2515-000)"
-          price={118.69}
-          rateNumber={"8,576"}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
           rating={5}
           listPrice={""}
-          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
+          image=""
         />
-        <ComputerComponentsTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="NVIDIA GeForce RTX 2070 Super Founders Edition Graphics Card (900-1G180-2515-000)"
-          price={198.99}
-          rateNumber={"3,873"}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
           rating={5}
-          listPrice={"209.99"}
-          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
+          listPrice={""}
+          image=""
         />
-        <ComputerComponentsTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="NVIDIA GeForce RTX 2070 Super Founders Edition Graphics Card (900-1G180-2515-000)"
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
         />
-        <ComputerComponentsTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="NVIDIA GeForce RTX 2070 Super Founders Edition Graphics Card (900-1G180-2515-000)"
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image="https://prosettings.net/wp-content/uploads/2018/11/rtx2080ti.png"
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
         />
-      </div> */}
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={26.38}
+          rateNumber={"2,654"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Wed, Apr 1"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+      </div> 
     </div>
   )
 }

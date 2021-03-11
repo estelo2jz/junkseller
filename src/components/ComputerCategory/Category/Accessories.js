@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/ComputerAccessories.scss';
+import ComputerProductTemplate from './ComputerProductTemplate';
 import JumpTo from './JumpTo';
 
 function ComputerAccessoriesTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
@@ -103,81 +104,200 @@ function ComputerAccessories() {
         <p>Top rated</p>
         <p>See more</p>
       </div> */}
-      {/* <div className="computer-accessories__product-container">
-        <ComputerAccessoriesTemplate
+       <div className="computer-accessories__product-container">
+       <ComputerProductTemplate
           id={uuid()}
-          title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
-          price={129.99}
-          rateNumber={"8,576"}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
           rating={5}
           listPrice={""}
-          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
+          image=""
         />
-        <ComputerAccessoriesTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
-          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
-        />
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
-        />
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
-        />
-        <ComputerAccessoriesTemplate
-          id={uuid()}
-          title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
-          price={118.69}
-          rateNumber={"8,576"}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
           rating={5}
           listPrice={""}
-          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
+          image=""
         />
-        <ComputerAccessoriesTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
-          price={198.99}
-          rateNumber={"3,873"}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
           rating={5}
-          listPrice={"209.99"}
-          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
+          listPrice={""}
+          image=""
         />
-        <ComputerAccessoriesTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
         />
-        <ComputerAccessoriesTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="Wired Gaming Mouse 8-Button Programmable Mouse Optical Ergonomic PC Gaming Mice 7200CPI Customizable Mouse with 5-Level CPI"
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image="https://ak1.ostkcdn.com/images/products/28881746/Wired-Gaming-Mouse-8-Button-Programmable-Mouse-Optical-Ergonomic-PC-Gaming-Mice-7200CPI-Customizable-Mouse-with-5-Level-CPI-b70d0904-059a-4159-a64f-79656dd74368.jpg"
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
         />
-
-      </div> */}
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={248.01}
+          rateNumber={"345"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Sun, Apr 10"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+      </div>
     </div>
   )
 }

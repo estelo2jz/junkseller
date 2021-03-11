@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { uuid } from 'uuidv4';
 import { useStateValue } from '../../StateProvider';
 import '../ComputerStyles/Networking.scss';
+import ComputerProductTemplate from './ComputerProductTemplate';
 import JumpTo from './JumpTo';
 
 function NetworkingTemplate({ id, title, image, price, rating, rateNumber, listPrice }) {
@@ -99,84 +100,204 @@ function Networking() {
           <img src="" alt="monitor-category" />
         </Link>
       </div> */}
-      {/* <div className="networking__sub-heading">
+      <div className="networking__sub-heading">
         <p>Top rated</p>
         <p>See more</p>
       </div>
       <div className="networking__product-container">
-        <NetworkingTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="Linksys MR8300 Mesh Wi-Fi Router"
-          price={255.79}
+          title=""
+          price={118.89}
           rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
           rating={5}
           listPrice={""}
-          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
+          image=""
         />
-        <NetworkingTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="Linksys MR8300 Mesh Wi-Fi Router"
-          price={198.99}
-          rateNumber={"3,873"}
-          rating={5}
-          listPrice={"209.99"}
-          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
-        />
-        <NetworkingTemplate
-          id={uuid()}
-          title="Linksys MR8300 Mesh Wi-Fi Router"
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
-        />
-        <NetworkingTemplate
-          id={uuid()}
-          title="Linksys MR8300 Mesh Wi-Fi Router"
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
-        />
-        <NetworkingTemplate
-          id={uuid()}
-          title="Linksys MR8300 Mesh Wi-Fi Router"
-          price={118.69}
+          title=""
+          price={118.89}
           rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
           rating={5}
           listPrice={""}
-          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
+          image=""
         />
-        <NetworkingTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="Linksys MR8300 Mesh Wi-Fi Router"
-          price={198.99}
-          rateNumber={"3,873"}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
           rating={5}
-          listPrice={"209.99"}
-          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
+          listPrice={""}
+          image=""
         />
-        <NetworkingTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="Linksys MR8300 Mesh Wi-Fi Router"
-          price={549.99}
-          rateNumber={"1,997"}
-          rating={4}
-          listPrice={"759.99"}
-          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
         />
-        <NetworkingTemplate
+        <ComputerProductTemplate
           id={uuid()}
-          title="Linksys MR8300 Mesh Wi-Fi Router"
-          price={124.99}
-          rateNumber={"19,140"}
-          rating={4}
-          listPrice="239.99"
-          image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNKN2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591028069000"
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
         />
-      </div> */}
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+        <ComputerProductTemplate
+          id={uuid()}
+          title=""
+          price={118.89}
+          rateNumber={"8,576"}
+          shipping={"Free Shipping"}
+          brandName={""}
+          arrivalEst={"Get it as soon as Mon, Mar 27"}
+          rating={5}
+          listPrice={""}
+          image=""
+        />
+      </div>
     </div>
   )
 }
