@@ -13,13 +13,16 @@ function JumpTo({
   }) {
   return (
     <div className="computers-sub-nav__container">    
-      <div class="wrapper">
+      <div class="computers-sub-nav__wrapper">
         <ul>
           <li>
-            <p>
-              Services
-            </p>
-            <ul>
+            <div className="computers-sub-nav__heading">
+              <ArrowDropDownIcon />
+              <p>
+                Computer Categories
+              </p>
+            </div>
+            <ul className="computers-sub-nav__ul-one">
               <Link to={path1}>
                 <li>{link1}</li>
               </Link>
