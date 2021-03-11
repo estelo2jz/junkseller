@@ -24,7 +24,7 @@ button {
   background: #232f3e;
   left: 0px;
   list-style: none;
-  border-radius: 5px;
+  border-radius: 2px;
   opacity: 0;
   pointer-events: none;
   transform: translateY(-10px);
@@ -56,7 +56,7 @@ button {
   width: 100%;
   text-transform: uppercase;
   font-size: clamp(0.7em, 1vw, 0.8rem);
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .projects button:focus + ul,
@@ -80,6 +80,9 @@ button {
     padding: 5px 10px;
     display: flex;
     background: #232f3e;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
     p {
       color: white;
       padding: 0px 5px;

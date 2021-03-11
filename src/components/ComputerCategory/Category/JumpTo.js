@@ -2,6 +2,7 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import '../ComputerStyles/PartsNavBar.scss';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
 function JumpTo({
   path1, link1,
@@ -17,7 +18,7 @@ function JumpTo({
       </div> */}
       <div className="computers-sub-nav__outer">
         <div class="projects">
-          <button className="computers-sub-nav__btn"><FaIcons.FaBars /><p>Computer Categories</p></button>
+          <button className="computers-sub-nav__btn"><ArrowDropDownIcon /><p>Computer Categories</p></button>
           <ul>
               <NavLink  to={path1}>{link1}</NavLink>
               <NavLink  to={path2}>{link2}</NavLink>
