@@ -42,10 +42,10 @@ button {
   cursor: pointer;
 }
 
-.projects li:hover,
-.products li:hover {
-  background-color: rgb(197, 173, 181);
-}
+// .projects li:hover,
+// .products li:hover {
+//   background-color: rgb(197, 173, 181);
+// }
 
 .projects a,
 .products a {
@@ -64,6 +64,7 @@ button {
   opacity: 1;
   pointer-events: all;
   transform: translateY(0px);
+  background-color: black;
 }
 .projects a:hover {
 }
@@ -90,8 +91,5 @@ button {
     svg {
       color: white;
     }
-  }
-  .projects a:hover {
-    background-color: red;
   }
 }
