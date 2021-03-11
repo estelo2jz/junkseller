@@ -1,0 +1,103 @@
+.computer-product-template {
+  margin: 5px;
+  .computer-product-template__container {
+    // width: 400px;
+    // background: rgba(56,109,241,0.03);
+  border: 1px solid rgb(243, 240, 241);
+
+    padding: 10px 0px;
+
+    .computer-product-template__img {
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 10px;
+      img {
+        width: 200px;
+        margin: 5px;
+      }
+
+    }
+    .computer-product-template__title {
+      padding: 0px 10px;
+      p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        -webkit-box-orient: vertical;
+        font-size: 0.9rem;
+      }
+      p:nth-child(1) {}
+      p:nth-child(2) {
+        // font-weight: 700;
+        color: rgb(139, 139, 139);
+        font-size: 0.8rem;
+      }
+
+    }
+    .computer-product-template__rating {
+      padding: 0px 10px;
+      display: flex;
+      // justify-content: center;
+      align-items: center;
+      p {
+        font-size: 0.8rem;
+      }
+      .rating-rate {
+        margin-top: 2px;
+        margin-left: 2px;
+      }
+    }
+    .computer-product-template__price {
+      padding: 0px 10px;
+      display: flex;
+      grid-column-gap: 5px;
+      p:nth-child(1) {
+        font-size: 0.9rem;
+      }
+      p:nth-child(2) {
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      p:nth-child(3) {
+        font-size: 0.8rem;
+        margin-top: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(41, 41, 235);
+        cursor: pointer;
+      }
+
+    }
+    .computer-product-template__arrival {
+      padding: 0px 10px;
+      font-size: 0.8rem;
+      display: flex;
+      grid-column-gap: 5px;
+      align-items: center;
+
+      p:nth-child(1) {
+      }
+      p:nth-child(2) {
+        color: rgb(41, 41, 235);
+        cursor: pointer;
+      }
+    }
+    .computer-product-template__btn {
+      padding: 0px 10px;
+      padding-top: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        padding: 2px;
+        font-size: 0.7rem;
+        cursor: pointer;
+      }
+
+    }
+  }
+}
