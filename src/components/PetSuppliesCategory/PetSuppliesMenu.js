@@ -14,6 +14,7 @@ function PetSuppliesMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-one"
           to="/pet&supplies/petprofiles">
           <span>
             {props.category0}
@@ -28,6 +29,7 @@ function PetSuppliesMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-two"
           to="/pet&supplies/dogsupplies">
           <span>
             {props.category1}
@@ -42,6 +44,7 @@ function PetSuppliesMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-three"
           to="/pet&supplies/dogfood">
           <span>
             {props.category2}
@@ -56,6 +59,7 @@ function PetSuppliesMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-four"
           to="/pet&supplies/catsupplies">
           <span>
             {props.category3}
@@ -70,6 +74,7 @@ function PetSuppliesMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-five"
           to="/pet&supplies/catfood">
           <span>
             {props.category4}
@@ -84,6 +89,7 @@ function PetSuppliesMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-six"
           to="/pet&supplies/fish&aquatic">
           <span>
             {props.category5}
@@ -98,6 +104,7 @@ function PetSuppliesMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-seven"
           to="/pet&supplies/smallanimals">
           <span>
             {props.category6}
@@ -112,6 +119,7 @@ function PetSuppliesMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-eight"
           to="/pet&supplies/birds">
           <span>
             {props.category7}

@@ -14,6 +14,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-one"
           to="/smarthome/smarthome">
           <span>
             {props.category0}
@@ -28,6 +29,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-two"
           to="/smarthome/smarthomelighting">
           <span>
             {props.category1}
@@ -42,6 +44,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-three"
           to="/smarthome/smartlocks&entry">
           <span>
             {props.category2}
@@ -56,6 +59,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-four"
           to="/smarthome/securitycameras&systems">
           <span>
             {props.category3}
@@ -70,6 +74,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-five"
           to="/smarthome/plugs&outlets">
           <span>
             {props.category4}
@@ -84,6 +89,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-six"
           to="/smarthome/newsmartdevices">
           <span>
             {props.category5}
@@ -98,6 +104,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-seven"
           to="/smarthome/heating&cooling">
           <span>
             {props.category6}
@@ -112,6 +119,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-eight"
           to="/smarthome/detectors&sensors">
           <span>
             {props.category7}
@@ -126,6 +134,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-nine"
           to="/smarthome/homeentertainment">
           <span>
             {props.category8}
@@ -140,6 +149,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-ten"
           to="/smarthome/pet">
           <span>
             {props.category9}
@@ -154,6 +164,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-eleven"
           to="/smarthome/voiceassistants&hubs">
           <span>
             {props.category10}
@@ -168,6 +179,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-twelve"
           to="/smarthome/kitchen">
           <span>
             {props.category11}
@@ -182,6 +194,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-thirteen"
           to="/smarthome/vacuum&mops">
           <span>
             {props.category12}
@@ -196,6 +209,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-fourteen"
           to="/smarthome/lawn&garden">
           <span>
             {props.category13}
@@ -210,6 +224,7 @@ function SmartHomeMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+         className="category-fiftteen"
           to="/smarthome/wifi&networking">
           <span>
             {props.category14}

@@ -14,6 +14,7 @@ function BeautyHealth(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-one"
           to="/beauty&health/allbeauty">
           <span>
             {props.category0}
@@ -28,6 +29,7 @@ function BeautyHealth(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-two"
           to="/beauty&health/premiumbeauty">
           <span>
             {props.category1}
@@ -42,6 +44,7 @@ function BeautyHealth(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-three"
           to="/beauty&health/skincare">
           <span>
             {props.category2}
@@ -56,6 +59,7 @@ function BeautyHealth(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-four"
           to="/beauty&health/salon&spa">
           <span>
             {props.category3}
@@ -70,6 +74,7 @@ function BeautyHealth(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-five"
           to="/beauty&health/mensgrooming">
           <span>
             {props.category4}
@@ -84,6 +89,7 @@ function BeautyHealth(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-six"
           to="/beauty&health/health&household&baby">
           <span>
             {props.category5}
@@ -98,6 +104,7 @@ function BeautyHealth(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-seven"
           to="/beauty&health/vitamins&diet">
           <span>
             {props.category6}

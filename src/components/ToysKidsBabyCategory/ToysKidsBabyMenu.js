@@ -14,6 +14,7 @@ function ToysKidsBabyMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-one"
           to="/toys&kids&baby/toys&games">
           <span>
             {props.category0}
@@ -28,6 +29,7 @@ function ToysKidsBabyMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-two"
           to="/toys&kids&baby/baby">
           <span>
             {props.category1}
@@ -42,6 +44,7 @@ function ToysKidsBabyMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-three"
           to="/toys&kids&baby/diapering">
           <span>
             {props.category2}
@@ -56,6 +59,7 @@ function ToysKidsBabyMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-four"
           to="/toys&kids&baby/videogamekids">
           <span>
             {props.category3}
@@ -70,6 +74,7 @@ function ToysKidsBabyMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-five"
           to="/toys&kids&baby/family">
           <span>
             {props.category4}
@@ -84,6 +89,7 @@ function ToysKidsBabyMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-six"
           to="/toys&kids&baby/teen">
           <span>
             {props.category5}
@@ -98,6 +104,7 @@ function ToysKidsBabyMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-seven"
           to="/toys&kids&baby/babyregistry">
           <span>
             {props.category6}
@@ -112,6 +119,7 @@ function ToysKidsBabyMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-eight"
           to="/toys&kids&baby/kidsbirthdays">
           <span>
             {props.category7}

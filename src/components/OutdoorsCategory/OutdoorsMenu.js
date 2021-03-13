@@ -14,6 +14,7 @@ function OutdoorsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-one"
           to="/outdoors/outdoorclothing">
           <span>
             {props.category0}
@@ -28,6 +29,7 @@ function OutdoorsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-two"
           to="/outdoors/camping&hiking">
           <span>
             {props.category1}
@@ -42,6 +44,7 @@ function OutdoorsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-three"
           to="/outdoors/climbing">
           <span>
             {props.category2}
@@ -56,6 +59,7 @@ function OutdoorsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-four"
           to="/outdoors/cycling">
           <span>
             {props.category3}
@@ -70,6 +74,7 @@ function OutdoorsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-five"
           to="/outdoors/scooters&skates&skateboards">
           <span>
             {props.category4}
@@ -84,6 +89,7 @@ function OutdoorsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-six"
           to="/outdoors/watersports">
           <span>
             {props.category5}
@@ -98,6 +104,7 @@ function OutdoorsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-seven"
           to="/outdoors/wintersports">
           <span>
             {props.category6}
@@ -112,6 +119,7 @@ function OutdoorsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-eight"
           to="/outdoors/accessories">
           <span>
             {props.category7}
@@ -126,6 +134,7 @@ function OutdoorsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-nine"
           to="/outdoors/alloutdoor">
           <span>
             {props.category8}

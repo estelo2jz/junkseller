@@ -1,25 +1,25 @@
 .handmade-menu {
-  color: rgb(0, 0, 0);
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  // height: 100px;
+  overflow-x: scroll;
+  color: rgb(0, 0, 0);
   margin-top: 50px;
   padding: 5px 0px;
-  background-color: rgb(35, 41, 53);
+  background-color: #232f3e; 
   width: 100%;
   .handmade-menu-items {
-    // width: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 3px;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(56,109,241,0.05);
     border: 1px solid rgba(255,255,255,0.1);
     a {
-      padding: 0px 10px;
+      display: flex;
+      justify-content: center;
+      
+      width: 100%;
       color: rgb(255, 255, 255);
       text-decoration: none;
       font-weight: 600;
@@ -48,6 +48,57 @@
       a {
         color: rgb(0, 0, 0);
       }
+    }
+    .category-one {
+      width: 90px;
+    }
+    .category-two {
+      width: 70px;
+    }
+    .category-three {
+      width: 70px;
+    }
+    .category-four {
+      width: 110px;
+    }
+    .category-five {
+      width: 70px;
+    }
+    .category-six {
+      width: 110px;
+    }
+    .category-seven {
+      width: 150px;
+    }
+    .category-eight {
+      width: 120px;
+    }
+    .category-nine {
+      width: 160px;
+    }
+    .category-ten {
+      width: 90px;
+    }
+    .category-eleven {
+      width: 80px;
+    }
+    .category-twelve {
+      width: 80px;
+    }
+    .category-thirteen {
+      width: 70px;
+    }
+    .category-fourteen {
+      width: 110px;
+    }
+    .category-fiftteen {
+      width: 70px;
+    }
+    .category-sixthteen {
+      width: 70px;
+    }
+    .category-seventeen {
+      width: 110px;
     }
   }
 }

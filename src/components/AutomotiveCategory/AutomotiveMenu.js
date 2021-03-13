@@ -13,6 +13,7 @@ function AutomotiveMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-one"
           to="/automotive&industrial/parts&accessories">
           <span>
             {props.category0}
@@ -27,6 +28,7 @@ function AutomotiveMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-two"
           to="/automotive&industrial/tools&equipment">
           <span>
             {props.category1}
@@ -41,6 +43,7 @@ function AutomotiveMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-three"
           to="/automotive&industrial/carelectronics&gps">
           <span>
             {props.category2}
@@ -55,6 +58,7 @@ function AutomotiveMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-four"
           to="/automotive&industrial/tires&wheels">
           <span>
             {props.category3}
@@ -69,6 +73,7 @@ function AutomotiveMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-five"
           to="/automotive&industrial/motorcycle&powersports">
           <span>
             {props.category4}
@@ -83,6 +88,7 @@ function AutomotiveMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-six"
           to="/automotive&industrial/rvpart&accessories">
           <span>
             {props.category5}
@@ -97,6 +103,7 @@ function AutomotiveMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-seven"
           to="/automotive&industrial/vehicles">
           <span>
             {props.category6}
@@ -111,6 +118,7 @@ function AutomotiveMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-eight"
           to="/automotive&industrial/yourgarage">
           <span>
             {props.category7}

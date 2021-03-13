@@ -14,6 +14,7 @@ function ComputersMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-one"
           to="/computers/tablet">
           <span>
             {props.category0}
@@ -28,6 +29,7 @@ function ComputersMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-two"
           to="/computers/monitors">
           <span>
             {props.category1}
@@ -42,6 +44,7 @@ function ComputersMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-three"
           to="/computers/accessories">
           <span>
             {props.category2}
@@ -56,6 +59,7 @@ function ComputersMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-four"
           to="/computers/networking">
           <span>
             {props.category3}
@@ -70,6 +74,7 @@ function ComputersMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-five"
           to="/computers/harddrives&storage">
           <span>
             {props.category4}
@@ -84,6 +89,7 @@ function ComputersMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-six"
           to="/computers/parts&components">
           <span>
             {props.category5}

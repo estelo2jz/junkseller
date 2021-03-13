@@ -14,6 +14,7 @@ function SportsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-one"
           to="/sports/athleticclothing">
           <span>
             {props.category0}
@@ -28,6 +29,7 @@ function SportsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-two"
           to="/sports/exercise&fitness">
           <span>
             {props.category1}
@@ -42,6 +44,7 @@ function SportsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-three"
           to="/sports/hunting&fishing">
           <span>
             {props.category2}
@@ -56,6 +59,7 @@ function SportsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-four"
           to="/sports/golf">
           <span>
             {props.category3}
@@ -70,6 +74,7 @@ function SportsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-five"
           to="/sports/fanshop">
           <span>
             {props.category4}
@@ -84,6 +89,7 @@ function SportsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-six"
           to="/sports/leisure&game">
           <span>
             {props.category5}
@@ -98,6 +104,7 @@ function SportsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-seven"
           to="/sports/sports&collectibles">
           <span>
             {props.category6}
@@ -112,6 +119,7 @@ function SportsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-eight"
           to="/sports/allsports&fitness">
           <span>
             {props.category7}
@@ -126,6 +134,7 @@ function SportsMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-nine"
           to="/sports/newgearinnovations">
           <span>
             {props.category8}

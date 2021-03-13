@@ -14,6 +14,7 @@ function FoodGroceryMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-one"
           to="/food&grocery/grocery&gourmet">
           <span>
             {props.category0}
@@ -28,6 +29,7 @@ function FoodGroceryMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-two"
           to="/food&grocery/fresh">
           <span>
             {props.category1}
@@ -42,6 +44,7 @@ function FoodGroceryMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-three"
           to="/food&grocery/wholefoods">
           <span>
             {props.category2}
@@ -56,6 +59,7 @@ function FoodGroceryMenu(props) {
             backgroundColor: "black",
             borderRadius: "3px"
           }}
+          className="category-four"
           to="/food&grocery/pantry">
           <span>
             {props.category3}
