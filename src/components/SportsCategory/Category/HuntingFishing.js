@@ -25,15 +25,14 @@ function HuntingFishing() {
           path8 = "/sports/leisure&game"
           link8 = "leisure&game"
         />
-    <div className="hunting-fishing__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/sports">
-        <p>
-          /sports
-            </p>
-      </Link>
-      <p>/hunting&fishing</p>
-    </div>
+        <div className="hunting-fishing__history-path">
+        <Link to="/sports">
+          <p>
+            go back
+          </p>
+        </Link>
+      </div>
+
       <Building />
     </div>
   )

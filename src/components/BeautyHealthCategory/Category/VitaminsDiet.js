@@ -22,13 +22,11 @@ function VitaminsDiet() {
         link6 = "premium-beauty"
       />
       <div className="vitamins-diet__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/beauty&health">
+      <Link to="/beauty&health">
           <p>
-            /beauty&health
+            go back
           </p>
         </Link>
-        <p>/vitamins&diet</p>
       </div>
       <Building />
     </div>

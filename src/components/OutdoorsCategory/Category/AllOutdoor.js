@@ -27,13 +27,11 @@ function AllOutdoor() {
         link8 = "outdoor-clothing"
       />
       <div className="all-outdoor__history-path">
-        {/* <p>you are in :</p> */}
         <Link to="/outdoors">
           <p>
-            /outdoors
+            go back
           </p>
         </Link>
-        <p>/alloutdoor</p>
       </div>
       <Building />
       {/* <ComingSoon /> */}

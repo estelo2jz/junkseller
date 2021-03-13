@@ -38,13 +38,11 @@ function HeatingCooling() {
           link14 = "detectors&sensors"
         />
       <div className="heating-cooling__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/smarthome">
+      <Link to="/smarthome">
           <p>
-            /smarthome
+            go back
           </p>
         </Link>
-        <p>/heating&cooling</p>
       </div>
       <Building />
     </div>

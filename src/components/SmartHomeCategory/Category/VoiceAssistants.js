@@ -38,13 +38,11 @@ function VoiceAssistants() {
           link14 = "heating&cooling"
         />
     <div className="voice-assistants__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/smarthome">
-        <p>
-          /smarthome
+    <Link to="/smarthome">
+          <p>
+            go back
           </p>
-      </Link>
-      <p>/voiceassistants&hubs</p>
+        </Link>
     </div>
       <Building />
     </div>

@@ -22,13 +22,11 @@ function MensGrooming() {
         link6 = "premium-beauty"
       />
       <div className="mens-grooming__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/beauty&health">
+      <Link to="/beauty&health">
           <p>
-            /beauty&health
+            go back
           </p>
         </Link>
-        <p>/mensgrooming</p>
       </div>
       <Building />
     </div>

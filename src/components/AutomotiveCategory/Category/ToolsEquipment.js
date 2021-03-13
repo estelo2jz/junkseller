@@ -24,13 +24,11 @@ function ToolsEquipment() {
           link7 = "your-garage"
         />
     <div className="tools-equipment__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/automotive&industrial">
-        <p>
-          /automotive&industrial
-            </p>
-      </Link>
-      <p>/tools&equipment</p>
+    <Link to="/automotive&industrial">
+          <p>
+            go back
+          </p>
+        </Link>
     </div>
       <Building />
     </div>

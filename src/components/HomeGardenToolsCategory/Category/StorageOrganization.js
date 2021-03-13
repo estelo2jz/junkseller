@@ -44,13 +44,11 @@ function StorageOrganization() {
           link17 = "lighting"
         />
       <div className="storage-organization__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/home&garden&tools">
+      <Link to="/home&garden&tools">
           <p>
-            /home&garden&tools
+            go back
           </p>
         </Link>
-        <p>/storage&organization</p>
       </div>
       <Building />
     </div>

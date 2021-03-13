@@ -44,13 +44,11 @@ function Wedding() {
           link16 = "pet&supplies"
         />
       <div className="wedding__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/handmade">
+      <Link to="/handmade">
           <p>
-            /handmade
+            go back
           </p>
         </Link>
-        <p>/wedding</p>
       </div>
       <div className="wedding__section">
         <div className="wedding__heading">

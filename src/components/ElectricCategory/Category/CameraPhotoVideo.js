@@ -32,13 +32,11 @@ function CameraPhotoVideo() {
           link10 = "cellphones"
         />
       <div className="camera-photo-video__history-path">
-        {/* <p>you are in :</p> */}
         <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/camera&photo&video</p>
       </div>
       <div className="camera-photo-video__heading">
         <h1>Camera, Photo & Video</h1>

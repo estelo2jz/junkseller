@@ -23,9 +23,6 @@ function JumpTo({
         <ul>
           <li>
             <div className="outdoors-sub-nav__heading-flex">
-              <Link className="outdoors-sub-nav__back" to="/outdoors">
-                <ArrowBackIosIcon />
-              </Link>
               <div className="outdoors-sub-nav__heading">
                 <p>
                   Outdoors

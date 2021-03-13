@@ -25,13 +25,11 @@ function SmallAnimals() {
         link7 = "fish&aquatic"
       />
       <div className="small-animals__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/pet&supplies">
+      <Link to="/pet&supplies">
           <p>
-            /pet&supplies
+            go back
           </p>
         </Link>
-        <p>/smallanimals</p>
       </div>
       <Building />
     </div>

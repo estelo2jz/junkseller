@@ -24,13 +24,11 @@ function KidsBirthdays() {
           link7 = "video-game-kids"
         />
     <div className="kids-birthdays__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/toys&kids&baby">
-        <p>
-          /toys&kids&baby
+    <Link to="/toys&kids&baby">
+            <p>
+             go back
             </p>
-      </Link>
-      <p>/kidsbirthday</p>
+          </Link>
     </div>
       <Building />
     </div>

@@ -16,13 +16,11 @@ function GroceryGourmet() {
         link3 = "whole-foods"
       />
       <div className="grocery-gourmet__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/food&grocery">
+      <Link to="/food&grocery">
           <p>
-            /food&grocery
+            go back
           </p>
         </Link>
-        <p>/grocery&gourmet</p>
       </div>
       <Building />
     </div>

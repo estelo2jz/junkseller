@@ -43,13 +43,11 @@ function Jewelry() {
           link16 = "pet&supplies"
         />
       <div className="jewelry__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/handmade">
+      <Link to="/handmade">
           <p>
-            /handmade
+            go back
           </p>
         </Link>
-        <p>/jewelry</p>
       </div>
       <div className="jewelry__heading">
         <p>Jewelry</p>

@@ -17,13 +17,11 @@ function WholeFoods() {
         link3 = "fresh"
       />
       <div className="whole-foods__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/food&grocery">
+      <Link to="/food&grocery">
           <p>
-            /food&grocery
+            go back
           </p>
         </Link>
-        <p>/wholefoods</p>
       </div>
       <Building />
       {/* <ComingSoon /> */}

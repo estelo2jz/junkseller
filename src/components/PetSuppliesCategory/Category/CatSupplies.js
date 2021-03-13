@@ -24,13 +24,11 @@ function CatSupplies() {
         link7 = "fish&aquatic"
       />
       <div className="cat-supplies__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/pet&supplies">
+      <Link to="/pet&supplies">
           <p>
-            /pet&supplies
+            go back
           </p>
         </Link>
-        <p>/catsupplies</p>
       </div>
       <Building />
     </div>

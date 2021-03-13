@@ -25,15 +25,13 @@ function AthleticClothing() {
           path8 = "/sports/leisure&game"
           link8 = "leisure&game"
         />
-    <div className="athletic-clothing__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/sports">
-        <p>
-          /sports
-            </p>
-      </Link>
-      <p>/athletic-clothing</p>
-    </div>
+      <div className="athletic-clothing__history-path">
+        <Link to="/sports">
+          <p>
+            go back
+          </p>
+        </Link>
+      </div>
       <Building />
     </div>
   )

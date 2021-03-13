@@ -31,13 +31,11 @@ function BluetoothWireless() {
           link10 = "cellphones"
         />
       <div className="bluetooth-wireless__history-path">
-        {/* <p>you are in :</p> */}
         <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/bluetooth&wireless</p>
       </div>
       <div className="bluetooth-wireless__heading">
         <h1>Bluetooth & Wireless</h1>

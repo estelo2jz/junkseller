@@ -31,9 +31,6 @@ function JumpTo({
         <ul>
           <li>
             <div className="handmade-sub-nav__heading-flex">
-              <Link className="handmade-sub-nav__back" to="/handmade">
-                <ArrowBackIosIcon />
-              </Link>
               <div className="handmade-sub-nav__heading">
                 <p>
                   Handmade

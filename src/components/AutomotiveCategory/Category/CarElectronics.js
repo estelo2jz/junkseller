@@ -26,13 +26,11 @@ function CarElectronics() {
         />
     </div>
     <div className="car-electronics__history-path">
-      {/* <p>you are in :</p> */}
       <Link to="/automotive&industrial">
-        <p>
-          /automotive&industrial
-            </p>
-      </Link>
-      <p>/car-vehicle-electronics&gps</p>
+          <p>
+            go back
+          </p>
+        </Link>
     </div>
       <Building />
     </div>

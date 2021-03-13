@@ -32,9 +32,6 @@ function JumpTo({
         <ul>
           <li>
             <div className="home-garden-tools-sub-nav__heading-flex">
-              <Link className="home-garden-tools-sub-nav__back" to="/home&garden&tools">
-                <ArrowBackIosIcon />
-              </Link>
               <div className="home-garden-tools-sub-nav__heading">
                 <p>
                   Home, Garden & Tools

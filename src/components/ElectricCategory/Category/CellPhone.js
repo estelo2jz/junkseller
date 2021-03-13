@@ -32,13 +32,11 @@ function CellPhone() {
           link10 = "tv&video"
         />
       <div className="cell-phone__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/electronics">
+      <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/cellphone</p>
       </div>
         <div className="cell-phone__heading">
           <h1>Cell Phones & Accessories</h1>

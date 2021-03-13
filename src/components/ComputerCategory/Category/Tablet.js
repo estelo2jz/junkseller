@@ -101,16 +101,14 @@ function ComputerTablet() {
           link5 = "monitors"
         />
       <div className="computer-tablet__history-path">
-        <div className="computer-tablet__heading">
+        {/* <div className="computer-tablet__heading">
           <p>Computers, Tablets, & PC Products</p>
-        </div>
-        {/* <p>you are in :</p>
-        <Link to="/computers">
+        </div> */}
+        <Link to="/sports">
           <p>
-            /computers
+            go back
           </p>
         </Link>
-        <p>/computers&tablets&PC</p> */}
       </div>
       <div className="computer-tablet__category">
         <Link to="#" className="computer-tablet__category-item">

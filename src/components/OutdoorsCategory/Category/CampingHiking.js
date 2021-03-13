@@ -26,13 +26,11 @@ function CampingHiking() {
         link8 = "outdoor-clothing"
       />
       <div className="camping-hiking__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/outdoors">
+      <Link to="/outdoors">
           <p>
-            /outdoors
+            go back
           </p>
         </Link>
-        <p>/camping&hiking</p>
       </div>
       <Building />
     </div>

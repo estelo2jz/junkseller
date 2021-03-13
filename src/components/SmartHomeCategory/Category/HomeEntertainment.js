@@ -38,13 +38,11 @@ function HomeEntertainment() {
           link14 = "heating&cooling"
         />
       <div className="home-entertainment__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/smarthome">
+      <Link to="/smarthome">
           <p>
-            /smarthome
+            go back
           </p>
         </Link>
-        <p>/homeentertainment</p>
       </div>
       <Building />
     </div>

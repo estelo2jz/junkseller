@@ -42,13 +42,11 @@ function SellOn() {
           link16 = "pet&supplies"
         />
       <div className="sell-on__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/handmade">
+      <Link to="/handmade">
           <p>
-            /handmade
+            go back
           </p>
         </Link>
-        <p>/sellon</p>
       </div>
       <Building />
     </div>

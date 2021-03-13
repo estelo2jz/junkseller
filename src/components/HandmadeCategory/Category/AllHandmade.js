@@ -41,13 +41,11 @@ function AllHandmade() {
           link16 = "pet&supplies"
         />
       <div className="all-handmade__history-path">
-        {/* <p>you are in :</p> */}
         <Link to="/handmade">
           <p>
-            /handmade
+            go back
           </p>
         </Link>
-        <p>/allhandmade</p>
       </div>
       <div className="all-handmade__section-container">
         {/* <div className="ads">

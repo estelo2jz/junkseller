@@ -39,13 +39,11 @@ function PlugsOutlet() {
           link14 = "heating&cooling"
         />
       <div className="plugs-outlet__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/smarthome">
+      <Link to="/smarthome">
           <p>
-            /smarthome
+            go back
           </p>
         </Link>
-        <p>/plugs&outlet</p>
       </div>
       <Building />
     </div>

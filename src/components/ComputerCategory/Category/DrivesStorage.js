@@ -81,15 +81,13 @@ function DrivesStorage() {
         path5 = "/computers/monitors"
         link5 = "monitors"
       />
-      {/* <div className="drives-storage__history-path">
-        <p>you are in :</p>
-        <Link to="/computers">
+      <div className="drives-storage__history-path">
+      <Link to="/sports">
           <p>
-            /computers
+            go back
           </p>
         </Link>
-        <p>/harddrives&storage</p>
-      </div> */}
+      </div>
       <div className="drives-storage__heading">
         <p>Hard Drives & Storage</p>
       </div>

@@ -81,15 +81,13 @@ function Monitors() {
         path5 = "/computers/accessories"
         link5 = "accessories"
       />
-      {/* <div className="monitors__history-path">
-        <p>you are in :</p>
-        <Link to="/computers">
+      <div className="monitors__history-path">
+      <Link to="/sports">
           <p>
-            /computers
+            go back
           </p>
         </Link>
-        <p>/monitors</p>
-      </div> */}
+      </div>
       <div className="monitors__heading">
         <p>Monitors</p>
         <p>

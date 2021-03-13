@@ -43,13 +43,11 @@ function ToysGames() {
           link16 = "pet&supplies"
         />
       <div className="toys-games__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/handmade">
+      <Link to="/handmade">
           <p>
-            /handmade
+            go back
           </p>
         </Link>
-        <p>/toys&games</p>
       </div>
       <div className="toys-games__heading">
         <p>Toys & Games</p>

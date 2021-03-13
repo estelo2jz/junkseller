@@ -38,13 +38,11 @@ function WifiNetworking() {
           link14 = "heating&cooling"
         />
     <div className="wifi-networking__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/smarthome">
-        <p>
-          /smarthome
+    <Link to="/smarthome">
+          <p>
+            go back
           </p>
-      </Link>
-      <p>/wifi&networking</p>
+        </Link>
     </div>
       <Building />
     </div>

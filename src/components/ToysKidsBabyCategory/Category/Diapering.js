@@ -24,13 +24,11 @@ function Diapering() {
           link7 = "video-game-kids"
         />
     <div className="diapering__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/toys&kids&baby">
-        <p>
-          /toys&kids&baby
+    <Link to="/toys&kids&baby">
+            <p>
+             go back
             </p>
-      </Link>
-      <p>/diapering</p>
+          </Link>
     </div>
       <Building />
     </div>

@@ -29,9 +29,6 @@ function JumpTo({
         <ul>
           <li>
             <div className="smart-home-sub-nav__heading-flex">
-              <Link className="smart-home-sub-nav__back" to="/smarthome">
-                <ArrowBackIosIcon />
-              </Link>
               <div className="smart-home-sub-nav__heading">
                 <p>
                   Smart Home

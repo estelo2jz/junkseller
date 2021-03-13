@@ -25,13 +25,11 @@ function FishAquatic() {
         link7 = "birds"
       />
       <div className="fish-aquatic__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/pet&supplies">
+      <Link to="/pet&supplies">
           <p>
-            /pet&supplies
+            go back
           </p>
         </Link>
-        <p>/fishaquaticpets</p>
       </div>
       <Building />
     </div>

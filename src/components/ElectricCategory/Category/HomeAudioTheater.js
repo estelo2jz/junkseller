@@ -31,13 +31,11 @@ function HomeAudioTheater() {
           link10 = "cell-phones"
         />
       <div className="home-audio-theater__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/electronics">
+      <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/homeaudiotheater</p>
       </div>
       <div className="home-audio-theater__heading">
         <h2>Home Audio Theater</h2>

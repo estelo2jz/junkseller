@@ -38,13 +38,11 @@ function SmartHomeMain() {
           link14 = "heating&cooling"
         />
       <div className="smart-home-two__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/smarthome">
+      <Link to="/smarthome">
           <p>
-            /smarthome
+            go back
           </p>
         </Link>
-        <p>/smarthome</p>
       </div>
       <Building />
     </div>

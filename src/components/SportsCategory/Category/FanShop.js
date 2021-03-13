@@ -26,15 +26,13 @@ function FanShop() {
           path8 = "/sports/leisure&game"
           link8 = "leisure&game"
         />
-    <div className="fan-shop__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/sports">
-        <p>
-          /sports
-            </p>
-      </Link>
-      <p>/fan-shop</p>
-    </div>
+      <div className="fan-shop__history-path">
+        <Link to="/sports">
+          <p>
+            go back
+          </p>
+        </Link>
+      </div>
       <Building />
     </div>
   )

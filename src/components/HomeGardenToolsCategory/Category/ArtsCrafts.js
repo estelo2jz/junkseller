@@ -44,13 +44,11 @@ function ArtsCrafts() {
           link17 = "lighting"
         />
       <div className="arts-crafts__history-path">
-        {/* <p>you are in :</p> */}
         <Link to="/home&garden&tools">
           <p>
-            /home&garden&tools
+            go back
           </p>
         </Link>
-        <p>/artscrafts&sewing</p>
       </div>
       <Building />
     </div>

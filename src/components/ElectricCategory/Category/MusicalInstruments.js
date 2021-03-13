@@ -29,13 +29,11 @@ function MusicalInstruments() {
           link10 = "cellphones"
         />
       <div className="musical-instruments__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/electronics">
+      <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/musicalinstruments</p>
       </div>
         <div className="musical-instruments__heading">
           <h1>Musical Instruments</h1>

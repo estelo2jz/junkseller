@@ -27,13 +27,11 @@ function Climbing() {
         link8 = "outdoor-clothing"
       />
       <div className="climbing__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/outdoors">
+      <Link to="/outdoors">
           <p>
-            /outdoors
+            go back
           </p>
         </Link>
-        <p>/climbing</p>
       </div>
       <Building />
     </div>

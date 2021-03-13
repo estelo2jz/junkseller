@@ -24,13 +24,11 @@ function Birds() {
         link7 = "fish&aquatic"
       />
       <div className="birds__history-path">
-        {/* <p>you are in :</p> */}
         <Link to="/pet&supplies">
           <p>
-            /pet&supplies
+            go back
           </p>
         </Link>
-        <p>/birds</p>
       </div>
       <Building />
     </div>

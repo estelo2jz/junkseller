@@ -30,13 +30,11 @@ function ElectronicsBase() {
           link10 = "cellphones"
         />
       <div className="electronics-base__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/electronics">
+      <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/electronics</p>
       </div>
       <div className="electronics-base__heading">
         <h1>Electronics</h1>

@@ -29,13 +29,11 @@ function Headphones() {
           link10 = "cellphones"
         />
       <div className="headphones__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/electronics">
+      <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/headphones</p>
       </div>
       <div className="headphones__heading">
         <h1>Headphones</h1>

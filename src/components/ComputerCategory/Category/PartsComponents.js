@@ -79,15 +79,13 @@ function ComputerComponents() {
         path5 = "/computers/monitors"
         link5 = "monitors"
       />
-      {/* <div className="computer-components__history-path">
-        <p>you are in :</p>
-        <Link to="/computers">
+      <div className="computer-components__history-path">
+      <Link to="/sports">
           <p>
-            /computers
+            go back
           </p>
         </Link>
-        <p>/parts&components</p>
-      </div> */}
+      </div>
       <div className="computer-components__heading">
         <p>Computer Parts & Components</p>
       </div>

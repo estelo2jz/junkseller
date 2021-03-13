@@ -38,13 +38,11 @@ function SmartLocks() {
           link14 = "heating&cooling"
         />
     <div className="smart-locks__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/smarthome">
-        <p>
-          /smarthome
+    <Link to="/smarthome">
+          <p>
+            go back
           </p>
-      </Link>
-      <p>/smartlocks</p>
+        </Link>
     </div>
       <Building />
     </div>

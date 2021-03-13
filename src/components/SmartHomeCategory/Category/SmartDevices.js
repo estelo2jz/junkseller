@@ -38,13 +38,11 @@ function SmartDevices() {
           link14 = "heating&cooling"
         />
       <div className="smart-devices__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/smarthome">
+      <Link to="/smarthome">
           <p>
-            /smarthome
+            go back
           </p>
         </Link>
-        <p>/smartdevices</p>
       </div>
       <Building />
     </div>

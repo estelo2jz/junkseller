@@ -6,18 +6,14 @@
   }
   .pet-supplies-sub-nav__wrapper ul li {
   // background: #262626;
-  width: 200px;
-  // border: 1px solid #fff;
-  height: 50px;
-  line-height: 50px;
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   float: left;
   color: #fff;
-  font-size: clamp(0.7em, 1vw, 0.9rem);
+  font-size: clamp(0.8em, 1vw, 0.9rem);
   position: relative;
-  // font-family: poppins;
-  // text-transform: uppercase;
-  // font-weight: bold;
   cursor: pointer;
   z-index: 10000;
   background-color: #232f3e;
@@ -45,15 +41,12 @@
   padding: 0px 10px;
   .pet-supplies-sub-nav__wrapper {
     .pet-supplies-sub-nav__heading-flex {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0px 10px;
       .pet-supplies-sub-nav__back {
-        // font-size: 12px;
         display: flex;
         justify-content: center;
         align-items: center;
+      // padding: 0px 10px;
+
       }
       // .pet-supplies-sub-nav__back:hover {
       //   background-color: rgb(5, 5, 5);
@@ -62,17 +55,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0;
+        margin: 0;
       }
     }
     .pet-supplies-sub-nav__ul-one {
       background-color: red;
       .pet-supplies-sub-nav__ul-one-li {
+        font-size: clamp(0.9em, 2vw, 0.8rem);
+        text-transform: uppercase;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 30px !important;
-        font-size: clamp(0.9em, 2vw, 0.8rem);
-        text-transform: uppercase;
         
 
       }

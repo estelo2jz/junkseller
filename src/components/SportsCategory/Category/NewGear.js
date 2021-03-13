@@ -25,15 +25,13 @@ function NewGear() {
           path8 = "/sports/leisure&game"
           link8 = "leisure&game"
         />
-    <div className="new-gear__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/sports">
-        <p>
-          /sports
-            </p>
-      </Link>
-      <p>/new-gear-innovations</p>
-    </div>
+          <div className="new-gear__history-path">
+        <Link to="/sports">
+          <p>
+            go back
+          </p>
+        </Link>
+      </div>
       <Building />
     </div>
   )

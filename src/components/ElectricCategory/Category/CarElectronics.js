@@ -31,13 +31,11 @@ function CarElectronics() {
           link10 = "cellphones"
         />
       <div className="car-electronics__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/electronics">
+      <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/carelectronics</p>
       </div>
           <div className="car-electronics__heading">
             <h1>Car Electronics</h1>

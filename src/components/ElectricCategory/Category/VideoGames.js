@@ -31,13 +31,11 @@ function VideoGames() {
           link10 = "cellphones"
         />
       <div className="video-games__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/electronics">
+      <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/videogames</p>
       </div>
       <div className="video-games__heading">
         <h1>Video Games</h1>

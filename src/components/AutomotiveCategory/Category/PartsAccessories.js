@@ -24,13 +24,11 @@ function PartsAccessories() {
           link7 = "your-garage"
         />
     <div className="parts-accessories__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/automotive&industrial">
-        <p>
-          /automotive&industrial
-            </p>
-      </Link>
-      <p>/parts-accessories</p>
+    <Link to="/automotive&industrial">
+          <p>
+            go back
+          </p>
+        </Link>
     </div>
       <Building />
     </div>

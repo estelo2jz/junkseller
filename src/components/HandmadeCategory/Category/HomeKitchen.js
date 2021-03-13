@@ -43,13 +43,11 @@ function HomeKitchen() {
           link16 = "pet&supplies"
         />
       <div className="home-kitchen__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/handmade">
+      <Link to="/handmade">
           <p>
-            /handmade
+            go back
           </p>
         </Link>
-        <p>/home&kitchen</p>
       </div>
       <div className="home-kitchen__section">
         <div className="home-kitchen__heading">

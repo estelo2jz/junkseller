@@ -80,15 +80,13 @@ function Networking() {
         path5 = "/computers/monitors"
         link5 = "monitors"
       />
-      {/* <div className="networking__history-path">
-        <p>you are in :</p>
-        <Link to="/computers">
+      <div className="networking__history-path">
+      <Link to="/sports">
           <p>
-            /computers
+            go back
           </p>
         </Link>
-        <p>/networking</p>
-      </div> */}
+      </div>
       <div className="networking__heading">
         <p>Networking</p>
       </div>

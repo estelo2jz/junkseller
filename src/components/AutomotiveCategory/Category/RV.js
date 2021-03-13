@@ -24,13 +24,11 @@ function RV() {
           link7 = "your-garage"
         />
     <div className="rv__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/automotive&industrial">
-        <p>
-          /automotive&industrial
-            </p>
-      </Link>
-      <p>/rv-parts&accessories</p>
+    <Link to="/automotive&industrial">
+          <p>
+            go back
+          </p>
+        </Link>
     </div>
       <Building />
     </div>

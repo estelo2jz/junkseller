@@ -38,13 +38,11 @@ function SmartPet() {
           link14 = "heating&cooling"
         />
     <div className="smart-pet__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/smarthome">
-        <p>
-          /smarthome
+    <Link to="/smarthome">
+          <p>
+            go back
           </p>
-      </Link>
-      <p>/smartpet</p>
+        </Link>
     </div>
       <Building />
     </div>

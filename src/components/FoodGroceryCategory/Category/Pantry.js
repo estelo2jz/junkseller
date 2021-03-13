@@ -17,13 +17,11 @@ function Pantry() {
         link3 = "whole-foods"
       />
       <div className="pantry__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/food&grocery">
+      <Link to="/food&grocery">
           <p>
-            /food&grocery
+            go back
           </p>
         </Link>
-        <p>/pantry</p>
       </div>
       <Building />
       {/* <ComingSoon /> */}

@@ -44,13 +44,11 @@ function GardenOutdoor() {
           link17 = "lighting"
         />
       <div className="garden-outdoor__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/home&garden&tools">
+      <Link to="/home&garden&tools">
           <p>
-            /home&garden&tools
+            go back
           </p>
         </Link>
-        <p>/garden&outdoor</p>
       </div>
       <Building />
     </div>

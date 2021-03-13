@@ -43,13 +43,11 @@ function StationaryParty() {
           link16 = "pet&supplies"
         />
       <div className="stationary-party__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/handmade">
+      <Link to="/handmade">
           <p>
-            /handmade
+            go back
           </p>
         </Link>
-        <p>/stationary&partysupplies</p>
       </div>
       <div className="stationary-party__heading">
         <p>Stationery & Party Supplies</p>

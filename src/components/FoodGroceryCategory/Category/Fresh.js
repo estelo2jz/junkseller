@@ -16,13 +16,11 @@ function Fresh() {
         link3 = "whole-foods"
       />
       <div className="fresh__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/food&grocery">
+      <Link to="/food&grocery">
           <p>
-            /food&grocery
+            go back
           </p>
         </Link>
-        <p>/fresh</p>
       </div>
       <Building />
     </div>

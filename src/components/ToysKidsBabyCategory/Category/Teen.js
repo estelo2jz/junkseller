@@ -24,13 +24,11 @@ function Teen() {
           link7 = "video-game-kids"
         />
     <div className="teen__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/toys&kids&baby">
-        <p>
-          /toys&kids&baby
+    <Link to="/toys&kids&baby">
+            <p>
+             go back
             </p>
-      </Link>
-      <p>/teen</p>
+          </Link>
     </div>
       <Building />
     </div>

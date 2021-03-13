@@ -44,13 +44,11 @@ function EventsParty() {
           link17 = "lighting"
         />
       <div className="events-party__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/home&garden&tools">
+      <Link to="/home&garden&tools">
           <p>
-            /home&garden&tools
+            go back
           </p>
         </Link>
-        <p>/evetns&partysupplies</p>
       </div>
       <Building />
     </div>

@@ -44,13 +44,11 @@ function HomePetSupplies() {
           link17 = "lighting"
         />
       <div className="home-pet-supplies__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/home&garden&tools">
+      <Link to="/home&garden&tools">
           <p>
-            /home&garden&tools
+            go back
           </p>
         </Link>
-        <p>/petsupplies</p>
       </div>
       <Building />
     </div>

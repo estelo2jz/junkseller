@@ -19,9 +19,6 @@ function JumpTo({
         <ul>
           <li>
             <div className="pet-supplies-sub-nav__heading-flex">
-              <Link className="pet-supplies-sub-nav__back" to="/pet&supplies">
-                <ArrowBackIosIcon />
-              </Link>
               <div className="pet-supplies-sub-nav__heading">
                 <p>
                   Pet & Supplies

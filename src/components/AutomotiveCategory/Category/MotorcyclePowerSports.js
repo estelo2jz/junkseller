@@ -24,13 +24,11 @@ function MotorcyclePowerSports() {
           link7 = "your-garage"
         />
     <div className="motorcycles-powersports__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/automotive&industrial">
-        <p>
-          /automotive&industrial
-            </p>
-      </Link>
-      <p>/motorcycles&powersports</p>
+    <Link to="/automotive&industrial">
+          <p>
+            go back
+          </p>
+        </Link>
     </div>
       <Building />
     </div>

@@ -31,13 +31,11 @@ function WearableTechnology() {
           link10 = "cellphones"
         />
       <div className="wearable-technology__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/electronics">
+      <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/wearabletechnology</p>
       </div>
       <div className="wearable-technology__heading">
         <h1>Wearable Technology</h1>

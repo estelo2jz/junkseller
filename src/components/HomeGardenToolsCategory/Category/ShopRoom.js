@@ -44,13 +44,11 @@ function ShopRoom() {
           link17 = "lighting"
         />
       <div className="shop-room__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/home&garden&tools">
+      <Link to="/home&garden&tools">
           <p>
-            /home&garden&tools
+            go back
           </p>
         </Link>
-        <p>/shopbyroom</p>
       </div>
       <Building />
     </div>

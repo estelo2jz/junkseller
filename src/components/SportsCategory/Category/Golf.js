@@ -25,15 +25,13 @@ function Golf() {
           path8 = "/sports/leisure&game"
           link8 = "leisure&game"
         />
-    <div className="golf__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/sports">
-        <p>
-          /sports
-            </p>
-      </Link>
-      <p>/golf</p>
-    </div>
+        <div className="golf__history-path">
+        <Link to="/sports">
+          <p>
+            go back
+          </p>
+        </Link>
+      </div>
       <Building />
     </div>
   )

@@ -38,13 +38,11 @@ function LawnGarden() {
           link14 = "heating&cooling"
         />
       <div className="lawn-garden__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/smarthome">
+      <Link to="/smarthome">
           <p>
-            /smarthome
+            go back
           </p>
         </Link>
-        <p>/lawn&garden</p>
       </div>
       <Building />
     </div>

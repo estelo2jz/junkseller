@@ -38,13 +38,11 @@ function DetectorsSensors() {
           link14 = "heating&cooling"
         />
       <div className="detectors-sensors__history-path">
-        {/* <p>you are in :</p> */}
         <Link to="/smarthome">
           <p>
-            /smarthome
+            go back
           </p>
         </Link>
-        <p>/detectors&sensors</p>
       </div>
       <Building />
     </div>

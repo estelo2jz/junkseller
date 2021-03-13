@@ -31,13 +31,11 @@ function TVVideo() {
           link10 = "cellphones"
         />
       <div className="tv-video__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/electronics">
+      <Link to="/electronics">
           <p>
-            /electronics
+            go back
           </p>
         </Link>
-        <p>/tv&video</p>
       </div>
       <div className="tv-video__heading">
         <h1>TV & Video</h1>

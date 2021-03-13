@@ -44,13 +44,11 @@ function Discover() {
           link17 = "lighting"
         />
       <div className="discover__history-path">
-        {/* <p>you are in :</p> */}
-        <Link to="/home&garden&tools">
+      <Link to="/home&garden&tools">
           <p>
-            /home&garden&tools
+            go back
           </p>
         </Link>
-        <p>/discover</p>
       </div>
       <Building />
     </div>

@@ -6,14 +6,14 @@
   }
   .electronics-sub-nav__wrapper ul li {
   // background: #262626;
-  width: 200px;
+  width: 180px;
   // border: 1px solid #fff;
-  height: 50px;
-  line-height: 50px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   float: left;
   color: #fff;
-  font-size: clamp(0.7em, 1vw, 0.9rem);
+  font-size: clamp(0.8em, 1vw, 0.9rem);
   position: relative;
   // font-family: poppins;
   // text-transform: uppercase;
@@ -45,10 +45,10 @@
   padding: 0px 10px;
   .electronics-sub-nav__wrapper {
     .electronics-sub-nav__heading-flex {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0px 10px;
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
+      // padding: 0px 10px;
       .electronics-sub-nav__back {
         // font-size: 12px;
         display: flex;
@@ -62,6 +62,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0;
+        margin: 0;
       }
     }
     .electronics-sub-nav__ul-one {

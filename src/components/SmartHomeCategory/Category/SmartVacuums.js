@@ -38,13 +38,11 @@ function SmartVacuums() {
           link14 = "heating&cooling"
         />
     <div className="smart-vacuums__history-path">
-      {/* <p>you are in :</p> */}
-      <Link to="/smarthome">
-        <p>
-          /smarthome
+    <Link to="/smarthome">
+          <p>
+            go back
           </p>
-      </Link>
-      <p>/vacuums&mops</p>
+        </Link>
     </div>
       <Building />
     </div>
