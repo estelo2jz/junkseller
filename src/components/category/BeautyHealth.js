@@ -169,56 +169,56 @@ function BeautyHealth() {
           </div>
           <div className="beauty-health__container-flex-1">
           <SqaureFeatured 
-              image = ""
-              title = ""
+              image= "https://images-na.ssl-images-amazon.com/images/I/71NAZ7a2iWL._AC._SR360,460.jpg"
+              title = "Skin Care"
               path = "/"
             />
             <MultiSqaure 
-              imageOne = ""
-              titleOne = ""
+              imageOne= "https://m.media-amazon.com/images/I/51FqVUcBfvL._AC_UL480_FMwebp_QL65_.jpg"
+              titleOne = "Moisturizers"
               pathOne = ""
-              imageTwo = ""
-              titleTwo = ""
+              imageTwo= "https://m.media-amazon.com/images/I/712oifleV0L._AC_UL480_FMwebp_QL65_.jpg"
+              titleTwo = "Cleansers"
               pathTwo = ""
-              imageThree = ""
-              titleThree = ""
+              imageThree= "https://m.media-amazon.com/images/I/71lWSIe8TcL._AC_UL480_FMwebp_QL65_.jpg"
+              titleThree = "Scrubs & Body"
               pathThree = ""
-              imageFour = ""
-              titleFour = ""
+              imageFour= "https://m.media-amazon.com/images/I/51AaQMpQQqL._AC_UL480_FMwebp_QL65_.jpg"
+              titleFour = "Creams"
               pathFour = ""
             />
             <SqaureFeatured 
-              image = ""
-              title = ""
+              image= "https://images-na.ssl-images-amazon.com/images/I/61vIronbAXL._AC._SR360,460.jpg"
+              title = "Hair Care"
               path = "/"
             />
             <SqaureFeatured 
-              image = ""
-              title = ""
+              image= "https://images-na.ssl-images-amazon.com/images/I/71C6l0ZbmJL._AC._SR360,460.jpg"
+              title = "Make Up"
               path = "/"
             />
             <SqaureFeatured 
-              image = ""
-              title = ""
+              image= "https://m.media-amazon.com/images/I/71Of0tUd9CL._AC_UL480_FMwebp_QL65_.jpg"
+              title = "Foot, Hand & Nail"
               path = "/"
             />
             <MultiSqaure 
-              imageOne = ""
-              titleOne = ""
+              imageOne= "https://images-na.ssl-images-amazon.com/images/I/61zNIn4jbAL._AC._SR360,460.jpg"
+              titleOne = "Bags & Cases"
               pathOne = ""
-              imageTwo = ""
-              titleTwo = ""
+              imageTwo= "https://m.media-amazon.com/images/I/71bqzj4N-sL._AC_UL480_FMwebp_QL65_.jpg"
+              titleTwo = "Mirrors"
               pathTwo = ""
-              imageThree = ""
-              titleThree = ""
+              imageThree= "https://m.media-amazon.com/images/I/61Q39wAsvzL._AC_UL480_FMwebp_QL65_.jpg"
+              titleThree = "Makeup Brushes"
               pathThree = ""
-              imageFour = ""
-              titleFour = ""
+              imageFour= "https://images-na.ssl-images-amazon.com/images/I/51+WT-NnEhL._AC._SR360,460.jpg"
+              titleFour = "Shears"
               pathFour = ""
             />
             <SqaureFeatured 
-              image = ""
-              title = ""
+              image= "https://images-na.ssl-images-amazon.com/images/I/71yWj-qTaXL._AC._SR360,460.jpg"
+              title = "Fragrance"
               path = "/"
             />
           </div>
