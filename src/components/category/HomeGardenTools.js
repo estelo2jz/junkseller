@@ -10,6 +10,7 @@ import  MultiSqaure from './HomePageComponents/MultiSqaure';
 import  TwoProductTemplate from './HomePageComponents/TwoProductTemplate';
 import  TwoProductTemplateTwo from './HomePageComponents/TwoProductTemplateTwo';
 import  FourSqaureTemplate from './HomePageComponents/FourSqaureTemplate';
+import  FourSqaureTwoTemplate from './HomePageComponents/FourSqaureTwoTemplate';
 
 
 function HomeGardenTools() {
