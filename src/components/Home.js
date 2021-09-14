@@ -20,35 +20,10 @@ function HomeNavbar({path, title}) {
   )
 }
 
-{/* <OneFeatured 
-  heading = ""
-  moreInfo = ""
-  image = ""
-  // title = "Apple Products"
-  path = "/"
-/> */}
-
-{/* <FullFeatured 
-  heading = ""
-  moreInfo = ""
-  imageOne = ""
-  titleOne = "Women"
-  pathOne = ""
-  imageTwo = ""
-  titleTwo = "Men"
-  pathTwo = ""
-  imageThree = ""
-  titleThree = "Kids"
-  pathThree = ""
-  imageFour = ""
-  titleFour = "All"
-  pathFour = ""
-/> */}
-
 function Home() {
   return (
     <div className="home__container">
-      <div className="home-nav__container">
+      {/* <div className="home-nav__container">
         <HomeNavbar 
           title = "All" 
           path = "/"
@@ -125,7 +100,7 @@ function Home() {
           title = "Spruce.Up.For.Spring" 
           path = "/"
         />
-      </div>
+      </div> */}
       <div className="home__featured">
         <OneFeatured 
           heading = "Shop with coins"

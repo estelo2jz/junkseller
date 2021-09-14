@@ -29,7 +29,7 @@ function NavBar() {
                                 <FaIcons.FaBars onClick={showSidebar} />
                             </Link>
                             <Link to="/" className="menu-title" >
-                                <span>JunkSeller</span>
+                                <span>Sell Your Junk's</span>
                             </Link>
                         </div>
                         <Link to="/checkout" className="header__link">

@@ -9,7 +9,7 @@
   -webkit-box-shadow: 0px 0px 5px #333;
 }
 .navbar {
-  background-color: #000000;
+  background-color: lightblue;
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -56,7 +56,7 @@
 }
 
 .nav-menu {
-  background-color: #000000;
+  background-color: lightblue;
   width: 180px;
   height: 100vh;
   display: flex-start;
@@ -97,14 +97,14 @@
   font-size: clamp(0.7em, 1vw, 0.8rem);
   width: 95%;
   height: 100%;
-  padding: 10px 10px;
+  padding: 5px 10px;
   display: flex-start;
   font-weight: 600;
   align-items: center;
   /* padding: 10px 0px; */
   // margin-left: 3px;
   border-radius: 2px;
-  background-color: #fdfdfd;
+  background-color: lightblue;
   // border: 1px solid black;
 }
 
@@ -112,10 +112,10 @@
   // background-color: #ffffff;
   // color: black;
   // background-color: #7cbccf;
-  // border: 1px solid rgb(243, 240, 241);
+  border: 1px solid rgb(243, 240, 241);
   color: rgb(0, 0, 0);
   transition: all 0.3s ease;
-  background-color: rgb(192, 190, 194);
+  // background-color: rgb(192, 190, 194);
   // border: white;
 }
 .nav-menu-items {
@@ -136,7 +136,7 @@
 }
 
 .navbar-toggle {
-  background-color: #000000;
+  background-color: lightblue;
   width: 100%;
   height: 50px;
   display: flex;
