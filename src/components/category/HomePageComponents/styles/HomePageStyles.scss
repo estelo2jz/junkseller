@@ -136,9 +136,12 @@
         margin: 2px;
         img {
           width: 90px;
+          height: 100%;
           // max-width: 20%;
           background-position: center;
           background-size: cover;
+          background-repeat: no-repeat;
+          background-origin: unset;
           // height: 100%;
           margin: 10px;
         }
@@ -230,14 +233,14 @@
       overflow: hidden;
       // padding: 0px 10px;
       border-radius: 3px;
+      overflow: hidden;
       .full-featured__img {
         display: flex;
-        overflow: hidden;
         // justify-content: center;
         // align-items: center;
         // margin: 0.5rem;
         width: 100%;
-        height: 120px;
+        height: 110px;
         border-radius: 1px;
         // background-color: red;
         margin: 2px;
@@ -247,6 +250,8 @@
           // max-width: 20%;
           background-position: center;
           background-size: cover;
+          background-repeat: no-repeat;
+          background-origin: unset;
           // height: 100%;
           // margin: 10px;
         }
@@ -284,6 +289,71 @@
   }
 }
 
+
+// FOUR SQAURE TEMPLATE
+.four-sqaure__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px;
+  grid-gap: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  .four-sqaure__link-container {
+    width: 150px;
+    // background-color: red;
+    // margin: 1px;
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 10px;
+    // box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 150px;
+    img {
+      padding: 2px;
+      // height: 100%;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-origin: unset;
+    }
+  }
+}
+
+// FOUR SQAURE TWO TEMPLATE
+.four-sqaure-two__outer {
+  // height: 500px;
+  // background-color: red;
+}
+.four-sqaure-two__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px;
+  grid-gap: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  .four-sqaure-two__link-container {
+    width: 150px;
+    // background-color: red;
+    // margin: 1px;
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 10px;
+    // box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 150px;
+    img {
+      padding: 2px;
+      // height: 100%;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-origin: unset;
+    }
+  }
+}
 
 
 // TWO PRODUCT TEMPLATE

@@ -781,6 +781,22 @@ function Home() {
           titleFour = ""
           pathFour = ""
         />
+        <FullFeatured 
+          heading = "Just a few left"
+          moreInfo = "Shop exclusive trends from The Drop"
+          imageOne = "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/FLOJO/Evergreen/GW/JAFL/GW_D_QC_JAFL_Feb_tops_1x._SY116_CB411859570_.jpg"
+          titleOne = "Tops"
+          pathOne = ""
+          imageTwo = "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/FLOJO/Evergreen/GW/JAFL/GW_D_QC_JAFL_Feb_bottoms_1x._SY116_CB411859570_.jpg"
+          titleTwo = "Bottoms"
+          pathTwo = ""
+          imageThree = "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/FLOJO/Evergreen/GW/JAFL/GW_D_QC_JAFL_Feb_dresses_1x._SY116_CB411859570_.jpg"
+          titleThree = "Dresses"
+          pathThree = ""
+          imageFour = "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/FLOJO/Evergreen/GW/JAFL/GW_D_QC_JAFL_Feb_outerwear_1x._SY116_CB411859570_.jpg"
+          titleFour = "Outerwear"
+          pathFour = ""
+        />
     {/* <FullFeatured 
           heading = ""
           moreInfo = ""
