@@ -42,9 +42,10 @@ function NavBar() {
                     <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                     <ul className='nav-menu-items' onClick={showSidebar}>
                         <li className='navbar-toggle'>
-                        <Link to='#' className='menu-bars close'>
-                            <AiIcons.AiOutlineClose />
-                        </Link>
+                            <Link to='#' className='menu-bars close'>
+                                {/* <AiIcons.AiOutlineClose /> */}
+                                Close
+                            </Link>
                         </li>
                         <div className="navbar__items-container">
                             {SidebarData.map((item, index) => {
