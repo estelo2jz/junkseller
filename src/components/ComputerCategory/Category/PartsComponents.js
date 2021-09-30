@@ -80,7 +80,7 @@ function ComputerComponents() {
         link5 = "monitors"
       />
       <div className="computer-components__history-path">
-      <Link to="/sports">
+        <Link to="/computers">
           <p>
             go back
           </p>

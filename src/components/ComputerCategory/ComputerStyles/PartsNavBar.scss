@@ -1,4 +1,3 @@
-
 .computers-sub-nav__wrapper ul{
   z-index: 10000;
   list-style: none;
@@ -12,14 +11,17 @@
   text-align: center;
   float: left;
   color: #fff;
+  padding: 10px;
   font-size: clamp(0.8em, 1vw, 0.9rem);
   position: relative;
   cursor: pointer;
   z-index: 10000;
-  background-color: #232f3e;
+  // background-color: #232f3e;
+  background-color: #0060d5;
+
   }
   .computers-sub-nav__wrapper ul li:hover{
-  background: crimson; 
+  background: rgb(0, 0, 0); 
   }
   
   .computers-sub-nav__wrapper ul ul{

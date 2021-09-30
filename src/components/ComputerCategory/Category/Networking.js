@@ -81,7 +81,7 @@ function Networking() {
         link5 = "monitors"
       />
       <div className="networking__history-path">
-      <Link to="/sports">
+        <Link to="/computers">
           <p>
             go back
           </p>

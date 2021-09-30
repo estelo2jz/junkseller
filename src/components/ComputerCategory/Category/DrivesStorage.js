@@ -82,7 +82,7 @@ function DrivesStorage() {
         link5 = "monitors"
       />
       <div className="drives-storage__history-path">
-      <Link to="/sports">
+        <Link to="/computers">
           <p>
             go back
           </p>

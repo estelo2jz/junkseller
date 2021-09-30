@@ -104,7 +104,7 @@ function ComputerTablet() {
         {/* <div className="computer-tablet__heading">
           <p>Computers, Tablets, & PC Products</p>
         </div> */}
-        <Link to="/sports">
+        <Link to="/computers">
           <p>
             go back
           </p>

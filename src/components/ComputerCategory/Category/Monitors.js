@@ -82,7 +82,7 @@ function Monitors() {
         link5 = "accessories"
       />
       <div className="monitors__history-path">
-      <Link to="/sports">
+        <Link to="/computers">
           <p>
             go back
           </p>
