@@ -9,6 +9,8 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import { IconContext } from 'react-icons';
 
+import ESHOPLOGO from './logo/eshoplogo.png'
+
 
 function NavBar() {
   const [{basket}] = useStateValue();
@@ -29,7 +31,9 @@ function NavBar() {
                                 <FaIcons.FaBars onClick={showSidebar} />
                             </Link>
                             <Link to="/" className="menu-title" >
-                                <span>Sell Your Junk's</span>
+                                <span>
+                                  <img src={ESHOPLOGO} />
+                                </span>
                             </Link>
                         </div>
                         <Link to="/checkout" className="header__link">
