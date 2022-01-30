@@ -31,9 +31,7 @@ function NavBar() {
                                 <FaIcons.FaBars onClick={showSidebar} />
                             </Link>
                             <Link to="/" className="menu-title" >
-                                <span>
                                   <img src={ESHOPLOGO} />
-                                </span>
                             </Link>
                         </div>
                         <Link to="/checkout" className="header__link">
